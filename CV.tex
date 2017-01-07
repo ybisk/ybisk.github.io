@@ -1,0 +1,165 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letter]{moderncv}
+%\setlength{\headsep}{0pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\headheight}{0pt}
+%\setlength{\voffset}{-25pt}
+%\addtolength{\textheight}{1.75in}
+
+\setlength{\hintscolumnwidth}{35pt}
+%\setlength{\hyphenpenalty}{10000}
+
+% moderncv themes
+%\moderncvtheme[blue]{empty}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[grey]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[left=1in,top=1in,bottom=1in,right=1in]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\usepackage{fontawesome}
+
+% personal data
+\firstname{Yonatan}
+\familyname{Bisk}
+\title{Natural Language Processing\\ Computer Science}               % optional, remove the line if not wanted
+\address{\hspace{-1in}Information Sciences Institute\\\hspace{-1in}4676 Admiralty Way, Suite 1001}{\hspace{-1in}Marina del Rey, CA 90292}    % optional, remove the line if not wanted
+\mobile{713.568.8868}                    % optional, remove the line if not wanted
+\email{ybisk@isi.edu}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\newcommand{\YB}{\underline{Yonatan Bisk}}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace{-20pt}
+
+\section{Positions}
+\cventry{Current}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
+
+\section{Education}
+\cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: Unsupervised Grammar Induction with Combinatory Categorial Grammars \href{http://yonatanbisk.com/Thesis.pdf}{\faLink}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
+\cventry{2009}{BS in Computer Science}{The University of Texas at Austin}{Turing Scholar}{\newline Thesis: The Necessity of Separating Control and Logic When Grounding Language using Neuroevolution}{Advisor: Risto Miikkulainen\ \ \ \ \ \ \ \ Second Reader: Raymond Mooney}
+
+\section{Students}
+\cventry{Spring 2016}{Master's Student}{}{Junpeng Xiao devised an interactive interface to our AI agent for use in DARPA meetings}{USC}{}
+\cventry{Summer 2016}{Ph.D. Intern}{}{Ke Tran, a Ph.D. student at the University of Amsterdam, published a workshop paper with an invited talk on the unsupervised use of Neural Networks with Bayesian models}{ISI}{}
+\cventry{Fall 2016}{Master's Student}{}{Kai Jiang is working on a new data collection paradigm for dialogue based AI systems.  Anticipated publication and data release in Mid 2017}{USC}{}
+
+
+\section{Conference and Journal Publications}
+\pub{2016}{\YB{}, Siva Reddy, John Blitzer, Julia Hockenmaier and Mark Steedman}{Evaluating Induced CCG Parsers on Grounded Semantic Parsing}{Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp 2022 -- 2027 \href{http://yonatanbisk.com/papers/2016-EMNLP.pdf}{\faLink}}{}{}
+\pub{--}{\YB{}, Deniz Yuret and Daniel Marcu}{Natural Language Communication with Robots}{Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 751 -- 761 \href{http://yonatanbisk.com/papers/2016-NAACL.pdf}{\faLink}}{}{}
+\pub{--}{Ashish Vaswani, \YB, Kenji Sagae and Ryan Musa}{Supertagging With LSTMs}{Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 232--237 \href{http://yonatanbisk.com/papers/2016-NAACLShort.pdf}{\faLink}}{}{}
+\pub{2015}{\YB{} and Julia Hockenmaier}{Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction}{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp 1395 -- 1404 \href{http://yonatanbisk.com/papers/2015-ACL.pdf}{\faLink}}{}{}
+\pub{--}{\YB, Christos Christodoulopoulos and Julia Hockenmaier}{Labeled Grammar Induction with Minimal Supervision}{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers), pp 870 -- 876 \href{http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf}{\faLink}}{}{}
+\pub{2013}{\YB{} and Julia Hockenmaier}{An HDP Model for Inducing Combinatory Categorial Grammars}{Transactions of the Association for Computational Linguistics}{Vol 1, pp 75-88 \href{http://yonatanbisk.com/papers/2013-TACL.pdf}{\faLink}}{}
+\pub{2012}{\YB{} and Julia Hockenmaier}{Simple Robust Grammar Induction with Combinatory Categorial Grammars}{Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12), pp 1643--1649 \href{http://yonatanbisk.com/papers/2012-AAAI.pdf}{\faLink}}{}{}
+\pub{--}{Tim Weninger, \YB{} and Jiawei Han}{Document-Topic Hierarchies from Document Graphs}{Proceedings of the 21st ACM International Conference on Information and Knowledge Management (CIKM 2012) \href{http://yonatanbisk.com/papers/2012-CIKM.pdf}{\faLink}}{}{}
+\pub{2010}{Julia Hockenmaier and \YB{}}{Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising}{Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010), pp 465--473 \href{http://yonatanbisk.com/papers/2010-COLING.pdf}{\faLink}}{}{}
+
+
+\section{Workshop Publications}
+\pub{2016}{Ke Tran, \YB{}, Ashish Vaswani, Daniel Marcu and Kevin Knight}{Unsupervised Neural Hidden Markov Models}{Proceedings of the Workshop on Structured Prediction for NLP, pp 63--71 \href{http://yonatanbisk.com/papers/2016-EMNLP-StrcPred.pdf}{\faLink}}{}{}
+\pub{--}{\YB{}, Daniel Marcu and William Wong}{Towards a Dataset for Human Computer Communication via Grounded Language Acquisition}{Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems, pp 729 -- 732 \href{http://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf}{\faLink}}{}{}
+\pub{2012}{\YB{} and Julia Hockenmaier}{Induction of Linguistic Structure with Combinatory Categorial Grammars}{NAACL HLT Workshop on Inducing Linguistic Structure, pp 90--95 \href{http://yonatanbisk.com/papers/2012-NAACL-WILS.pdf}{\faLink}}{}{}
+
+
+
+
+\section{Conference Organization / Area-Chair}
+\cventry{2017}{Conference Organizer}{Student Scholarship Chair and Student Volunteer Coordinator}{Conference on Empirical Methods in Natural Language Processing}{}{}
+\cventry{--}{Workshop Organizer}{Language Grounding for Robotics}{Conference of the Association for Computational Linguistics}{}{}
+\cventry{2016}{Area-Chair}{Semantic Parsing and Semantic Role Labeling}{Conference on Lexical and Computational Semantics (*SEM)}{}{}
+
+\section{Reviewer}
+\cventry{}{Association for Computational Linguistics}{\hfill 2017}{}{}{}
+\cventry{}{Natural Language Engineering Journal}{\hfill 2016}{}{}{}
+\cventry{}{Empirical Methods in Natural Language Processing}{\hfill 2013, 2014, 2015, 2016}{}{}{}
+\cventry{}{European Chapter of the Association for Computational Linguistics}{\hfill 2014, 2017}{}{}{}
+\cventry{}{North American Chapter of the Association for Computational Linguistics}{\hfill 2016}{}{}{}
+\cventry{}{Conference on Computational Natural Language Learning}{\hfill 2016}{}{}{}
+\cventry{}{International Conference on Computational Linguistics}{\hfill 2016}{}{}{}
+\cventry{}{NAACL Student Research Workshop}{\hfill 2013, 2015}{}{}{}
+\cventry{}{EACL Student Research Workshop}{\hfill 2017}{}{}{}
+\cventry{}{PC Member 2012 Vol 1. \& PC Co-Chair 2013, 2015 Vol 2./Vol 3.}{@TinyToCS}{Papers describing significant research contributions to CS in 140 characters or less}{}{}
+
+\vspace{10pt}
+\section{Teaching}
+\cventry{2014}{Teaching Assistant}{}{Graduate Machine Learning in NLP (\# Students: 27)}{UIUC}{}
+\cventry{2011}{Teaching Assistant}{}{Artificial Intelligence (\# Students: 97)}{UIUC}{}
+\cventry{2010}{Teaching Assistant}{}{Artificial Intelligence (\# Students: 63)}{UIUC}{}
+
+\section{Outreach}
+\cventry{2016}{NCWIT Collegiate Award}{}{Review applications for the National Center for Women \& Information Technology's Collegiate Award honoring college women}{ISI \hfill \textit{Ongoing}}{}
+\cventry{2009}{NCWIT Aspirations in Computing}{}{Review applications for the National Center for Women \& Information Technology's Award for Aspirations in Computing which supports high-school girls interested in CS}{UIUC, ISI \hfill \textit{Ongoing}}{}
+\cventry{--}{Tech Junket/Women in CS}{}{CS outreach (presentations and recruitment) for local Urbana-Champaign pre-college students}{UIUC \hfill \textit{2yrs}}{}
+\cventry{2008}{Freshman Research Mentor}{}{Mentored students to perform research}{UTexas \hfill \textit{1yr}}{}
+\cventry{--}{First Bytes}{}{Helped organize a summer camp for girls interested in CS}{UTexas}{}
+\cventry{--}{Co-Founded Breakfast Bytes}{}{Professor talks for pre-college students}{UTexas \hfill \textit{1yr}}{}
+\cventry{--}{CS Roadshow}{}{CS presentations at Austin middle and high schools}{UTexas \hfill \textit{1yr}}{}
+
+%\vspace{-4pt}
+\section{Departmental Service}
+\cventry{2015}{USC Postdoc Association Representative}{\hfill \textit{1yr}}{}{}{}
+\cventry{2013}{Fellowships, Assistantships, and Admissions Committee}{}{\newline Decide which students are admitted to the CS PhD and MS programs \hfill \textit{1yr}}{}{}
+\cventry{--}{Departmental Graduate Academic Council}{}{Vet departmental seminars and policies in addition to creating new useful resources and seminars for students \hfill \textit{1yr}}{}{}
+\cventry{--}{Departmental Grievance Committee}{}{\newline Evaluate validity of complaints filed by students against professors \hfill \textit{2yrs}}{}{}
+\cventry{2011}{Engineering Graduate Student Advisory Committee}{}{\newline Advise the engineering dean on graduate matters and organize events for students \hfill \textit{1yr}}{}{}
+\cventry{2010}{Organize Artificial Intelligence \& Information Systems Seminar}{}{\newline Coordinate with professors to invite and host speakers to the department \hfill \textit{5yrs}}{}{}
+\cventry{2009}{PhD Ambassador \& Mentor}{}{Introduce students to the department and graduate school both during visits and adjustment to the department upon entry \hfill \textit{4yrs}}{}{}
+
+%\vspace{-4pt}
+\section{Awards, Honors, and Fellowships}
+\cventry{2014}{Andrew and Shana Laursen Fellow}{}{University of Illinois}{}{}
+\cventry{2013}{State Farm Companies Foundation Doctoral Scholarship}{}{University of Illinois}{}{}
+\cventry{2013}{Graduate Student Outstanding Ambassador Award}{}{University of Illinois}{}{}
+\cventry{2012}{Cognitive Science / Artificial Intelligence Award}{Beckman Institute}{}{}{}
+\cventry{2011}{Honorable Mention for NSF Graduate Research Fellowship Program}{}{}{}{}
+\cventry{2009}{Honorable Mention for NSF Graduate Research Fellowship Program}{}{}{}{}
+\cventry{2008}{College of Natural Science Summer Research Fellowship}{}{UTexas}{}{}
+\cventry{2007}{Departmental Summer Research Fellowship}{}{UTexas}{}{}
+
+
+%\vspace{-4pt}
+\section{Industry Employment}
+\cventry{2014}{NLP Research Intern}{Google, Inc.}{Mountain View}{CA}{Informing grammar induction with semantics under John Blitzer}
+\cventry{2013}{NLP Research Intern}{Google, Inc.}{Mountain View}{CA}{Leveraged syntactic information in question answering with John Blitzer}
+\cventry{2009}{iPhone Development Intern}{Apple, Inc.}{Cupertino}{CA}{Create robust metrics for evaluating keyboard and auto-correction performance}
+\cventry{2006}{SQL Server Intern}{Microsoft Corporation}{Redmond}{WA}{Created data-mining ribbon for Excel 2007 and UI test cases for SQL server }
+
+
+\section{References}
+\cventry{}{John Blitzer}{Senior Research Scientist at Google Inc}{}{}{\href{mailto:blitzer@google.com}{blitzer@google.com}}
+\cventry{}{Julia Hockenmaier}{Associate Professor at the University of Illinois at Urbana-Champaign}{}{}{\href{mailto:juliahmr@illinois.edu}{juliahmr@illinois.edu}}
+\cventry{}{Kevin Knight}{Professor at the University of Southern California}{}{}{\href{mailto:knight@isi.edu}{knight@isi.edu}}
+\cventry{}{Daniel Marcu}{Research Associate Professor at the Information Sciences Institute of the University of Southern California}{}{}{\href{mailto:marcu@isi.edu}{marcu@isi.edu}}
+\cventry{}{Dan Roth}{Professor at the University of Illinois at Urbana-Champaign}{}{}{\href{mailto:danr@illinois.edu}{danr@illinois.edu}}
+
+
+% Publications from a BibTeX file
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
