@@ -11,227 +11,14 @@
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawMultSeries);
-function drawMultSeries() {
-  var data = google.visualization.arrayToDataTable([
-    ['Company', '2014', '2015', '2016'],
-    ['Pinterest', 21, 21, 26],
-    ['AirBnB'  , , 21.8, 25.6],
-    ['Slack    ',    ,    ,24.5],
-    ['Pandora  ',18  ,18.6,24  ],
-    ['Apple    ',20  ,22  ,23  ],
-    ['Dropbox  ',    ,19  ,21  ],
-    ['LinkedIn ',17  ,18  ,20  ],
-    ['Google   ',17  ,18  ,19  ],
-    ['Microsoft',17.1,16.6,17.5],
-    ['Facebook ',15  ,16  ,17  ],
-    ['Yahoo    ',15  ,16  ,17  ],
-    ['Uber     ',    ,    ,15.4],
-    ['Twitter  ',10  ,13  ,15  ],
-  ]);
-  var options = {
-    title: '% Tech Female',
-    height: 400,
-    chartArea: {
-      width: '400',
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Tech_Female'));
-  chart.draw(data, options);
-}
-</script>
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawMultSeries);
-function drawMultSeries() {
-  var data = google.visualization.arrayToDataTable([
-    ['Company', '2014', '2015', '2016'],
-    ['Pandora  ',39  ,40.1,38  ],
-    ['LinkedIn ',25  ,30  ,35  ],
-    ['AirBnB   ',    ,25.5,30  ],
-    ['Twitter  ',21  ,22  ,30  ],
-    ['Apple    ',28  ,28  ,28  ],
-    ['Facebook ',23  ,23  ,27  ],
-    ['Dropbox  ',    ,21  ,27  ],
-    ['Google   ',21  ,22  ,24  ],
-    ['Yahoo    ',23  ,24  ,22  ],
-    ['Uber     ',    ,    ,22  ],
-    ['Microsoft',17.3,17.5,17.9],
-    ['Pinterest',19  ,16  ,17  ],
-  ]);
-  var options = {
-    title: '% Leadership Female',
-    legend: { position: "none" },
-    height: 400,
-    chartArea: {
-      width: '400',
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Tech_Leadership'));
-  chart.draw(data, options);
-}
-</script>
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
-  var data = google.visualization.arrayToDataTable([
-    ['Year','Caucasian','Asian American','African American','Hispanic','Multiracial','Unknown'],
-    ['2004',68.26,    24.85,    1.50,    3.74,    0.00,    1.65],
-    ['2005',70.00,    22.00,    1.50,    4.50,    0.00,    1.67],
-    ['2006',68.26,    23.23,    1.24,    5.32,    0.00,    1.60],
-    ['2007',69.88,    20.85,    2.12,    4.44,    0.00,    2.51],
-    ['2008',66.99,    25.24,    2.14,    3.30,    0.00,    2.14],
-    ['2009',67.74,    24.86,    1.33,    2.85,    0.00,    3.04],
-    ['2010',62.89,    27.49,    1.37,    3.44,    3.78,    1.03],
-    ['2011',59.74,    31.59,    1.80,    2.95,    2.95,    0.65],
-    ['2012',55.15,    35.41,    1.89,    3.92,    3.19,    0.29],
-    ['2013',53.56,    38.52,    1.98,    3.30,    1.85,    0.66],
-    ['2014',48.86,    41.90,    1.65,    3.42,    2.28,    1.77],
-    ['2015',44.08,    45.86,    1.66,    4.20,    2.68,    1.53],
-    ['2016',38.48,    48.35,    2.53,    5.19,    3.54,    1.90],
-  ]);
-  var options = {
-    title: 'Domestic BS @ UIUC',
-    isStacked: true,
-    height: 400,
-    width: 300,
-    legend: { position: "none" },
-    chartArea: {
-      width: 275,
-      left: 10,
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Race_Domestic_BS'));
-  chart.draw(data, options);
-}
-</script>
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
-  var data = google.visualization.arrayToDataTable([
-    ['Year','Caucasian','Asian American','African American','Hispanic','Multiracial','Unknown'],
-    ['2004',75.19,    20.16,    1.55,    2.33, 0.00,    0.78],
-    ['2005',70.83,    25.83,    1.67,    1.67, 0.00,    0.00],
-    ['2006',77.45,    17.65,    2.94,    0.98, 0.00,    0.98],
-    ['2007',71.88,    21.88,    4.17,    1.04, 0.00,    1.04],
-    ['2008',75.82,    20.88,    3.30,    0.00, 0.00,    0.00],
-    ['2009',71.74,    20.65,    3.26,    0.00, 0.00,    4.35],
-    ['2010',68.52,    25.93,    2.78,    0.00, 0.93,    1.85],
-    ['2011',63.27,    29.59,    3.06,    0.00, 1.02,    3.06],
-    ['2012',63.95,    25.58,    3.49,    2.33, 2.33,    2.33],
-    ['2013',69.79,    20.83,    4.17,    2.08, 3.13,    0.00],
-    ['2014',70.83,    17.71,    3.13,    3.13, 4.17,    1.04],
-    ['2015',63.64,    23.23,    2.02,    6.06, 4.04,    1.01],
-    ['2016',60.58,    23.08,    1.92,    8.65, 3.85,    0.96],
-  ]);
-  var options = {
-    title: 'Domestic PhD @ UIUC',
-    isStacked: true,
-    height: 400,
-    width: 400,
-    chartArea: {
-      width: 275,
-      left: 10,
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Race_Domestic_PhD'));
-  chart.draw(data, options);
-}
-</script>
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
-  var data = google.visualization.arrayToDataTable([
-    ['Year','Male','Female'],
-    ['2004',89.15,10.70],
-    ['2005',90.53,9.16 ],
-    ['2006',90.16,9.52 ],
-    ['2007',88.85,10.81],
-    ['2008',89.28,10.56],
-    ['2009',90.24,9.76 ],
-    ['2010',90.15,9.85 ],
-    ['2011',90.73,9.27 ],
-    ['2012',91.64,8.36 ],
-    ['2013',88.93,11.07],
-    ['2014',83.93,16.07],
-    ['2015',80.00,20.00],
-    ['2016',74.77,25.23],
-  ]);
-  var options = {
-    title: 'Gender BS @ UIUC',
-    isStacked: true,
-    legend: { position: "none" },
-    height: 400,
-    width: 300,
-    chartArea: {
-      width: 275,
-      left: 10,
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Gender_BS'));
-  chart.draw(data, options);
-}
-</script>
-
-<script>
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
-  var data = google.visualization.arrayToDataTable([
-    ['Year','Male','Female'],
-    ['2004',84.99,15.01],
-    ['2005',84.23,15.77],
-    ['2006',83.65,16.35],
-    ['2007',84.69,15.31],
-    ['2008',86.64,13.36],
-    ['2009',86.35,13.65],
-    ['2010',85.54,14.46],
-    ['2011',84.31,15.69],
-    ['2012',82.89,17.11],
-    ['2013',78.83,21.17],
-    ['2014',77.30,22.70],
-    ['2015',78.06,21.94],
-    ['2016',77.19,22.81],
-  ]);
-  var options = {
-    title: 'Gender PhD @ UIUC',
-    isStacked: true,
-    height: 400,
-    width: 400,
-    chartArea: {
-      width: 275,
-      left: 10,
-    }
-  };
-  var chart = new google.visualization.ColumnChart(document.getElementById('Gender_PhD'));
-  chart.draw(data, options);
-}
-</script>
-
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/Tech_Female.js"></script>
+    <script type="text/javascript" src="js/Leadership_Female.js"></script>
+    <script type="text/javascript" src="js/Race_Domestic_BS.js"></script>
+    <script type="text/javascript" src="js/Race_Domestic_PhD.js"></script>
+    <script type="text/javascript" src="js/Gender_BS.js"></script>
+    <script type="text/javascript" src="js/Gender_PhD.js"></script>
+    <script type="text/javascript" src="js/Gender_Field.js"></script>
 
         <meta name=viewport content="width=device-width">
         <meta charset="utf-8">
@@ -265,7 +52,9 @@ function drawStacked() {
          
         <h2>Industry Demographics</h2>
         <div id="Tech_Female"></div>
-        <div id="Tech_Leadership"></div>
+        <div id="Leadership_Female"></div>
+
+
         <table>
         <center>
             <b>Demographics (Tech Race):</b>
@@ -304,7 +93,8 @@ function drawStacked() {
         <br>
         <h2>Graduate School (PhD recipients by Gender) since 1980</h2></div>
         <center>
-        <img src=images/PhD_Trends.png style="width:600px">
+        <div id="Gender_Field"></div>
+
         <br>
         <table><tr><td><b>Field</b></td><td><b>Reached Parity</b>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><b>2014 %F</b></td></tr>
         <tr><td>Psychology</td><td align=center>1984</td><td align=center><font color="#0000ff">72</font></td></tr>
