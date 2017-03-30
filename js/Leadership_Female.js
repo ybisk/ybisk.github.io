@@ -24,6 +24,7 @@ function drawMultSeries() {
     height: 400,
     chartArea: {
       width: '400',
+      top: 20,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Leadership_Female'));
