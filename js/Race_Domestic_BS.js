@@ -22,12 +22,14 @@ function drawStacked() {
   var options = {
     title: 'Domestic BS @ UIUC',
     isStacked: true,
-    height: 400,
+    height: 300,
     width: 300,
     legend: { position: "none" },
     chartArea: {
       width: 275,
       left: 10,
+      top: 20,
+      bottom: 50,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Race_Domestic_BS'));

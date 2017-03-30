@@ -22,11 +22,13 @@ function drawStacked() {
   var options = {
     title: 'Domestic PhD @ UIUC',
     isStacked: true,
-    height: 400,
+    height: 300,
     width: 400,
     chartArea: {
       width: 275,
       left: 10,
+      top: 20,
+      bottom: 50,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Race_Domestic_PhD'));

@@ -23,11 +23,13 @@ function drawStacked() {
     title: 'Gender BS @ UIUC',
     isStacked: true,
     legend: { position: "none" },
-    height: 400,
+    height: 300,
     width: 300,
     chartArea: {
       width: 275,
+      top: 20,
       left: 10,
+      bottom: 50,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Gender_BS'));

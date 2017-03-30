@@ -22,11 +22,13 @@ function drawStacked() {
   var options = {
     title: 'Gender PhD @ UIUC',
     isStacked: true,
-    height: 400,
+    height: 300,
     width: 400,
     chartArea: {
       width: 275,
+      top: 20,
       left: 10,
+      bottom: 50,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Gender_PhD'));
