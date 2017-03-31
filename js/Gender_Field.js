@@ -3,7 +3,6 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
 
 var data = new google.visualization.DataTable();
-['Field','C&IS','ECE','Math','Bio','Psychology'],
       data.addColumn('string', 'Year');
       data.addColumn('number', 'ECE');
       data.addColumn('number', 'C&IS');
@@ -51,7 +50,8 @@ var data = new google.visualization.DataTable();
   var options = {
     title: 'Percentage of female graduates by Field',
     height: 400,
-    width: 700,
+    width: 600,
+    legend: { position: 'top' },
     chartArea: {
       width: 500,
       left: 50,

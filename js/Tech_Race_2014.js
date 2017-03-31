@@ -17,7 +17,7 @@ function drawStacked() {
   var options = {
     title: 'Tech Race Demographics (2014)',
     isStacked: true,
-    height: 300,
+    height: 250,
     width: 300,
     vAxis: {maxValue: 20},
     legend: { position: "none" },

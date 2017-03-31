@@ -22,7 +22,7 @@ function drawStacked() {
   var options = {
     title: 'Tech Race Demographics (2016)',
     isStacked: true,
-    height: 300,
+    height: 250,
     width: 675,
     vAxis: {maxValue: 20},
     chartArea: {

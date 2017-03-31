@@ -21,9 +21,12 @@ function drawMultSeries() {
   ]);
   var options = {
     title: '% Tech Female',
-    height: 400,
+    height: 350,
+    legend: { position: "top" },
     chartArea: {
       width: '400',
+      top: 40,
+      bottom: 50
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Tech_Female'));

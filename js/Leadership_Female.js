@@ -21,10 +21,11 @@ function drawMultSeries() {
   var options = {
     title: '% Leadership Female',
     legend: { position: "none" },
-    height: 400,
+    height: 350,
     chartArea: {
       width: '400',
-      top: 20,
+      top: 40,
+      bottom: 50,
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Leadership_Female'));
