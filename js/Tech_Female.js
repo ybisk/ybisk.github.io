@@ -1,8 +1,5 @@
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawMultSeries);
-function drawMultSeries() {
+google.charts.setOnLoadCallback(Tech_Female);
+function Tech_Female() {
   var data = google.visualization.arrayToDataTable([
     ['Company', '2014', '2015', '2016'],
     ['Pinterest', 21, 21, 26],

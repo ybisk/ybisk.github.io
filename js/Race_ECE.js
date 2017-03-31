@@ -1,6 +1,5 @@
-google.charts.load('current', {'packages':['line']});
-google.charts.setOnLoadCallback(drawChart);
-function drawChart() {
+google.charts.setOnLoadCallback(Race_ECE);
+function Race_ECE() {
 
 var data = new google.visualization.DataTable();
       data.addColumn('string','Year');

@@ -1,8 +1,5 @@
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
+google.charts.setOnLoadCallback(Gender_BS);
+function Gender_BS() {
   var data = google.visualization.arrayToDataTable([
     ['Year','Male','Female'],
     ['2004',89.15,10.70],

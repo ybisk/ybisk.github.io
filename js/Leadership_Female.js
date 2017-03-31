@@ -1,8 +1,5 @@
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawMultSeries);
-function drawMultSeries() {
+google.charts.setOnLoadCallback(Leadership_Female);
+function Leadership_Female() {
   var data = google.visualization.arrayToDataTable([
     ['Company', '2014', '2015', '2016'],
     ['Pandora  ',39  ,40.1,38  ],

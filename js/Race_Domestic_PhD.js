@@ -1,8 +1,5 @@
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
+google.charts.setOnLoadCallback(Race_Domestic_PhD);
+function Race_Domestic_PhD() {
   var data = google.visualization.arrayToDataTable([
     ['Year','Caucasian','Asian American','African American','Hispanic','Multiracial','Unknown'],
     ['2004',75.19,    20.16,    1.55,    2.33, 0.00,    0.78],

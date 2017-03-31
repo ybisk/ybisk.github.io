@@ -1,8 +1,5 @@
-google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawStacked);
-function drawStacked() {
+google.charts.setOnLoadCallback(Tech_Race_2016);
+function Tech_Race_2016() {
   var data = google.visualization.arrayToDataTable([
     ['Company'   ,'African American','Hispanic','Other/Multiple'],
     ['Apple'     ,8  ,8  ,3  ],

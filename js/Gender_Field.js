@@ -1,6 +1,5 @@
-google.charts.load('current', {'packages':['line']});
-google.charts.setOnLoadCallback(drawChart);
-function drawChart() {
+google.charts.setOnLoadCallback(Gender_Field);
+function Gender_Field() {
 
 var data = new google.visualization.DataTable();
       data.addColumn('string', 'Year');
