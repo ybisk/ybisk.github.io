@@ -129,19 +129,20 @@ function Gender_PhD() {
 google.charts.setOnLoadCallback(Leadership_Female);
 function Leadership_Female() {
   var data = google.visualization.arrayToDataTable([
-    ['Company', '2014', '2015', '2016'],
-    ['Pandora  ',39  ,40.1,38  ],
-    ['LinkedIn ',25  ,30  ,35  ],
-    ['AirBnB   ',    ,25.5,30  ],
-    ['Twitter  ',21  ,22  ,30  ],
-    ['Apple    ',28  ,28  ,28  ],
-    ['Facebook ',23  ,23  ,27  ],
-    ['Dropbox  ',    ,21  ,27  ],
-    ['Google   ',21  ,22  ,24  ],
-    ['Yahoo    ',23  ,24  ,22  ],
-    ['Uber     ',    ,    ,22  ],
-    ['Microsoft',17.3,17.5,17.9],
-    ['Pinterest',19  ,16  ,17  ],
+    ['Company'  ,'2014','2015','2016','2017'],
+    ['Pandora  ',39    ,40.1  ,38    ,0     ],
+    ['LinkedIn ',25    ,30    ,35    ,0     ],
+    ['AirBnB   ',0     ,25.5  ,30    ,0     ],
+    ['Twitter  ',21    ,22    ,30    ,0     ],
+    ['Apple    ',28    ,28    ,28    ,0     ],
+    ['Slack    ',0     ,0     ,0     ,28.3  ],
+    ['Facebook ',23    ,23    ,27    ,0     ],
+    ['Dropbox  ',0     ,21    ,27    ,0     ],
+    ['Google   ',21    ,22    ,24    ,0     ],
+    ['Yahoo    ',23    ,24    ,22    ,0     ],
+    ['Uber     ',0     ,0     ,22    ,0     ],
+    ['Microsoft',17.3  ,17.5  ,17.9  ,0     ],
+    ['Pinterest',19    ,16    ,17    ,0     ],
   ]);
   var options = {
     title: '% Leadership Female',
@@ -438,20 +439,20 @@ var data = new google.visualization.DataTable();
 google.charts.setOnLoadCallback(Tech_Female);
 function Tech_Female() {
   var data = google.visualization.arrayToDataTable([
-    ['Company', '2014', '2015', '2016'],
-    ['Pinterest', 21, 21, 26],
-    ['AirBnB'  , , 21.8, 25.6],
-    ['Slack    ',    ,    ,24.5],
-    ['Pandora  ',18  ,18.6,24  ],
-    ['Apple    ',20  ,22  ,23  ],
-    ['Dropbox  ',    ,19  ,21  ],
-    ['LinkedIn ',17  ,18  ,20  ],
-    ['Google   ',17  ,18  ,19  ],
-    ['Microsoft',17.1,16.6,17.5],
-    ['Facebook ',15  ,16  ,17  ],
-    ['Yahoo    ',15  ,16  ,17  ],
-    ['Uber     ',    ,    ,15.4],
-    ['Twitter  ',10  ,13  ,15  ],
+    ['Company'  ,'2014','2015','2016','2017'],
+    ['Pinterest', 21   , 21   ,26    ,0     ],
+    ['AirBnB'   ,0     ,21.8  ,25.6  ,0     ],
+    ['Slack    ',0     ,0     ,24.5  , 29.8 ],
+    ['Pandora  ',18    ,18.6  ,24    ,0     ],
+    ['Apple    ',20    ,22    ,23    ,0     ],
+    ['Dropbox  ',0     ,19    ,21    ,0     ],
+    ['LinkedIn ',17    ,18    ,20    ,0     ],
+    ['Google   ',17    ,18    ,19    ,0     ],
+    ['Microsoft',17.1  ,16.6  ,17.5  ,0     ],
+    ['Facebook ',15    ,16    ,17    ,0     ],
+    ['Yahoo    ',15    ,16    ,17    ,0     ],
+    ['Uber     ',0     ,0     ,15.4  ,0     ],
+    ['Twitter  ',10    ,13    ,15    ,0     ],
   ]);
   var options = {
     title: '% Tech Female',
@@ -563,5 +564,40 @@ function Tech_Race_2016() {
     }
   };
   var chart = new google.visualization.ColumnChart(document.getElementById('Tech_Race_2016'));
+  chart.draw(data, options);
+}
+
+google.charts.setOnLoadCallback(Tech_Race_2017);
+function Tech_Race_2017() {
+  var data = google.visualization.arrayToDataTable([
+    ['Company'   ,'African American','Hispanic','Other/Multiple'],
+    ['Apple'     ,   ,   ,   ],
+    ['Slack     ',4.8,6.7,3.5],
+    ['Pandora   ',   ,   ,   ],
+    ['Dropbox   ',   ,   ,   ],
+    ['AirBnB    ',   ,   ,   ],
+    ['Twitter   ',   ,   ,   ],
+    ['Microsoft ',   ,   ,   ],
+    ['Yahoo     ',   ,   ,   ],
+    ['Google    ',   ,   ,   ],
+    ['LinkedIn  ',   ,   ,   ],
+    ['Pinterest ',   ,   ,   ],
+    ['Facebook  ',   ,   ,   ],
+    ['Uber      ',   ,   ,   ],
+  ]);
+  var options = {
+    title: 'Tech Race Demographics (2017)',
+    isStacked: true,
+    height: 250,
+    width: 675,
+    vAxis: {maxValue: 20},
+    chartArea: {
+      width: 475,
+      left: 20,
+      top: 20,
+      bottom: 50,
+    }
+  };
+  var chart = new google.visualization.ColumnChart(document.getElementById('Tech_Race_2017'));
   chart.draw(data, options);
 }
