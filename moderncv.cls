@@ -364,7 +364,7 @@
     \ifthenelse{\equal{#3}{}}{}{, {\slshape#3}}%
     \ifthenelse{\equal{#4}{}}{}{, #4}%
     \ifthenelse{\equal{#5}{}}{}{, #5}%
-    .%
+    %.%
     \ifthenelse{\equal{#6}{}}{}{\newline{}\small#6}
     }}%
 %  \ifthenelse{\equal{#6}{}}{}{\cvline[0pt]{}{\small#6}}}
@@ -376,7 +376,7 @@
     \ifthenelse{\equal{#3}{}}{}{, {\bfseries#3}}%
     \ifthenelse{\equal{#4}{}}{}{,  \textit{#4}}%
     \ifthenelse{\equal{#5}{}}{}{, #5}%
-    .%
+    %.%
     \ifthenelse{\equal{#6}{}}{}{\newline{}\small#6}
     }}%
 
