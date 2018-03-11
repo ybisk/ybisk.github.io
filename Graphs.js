@@ -78,7 +78,9 @@ var data = new google.visualization.DataTable();
 ['2011',16,21,29,52,72],
 ['2012',17,21,28,53,71],
 ['2013',15,18,29,53,72],
-['2014',17,20,29,54,72],
+['2014',17,20,29,54,71],
+['2015',15,21,29,53,72],
+['2016',16,20,29,53,72],
   ]);
   var options = {
     title: 'Percentage of female graduates by Field',
