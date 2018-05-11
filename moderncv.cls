@@ -372,9 +372,9 @@
 % usage : \cventry{years}{Authors}{Title}{Publication}{optionnal: city}{optional: comment}
 \newcommand*{\pub}[6]{%
   \cvline{#1}{%
-    {#2}%
-    \ifthenelse{\equal{#3}{}}{}{, {\bfseries#3}}%
-    \ifthenelse{\equal{#4}{}}{}{,  \textit{#4}}%
+    {{\bfseries#2}}%
+    \ifthenelse{\equal{#3}{}}{}{\newline{}\small #3}%
+    \ifthenelse{\equal{#4}{}}{}{,\newline{}\small\textit{#4}}%
     \ifthenelse{\equal{#5}{}}{}{, #5}%
     %.%
     \ifthenelse{\equal{#6}{}}{}{\newline{}\small#6}
@@ -407,7 +407,7 @@
   \ifthenelse{\equal{#1}{}}%
     {\def\@linktext{#2}}%
     {\def\@linktext{#1}}%
-  \href{mailto:#2}{\@linktext{}}}
+  \href{mailto:#2}{\textcolor{black}{\@linktext{}}}}
 
 % usage: \nopagenumbers{}
 \newif\if@displaypagenumbers\@displaypagenumberstrue

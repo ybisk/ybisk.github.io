@@ -6,18 +6,18 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,letter]{moderncv}
+\documentclass[10pt,letter]{moderncv}
 %\setlength{\headsep}{0pt}
 %\setlength{\topmargin}{0pt}
 %\setlength{\headheight}{0pt}
 %\setlength{\voffset}{-25pt}
 %\addtolength{\textheight}{1.75in}
 
-\setlength{\hintscolumnwidth}{35pt}
+\setlength{\hintscolumnwidth}{30pt}
 %\setlength{\hyphenpenalty}{10000}
 
 % moderncv themes
-%\moderncvtheme[blue]{empty}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[blue]{empty}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'gray' and 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[grey]{classic}                % idem
 
 % character encoding
@@ -26,6 +26,8 @@
 % adjust the page margins
 \usepackage[left=1in,top=1in,bottom=1in,right=1in]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
+%\definecolor{linkcolor}{RGB}{66, 66, 138}
+\definecolor{linkcolor}{RGB}{0,0,0}
 
 \usepackage{fontawesome}
 % personal data
@@ -50,34 +52,82 @@
 \vspace{-20pt}
 
 \section{Positions}
-\cventry{Current}{Postdoctoral Scholar}{University of Washington}{}{}{Advisor: Yejin Choi}
-\cventry{2015}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
+\cventry{...}{Postdoctoral Scholar}{University of Washington}{}{}{Advisor: Yejin Choi}
+\cventry{2017}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
 
 \section{Education}
-\cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: Unsupervised Grammar Induction with Combinatory Categorial Grammars \hfill\href{http://yonatanbisk.com/Thesis.pdf}{\faLink}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
+\cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: \href{http://yonatanbisk.com/Thesis.pdf}{\color{linkcolor}{\textbf{Unsupervised Grammar Induction with Combinatory Categorial Grammars}}}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
 \cventry{2009}{BS in Computer Science}{The University of Texas at Austin}{Turing Scholar}{\newline Thesis: The Necessity of Separating Control and Logic When Grounding Language using Neuroevolution}{Advisor: Risto Miikkulainen\ \ \ \ \ \ \ \ Second Reader: Raymond Mooney}
 
 
 \section{Conference and Journal Publications}
-\pub{2018}{Yonatan Belinkov and \YB{}}{Synthetic and Natural Noise Both Break Neural Machine Translation}{Proceedings of the 6th International Conference on Learning Representations (ICLR)\hfill\href{https://arxiv.org/abs/1711.02173}{\faLink}}{}{}
-\pub{--}{\YB{}, Kevin Shih, Yejin Choi and Daniel Marcu}{Learning Interpretable Spatial Operations in a Rich 3D Blocks World}{Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18) \hfill\href{http://yonatanbisk.com/papers/2018-AAAI.pdf}{\faLink}}{}{}
-\pub{2017}{Alice Lai, \YB{}, Julia Hockenmaier}{Natural Language Inference from Multiple Premises}{Proceedings of the Eighth International Joint Conference on Natural Language Processing \hfill\href{https://arxiv.org/abs/1710.02925}{\faLink}}{}{}
-\pub{2016}{\YB{}, Siva Reddy, John Blitzer, Julia Hockenmaier and Mark Steedman}{Evaluating Induced CCG Parsers on Grounded Semantic Parsing}{Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp 2022 -- 2027 \hfill\href{http://yonatanbisk.com/papers/2016-EMNLP.pdf}{\faLink}}{}{}
-\pub{--}{\YB{}, Deniz Yuret and Daniel Marcu}{Natural Language Communication with Robots}{Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 751 -- 761 \hfill\href{http://yonatanbisk.com/papers/2016-NAACL.pdf}{\faLink}}{}{}
-\pub{--}{Ashish Vaswani, \YB, Kenji Sagae and Ryan Musa}{Supertagging With LSTMs}{Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 232--237 \hfill\href{http://yonatanbisk.com/papers/2016-NAACLShort.pdf}{\faLink}}{}{}
-\pub{2015}{\YB{} and Julia Hockenmaier}{Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction}{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp 1395 -- 1404 \hfill\href{http://yonatanbisk.com/papers/2015-ACL.pdf}{\faLink}}{}{}
-\pub{--}{\YB, Christos Christodoulopoulos and Julia Hockenmaier}{Labeled Grammar Induction with Minimal Supervision}{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers), pp 870 -- 876 \hfill\href{http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf}{\faLink}}{}{}
-\pub{2013}{\YB{} and Julia Hockenmaier}{An HDP Model for Inducing Combinatory Categorial Grammars}{Transactions of the Association for Computational Linguistics}{Vol 1, pp 75-88 \hfill\href{http://yonatanbisk.com/papers/2013-TACL.pdf}{\faLink}}{}
-\pub{2012}{\YB{} and Julia Hockenmaier}{Simple Robust Grammar Induction with Combinatory Categorial Grammars}{Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12), pp 1643--1649 \hfill\href{http://yonatanbisk.com/papers/2012-AAAI.pdf}{\faLink}}{}{}
-\pub{--}{Tim Weninger, \YB{} and Jiawei Han}{Document-Topic Hierarchies from Document Graphs}{Proceedings of the 21st ACM International Conference on Information and Knowledge Management (CIKM 2012) \hfill\href{http://yonatanbisk.com/papers/2012-CIKM.pdf}{\faLink}}{}{}
-\pub{2010}{Julia Hockenmaier and \YB{}}{Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising}{Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010), pp 465--473 \hfill\href{http://yonatanbisk.com/papers/2010-COLING.pdf}{\faLink}}{}{}
+\pub{2018}
+  {\href{https://arxiv.org/abs/1711.02173}{\color{linkcolor}{Synthetic and Natural Noise Both Break Neural Machine Translation}}}
+  {Yonatan Belinkov and \YB{}}
+  {Proceedings of the 6th International Conference on Learning Representations (ICLR)}{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2018-AAAI.pdf}{\color{linkcolor}{Learning Interpretable Spatial Operations in a Rich 3D Blocks World}}}
+  {\YB{}, Kevin Shih, Yejin Choi and Daniel Marcu}
+  {Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18) }{}{}
+\pub{2017}
+  {\href{https://arxiv.org/abs/1710.02925}{\color{linkcolor}{Natural Language Inference from Multiple Premises}}}
+  {Alice Lai, \YB{}, Julia Hockenmaier}
+  {Proceedings of the Eighth International Joint Conference on Natural Language Processing}{}{}
+\pub{2016}
+  {\href{http://yonatanbisk.com/papers/2016-EMNLP.pdf}{\color{linkcolor}{Evaluating Induced CCG Parsers on Grounded Semantic Parsing}}}
+{\YB{}, Siva Reddy, John Blitzer, Julia Hockenmaier and Mark Steedman}
+  {Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp 2022 -- 2027}{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2016-NAACL.pdf}{\color{linkcolor}{Natural Language Communication with Robots}}}
+  {\YB{}, Deniz Yuret and Daniel Marcu}
+  {Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 751 -- 761}{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2016-NAACLShort.pdf}{\color{linkcolor}{Supertagging With LSTMs}}}
+  {Ashish Vaswani, \YB, Kenji Sagae and Ryan Musa}
+  {Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics, pp 232--237}{}{}
+\pub{2015}
+  {\href{http://yonatanbisk.com/papers/2015-ACL.pdf}{\color{linkcolor}{Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction}}}
+  {\YB{} and Julia Hockenmaier}
+  {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp 1395 -- 1404 }{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf}{\color{linkcolor}{Labeled Grammar Induction with Minimal Supervision}}}
+  {\YB, Christos Christodoulopoulos and Julia Hockenmaier}
+  {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers), pp 870 -- 876 }{}{}
+\pub{2013}
+  {\href{http://yonatanbisk.com/papers/2013-TACL.pdf}{\color{linkcolor}{An HDP Model for Inducing Combinatory Categorial Grammars}}}
+  {\YB{} and Julia Hockenmaier}
+  {Transactions of the Association for Computational Linguistics}{Vol 1, pp 75-88}{}
+\pub{2012}
+  {\href{http://yonatanbisk.com/papers/2012-AAAI.pdf}{\color{linkcolor}{Simple Robust Grammar Induction with Combinatory Categorial Grammars}}}
+  {\YB{} and Julia Hockenmaier}
+  {Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12), pp 1643--1649}{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2012-CIKM.pdf}{\color{linkcolor}{Document-Topic Hierarchies from Document Graphs}}}
+  {Tim Weninger, \YB{} and Jiawei Han}
+  {Proceedings of the 21st ACM International Conference on Information and Knowledge Management (CIKM)}{}{}
+\pub{2010}
+  {\href{http://yonatanbisk.com/papers/2010-COLING.pdf}{\color{linkcolor}{Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising}}}
+  {Julia Hockenmaier and \YB{}}
+  {Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010), pp 465--473}{}{}
 
 
 \section{Workshop Publications \& Tech Reports}
-\pub{2018}{Claudia Yan, Dipendra Misra, Andrew Bennnett, Aaron Walsman, \YB and Yoav Artzi}{CHALET: Cornell House Agent Learning Environment}{ArXiv \hfill\href{https://arxiv.org/abs/1801.07357}{\faLink}}{}{}
-\pub{2016}{Ke Tran, \YB{}, Ashish Vaswani, Daniel Marcu and Kevin Knight}{Unsupervised Neural Hidden Markov Models}{Proceedings of the Workshop on Structured Prediction for NLP, pp 63--71 \hfill\href{http://yonatanbisk.com/papers/2016-EMNLP-StrcPred.pdf}{\faLink}}{}{}
-\pub{--}{\YB{}, Daniel Marcu and William Wong}{Towards a Dataset for Human Computer Communication via Grounded Language Acquisition}{Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems, pp 729 -- 732 \hfill\href{http://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf}{\faLink}}{}{}
-\pub{2012}{\YB{} and Julia Hockenmaier}{Induction of Linguistic Structure with Combinatory Categorial Grammars}{NAACL HLT Workshop on Inducing Linguistic Structure, pp 90--95 \hfill\href{http://yonatanbisk.com/papers/2012-NAACL-WILS.pdf}{\faLink}}{}{}
+\pub{2018}
+  {\href{https://arxiv.org/abs/1801.07357}{\color{linkcolor}{CHALET: Cornell House Agent Learning Environment}}}
+  {Claudia Yan, Dipendra Misra, Andrew Bennnett, Aaron Walsman, \YB{} and Yoav Artzi}
+  {ArXiv}{}{}
+\pub{2016}
+  {\href{http://yonatanbisk.com/papers/2016-EMNLP-StrcPred.pdf}{\color{linkcolor}{Unsupervised Neural Hidden Markov Models}}}
+  {Ke Tran, \YB{}, Ashish Vaswani, Daniel Marcu and Kevin Knight}
+  {Proceedings of the Workshop on Structured Prediction for NLP, pp 63--71}{}{}
+\pub{--}
+  {\href{http://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf}{\color{linkcolor}{Towards a Dataset for Human Computer Communication via Grounded Language Acquisition}}}
+  {\YB{}, Daniel Marcu and William Wong}
+  {Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems, pp 729 -- 732}{}{}
+\pub{2012}
+  {\href{http://yonatanbisk.com/papers/2012-NAACL-WILS.pdf}{\color{linkcolor}{Induction of Linguistic Structure with Combinatory Categorial Grammars}}}
+  {\YB{} and Julia Hockenmaier}
+  {NAACL HLT Workshop on Inducing Linguistic Structure, pp 90--95}{}{}
 
 
 %\vspace{-10pt}
@@ -99,14 +149,15 @@
 \cventry{2013}{Colloquium Talk}{Toyota Tech. Inst. of Chicago's Midwest Speech \& Language Days}{}{}{}
 
 \section{Reviewer}
-\cventry{}{Association for the Advancement of Artificial Intelligence}{\hfill 2018}{}{}{}
+\cventry{}{Neural Information Processing Systems (NIPS)}{\hfill 2018}{}{}{}
+\cventry{}{Association for the Advancement of Artificial Intelligence (AAAI)}{\hfill 2018}{}{}{}
 \cventry{}{International Journal of Robotics Research}{\hfill 2017}{}{}{}
 \cventry{}{Computational Linguistics Journal}{\hfill 2017}{}{}{}
 \cventry{}{Association for Computational Linguistics}{\hfill 2017, 2018}{}{}{}
 \cventry{}{Association for Computational Linguistics -- Demos}{\hfill 2018}{}{}{}
 \cventry{}{International Joint Conference on Natural Language Processing}{\hfill 2017}{}{}{}
 \cventry{}{Natural Language Engineering Journal}{\hfill 2016}{}{}{}
-\cventry{}{Empirical Methods in Natural Language Processing}{\hfill 2013 -- 2017}{}{}{}
+\cventry{}{Empirical Methods in Natural Language Processing}{\hfill 2013 -- 2018}{}{}{}
 \cventry{}{Empirical Methods in Natural Language Processing -- Demos}{\hfill 2018}{}{}{}
 \cventry{}{European Chapter of the Association for Computational Linguistics}{\hfill 2014, 2017}{}{}{}
 \cventry{}{N. American Chapter of the Association for Computational Ling}{\hfill 2016 -- 2018}{}{}{}
@@ -163,7 +214,7 @@
 \cventry{2008}{College of Natural Science Summer Research Fellowship}{}{UTexas}{}{}
 \cventry{2007}{Departmental Summer Research Fellowship}{}{UTexas}{}{}
 
-\vspace{16pt}
+%\vspace{16pt}
 \section{Teaching}
 \cventry{2014}{Teaching Assistant}{}{Graduate Machine Learning in NLP (\# Students: 27)}{UIUC}{}
 \cventry{2011}{Teaching Assistant}{}{Artificial Intelligence (\# Students: 97)}{UIUC}{}
@@ -171,9 +222,9 @@
 
 
 \section{Students \& Interns}
-\cventry{Spring 2016}{Master's Student}{}{Junpeng Xiao devised an interactive interface to our AI agent for use in DARPA meetings}{USC}{}
-\cventry{Summer 2016}{Ph.D. Intern}{}{Ke Tran, a Ph.D. student at the University of Amsterdam, published a workshop paper with an invited talk on the unsupervised use of Neural Networks with Bayesian models}{ISI}{}
-\cventry{Fall 2016}{Master's Student}{}{Kai Jiang is working on a new data collection paradigm for dialogue based AI systems.  Anticipated publication and data release in Mid 2017}{USC}{}
+\cventry{2016}{Master's Student}{}{Junpeng Xiao devised an interactive interface to our AI agent for use in DARPA meetings}{USC}{}
+\cventry{2016}{Ph.D. Intern}{}{Ke Tran, a Ph.D. student at the University of Amsterdam, published a workshop paper with an invited talk on the unsupervised use of Neural Networks with Bayesian models}{ISI}{}
+\cventry{2016}{Master's Student}{}{Kai Jiang is working on a new data collection paradigm for dialogue based AI systems.  Anticipated publication and data release in Mid 2017}{USC}{}
 
 %\vspace{-4pt}
 \section{Industry Employment}
@@ -182,7 +233,7 @@
 \cventry{2009}{iPhone Development Intern}{Apple, Inc.}{Cupertino}{CA}{Create robust metrics for evaluating keyboard and auto-correction performance}
 \cventry{2006}{SQL Server Intern}{Microsoft Corporation}{Redmond}{WA}{Created data-mining ribbon for Excel 2007 and UI test cases for SQL server }
 
-
+\vspace{30pt}
 \section{References}
 \cventry{}{John Blitzer}{\newline Senior Research Scientist at Google Inc}{\hfill \href{mailto:blitzer@google.com}{blitzer@google.com}}{}{}
 \cventry{}{Yejin Choi}{\newline Associate Prof at the University of Washington}{\hfill \href{mailto:yejin@cs.washington.edu}{yejin@cs.washington.edu}}{}{}
@@ -190,7 +241,7 @@
 \cventry{}{Julia Hockenmaier}{\newline Associate Prof at the University of Illinois at Urbana-Champaign}{\hfill \href{mailto:juliahmr@illinois.edu}{juliahmr@illinois.edu}}{}{}
 \cventry{}{Kevin Knight}{\newline Prof at the University of Southern California}{\hfill \href{mailto:knight@isi.edu}{knight@isi.edu}}{}{}
 \cventry{}{Daniel Marcu}{\newline Research Associate Prof at USC's Information Sciences Institute \&\newline  Senior Research Scientist at Amazon Inc}{\hfill \href{mailto:marcu@isi.edu}{marcu@isi.edu}}{}{}
-\cventry{}{Dan Roth}{\newline Prof at the University of Illinois at Urbana-Champaign}{\hfill \href{mailto:danr@illinois.edu}{danr@illinois.edu}}{}{}
+\cventry{}{Dan Roth}{\newline Prof at the University Pennsylvania}{\hfill \href{mailto:danroth@seas.upenn.edu}{danroth@seas.upenn.edu}}{}{}
 
 
 % Publications from a BibTeX file
