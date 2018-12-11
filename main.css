@@ -21,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.3em;
     font-style: normal;
+    font-weight: normal;
 }
 
 table {
@@ -84,6 +85,9 @@ img {
     }
 }
 
-div {
-  border: 0px solid red;
+
+.name {
+  color: green;
+  display: inline-block;
+  font-weight: bold;
 }
