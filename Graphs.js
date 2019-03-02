@@ -131,27 +131,27 @@ function Gender_PhD() {
 google.charts.setOnLoadCallback(Leadership_Female);
 function Leadership_Female() {
   var data = google.visualization.arrayToDataTable([
-    ['Company'  ,'2014','2015','2016','2017'],
-    ['Pandora  ',39    ,40.1  ,38    ,0     ],
-    ['LinkedIn ',25    ,30    ,35    ,0     ],
-    ['AirBnB   ',0     ,25.5  ,30    ,0     ],
-    ['Twitter  ',21    ,22    ,30    ,0     ],
-    ['Apple    ',28    ,28    ,28    ,29    ],
-    ['Slack    ',0     ,0     ,0     ,28.3  ],
-    ['Facebook ',23    ,23    ,27    ,0     ],
-    ['Dropbox  ',0     ,21    ,27    ,0     ],
-    ['Google   ',21    ,22    ,24    ,25    ],
-    ['Yahoo    ',23    ,24    ,22    ,0     ],
-    ['Uber     ',0     ,0     ,22    ,0     ],
-    ['Microsoft',17.3  ,17.5  ,17.9  ,19.1  ],
-    ['Pinterest',19    ,16    ,17    ,0     ],
+    ['Company'  ,'2014','2015','2016','2017','2018'],
+    ['Pandora  ',39    ,40.1  ,38    ,0     ,0     ],
+    ['LinkedIn ',25    ,30    ,35    ,0     ,0     ],
+    ['AirBnB   ',0     ,25.5  ,30    ,29.63 ,0     ],
+    ['Twitter  ',21    ,22    ,30    ,32.5  ,0     ],
+    ['Apple    ',28    ,28    ,28    ,29    ,0     ],
+    ['Slack    ',0     ,0     ,0     ,28.3  ,30.6  ],
+    ['Facebook ',23    ,23    ,27    ,0     ,0     ],
+    ['Dropbox  ',0     ,21    ,27    ,31    ,0     ],
+    ['Google   ',21    ,22    ,24    ,25    ,25.5  ],
+    ['Yahoo    ',23    ,24    ,22    ,0     ,0     ],
+    ['Uber     ',0     ,0     ,0     ,22    ,20.9  ],
+    ['Microsoft',17.3  ,17.5  ,17.9  ,19.1  ,19.7  ],
+    ['Pinterest',19    ,16    ,17    ,0     ,0     ],
   ]);
   var options = {
     title: '% Leadership Female',
     legend: { position: "none" },
     height: 350,
     chartArea: {
-      width: '400',
+      width: '500',
       top: 40,
       bottom: 50,
     }
@@ -441,27 +441,27 @@ var data = new google.visualization.DataTable();
 google.charts.setOnLoadCallback(Tech_Female);
 function Tech_Female() {
   var data = google.visualization.arrayToDataTable([
-    ['Company'  ,'2014','2015','2016','2017'],
-    ['Pinterest', 21   , 21   ,26    ,0     ],
-    ['AirBnB'   ,0     ,21.8  ,25.6  ,0     ],
-    ['Slack    ',0     ,0     ,24.5  , 29.8 ],
-    ['Pandora  ',18    ,18.6  ,24    ,0     ],
-    ['Apple    ',20    ,22    ,23    ,23    ],
-    ['Dropbox  ',0     ,19    ,21    ,0     ],
-    ['LinkedIn ',17    ,18    ,20    ,0     ],
-    ['Google   ',17    ,18    ,19    ,20    ],
-    ['Microsoft',17.1  ,16.6  ,17.5  ,19    ],
-    ['Facebook ',15    ,16    ,17    ,0     ],
-    ['Yahoo    ',15    ,16    ,17    ,0     ],
-    ['Uber     ',0     ,0     ,15.4  ,0     ],
-    ['Twitter  ',10    ,13    ,15    ,0     ],
+    ['Company'  ,'2014','2015','2016','2017','2018'],
+    ['Pinterest', 21   , 21   ,26    ,0     ,0     ],
+    ['AirBnB'   ,0     ,21.8  ,25.6  ,28.77 ,0     ],
+    ['Slack    ',0     ,0     ,24.5  ,29.8  ,34.3  ],
+    ['Pandora  ',18    ,18.6  ,24    ,0     ,0     ],
+    ['Apple    ',20    ,22    ,23    ,23    ,0     ],
+    ['Dropbox  ',0     ,19    ,21    ,23    ,0     ],
+    ['LinkedIn ',17    ,18    ,20    ,0     ,0     ],
+    ['Google   ',17    ,18    ,19    ,20    ,21.4  ],
+    ['Microsoft',17.1  ,16.6  ,17.5  ,19    ,19.9  ],
+    ['Facebook ',15    ,16    ,17    ,19    ,22    ],
+    ['Yahoo    ',15    ,16    ,17    ,0     ,0     ],
+    ['Uber     ',0     ,0     ,0     ,15.4  ,17.9  ],
+    ['Twitter  ',10    ,13    ,15    ,17.3  ,0     ],
   ]);
   var options = {
     title: '% Tech Female',
     height: 350,
     legend: { position: "top" },
     chartArea: {
-      width: '400',
+      width: '500',
       top: 40,
       bottom: 50
     }
