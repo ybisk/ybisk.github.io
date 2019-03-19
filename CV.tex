@@ -24,10 +24,10 @@
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[left=1in,top=1in,bottom=1in,right=1in]{geometry}
+\usepackage[left=0.9in,top=0.9in,bottom=0.9in,right=0.9in]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
 %\definecolor{linkcolor}{RGB}{66, 66, 138}
-\definecolor{linkcolor}{RGB}{0,0,0}
+\definecolor{linkcolor}{RGB}{25,25,112}
 
 \usepackage{fontawesome}
 % personal data
@@ -35,6 +35,7 @@
 \familyname{Bisk}
 \title{Natural Language Processing\\ Computer Science}               % optional, remove the line if not wanted
 \address{\hspace{-1in}Paul G. Allen School\\ of Computer Sci \& Eng\\\hspace{-1in}185 E Stevens Way NE}{\hspace{-1in}Seattle, WA 98195}    % optional, remove the line if not wanted
+\phone{713-568-8868}
 \email{ybisk@yonatanbisk.com}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 
@@ -49,11 +50,11 @@
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
-\vspace{-20pt}
+\vspace{-10pt}
 
 \section{Positions}
-\cventry{...}{Postdoctoral Scholar}{University of Washington}{}{}{Advisor: Yejin Choi}
-\cventry{2017}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
+\cventry{Now}{Postdoctoral Scholar}{University of Washington \& Allen Institute for Artificial Intelligence}{}{}{Advisor: Yejin Choi}
+\cventry{}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
 
 \section{Education}
 \cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: \href{http://yonatanbisk.com/Thesis.pdf}{\color{linkcolor}{\textbf{Unsupervised Grammar Induction with Combinatory Categorial Grammars}}}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
@@ -61,10 +62,30 @@
 
 
 \section{Conference and Journal Publications}
+\pub{2019}
+  {\href{http://visualcommonsense.com/}{\color{linkcolor}{From Recognition to Cognition: Visual Commonsense Reasoning}}}
+  {Rowan Zellers, \YB{}, Ali Farhadi and Yejin Choi}
+  {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}{Oral}{}
+\pub{--}
+  {\href{https://arxiv.org/abs/1903.02547}{\color{linkcolor}{Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation}}}
+  {Liyiming Ke, Xiujun Li, \YB{}, Ari Holtzman, Zhe Gan, Jingjing Liu, Jianfeng Gao, Yejin Choi and Siddhartha Srinivasa}
+  {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}{Oral}{}
+\pub{--}
+  {Prospection: Interpretable Plans From Language By Predicting the Future}
+  {Chris Paxton, \YB{}, Jesse Thomason, Arunkumar Byravan, and Dieter Fox}
+  {International Conference on Robotics and Automation (ICRA)}{}{}
+\pub{--}
+  {\href{https://arxiv.org/abs/1811.00613}{\color{linkcolor}{Shifting the Baseline: Single Modality Performance on Visual Navigation \& QA}}}
+  {Jesse Thomason, Daniel Gordon, and \YB{}}
+  {Proc of the 2019 Conference of the N. American Chapter of the Association for Computational Linguistics}{}{}
+\pub{--}
+  {Benchmarking Hierarchical Script Knowledge}
+  {\YB{}, Jan Buys, Karl Pichotta, and Yejin Choi}
+  {Proc of the 2019 Conference of the N. American Chapter of the Association for Computational Linguistics}{}{}
 \pub{2018}
   {\href{http://rowanzellers.com/swag/}{\color{linkcolor}{SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference}}}
   {Rowan Zellers, \YB{}, Roy Schwartz and Yejin Choi}
-  {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)}{}{}
+  {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)}{Oral}{}
 \pub{--}
   {\href{https://arxiv.org/abs/1711.02173}{\color{linkcolor}{Synthetic and Natural Noise Both Break Neural Machine Translation}}}
   {Yonatan Belinkov and \YB{}}
@@ -75,7 +96,7 @@
   {Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18) }{}{}
 \pub{2017}
   {\href{https://arxiv.org/abs/1710.02925}{\color{linkcolor}{Natural Language Inference from Multiple Premises}}}
-  {Alice Lai, \YB{}, Julia Hockenmaier}
+  {Alice Lai, \YB{}, and Julia Hockenmaier}
   {Proceedings of the Eighth International Joint Conference on Natural Language Processing}{Oral}{}
 \pub{2016}
   {\href{http://yonatanbisk.com/papers/2016-EMNLP.pdf}{\color{linkcolor}{Evaluating Induced CCG Parsers on Grounded Semantic Parsing}}}
@@ -92,7 +113,7 @@
 \pub{2015}
   {\href{http://yonatanbisk.com/papers/2015-ACL.pdf}{\color{linkcolor}{Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction}}}
   {\YB{} and Julia Hockenmaier}
-  {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp 1395 -- 1404}{Oral}{}
+  {Proc of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp 1395 -- 1404}{Oral}{}
 \pub{--}
   {\href{http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf}{\color{linkcolor}{Labeled Grammar Induction with Minimal Supervision}}}
   {\YB, Christos Christodoulopoulos and Julia Hockenmaier}
@@ -121,6 +142,10 @@
   {Ke Tran and \YB{}}
   {Workshop on Neural Machine Translation}{Best paper - Oral}{}
 \pub{--}
+  {\href{https://openreview.net/forum?id=rJxEso0osm}{\color{linkcolor}{Bridging HMMs and RNNs Through Architectural Transformations}}}
+  {Jan Buys, \YB{}, and Yejin Choi}
+  {Interpretability and Robustness in Audio, Speech, and Language Workshop @ NeurIPS}{}{}
+\pub{--}
   {\href{https://arxiv.org/abs/1801.07357}{\color{linkcolor}{CHALET: Cornell House Agent Learning Environment}}}
   {Claudia Yan, Dipendra Misra, Andrew Bennnett, Aaron Walsman, \YB{} and Yoav Artzi}
   {ArXiv}{}{}
@@ -138,40 +163,40 @@
   {NAACL HLT Workshop on Inducing Linguistic Structure, pp 90--95}{}{}
 
 
-%\vspace{-10pt}
 \section{Conference Organization / Area-Chair}
+\cventry{2019}{Area Chair}{Vision Robotics Multimodal Grounding and Speech}{Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Organizer}{\href{http://splu-robonlp.github.io}{\color{linkcolor}{Workshop on Spatial Language Understanding and Grounded communication for Robotics}}}{North American Chapter of the Association for Computational Linguistics}{}{}
 \cventry{2018}{Conference Organizer}{Social Media Chair}{North American Chapter of the Association for Computational Linguistics}{}{}
 \cventry{--}{Area Chair}{}{International Conference on Computational Linguistics}{}{}
-\cventry{--}{Workshop Organizer}{Generalization in the Age of Deep Learning}{North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Organizer}{\href{https://newgeneralization.github.io/}{\color{linkcolor}{Generalization in the Age of Deep Learning}}}{North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Organizer}{\href{https://www.wordplay2018.com/}{\color{linkcolor}{Wordplay: Reinformcent and Language Learning in Text-Based Games}}}{NeurIPS}{}{}
 \cventry{2017}{Conference Organizer}{Student Scholarship Chair and Student Volunteer Coordinator}{Conference on Empirical Methods in Natural Language Processing}{}{}
-\cventry{--}{Workshop Organizer}{Language Grounding for Robotics}{Conference of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Organizer}{\href{https://robo-nlp.github.io/2017_index.html}{\color{linkcolor}{Language Grounding for Robotics}}}{Conference of the Association for Computational Linguistics}{}{}
 \cventry{2016}{Area-Chair}{Semantic Parsing and Semantic Role Labeling}{Conference on Lexical and Computational Semantics (*SEM)}{}{}
 
-%\vspace{-5pt}
-\section{Invitations and Talks}
-\cventry{2017}{Invited Talk}{University of Notre Dame NLP Seminar}{}{}{}
-\cventry{    }{Invited Talk}{University of California, Irvine AI/ML Seminar}{}{}{}
-\cventry{    }{Invited Talk}{Pacific Northwest National Laboratory}{}{}{}
-\cventry{2016}{Invited Poster}{The Impact of Computing in Our Physical World session of the CRA's Computing Community Consortium (CCC) Symposium on Computing Research}{}{}{}
-\cventry{2015}{Colloquium Talk}{Toyota Tech. Inst. of Chicago's Midwest Speech \& Language Days}{}{}{}
-\cventry{2013}{Colloquium Talk}{Toyota Tech. Inst. of Chicago's Midwest Speech \& Language Days}{}{}{}
 
 \section{Reviewer}
+\cventry{}{IEEE Robotics and Automation Letters (RA-L)}{\hfill 2019}{}{}{}
+\cventry{}{International Joint Conference on Artificial Intelligence (IJCAI)}{\hfill 2019}{}{}{}
+\cventry{}{International Conference on Machine Learning (ICML)}{\hfill 2019}{}{}{}
 \cventry{}{International Conference on Learning Representations (ICLR)}{\hfill 2019}{}{}{}
-\cventry{}{Neural Information Processing Systems (NIPS)}{\hfill 2018}{}{}{}
+\cventry{}{International Conference on Robotics and Automation  (ICRA)}{\hfill 2019}{}{}{}
+\cventry{}{Neural Information Processing Systems (NeurIPS)}{\hfill 2018}{}{}{}
 \cventry{}{Association for the Advancement of Artificial Intelligence (AAAI)}{\hfill 2018}{}{}{}
 \cventry{}{International Journal of Robotics Research (IJRR)}{\hfill 2017}{}{}{}
 \cventry{}{Computational Linguistics Journal (CL)}{\hfill 2017}{}{}{}
 \cventry{}{Association for Computational Linguistics (ACL)}{\hfill 2017, 2018}{}{}{}
-\cventry{}{Association for Computational Linguistics -- Demos}{\hfill 2018}{}{}{}
+%\cventry{}{Association for Computational Linguistics -- Demos}{\hfill 2018}{}{}{}
 \cventry{}{International Joint Conference on Natural Language Processing (IJCNLP)}{\hfill 2017}{}{}{}
 \cventry{}{Natural Language Engineering Journal}{\hfill 2016}{}{}{}
 \cventry{}{Empirical Methods in Natural Language Processing (EMNLP)}{\hfill 2013 -- 2018}{}{}{}
-\cventry{}{Empirical Methods in Natural Language Processing -- Demos}{\hfill 2018}{}{}{}
+%\cventry{}{Empirical Methods in Natural Language Processing -- Demos}{\hfill 2018}{}{}{}
 \cventry{}{European Chapter of the Association for Computational Linguistics}{\hfill 2014, 2017}{}{}{}
-\cventry{}{N. American Chapter of the Association for Computational Ling (NAACL)}{\hfill 2016 -- 2018}{}{}{}
+\cventry{}{N. American Chapter of the Association for Computational Ling (NAACL)}{\hfill 2016 -- 2019}{}{}{}
 \cventry{}{Conference on Computational Natural Language Learning (CoNLL)}{\hfill 2016 -- 2018}{}{}{}
 \cventry{}{International Conference on Computational Linguistics (Coling)}{\hfill 2016}{}{}{}
+
+
 \cventry{}{NAACL Student Research Workshop}{\hfill 2013, 2015, 2018}{}{}{}
 \cventry{}{EACL Student Research Workshop}{\hfill 2017}{}{}{}
 \cventry{}{Spatial Language Understanding (SpLU) Workshop}{\hfill 2018}{}{}{}
@@ -190,19 +215,27 @@
 \cventry{--}{Co-Founded Breakfast Bytes}{}{Professor talks for pre-college students}{UTexas \hfill \textit{1yr}}{}
 \cventry{--}{CS Roadshow}{}{CS presentations at Austin middle and high schools}{UTexas \hfill \textit{1yr}}{}
 
+\section{Invitations and Talks}
+\cventry{2018}{Colloquium Talk}{Northwest NLP}{}{}{}
+\cventry{2017}{Invited Talk}{University of Notre Dame NLP Seminar}{}{}{}
+\cventry{    }{Invited Talk}{University of California, Irvine AI/ML Seminar}{}{}{}
+\cventry{    }{Invited Talk}{Pacific Northwest National Laboratory}{}{}{}
+\cventry{2016}{Invited Poster}{The Impact of Computing in Our Physical World session of the CRA's Computing Community Consortium (CCC) Symposium on Computing Research}{}{}{}
+\cventry{2015}{Colloquium Talk}{Toyota Tech. Inst. of Chicago's Midwest Speech \& Language Days}{}{}{}
+\cventry{2013}{Colloquium Talk}{Toyota Tech. Inst. of Chicago's Midwest Speech \& Language Days}{}{}{}
+
+
 
 \section{Community Service}
-\cventry{2017}{Association for Computing Machinery Future of Computing Academy Member}{}{\newline ``... a platform that enables the next generation of researchers, ... to develop a coherent and influential voice that addresses challenging issues facing the field and society in general''}{}{}
-\cventry{2017}{NSF review panel}{}{\newline Scholarships in the Division of Undergraduate Education}{}{}
-\cventry{2017}{Intel International Science and Engineering Fair}{}{\newline Pre-college science competition in May 2017 for the Association for the Advancement of Artificial Intelligence (AAAI)}{}{}
+\cventry{2017}{Association for Computing Machinery Future of Computing Academy Member}{}{\newline ``... a platform that enables the next generation of researchers, ... to develop a coherent and influential voice that addresses challenging issues facing the field and society in general''}{\hfill Ongoing}{}
+\cventry{--}{NSF review panel}{}{\newline Scholarships in the Division of Undergraduate Education}{}{}
+\cventry{--}{Intel International Science and Engineering Fair}{}{\newline Pre-college science competition for the Assoc. for the Advancement of Artificial Intelligence (AAAI)}{}{}
 
-%\vspace{10pt}
-
-%\vspace{-4pt}
 
 
 \section{University Service}
-\cventry{2017}{Organize UW NLP Seminar}{}{\newline Coordinate with professors to invite and host speakers to the department \hfill \textit{2yrs}}{}{}
+\cventry{2017}{RoboNLP Reading Groups}{}{\newline Reading group for students across robotics and NLP to learn and collaborate.\hfill \textit{2yrs}}{}{}
+\cventry{--}{Organize UW NLP Seminar}{}{\newline Coordinate with professors to invite and host speakers to the department \hfill \textit{2yrs}}{}{}
 \cventry{2015}{USC Postdoc Association Representative}{\hfill \textit{1yr}}{}{}{}
 \cventry{2013}{Fellowships, Assistantships, and Admissions Committee}{}{\newline Decide which students are admitted to the CS PhD and MS programs \hfill \textit{1yr}}{}{}
 \cventry{--}{Departmental Graduate Academic Council}{}{Vet departmental seminars and policies in addition to creating new useful resources and seminars for students \hfill \textit{1yr}}{}{}
@@ -211,7 +244,6 @@
 \cventry{2010}{Organize Artificial Intelligence \& Information Systems Seminar}{}{\newline Coordinate with professors to invite and host speakers to the department \hfill \textit{5yrs}}{}{}
 \cventry{2009}{PhD Ambassador \& Mentor}{}{Introduce students to the department and graduate school both during visits and adjustment to the department upon entry \hfill \textit{4yrs}}{}{}
 
-%\vspace{-4pt}
 \section{Awards, Honors, and Fellowships}
 \cventry{2018}{Finalist, UW Postdoc Mentoring Award}{}{University of Washington}{}{}
 \cventry{2014}{Andrew and Shana Laursen Fellow}{}{University of Illinois}{}{}
@@ -223,34 +255,32 @@
 \cventry{2008}{College of Natural Science Summer Research Fellowship}{}{UTexas}{}{}
 \cventry{2007}{Departmental Summer Research Fellowship}{}{UTexas}{}{}
 
-%\vspace{16pt}
 \section{Teaching}
 \cventry{2014}{Teaching Assistant}{}{Graduate Machine Learning in NLP (\# Students: 27)}{UIUC}{}
 \cventry{2011}{Teaching Assistant}{}{Artificial Intelligence (\# Students: 97)}{UIUC}{}
 \cventry{2010}{Teaching Assistant}{}{Artificial Intelligence (\# Students: 63)}{UIUC}{}
 
 
-\section{Students \& Interns}
-\cventry{2016}{Master's Student}{}{Junpeng Xiao devised an interactive interface to our AI agent for use in DARPA meetings}{USC}{}
-\cventry{2016}{Ph.D. Intern}{}{Ke Tran, a Ph.D. student at the University of Amsterdam, published a workshop paper with an invited talk on the unsupervised use of Neural Networks with Bayesian models}{ISI}{}
-\cventry{2016}{Master's Student}{}{Kai Jiang is working on a new data collection paradigm for dialogue based AI systems.  Anticipated publication and data release in Mid 2017}{USC}{}
+%\section{Students \& Interns}
+%\cventry{2016}{Master's Student}{}{Junpeng Xiao devised an interactive interface to our AI agent for use in DARPA meetings}{USC}{}
+%\cventry{2016}{Ph.D. Intern}{}{Ke Tran, a Ph.D. student at the University of Amsterdam, published a workshop paper with an invited talk on the unsupervised use of Neural Networks with Bayesian models}{ISI}{}
+%\cventry{2016}{Master's Student}{}{Kai Jiang is working on a new data collection paradigm for dialogue based AI systems.  Anticipated publication and data release in Mid 2017}{USC}{}
 
-%\vspace{-4pt}
 \section{Industry Employment}
 \cventry{2014}{NLP Research Intern}{Google, Inc.}{Mountain View}{CA}{Informing grammar induction with semantics under John Blitzer}
 \cventry{2013}{NLP Research Intern}{Google, Inc.}{Mountain View}{CA}{Leveraged syntactic information in question answering with John Blitzer}
 \cventry{2009}{iPhone Development Intern}{Apple, Inc.}{Cupertino}{CA}{Create robust metrics for evaluating keyboard and auto-correction performance}
 \cventry{2006}{SQL Server Intern}{Microsoft Corporation}{Redmond}{WA}{Created data-mining ribbon for Excel 2007 and UI test cases for SQL server }
 
-\vspace{30pt}
 \section{References}
-\cventry{}{John Blitzer}{\newline Senior Research Scientist at Google Inc}{\hfill \href{mailto:blitzer@google.com}{blitzer@google.com}}{}{}
-\cventry{}{Yejin Choi}{\newline Associate Prof at the University of Washington}{\hfill \href{mailto:yejin@cs.washington.edu}{yejin@cs.washington.edu}}{}{}
-\cventry{}{Yolanda Gil}{\newline Research Prof at the University of Southern California}{\hfill \href{mailto:gil@isi.edu}{gil@isi.edu}}{}{}
+%\cventry{}{John Blitzer}{\newline Senior Research Scientist at Google Inc}{\hfill \href{mailto:blitzer@google.com}{blitzer@google.com}}{}{}
+\cventry{}{Yejin Choi}{\newline Associate Prof at the University of Washington and \newline Senior Research Manager at the Allen Instit for AI}{ \hfill \href{mailto:yejin@cs.washington.edu}{yejin@cs.washington.edu}}{}{}
+\cventry{}{Dieter Fox}{\newline Professor at the University of Washington and \newline Senior Director of Robotics Research at Nvidia}{\hfill \href{mailto:fox@cs.washington.edu}{fox@cs.washington.edu}}{}{}
+%\cventry{}{Yolanda Gil}{\newline Research Prof at the University of Southern California}{\hfill \href{mailto:gil@isi.edu}{gil@isi.edu}}{}{}
 \cventry{}{Julia Hockenmaier}{\newline Associate Prof at the University of Illinois at Urbana-Champaign}{\hfill \href{mailto:juliahmr@illinois.edu}{juliahmr@illinois.edu}}{}{}
-\cventry{}{Kevin Knight}{\newline Prof at the University of Southern California}{\hfill \href{mailto:knight@isi.edu}{knight@isi.edu}}{}{}
-\cventry{}{Daniel Marcu}{\newline Research Associate Prof at USC's Information Sciences Institute \&\newline  Senior Research Scientist at Amazon Inc}{\hfill \href{mailto:marcu@isi.edu}{marcu@isi.edu}}{}{}
-\cventry{}{Dan Roth}{\newline Prof at the University Pennsylvania}{\hfill \href{mailto:danroth@seas.upenn.edu}{danroth@seas.upenn.edu}}{}{}
+\cventry{}{Kevin Knight}{\newline Prof at the University of Southern California\newline Chief Scientist for NLP at Didi Chuxing}{\hfill \href{mailto:knight@isi.edu}{kevin.crawford.knight@gmail.com}}{}{}
+%\cventry{}{Daniel Marcu}{\newline Research Associate Prof at USC's Information Sciences Institute \&\newline  Senior Research Scientist at Amazon Inc}{\hfill \href{mailto:marcu@isi.edu}{marcu@isi.edu}}{}{}
+%\cventry{}{Dan Roth}{\newline Prof at the University Pennsylvania}{\hfill \href{mailto:danroth@seas.upenn.edu}{danroth@seas.upenn.edu}}{}{}
 
 
 % Publications from a BibTeX file
@@ -262,3 +292,4 @@
 
 
 %% end of file `template_en.tex'.
+
