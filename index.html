@@ -13,6 +13,22 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+/**
+* Function that captures a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">
 </script>
 <script language="javascript">
@@ -105,7 +121,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://www.biorxiv.org/content/10.1101/592808v1>FIND: Identifying Functionally and Structurally Important Features in Protein Sequences with Deep Neural Networks
+            <a href=https://www.biorxiv.org/content/10.1101/592808v1 onclick="captureOutboundLink('https://www.biorxiv.org/content/10.1101/592808v1');">FIND: Identifying Functionally and Structurally Important Features in Protein Sequences with Deep Neural Networks
           </b>
             </a>
             <div style="float: right; clear: right;">
@@ -139,7 +155,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1902.00595>Character-based Surprisal as a Model of Human Reading in the Presence of Errors
+            <a href=https://arxiv.org/abs/1902.00595 onclick="captureOutboundLink('https://arxiv.org/abs/1902.00595');">Character-based Surprisal as a Model of Human Reading in the Presence of Errors
 
           </b>
             </a>
@@ -176,7 +192,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1811.08824>Early Fusion for Goal Directed Robotic Vision
+            <a href=https://arxiv.org/abs/1811.08824 onclick="captureOutboundLink('https://arxiv.org/abs/1811.08824');">Early Fusion for Goal Directed Robotic Vision
           </b>
             </a>
             <div style="float: right; clear: right;">
@@ -212,7 +228,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=http://visualcommonsense.com/>From Recognition to Cognition: Visual Commonsense Reasoning
+            <a href=http://visualcommonsense.com/ onclick="captureOutboundLink('http://visualcommonsense.com/');">From Recognition to Cognition: Visual Commonsense Reasoning
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -248,7 +264,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href="https://arxiv.org/abs/1903.02547">Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation</a>
+            <a href="https://arxiv.org/abs/1903.02547" onclick="captureOutboundLink('https://arxiv.org/abs/1903.02547');">Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation</a>
           </b>
           <a href="https://www.youtube.com/watch?v=ik9uz06Fcpk">[video]</a>
           <div style="float: right; clear: right;">
@@ -285,7 +301,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
           <td>
 
-            <b><a href="https://arxiv.org/abs/1903.08309">Prospection: Interpretable Plans From Language By Predicting the Future</a>
+            <b><a href="https://arxiv.org/abs/1903.08309" onclick="captureOutboundLink('https://arxiv.org/abs/1903.08309');">Prospection: Interpretable Plans From Language By Predicting the Future</a>
             </b>
             </a>
             <div style="float: right; clear: right;">
@@ -322,7 +338,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1811.00613>Shifting the Baseline: Single Modality Performance on Visual Navigation & QA</a>
+            <a href=https://arxiv.org/abs/1811.00613 onclick="captureOutboundLink('https://arxiv.org/abs/1811.00613');">Shifting the Baseline: Single Modality Performance on Visual Navigation & QA</a>
           </b>
           <div style="float: right; clear: right;">
             <a href=javascript:void(0) onclick="show('19NAACL1')"><i>NAACL short
@@ -399,7 +415,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
           <td>
             <b>
-              <a href=http://rowanzellers.com/swag/>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference
+              <a href=http://rowanzellers.com/swag/ onclick="captureOutboundLink('http://rowanzellers.com/swag/');">SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference
               </a>&nbsp;
             </b>
             <a href="https://vimeo.com/305195438">[Video]
@@ -437,7 +453,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1805.10850>Inducing Grammars with and for Neural Machine Translation
+            <a href=https://arxiv.org/abs/1805.10850 onclick="captureOutboundLink('https://arxiv.org/abs/1805.10850');">Inducing Grammars with and for Neural Machine Translation
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -474,7 +490,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://openreview.net/pdf?id=rJxEso0osm>Bridging HMMs and RNNs through Architectural Transformations
+            <a href=https://openreview.net/pdf?id=rJxEso0osm onclick="captureOutboundLink('https://openreview.net/pdf?id=rJxEso0osm');">Bridging HMMs and RNNs through Architectural Transformations
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -511,7 +527,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1711.02173>Synthetic and Natural Noise Both Break Neural Machine Translation
+            <a href=https://arxiv.org/abs/1711.02173 onclick="captureOutboundLink('https://arxiv.org/abs/1711.02173');">Synthetic and Natural Noise Both Break Neural Machine Translation
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -544,7 +560,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
       <tr><td style="background-image:url(./images/bar.png);width=40px">
         </td>
         <td><b>
-            <a href="https://arxiv.org/abs/1801.07357">CHALET: Cornell House Agent Learning Environment
+            <a href="https://arxiv.org/abs/1801.07357" onclick="captureOutboundLink('https://arxiv.org/abs/1801.07357');">CHALET: Cornell House Agent Learning Environment
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -580,7 +596,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2018-AAAI.pdf>Learning Interpretable Spatial Operations in a Rich 3D Blocks World
+            <a href=papers/2018-AAAI.pdf onclick="captureOutboundLink('papers/2018-AAAI.pdf');">Learning Interpretable Spatial Operations in a Rich 3D Blocks World
             </a>
           </b>
 
@@ -620,7 +636,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=https://arxiv.org/abs/1710.02925>Natural Language Inference from Multiple Premises
+            <a href=https://arxiv.org/abs/1710.02925 onclick="captureOutboundLink('https://arxiv.org/abs/1710.02925');">Natural Language Inference from Multiple Premises
             </a>
           </b>
           <div style="float: right; clear: right;">
@@ -657,7 +673,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2016-NAACL.pdf>Natural Language Communication with Robots
+            <a href=papers/2016-NAACL.pdf onclick="captureOutboundLink('papers/2016-NAACL.pdf');">Natural Language Communication with Robots
             </a>
           </b>
           &nbsp;&nbsp;&nbsp;&nbsp;
@@ -709,7 +725,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2016-NAACLShort.pdf>Supertagging with LSTMs
+            <a href=papers/2016-NAACLShort.pdf onclick="captureOutboundLink('papers/2016-NAACLShort.pdf');">Supertagging with LSTMs
             </a>
           </b>
           &nbsp;&nbsp;&nbsp;&nbsp;
@@ -750,7 +766,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2016-AAAI-Wksp.pdf>Towards a Dataset for Human Computer Communication via Grounded Language Acquisition
+            <a href=papers/2016-AAAI-Wksp.pdf onclick="captureOutboundLink('papers/2016-AAAI-Wksp.pdf');">Towards a Dataset for Human Computer Communication via Grounded Language Acquisition
             </a>
           </b><br>
           <object width=20px height=0px></object><div class="name">Yonatan Bisk</div>, Daniel Marcu and William Wong
@@ -789,7 +805,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2016-EMNLP-StrcPred.pdf>Unsupervised Neural Hidden Markov Models
+            <a href=papers/2016-EMNLP-StrcPred.pdf onclick="captureOutboundLink('papers/2016-EMNLP-StrcPred.pdf');">Unsupervised Neural Hidden Markov Models
             </a>
           </b>
           &nbsp;&nbsp;&nbsp;&nbsp;
@@ -830,7 +846,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href="http://sivareddy.in/papers/bisk2016evaluating.pdf">Evaluating Induced CCG Parsers on Grounded Semantic Parsing
+            <a href="http://sivareddy.in/papers/bisk2016evaluating.pdf" onclick="captureOutboundLink('http://sivareddy.in/papers/bisk2016evaluating.pdf');">Evaluating Induced CCG Parsers on Grounded Semantic Parsing
             </a>
           </b>
 
@@ -869,7 +885,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href=papers/2015-ACL.pdf>Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction
+            <a href=papers/2015-ACL.pdf onclick="captureOutboundLink('papers/2015-ACL.pdf');">Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction
             </a>
           </b>
           <a href="http://techtalks.tv/talks/probing-the-linguistic-strengths-and-limitations-of-unsupervised-grammar-induction/61817/">[Video]
@@ -914,7 +930,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
           <b>
-            <a href="papers/2015-ACLShort-Fixed.pdf">Labeled Grammar Induction with Minimal Supervision
+            <a href="papers/2015-ACLShort-Fixed.pdf" onclick="captureOutboundLink('papers/2015-ACLShort-Fixed.pdf');">Labeled Grammar Induction with Minimal Supervision
             </a>
           </b>
           &nbsp;&nbsp;&nbsp;&nbsp;
@@ -956,7 +972,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
 
-          <a href=papers/2013-TACL.pdf><b>An HDP Model for Inducing Combinatory Categorial Grammars
+          <a href=papers/2013-TACL.pdf  onclick="captureOutboundLink('papers/2013-TACL.pdf');"><b>An HDP Model for Inducing Combinatory Categorial Grammars
             </b>
           </a>
           &nbsp;&nbsp;
@@ -1002,7 +1018,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
 
-          <a href=papers/2012-AAAI.pdf><b>Simple Robust Grammar Induction with Combinatory Categorial Grammar
+          <a href=papers/2012-AAAI.pdf  onclick="captureOutboundLink('papers/2012-AAAI.pdf');"><b>Simple Robust Grammar Induction with Combinatory Categorial Grammar
             </b>
           </a>
 
@@ -1045,7 +1061,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
 
-          <a href=papers/2012-CIKM.pdf><b>Document-Topic Hierarchies from Document Graphs
+          <a href=papers/2012-CIKM.pdf onclick="captureOutboundLink('papers/2012-CIKM.pdf');"><b>Document-Topic Hierarchies from Document Graphs
             </b>
           </a>
           <div style="float: right; clear: right;">
@@ -1082,7 +1098,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
 
-          <a href=papers/2012-NAACL-WILS.pdf><b>Induction of Linguistic Structure with Combinatory Categorial Grammars
+          <a href=papers/2012-NAACL-WILS.pdf onclick="captureOutboundLink('papers/2012-NAACL-WILS.pdf');"><b>Induction of Linguistic Structure with Combinatory Categorial Grammars
             </b>
           </a>
 
@@ -1128,7 +1144,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
         </td>
         <td>
 
-          <a href=papers/2010-COLING.pdf><b>Normal-form parsing for CCGs with generalized composition and type-raising
+          <a href=papers/2010-COLING.pdf onclick="captureOutboundLink('papers/2010-COLING.pdf');"><b>Normal-form parsing for CCGs with generalized composition and type-raising
             </b>
           </a>
           <div style="float: right; clear: right;">
@@ -1183,7 +1199,7 @@ My agenda focuses on<br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Uncovering the latent struct
       <tr><td>
         </td>
         <td><b>
-            <a href="Thesis.pdf">Unsupervised Grammar Induction with Combinatory Categorial Grammars
+            <a href="Thesis.pdf" onclick="captureOutboundLink('Thesis.pdf');">Unsupervised Grammar Induction with Combinatory Categorial Grammars
             </a>
           </b>
           </br> Advised by Julia Hockenmaier
