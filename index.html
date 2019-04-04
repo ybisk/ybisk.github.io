@@ -26,6 +26,7 @@ var captureOutboundLink = function(url) {
      'transport': 'beacon',
      'hitCallback': function(){document.location = url;}
    });
+   return false;
 }
 </script>
 
