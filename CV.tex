@@ -33,14 +33,14 @@
 % personal data
 \firstname{Yonatan}
 \familyname{Bisk}
-\title{Natural Language Processing\\ Computer Science}               % optional, remove the line if not wanted
-\address{\hspace{-1in}Paul G. Allen School\\ of Computer Sci \& Eng\\\hspace{-1in}185 E Stevens Way NE}{\hspace{-1in}Seattle, WA 98195}    % optional, remove the line if not wanted
-\phone{713-568-8868}
+\title{(Grounded) Natural Language Processing\\ Computer Science}               % optional, remove the line if not wanted
+%\address{\hspace{-1in}Paul G. Allen School\\ of Computer Sci \& Eng\\\hspace{-1in}185 E Stevens Way NE}{\hspace{-1in}Seattle, WA 98195}    % optional, remove the line if not wanted
 \email{ybisk@yonatanbisk.com}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
+\newcommand{\acro}[1]{\parbox{4em}{#1}}
 \newcommand{\YB}{\underline{Yonatan Bisk}}
 \usepackage{hyperref}
 \usepackage{microtype}
@@ -53,8 +53,10 @@
 \vspace{-10pt}
 
 \section{Positions}
-\cventry{Now}{Postdoctoral Scholar}{University of Washington \& Allen Institute for Artificial Intelligence}{}{}{Advisor: Yejin Choi}
-\cventry{}{Postdoctoral Scholar}{Information Sciences Institute, University of Southern California}{}{}{Advisor: Daniel Marcu}
+\cventry{2020}{Assistant Professor}{Carnegie Mellon University}{}{}{Language Technologies Institute \& Robotics Institute}
+%\cventry{...}{Visiting Research Person}{Somewhere in Seattle}{}{}{Advisor: Life}
+\cventry{2019}{Postdoctoral Scholar}{}{}{}{University of Washington \& Allen Institute for Artificial Intelligence \hfill Advisor: Yejin Choi\newline
+Information Sciences Institute, University of Southern California \hfill Advisor: Daniel Marcu}
 
 \section{Education}
 \cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: \href{http://yonatanbisk.com/Thesis.pdf}{\color{linkcolor}{\textbf{Unsupervised Grammar Induction with Combinatory Categorial Grammars}}}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
@@ -63,6 +65,10 @@
 
 \section{Conference and Journal Publications}
 \pub{2019}
+  {\href{https://arxiv.org/abs/1905.07830}{\color{linkcolor}{HellaSwag: Can a Machine Really Finish Your Sentence?}}}
+  {Rowan Zellers, Ari Holtzman, \YB{}, Ali Farhadi and Yejin Choi}
+  {Proc of the 2019 Conference of the Association for Computational Linguistics (ACL)}{}{}
+\pub{--}
   {\href{http://visualcommonsense.com/}{\color{linkcolor}{From Recognition to Cognition: Visual Commonsense Reasoning}}}
   {Rowan Zellers, \YB{}, Ali Farhadi and Yejin Choi}
   {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}{Oral}{}
@@ -169,45 +175,48 @@
 
 \section{Conference Organization / Area-Chair}
 \cventry{2019}{Area Chair}{Vision Robotics Multimodal Grounding and Speech}{Association for Computational Linguistics}{}{}
-\cventry{--}{Workshop Organizer}{\href{http://splu-robonlp.github.io}{\color{linkcolor}{Workshop on Spatial Language Understanding and Grounded communication for Robotics}}}{North American Chapter of the Association for Computational Linguistics}{}{}
-\cventry{2018}{Conference Organizer}{Social Media Chair}{North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Org}{\href{http://splu-robonlp.github.io}{\color{linkcolor}{Workshop on Spatial Language Understanding and Grounded communication for Robotics}}}{North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{2018}{Conference Org}{Social Media Chair}{North American Chapter of the Association for Computational Linguistics}{}{}
 \cventry{--}{Area Chair}{}{International Conference on Computational Linguistics}{}{}
-\cventry{--}{Workshop Organizer}{\href{https://newgeneralization.github.io/}{\color{linkcolor}{Generalization in the Age of Deep Learning}}}{North American Chapter of the Association for Computational Linguistics}{}{}
-\cventry{--}{Workshop Organizer}{\href{https://www.wordplay2018.com/}{\color{linkcolor}{Wordplay: Reinformcent and Language Learning in Text-Based Games}}}{NeurIPS}{}{}
-\cventry{2017}{Conference Organizer}{Student Scholarship Chair and Student Volunteer Coordinator}{Conference on Empirical Methods in Natural Language Processing}{}{}
-\cventry{--}{Workshop Organizer}{\href{https://robo-nlp.github.io/2017_index.html}{\color{linkcolor}{Language Grounding for Robotics}}}{Conference of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Org}{\href{https://newgeneralization.github.io/}{\color{linkcolor}{Generalization in the Age of Deep Learning}}}{North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop Org}{\href{https://www.wordplay2018.com/}{\color{linkcolor}{Wordplay: Reinformcent and Language Learning in Text-Based Games}}}{NeurIPS}{}{}
+\cventry{2017}{Conference Org}{Student Scholarship Chair and Student Volunteer Coordinator}{Conference on Empirical Methods in Natural Language Processing}{}{}
+\cventry{--}{Workshop Org}{\href{https://robo-nlp.github.io/2017_index.html}{\color{linkcolor}{Language Grounding for Robotics}}}{Conference of the Association for Computational Linguistics}{}{}
 \cventry{2016}{Area-Chair}{Semantic Parsing and Semantic Role Labeling}{Conference on Lexical and Computational Semantics (*SEM)}{}{}
 
 
+
 \section{Reviewer}
-\cventry{}{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}{\hfill 2019}{}{}{}
-\cventry{}{IEEE Robotics and Automation Letters (RA-L)}{\hfill 2019}{}{}{}
-\cventry{}{International Joint Conference on Artificial Intelligence (IJCAI)}{\hfill 2019}{}{}{}
-\cventry{}{International Conference on Machine Learning (ICML)}{\hfill 2019}{}{}{}
-\cventry{}{International Conference on Learning Representations (ICLR)}{\hfill 2019}{}{}{}
-\cventry{}{International Conference on Robotics and Automation  (ICRA)}{\hfill 2019}{}{}{}
-\cventry{}{Neural Information Processing Systems (NeurIPS)}{\hfill 2018}{}{}{}
-\cventry{}{Association for the Advancement of Artificial Intelligence (AAAI)}{\hfill 2018}{}{}{}
-\cventry{}{International Journal of Robotics Research (IJRR)}{\hfill 2017}{}{}{}
-\cventry{}{Computational Linguistics Journal (CL)}{\hfill 2017}{}{}{}
-\cventry{}{Association for Computational Linguistics (ACL)}{\hfill 2017, 2018}{}{}{}
-%\cventry{}{Association for Computational Linguistics -- Demos}{\hfill 2018}{}{}{}
-\cventry{}{International Joint Conference on Natural Language Processing (IJCNLP)}{\hfill 2017}{}{}{}
-\cventry{}{Natural Language Engineering Journal}{\hfill 2016}{}{}{}
-\cventry{}{Empirical Methods in Natural Language Processing (EMNLP)}{\hfill 2013 -- 2018}{}{}{}
-%\cventry{}{Empirical Methods in Natural Language Processing -- Demos}{\hfill 2018}{}{}{}
-\cventry{}{European Chapter of the Association for Computational Linguistics}{\hfill 2014, 2017}{}{}{}
-\cventry{}{N. American Chapter of the Association for Computational Ling (NAACL)}{\hfill 2016 -- 2019}{}{}{}
-\cventry{}{Conference on Computational Natural Language Learning (CoNLL)}{\hfill 2016 -- 2018}{}{}{}
-\cventry{}{International Conference on Computational Linguistics (Coling)}{\hfill 2016}{}{}{}
+\cventry{NLP}{\acro{ACL}\normalfont Association for Computational Linguistics}{\hfill 2017, 2018}{}{}{}
+\cventry{}{\acro{CL}\normalfont Computational Linguistics Journal}{\hfill 2017}{}{}{}
+\cventry{}{\acro{CoLing}\normalfont International Conference on Computational Linguistics}{\hfill 2016}{}{}{}
+\cventry{}{\acro{CoNLL}\normalfont Conference on Computational Natural Language Learning}{\hfill 2016 -- 2018}{}{}{}
+\cventry{}{\acro{EACL}\normalfont European Chapter of the Association for Computational Linguistics}{\hfill 2014, 2017}{}{}{}
+\cventry{}{\acro{EMNLP}\normalfont Empirical Methods in Natural Language Processing}{\hfill 2013 -- 2019}{}{}{}
+\cventry{}{\acro{IJCNLP}\normalfont International Joint Conference on Natural Language Processing}{\hfill 2017}{}{}{}
+\cventry{}{\acro{NAACL}\normalfont N. American Chapter of the Association for Computational Ling}{\hfill 2016 -- 2019}{}{}{}
+\cventry{}{\acro{NLE}\normalfont Natural Language Engineering Journal}{\hfill 2016}{}{}{}
+\cventry{}{\acro{TACL}\normalfont Transactions of the Assoc. for Computational Linguistics}{\hfill 2019}{}{}{}
+
+\cventry{Robo}{\acro{CoRL}\normalfont Conference on Robot Learning}{\hfill 2019}{}{}{}
+\cventry{}{\acro{ICRA}\normalfont International Conference on Robotics and Automation}{\hfill 2019}{}{}{}
+\cventry{}{\acro{IJRR}\normalfont International Journal of Robotics Research}{\hfill 2017}{}{}{}
+\cventry{}{\acro{IROS}\normalfont IEEE/RSJ International Conference on Intelligent Robots and Systems}{\hfill 2019}{}{}{}
+\cventry{}{\acro{RA-L}\normalfont IEEE Robotics and Automation Letters}{\hfill 2019}{}{}{}
+
+\cventry{AI/ML}{\acro{AAAI}\normalfont Association for the Advancement of Artificial Intelligence}{\hfill 2018}{}{}{}
+\cventry{}{\acro{ICLR}\normalfont International Conference on Learning Representations}{\hfill 2019}{}{}{}
+\cventry{}{\acro{ICML}\normalfont International Conference on Machine Learning}{\hfill 2019}{}{}{}
+\cventry{}{\acro{IJCAI}\normalfont International Joint Conference on Artificial Intelligence}{\hfill 2019}{}{}{}
+\cventry{}{\acro{NeurIPS}\normalfont Neural Information Processing Systems}{\hfill 2018 -- 2019}{}{}{}
 
 
-\cventry{}{NAACL Student Research Workshop}{\hfill 2013, 2015, 2018}{}{}{}
-\cventry{}{EACL Student Research Workshop}{\hfill 2017}{}{}{}
-\cventry{}{Spatial Language Understanding (SpLU) Workshop}{\hfill 2018}{}{}{}
-\cventry{}{Workshop on Ethics in NLP}{\hfill 2017, 2018}{}{}{}
-\cventry{}{AAAI Symp. on Natural Communication for Human-Robot Collaboration}{\hfill 2017}{}{}{}
-\cventry{}{PC Member 2012 Vol 1. \& PC Co-Chair 2013, 2015 Vol 2./Vol 3.}{@TinyToCS}{Papers describing significant research contributions to CS in 140 characters or less}{}{}
+% \cventry{Wksp}{NAACL Student Research Workshop}{\hfill 2013, 2015, 2018}{}{}{}
+% \cventry{}{EACL Student Research Workshop}{\hfill 2017}{}{}{}
+% \cventry{}{Spatial Language Understanding (SpLU) Workshop}{\hfill 2018}{}{}{}
+% \cventry{}{Workshop on Ethics in NLP}{\hfill 2017, 2018}{}{}{}
+% \cventry{}{AAAI Symp. on Natural Communication for Human-Robot Collaboration}{\hfill 2017}{}{}{}
+% \cventry{}{PC Member 2012 Vol 1. \& PC Co-Chair 2013, 2015 Vol 2./Vol 3.}{@TinyToCS}{Papers describing significant research contributions to CS in 140 characters or less}{}{}
 
 \section{Diversity and Inclusion}
 \cventry{2018}{ACM Council on Diversity \& Inclusion}{}{Investigating and initiating institutional change within ACM on behalf of underrepresented groups.}{\hfill \textit{1yr}}{}
