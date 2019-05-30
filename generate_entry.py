@@ -40,7 +40,7 @@ colors = {"L":"primary", "R": "success", "V": "danger", "O": "warning", "A": "se
 
 pubs = [line.split("\t") for line in open("publications.tsv")]
 
-idx = 0
+idx = len(pubs)
 for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
   entry = code.replace("#TITLE#",title)
   entry = entry.replace("#YEAR-btn#", year if pub != "un" else "Pre.")
@@ -89,7 +89,7 @@ for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
       additional += "&nbsp;<a href=\"{}\" onclick=\"captureOutboundLink('{}');\">[{}]</a>".format(link, link, name)
   entry = entry.replace("#EXTRA#", additional)
 
-  idx += 1
+  idx -= 1
   website.write(entry)
 
 for l in suffix:
