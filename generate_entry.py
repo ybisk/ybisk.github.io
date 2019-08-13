@@ -3,12 +3,19 @@ import ast
 prefix = [line for line in open("prefix.html")]
 suffix = [line for line in open("suffix.html")]
 
-code = "\
+code_a = "\
     <div class=\"rTableRow row #CAT#\">\n\
     \t    <div class=\"rTableCell col-md-1\"><button type=\"button\" disabled class=\"card text-dark border-#TYPE# btn-sm\">#YEAR-btn#</button>\n\
     \t    </div>\n\
     \t    <div class=\"rTableCell col-md-11\">\n\
+    "
+code_b1 = "\
     \t    \t  <a href=#URL# onclick=\"captureOutboundLink('#URL#');\"><b>#TITLE#</b></a>#EXTRA#\n\
+    "
+code_b2 = "\
+    \t    \t  <b>#TITLE#</b>#EXTRA#\n\
+    "
+code_c = "\
     \t    \t  <div style=\"float: right; clear: right;\">\n\
     \t    \t  \t  <a href=javascript:void(0) onclick=\"show('idx#IDX#')\"><i>#VENUE-ACR#</i></a>\n\
     \t    \t  </div>\n\
@@ -42,6 +49,11 @@ pubs = [line.split("\t") for line in open("publications.tsv")]
 
 idx = len(pubs)
 for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
+  if len(url.strip()) > 0:
+    code = code_a + code_b1 + code_c
+  else:
+    code = code_a + code_b2 + code_c
+
   entry = code.replace("#TITLE#",title)
   entry = entry.replace("#YEAR-btn#", year if pub != "un" else "Pre.")
   entry = entry.replace("#YEAR#", year)
