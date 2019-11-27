@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84290243-5"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-84290243-5');
+  </script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!--favicon BS-->
+  <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/favicon/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/favicon/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/favicon/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+  <link rel="icon" type="image/favicon/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>PIQA: Physical Interaction - Question Answering</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="../style.css" rel="stylesheet">
+  <style>
+    .performanceTable tr.human-row {
+      background: #f5f5f5;
+    }
+    .performanceTable tr.random-row {
+      background: #fafafa;
+    }
+    .performanceTable {
+      margin: 10px 0px;
+    }
+    .performanceTable .institution {
+      font-style: italic;
+      font-weight: 300;
+    }
+    .performanceTable .date {
+      font-weight: normal;
+      background-color: #777;
+      display: inline;
+      padding: .2em .6em .3em;
+      font-size: 75%;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+    }
+    .performanceTable td,
+    .performanceTable th {
+      text-align: center;
+      max-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+    <img src="PIQA.png" alt="PIQA logo" id="piqalogo" class="img-responsive" width="50">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href=""><div class="nav-item-header"> </div><div class="nav-link">Paper</div></a>
+        </li>
+        <li class="nav-item">
+          <a href="data/"><div class="nav-item-header"> </div><div class="nav-link">Download</div></a>
+        </li>
+        <li class="nav-item">
+        <a href="https://leaderboard.allenai.org/physicaliqa/"><div class="nav-item-header"> </div><div class="nav-link">DARPA Leaderboard</div></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<main role="main" class="container" style="padding-top:15px">
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="card box-shadow card-body">
+
+        <h5>Physical Interaction: Question Answering</h5>
+        <p>PIQA was designed to investigate the physical knowledge of existing models.  To what extent are current approaches actually learning about the world?
+        </p>
+        <a href="">
+          <button class="btn btn-secondary" style="width:100%">Read our paper on arXiv&raquo;</button>
+        </a>
+        <br>
+        <a href="data/">
+          <button class="btn btn-primary" style="width:100%">Download data&raquo;</button>
+        </a>
+
+        <hr>
+
+        <h3>Submitting to the leaderboard</h3>
+
+        <p>Submission is simple.  Please email your predictions.</p>
+        <table><tr><td width=10pt bgcolor=#f5f5f5></td><td bgcolor=#f5f5f5>
+          <p>To: ybisk--_--cs.cmu.edu</p>
+          <p>Subject: [PIQA Leaderboard Submission]</p>
+          <p>Body:
+            <ol>
+              <li>A predictions lst file (one prediction per line)</li>
+              <li>A name for your model</li>
+              <li>Your team name (including your affiliation)</li>
+              <li>Optionally: A github repo or paper link.</li>
+            </ol>
+          </p>
+          </td><tr></table>
+          <br>
+          <p>I'll try to get back to you within a few days, usually sooner. Teams can only submit results from a model once every 7 days. Additionally, we reserve the right to not score any of your submissions if you cheat -- for instance, fake names / email addresses and multiple submissions under those names.</p>
+        <hr>
+          <h3>Citation</h3>
+          <code><font size=2 color="black">
+          @inproceedings{Bisk2020,<br>
+          &nbsp;&nbsp;author = {Yonatan Bisk and Rowan Zellers and Ronan Le Bras and Jianfeng Gao and Yejin Choi},<br>
+          &nbsp;&nbsp;title = {PIQA: Reasoning about Physical Commonsense in Natural Language},<br>
+          &nbsp;&nbsp;booktitle = {Thirty-Fourth AAAI Conference on Artificial Intelligence},<br>
+          &nbsp;&nbsp;year = {2020},<br>
+          }
+          </font></code>
+        <hr>
+          <h3>Questions?</h3>
+          <p>Please email me</p>
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+      <div class="card box-shadow card-body">
+
+        <h3>PIQA Leaderboard</h3>
+        <p>Physical IQA is a binary choice task, often better viewed as a set of two (Goal, Solution) pairs</p>
+          <ul>
+        <li><b>Goal</b> To separate egg whites from the yolk using a water bottle, you should ...</li>
+        <li><b>Solution 1</b> <i>Squeeze</i> the water bottle and press it against the yolk. <i>Release</i>, which creates suction and lifts the yolk. </li>
+        <li><b>Solution 2</b> <i>Place</i> the water bottle and press it against the yolk. <i>Keep pushing</i>, which creates suction and lifts the yolk.</li>
+          </ul>
+        <p>Evaluation is a simple accuracy prediction over this binary task.
+        </p>
+        <table class="table performanceTable">
+          <tbody>
+          <tr>
+            <th>Rank</th>
+            <th>Model</th>
+            <th>Accuracy</th>
+          </tr>
+          <tr class="human-row">
+            <td></td>
+            <td>Human Performance<br><a href="https://yonatanbisk.com/PIQA/">(Bisk et al. '20)</a></td>
+            <td>94.9</td>
+          </tr>
+          <tr class="roberta">
+            <td>1</td>
+            <td>RoBERTa-Large<p class="institution">Run by AI2</p></td>
+            <td>77.1</td>
+          </tr>
+          <tr class="gpt">
+            <td>2</td>
+            <td>OpenAI GPT<p class="institution">Run by AI2</p></td>
+            <td>69.2</td>
+          </tr>
+          <tr class="bert-large">
+            <td>3</td>
+            <td>BERT-Large<p class="institution">Run by AI2</p></td>
+            <td>66.8</td>
+          </tr>
+          <tr class="majority-class">
+            <td>4</td>
+            <td>Majority Class</td>
+            <td>50.4</td>
+          </tr>
+          <tr class="random-row">
+            <td> </td>
+            <td>Random Performance</td>
+            <td>50.0</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <footer class="footer">
+    <div class="container">
+      Stolen and maintained by <a href="https://yonatanbisk.com">Yonatan Bisk</a> 
+    </div>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
