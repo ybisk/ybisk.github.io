@@ -22,4 +22,4 @@ FAQ:
 
 1. **Some of these "goals" are one word/item?** Yeah, in those cases, the goal is often how to use that item or what you can use that item for.
 2. **Some of these are definitions?** True
-3. **Paper** https://arxiv.org/abs/1911.11641
+3. **Paper** [https://arxiv.org/abs/1911.11641](https://arxiv.org/abs/1911.11641)
