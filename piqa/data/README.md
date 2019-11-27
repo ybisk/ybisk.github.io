@@ -2,9 +2,9 @@
 
 * [train.jsonl](train.jsonl)
 * [train-labels.lst](train-labels.lst)
-* [valid.json](valid.jsonl)
+* [valid.jsonl](valid.jsonl)
 * [valid-labels.lst](valid-labels.lst)
-* [tests.json](tests.jsonl)
+* [tests.jsonl](tests.jsonl)
 
 There are two files for each split:  `X.jsonl` and `X-labels.lst`.  Lines are aligned.  Each item in the `jsonl` takes the form:
 ```
