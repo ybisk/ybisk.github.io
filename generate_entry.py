@@ -70,6 +70,9 @@ for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
   elif pub == "proc":
     entry = entry.replace("#BIBREC#", "inproceedings")
     entry = entry.replace("#BOOK#", "booktitle")
+  elif pub == "thesis":
+    entry = entry.replace("#BIBREC#", "phdthesis")
+    entry = entry.replace("#BOOK#", "school")
   elif pub == "jour":
     entry = entry.replace("#BIBREC#", "article")
     entry = entry.replace("#BOOK#", "journal")
