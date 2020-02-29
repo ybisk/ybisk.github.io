@@ -119,10 +119,11 @@
 
 % hyperrefs
 \RequirePackage{url}
+\definecolor{linkcolor}{RGB}{25,25,112}
 \ifpdf
-  \RequirePackage[pdftex,colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
+  \RequirePackage[pdftex,colorlinks,linkcolor=black,urlcolor=linkcolor]{hyperref}
 \else
-  \RequirePackage[dvips,colorlinks,linkcolor=black,urlcolor=blue]{hyperref}\fi
+  \RequirePackage[dvips,colorlinks,linkcolor=black,urlcolor=linkcolor]{hyperref}\fi
 \AtEndOfClass{%
   \AtBeginDocument{%
     \hypersetup{%
