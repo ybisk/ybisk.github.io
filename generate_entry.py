@@ -47,6 +47,11 @@ colors = {"L":"primary", "R": "success", "V": "danger", "O": "warning", "A": "se
 
 pubs = [line.split("\t") for line in open("publications.tsv")]
 
+websites = {}
+for line in open("websites.tsv"):
+  line = line.strip().split("\t")
+  websites[line[0].strip()] = line[1].strip()
+
 idx = len(pubs)
 for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
   if len(url.strip()) > 0:
@@ -90,6 +95,9 @@ for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
     entry = entry.replace("#AUTH2#", ", " + ", ".join(a1))
   else:
     entry = entry.replace("#AUTH2#", "")
+
+  for v in websites:
+    entry = entry.replace(v, "<a href={}>{}</a>".format(websites[v], v))
 
   entry = entry.replace("#CITEKEY#", As[0].split()[-1] + year)
   entry = entry.replace("#AUTH-BIB#", " and ".join(authors.split(",")))
