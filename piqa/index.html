@@ -127,9 +127,13 @@
           <h3>Citation</h3>
           <code><font size=2 color="black">
           @inproceedings{Bisk2020,<br>
-          &nbsp;&nbsp;author = {Yonatan Bisk and Rowan Zellers and Ronan Le Bras and Jianfeng Gao and Yejin Choi},<br>
-          &nbsp;&nbsp;title = {PIQA: Reasoning about Physical Commonsense in Natural Language},<br>
-          &nbsp;&nbsp;booktitle = {Thirty-Fourth AAAI Conference on Artificial Intelligence},<br>
+          &nbsp;&nbsp;author = {Yonatan Bisk and Rowan Zellers and <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ronan Le Bras and Jianfeng Gao<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Yejin Choi},<br>
+          &nbsp;&nbsp;title = {PIQA: Reasoning about Physical Commonsense in<br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Natural Language},<br>
+          &nbsp;&nbsp;booktitle = {Thirty-Fourth AAAI Conference on<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Artificial Intelligence},<br>
           &nbsp;&nbsp;year = {2020},<br>
           }
           </font></code>
@@ -165,21 +169,36 @@
           </tr>
           <tr class="roberta">
             <td>1</td>
-            <td>RoBERTa-Large<p class="institution">Run by AI2<br>lr 1e-5, 8 ep, 4/batch/GPU (4x V100), max seq 150</p></td>
+            <td>RoBERTa-Large<p class="institution">Baseline<br>lr 1e-5, 8 ep, 4/batch/GPU (4x V100), max seq 150</p></td>
             <td>77.1</td>
           </tr>
-          <tr class="gpt">
+          <tr class="vered1">
             <td>2</td>
-            <td>OpenAI GPT<p class="institution">Run by AI2</p></td>
+            <td>Zero-shot GPT-XL self-talk with GPT-medium<p class="institution">AI2</p></td>
+            <td>69.5</td>
+          </tr>
+          <tr class="gpt">
+            <td>3</td>
+            <td>OpenAI GPT<p class="institution">Baseline</p></td>
             <td>69.2</td>
           </tr>
+          <tr class="vered2">
+            <td>4</td>
+            <td>Zero-shot GPT-XL with COMET<p class="institution">AI2</p></td>
+            <td>68.4</td>
+          </tr>
+          <tr class="vered3">
+            <td>5</td>
+            <td>Zero-shot GPT-XL<p class="institution">AI2</p></td>
+            <td>63.4</td>
+          </tr>
           <tr class="bert-large">
-            <td>3</td>
-            <td>BERT-Large<p class="institution">Run by AI2<br>lr 1e-5, 8 ep, 6/batch/GPU (4x V100), max seq 150</p></td>
+            <td>6</td>
+            <td>BERT-Large<p class="institution">Baseline<br>lr 1e-5, 8 ep, 6/batch/GPU (4x V100), max seq 150</p></td>
             <td>66.8</td>
           </tr>
           <tr class="majority-class">
-            <td>4</td>
+            <td>7</td>
             <td>Majority Class</td>
             <td>50.4</td>
           </tr>
