@@ -70,8 +70,8 @@ for cat, pub, title, year, url, authors, venue, acr, extra in pubs:
   entry = entry.replace("#CAT#", " ".join(cat))
 
   if pub == "un":
-    entry = entry.replace("#BIBREC#", "unpublished")
-    entry = entry.replace("#BOOK#", "booktitle")
+    entry = entry.replace("#BIBREC#", "article")
+    entry = entry.replace("#BOOK#", "journal")
   elif pub == "proc":
     entry = entry.replace("#BIBREC#", "inproceedings")
     entry = entry.replace("#BOOK#", "booktitle")
