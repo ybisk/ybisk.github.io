@@ -15,6 +15,9 @@ function Gender_BS() {
     ['2014',83.93,16.07],
     ['2015',80.00,20.00],
     ['2016',74.77,25.23],
+    ['2017',71.87,28.13],
+    ['2018',70.06,29.84],
+    ['2019',69.54,30.46],
   ]);
   var options = {
     title: 'Gender BS @ UIUC',
@@ -112,6 +115,9 @@ function Gender_PhD() {
     ['2014',77.30,22.70],
     ['2015',78.06,21.94],
     ['2016',77.19,22.81],
+    ['2016',79.26,20.74],
+    ['2016',80.29,19.71],
+    ['2019',82.22,17.78],
   ]);
   var options = {
     title: 'Gender PhD @ UIUC',
@@ -247,7 +253,7 @@ var data = new google.visualization.DataTable();
 google.charts.setOnLoadCallback(Race_Domestic_BS);
 function Race_Domestic_BS() {
   var data = google.visualization.arrayToDataTable([
-    ['Year','Caucasian','Asian American','African American','Hispanic','Multiracial','Unknown'],
+    ['Year','Caucasian','Asian Am.','African Am.','Hispanic','Multiracial','Unknown'],
     ['2004',68.26,    24.85,    1.50,    3.74,    0.00,    1.65],
     ['2005',70.00,    22.00,    1.50,    4.50,    0.00,    1.67],
     ['2006',68.26,    23.23,    1.24,    5.32,    0.00,    1.60],
@@ -261,6 +267,9 @@ function Race_Domestic_BS() {
     ['2014',48.86,    41.90,    1.65,    3.42,    2.28,    1.77],
     ['2015',44.08,    45.86,    1.66,    4.20,    2.68,    1.53],
     ['2016',38.48,    48.35,    2.53,    5.19,    3.54,    1.90],
+    ['2017',37.55,    47.72,    2.75,    6.34,    4.31,    1.12],
+    ['2018',34.52,    49.82,    2.57,    6.12,    4.65,    2.20],
+    ['2019',31.42,    53.37,    3.49,    5.24,    3.62,    2.74],
   ]);
   var options = {
     title: 'Domestic BS @ UIUC',
@@ -281,7 +290,7 @@ function Race_Domestic_BS() {
 google.charts.setOnLoadCallback(Race_Domestic_PhD);
 function Race_Domestic_PhD() {
   var data = google.visualization.arrayToDataTable([
-    ['Year','Caucasian','Asian American','African American','Hispanic','Multiracial','Unknown'],
+    ['Year','Caucasian','Asian Am.','African Am.','Hispanic','Multiracial','Unknown'],
     ['2004',75.19,    20.16,    1.55,    2.33, 0.00,    0.78],
     ['2005',70.83,    25.83,    1.67,    1.67, 0.00,    0.00],
     ['2006',77.45,    17.65,    2.94,    0.98, 0.00,    0.98],
@@ -295,6 +304,9 @@ function Race_Domestic_PhD() {
     ['2014',70.83,    17.71,    3.13,    3.13, 4.17,    1.04],
     ['2015',63.64,    23.23,    2.02,    6.06, 4.04,    1.01],
     ['2016',60.58,    23.08,    1.92,    8.65, 3.85,    0.96],
+    ['2017',58.33,    22.22,    0.93,    12.04, 3.70,   1.85],
+    ['2018',54.70,    24.79,    0.00,    11.97, 5.98,   1.70],
+    ['2019',49.63,    25.19,    2.22,    14.07, 4.44,   3.70],
   ]);
   var options = {
     title: 'Domestic PhD @ UIUC',
