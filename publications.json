@@ -1,0 +1,817 @@
+[
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "journal",
+    "BIBREC": "article",
+    "TITLE": "The Return of Lexical Dependencies: Neural Lexicalized PCFGs",
+    "YEAR": "2020",
+    "url": "http://arxiv.org/abs/2007.15135",
+    "authors": [
+      "Hao Zhu",
+      "Yonatan Bisk",
+      "Graham Neubig"
+    ],
+    "VENUE": "Transactions of the Association for Computational Linguistics",
+    "VENUE-ACR": "TACL",
+    "extras": {
+      "Code": "https://github.com/neulab/neural-lpcfg"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "article",
+    "BIBREC": "journal",
+    "TITLE": "Experience Grounds Lanuage",
+    "YEAR": "2020",
+    "url": "https://arxiv.org/abs/2004.10151",
+    "authors": [
+      "Yonatan Bisk",
+      "Ari Holtzman",
+      "Jesse Thomason",
+      "Jacob Andreas",
+      "Yoshua Bengio",
+      "Joyce Chai",
+      "Mirella Lapata",
+      "Angeliki Lazaridou",
+      "Jonathan May",
+      "Aleksandr Nisnevich",
+      "Nicolas Pinto",
+      "Joseph Turian"
+    ],
+    "VENUE": "ArXiv",
+    "VENUE-ACR": "ArXiv",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "V"
+    ],
+    "BOOK": "article",
+    "BIBREC": "journal",
+    "TITLE": "RMM: A Recursive Mental Model for Dialog Navigation",
+    "YEAR": "2020",
+    "url": "https://arxiv.org/abs/2005.00728",
+    "authors": [
+      "Homero Roman Roman",
+      "Yonatan Bisk",
+      "Jesse Thomason",
+      "Asli Celikyilmaz",
+      "Jianfeng Gao"
+    ],
+    "VENUE": "ArXiv",
+    "VENUE-ACR": "ArXiv",
+    "extras": {
+      "Code": "https://github.com/HomeroRR/rmm"
+    }
+  },
+  {
+    "cat": [
+      "L",
+      "V"
+    ],
+    "BOOK": "article",
+    "BIBREC": "journal",
+    "TITLE": "A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos",
+    "YEAR": "2020",
+    "url": "https://arxiv.org/abs/2005.00706",
+    "authors": [
+      "Frank F. Xu",
+      "Lei Ji",
+      "Botian Shi",
+      "Junyi Du",
+      "Graham Neubig",
+      "Yonatan Bisk",
+      "Nan Duan"
+    ],
+    "VENUE": "ArXiv",
+    "VENUE-ACR": "ArXiv",
+    "extras": {
+      "Code": "https://github.com/frankxu2004/cooking-procedural-extraction"
+    }
+  },
+  {
+    "cat": [
+      "V",
+      "L",
+      "R"
+    ],
+    "BOOK": "article",
+    "BIBREC": "journal",
+    "TITLE": "Multi-View Learning for Vision-and-Language Navigation",
+    "YEAR": "2020",
+    "url": "https://arxiv.org/abs/2003.00857",
+    "authors": [
+      "Qiaolin Xia",
+      "Xiujun Li",
+      "Chunyuan Li",
+      "Yonatan Bisk",
+      "Zhifang Sui",
+      "Jianfeng Gao",
+      "Yejin Choi",
+      "Noah A. Smith"
+    ],
+    "VENUE": "ArXiv",
+    "VENUE-ACR": "ArXiv",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "V",
+      "L",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
+    "YEAR": "2020",
+    "url": "https://askforalfred.com/",
+    "authors": [
+      "Mohit Shridhar",
+      "Jesse Thomason",
+      "Daniel Gordon",
+      "Yonatan Bisk",
+      "Winson Han",
+      "Roozbeh Mottaghi",
+      "Luke Zettlemoyer",
+      "Dieter Fox"
+    ],
+    "VENUE": "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "VENUE-ACR": "CVPR",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+    "YEAR": "2020",
+    "url": "https://yonatanbisk.com/piqa",
+    "authors": [
+      "Yonatan Bisk",
+      "Rowan Zellers",
+      "Ronan Le Bras",
+      "Jianfeng Gao",
+      "Yejin Choi"
+    ],
+    "VENUE": "Thirty-Fourth AAAI Conference on Artificial Intelligence",
+    "VENUE-ACR": "AAAI (Oral)",
+    "extras": {
+      "DARPA": "https://leaderboard.allenai.org/physicaliqa/submissions/public",
+      "Slides": "papers/2020-AAAI-PIQA-Slides.pdf"
+    }
+  },
+  {
+    "cat": [
+      "L",
+      "V",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Robust Navigation with Language Pretraining and Stochastic Sampling",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1909.02244",
+    "authors": [
+      "Xiujun Li",
+      "Chunyuan Li",
+      "Qiaolin Xia",
+      "Yonatan Bisk",
+      "Asli Celikyilmaz",
+      "Jianfeng Gao",
+      "Noah A. Smith",
+      "Yejin Choi"
+    ],
+    "VENUE": "Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing",
+    "VENUE-ACR": "EMNLP-IJCNLP",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "O"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Defending Against Neural Fake News",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1905.12616",
+    "authors": [
+      "Rowan Zellers",
+      "Ari Holtzman",
+      "Hannah Rashkin",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Franziska Roesner",
+      "Yejin Choi"
+    ],
+    "VENUE": "Thirty-third Conference on Neural Information Processing Systems",
+    "VENUE-ACR": "NeurIPS",
+    "extras": {
+      "Demo": "http://rowanzellers.com/grover/",
+      "Models": "https://docs.google.com/forms/d/e/1FAIpQLSfPMUXH1fdUxI3TchRS9RaEJ_W-W-adZhQ-_MymHnGkGOlBkA/viewform"
+    }
+  },
+  {
+    "cat": [
+      "O"
+    ],
+    "BOOK": "article",
+    "BIBREC": "journal",
+    "TITLE": "FIND: Identifying Functionally and Structurally Important Features in Protein Sequences with Deep Neural Networks",
+    "YEAR": "2019",
+    "url": "https://www.biorxiv.org/content/10.1101/592808v1",
+    "authors": [
+      "Ranjani Murali",
+      "James Hemp",
+      "Victoria Orphan",
+      "Yonatan Bisk"
+    ],
+    "VENUE": "bioRxiv",
+    "VENUE-ACR": "bioRxiv",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Improving Robot Success Detection using Static Object Data",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1904.01650",
+    "authors": [
+      "Rosario Scalise",
+      "Jesse Thomason",
+      "Yonatan Bisk",
+      "Siddhartha Srinivasa"
+    ],
+    "VENUE": "Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "VENUE-ACR": "IROS",
+    "extras": {
+      "Video": "https://www.youtube.com/watch?v=0uk_1yP9hqM"
+    }
+  },
+  {
+    "cat": [
+      "R",
+      "V"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Early Fusion for Goal Directed Robotic Vision",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1811.08824",
+    "authors": [
+      "Aaron Walsman",
+      "Yonatan Bisk",
+      "Saadia Gabriel",
+      "Dipendra Misra",
+      "Yoav Artzi",
+      "Yejin Choi",
+      "Dieter Fox"
+    ],
+    "VENUE": "Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "VENUE-ACR": "IROS",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "HellaSwag: Can a Machine Really Finish Your Sentence? ",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1905.07830",
+    "authors": [
+      "Rowan Zellers",
+      "Ari Holtzman",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "VENUE": "Proceedings of the Association for Computational Linguistics",
+    "VENUE-ACR": "ACL",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "V"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "From Recognition to Cognition: Visual Commonsense Reasoning",
+    "YEAR": "2019",
+    "url": "http://visualcommonsense.com/",
+    "authors": [
+      "Rowan Zellers",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "VENUE": "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "VENUE-ACR": "CVPR (Oral)",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "V",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1903.02547",
+    "authors": [
+      "Liyiming Ke",
+      "Xiujun Li",
+      "Yonatan Bisk",
+      "Ari Holtzman",
+      "Zhe Gan",
+      "Jingjing Liu",
+      "Jianfeng Gao",
+      "Yejin Choi",
+      "Siddhartha Srinivasa"
+    ],
+    "VENUE": "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "VENUE-ACR": "CVPR (Oral)",
+    "extras": {
+      "Video": "https://youtu.be/AD9TNohXoPA"
+    }
+  },
+  {
+    "cat": [
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Prospection: Interpretable Plans From Language By Predicting the Future",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1903.08309",
+    "authors": [
+      "Chris Paxton",
+      "Yonatan Bisk",
+      "Jesse Thomason",
+      "Arunkumar Byravan",
+      "Dieter Fox"
+    ],
+    "VENUE": "Proceedings of the International Conference on Robotics and Automation (ICRA)",
+    "VENUE-ACR": "ICRA",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "V"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Shifting the Baseline: Single Modality Performance on Visual Navigation & QA",
+    "YEAR": "2019",
+    "url": "https://arxiv.org/abs/1811.00613",
+    "authors": [
+      "Jesse Thomason",
+      "Daniel Gordon",
+      "Yonatan Bisk"
+    ],
+    "VENUE": "Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "VENUE-ACR": "NAACL Short",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Benchmarking Hierarchical Script Knowledge",
+    "YEAR": "2019",
+    "url": "https://www.aclweb.org/anthology/N19-1412",
+    "authors": [
+      "Yonatan Bisk",
+      "Jan Buys",
+      "Karl Pichotta",
+      "Yejin Choi"
+    ],
+    "VENUE": "Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "VENUE-ACR": "NAACL Short (Oral)",
+    "extras": {
+      "Code": "https://github.com/janmbuys/ScriptTransduction/"
+    }
+  },
+  {
+    "cat": [
+      "O"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Character-based Surprisal as a Model of Reading Difficulty in the Presence of Errors",
+    "YEAR": "2019",
+    "url": "https://psyarxiv.com/zcwgn/",
+    "authors": [
+      "Michael Hahn",
+      "Frank Keller",
+      "Yonatan Bisk",
+      "Yonatan Belinkov"
+    ],
+    "VENUE": "The 41st Annual Meeting of the Cognitive Science Society",
+    "VENUE-ACR": "CogSci (Oral)",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference",
+    "YEAR": "2018",
+    "url": "http://rowanzellers.com/swag/",
+    "authors": [
+      "Rowan Zellers",
+      "Yonatan Bisk",
+      "Roy Schwartz",
+      "Yejin Choi"
+    ],
+    "VENUE": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "VENUE-ACR": "EMNLP (Oral)",
+    "extras": {
+      "Talk": "https://vimeo.com/305195438"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Inducing Grammars with and for Neural Machine Translation",
+    "YEAR": "2018",
+    "url": "https://arxiv.org/abs/1805.10850",
+    "authors": [
+      "Ke Tran",
+      "Yonatan Bisk"
+    ],
+    "VENUE": "Proceedings of the 2nd Workshop on Neural Machine Translation",
+    "VENUE-ACR": "Wksp on NMT (best paper)",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "O"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Bridging HMMs and RNNs through Architectural Transformations",
+    "YEAR": "2018",
+    "url": "https://openreview.net/pdf?id=rJxEso0osm",
+    "authors": [
+      "Jan Buys",
+      "Yonatan Bisk",
+      "Yejin Choi"
+    ],
+    "VENUE": "32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL workshop",
+    "VENUE-ACR": "IRASL wksp @ NeurIPS",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Synthetic and Natural Noise Both Break Neural Machine Translation ",
+    "YEAR": "2018",
+    "url": "https://arxiv.org/abs/1711.02173",
+    "authors": [
+      "Yonatan Belinkov",
+      "Yonatan Bisk"
+    ],
+    "VENUE": "Proceedings of the 6th International Conference on Learning Representations",
+    "VENUE-ACR": "ICLR (Oral)",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "V"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "CHALET: Cornell House Agent Learning Environment ",
+    "YEAR": "2018",
+    "url": "https://arxiv.org/abs/1801.07357",
+    "authors": [
+      "Claudia Yan",
+      "Dipendra Misra",
+      "Andrew Bennett",
+      "Aaron Walsman",
+      "Yonatan Bisk",
+      "Yoav Artzi"
+    ],
+    "VENUE": "ArXiv Preprint 1801.07357",
+    "VENUE-ACR": "Tech Report",
+    "extras": {
+      "Simulator": "https://github.com/lil-lab/chalet"
+    }
+  },
+  {
+    "cat": [
+      "L",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Learning Interpretable Spatial Operations in a Rich 3D Blocks World\u00a0",
+    "YEAR": "2018",
+    "url": "/papers/2018-AAAI.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Kevin Shih",
+      "Yejin Choi",
+      "Daniel Marcu"
+    ],
+    "VENUE": "Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18)",
+    "VENUE-ACR": "AAAI",
+    "extras": {
+      "Data": "https://groundedlanguage.github.io/",
+      "Poster": "/papers/2018-AAAI-Poster.pdf"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Natural Language Inference from Multiple Premises",
+    "YEAR": "2017",
+    "url": "https://arxiv.org/abs/1710.02925",
+    "authors": [
+      "Alice Lai",
+      "Yonatan Bisk",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
+    "VENUE-ACR": "IJCNLP (Oral)",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Natural Language Communication with Robots ",
+    "YEAR": "2016",
+    "url": "https://www.aclweb.org/anthology/N16-1089.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Deniz Yuret",
+      "Daniel Marcu"
+    ],
+    "VENUE": "Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "VENUE-ACR": "NAACL (Oral)",
+    "extras": {
+      "Data": "https://groundedlanguage.github.io/",
+      "Slides": "/papers/2016-NAACL-Slides.pdf",
+      "Talk": "http://techtalks.tv/talks/natural-language-communication-with-robots/62284/"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Supertagging with LSTMs",
+    "YEAR": "2016",
+    "url": "https://www.aclweb.org/anthology/N16-1027.pdf",
+    "authors": [
+      "Ashish Vaswani",
+      "Yonatan Bisk",
+      "Kenji Sagae",
+      "Ryan Musa"
+    ],
+    "VENUE": "Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics (Short Papers)",
+    "VENUE-ACR": "NAACL Short (Oral)",
+    "extras": {
+      "Talk": "http://techtalks.tv/talks/supertagging-with-lstms/62251/"
+    }
+  },
+  {
+    "cat": [
+      "L",
+      "R"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Towards a Dataset for Human Computer Communication via Grounded Language Acquisition ",
+    "YEAR": "2016",
+    "url": "/papers/2016-AAAI-Wksp.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Daniel Marcu",
+      "William Wong"
+    ],
+    "VENUE": "Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems",
+    "VENUE-ACR": "Symbolic Cognitive Systems Wksp",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Unsupervised Neural Hidden Markov Models  ",
+    "YEAR": "2016",
+    "url": "/papers/2016-EMNLP-StrcPred.pdf",
+    "authors": [
+      "Ke Tran",
+      "Yonatan Bisk",
+      "Ashish Vaswani",
+      "Daniel Marcu",
+      "Kevin Knight"
+    ],
+    "VENUE": "Proceedings of the Workshop on Structured Prediction for NLP",
+    "VENUE-ACR": "Structure Pred Wksp (Oral)",
+    "extras": {
+      "Slides": "/papers/2016-EMNLP-StrcPred-Slides.pdf"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Evaluating Induced CCG Parsers on Grounded Semantic Parsing ",
+    "YEAR": "2016",
+    "url": "http://sivareddy.in/papers/bisk2016evaluating.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Siva Reddy",
+      "John Blitzer",
+      "Julia Hockenmaier",
+      "Mark Steedman"
+    ],
+    "VENUE": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+    "VENUE-ACR": "EMNLP",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "school",
+    "BIBREC": "phdthesis",
+    "TITLE": "Unsupervised Grammar Induction with Combinatory Categorial Grammars",
+    "YEAR": "2015",
+    "url": "Thesis.pdf",
+    "authors": [
+      "Yonatan Bisk"
+    ],
+    "VENUE": "University of Illinois at Urbana-Champaign",
+    "VENUE-ACR": "PhD Thesis",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction",
+    "YEAR": "2015",
+    "url": "/papers/2015-ACL.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "VENUE-ACR": "ACL (Oral)",
+    "extras": {
+      "Talk": "http://techtalks.tv/talks/probing-the-linguistic-strengths-and-limitations-of-unsupervised-grammar-induction/61817/"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Labeled Grammar Induction with Minimal Supervision  ",
+    "YEAR": "2015",
+    "url": "/papers/2015-ACLShort-Fixed.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Christos Christodoulopoulos",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    "VENUE-ACR": "ACL Short",
+    "extras": {
+      "Poster": "/papers/2015_ACLShort_Poster.pdf"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "journal",
+    "BIBREC": "article",
+    "TITLE": "An HDP Model for Inducing Combinatory Categorial Grammars",
+    "YEAR": "2013",
+    "url": "/papers/2013-TACL.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "Transactions of the Association for Computational Linguistics",
+    "VENUE-ACR": "TACL Vol 1.",
+    "extras": {
+      "Slides": "/papers/2013-TACL-Slides.pdf",
+      "Talk": "http://techtalks.tv/talks/tacl-an-hdp-model-for-inducing-combinatory-categorial-grammars/58520/"
+    }
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Simple Robust Grammar Induction with Combinatory Categorial Grammar ",
+    "YEAR": "2012",
+    "url": "/papers/2012-AAAI.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)",
+    "VENUE-ACR": "AAAI",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "O"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Document-Topic Hierarchies from Document Graphs ",
+    "YEAR": "2012",
+    "url": "/papers/2012-CIKM.pdf",
+    "authors": [
+      "Tim Weninger",
+      "Yonatan Bisk",
+      "Jiawei Han"
+    ],
+    "VENUE": "Proceedings of the 21st ACM international conference on Information and knowledge management (CIKM 2012)",
+    "VENUE-ACR": "CIKM",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Induction of Linguistic Structure with Combinatory Categorial Grammars ",
+    "YEAR": "2012",
+    "url": "/papers/2012-NAACL-WILS.pdf",
+    "authors": [
+      "Yonatan Bisk",
+      "Julia Hockenmaier"
+    ],
+    "VENUE": "NAACL HLT Workshop on Induction of Linguistic Structure",
+    "VENUE-ACR": "Inducing Ling Structure Wksp",
+    "extras": {}
+  },
+  {
+    "cat": [
+      "L"
+    ],
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Normal-form parsing for CCGs with generalized composition and type-raising",
+    "YEAR": "2010",
+    "url": "/papers/2010-COLING.pdf",
+    "authors": [
+      "Julia Hockenmaier",
+      "Yonatan Bisk"
+    ],
+    "VENUE": "Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010)",
+    "VENUE-ACR": "Coling",
+    "extras": {}
+  }
+]
