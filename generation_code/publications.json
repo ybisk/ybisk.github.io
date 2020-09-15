@@ -23,9 +23,9 @@
     "cat": [
       "L"
     ],
-    "BOOK": "article",
-    "BIBREC": "journal",
-    "TITLE": "Experience Grounds Lanuage",
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
+    "TITLE": "Experience Grounds Language",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2004.10151",
     "authors": [
@@ -42,8 +42,8 @@
       "Nicolas Pinto",
       "Joseph Turian"
     ],
-    "VENUE": "ArXiv",
-    "VENUE-ACR": "ArXiv",
+    "VENUE": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "VENUE-ACR": "EMNLP",
     "extras": {}
   },
   {
@@ -51,8 +51,8 @@
       "L",
       "V"
     ],
-    "BOOK": "article",
-    "BIBREC": "journal",
+    "BOOK": "inproceedings",
+    "BIBREC": "booktitle",
     "TITLE": "RMM: A Recursive Mental Model for Dialog Navigation",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2005.00728",
@@ -63,8 +63,8 @@
       "Asli Celikyilmaz",
       "Jianfeng Gao"
     ],
-    "VENUE": "ArXiv",
-    "VENUE-ACR": "ArXiv",
+    "VENUE": "Findings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+    "VENUE-ACR": "EMNLP-Findings",
     "extras": {
       "Code": "https://github.com/HomeroRR/rmm"
     }
