@@ -4,7 +4,6 @@
       "L"
     ],
     "BOOK": "journal",
-    "BIBREC": "article",
     "TITLE": "The Return of Lexical Dependencies: Neural Lexicalized PCFGs",
     "YEAR": "2020",
     "url": "http://arxiv.org/abs/2007.15135",
@@ -24,7 +23,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Experience Grounds Language",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2004.10151",
@@ -52,7 +50,6 @@
       "V"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "RMM: A Recursive Mental Model for Dialog Navigation",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2005.00728",
@@ -74,8 +71,7 @@
       "L",
       "V"
     ],
-    "BOOK": "article",
-    "BIBREC": "journal",
+    "BOOK": "journal",
     "TITLE": "A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2005.00706",
@@ -100,8 +96,7 @@
       "L",
       "R"
     ],
-    "BOOK": "article",
-    "BIBREC": "journal",
+    "BOOK": "journal",
     "TITLE": "Multi-View Learning for Vision-and-Language Navigation",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2003.00857",
@@ -126,7 +121,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
     "YEAR": "2020",
     "url": "https://askforalfred.com/",
@@ -150,7 +144,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "PIQA: Reasoning about Physical Commonsense in Natural Language",
     "YEAR": "2020",
     "url": "https://yonatanbisk.com/piqa",
@@ -175,7 +168,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Robust Navigation with Language Pretraining and Stochastic Sampling",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1909.02244",
@@ -199,7 +191,6 @@
       "O"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Defending Against Neural Fake News",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1905.12616",
@@ -223,8 +214,7 @@
     "cat": [
       "O"
     ],
-    "BOOK": "article",
-    "BIBREC": "journal",
+    "BOOK": "journal",
     "TITLE": "FIND: Identifying Functionally and Structurally Important Features in Protein Sequences with Deep Neural Networks",
     "YEAR": "2019",
     "url": "https://www.biorxiv.org/content/10.1101/592808v1",
@@ -243,7 +233,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Improving Robot Success Detection using Static Object Data",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1904.01650",
@@ -265,7 +254,6 @@
       "V"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Early Fusion for Goal Directed Robotic Vision",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1811.08824",
@@ -287,7 +275,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "HellaSwag: Can a Machine Really Finish Your Sentence? ",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1905.07830",
@@ -307,7 +294,6 @@
       "V"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "From Recognition to Cognition: Visual Commonsense Reasoning",
     "YEAR": "2019",
     "url": "http://visualcommonsense.com/",
@@ -327,7 +313,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1903.02547",
@@ -353,7 +338,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Prospection: Interpretable Plans From Language By Predicting the Future",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1903.08309",
@@ -374,7 +358,6 @@
       "V"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Shifting the Baseline: Single Modality Performance on Visual Navigation & QA",
     "YEAR": "2019",
     "url": "https://arxiv.org/abs/1811.00613",
@@ -392,7 +375,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Benchmarking Hierarchical Script Knowledge",
     "YEAR": "2019",
     "url": "https://www.aclweb.org/anthology/N19-1412",
@@ -413,7 +395,6 @@
       "O"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Character-based Surprisal as a Model of Reading Difficulty in the Presence of Errors",
     "YEAR": "2019",
     "url": "https://psyarxiv.com/zcwgn/",
@@ -432,7 +413,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference",
     "YEAR": "2018",
     "url": "http://rowanzellers.com/swag/",
@@ -453,7 +433,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Inducing Grammars with and for Neural Machine Translation",
     "YEAR": "2018",
     "url": "https://arxiv.org/abs/1805.10850",
@@ -471,7 +450,6 @@
       "O"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Bridging HMMs and RNNs through Architectural Transformations",
     "YEAR": "2018",
     "url": "https://openreview.net/pdf?id=rJxEso0osm",
@@ -489,7 +467,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Synthetic and Natural Noise Both Break Neural Machine Translation ",
     "YEAR": "2018",
     "url": "https://arxiv.org/abs/1711.02173",
@@ -506,7 +483,6 @@
       "V"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "CHALET: Cornell House Agent Learning Environment ",
     "YEAR": "2018",
     "url": "https://arxiv.org/abs/1801.07357",
@@ -530,7 +506,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Learning Interpretable Spatial Operations in a Rich 3D Blocks World\u00a0",
     "YEAR": "2018",
     "url": "/papers/2018-AAAI.pdf",
@@ -552,7 +527,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Natural Language Inference from Multiple Premises",
     "YEAR": "2017",
     "url": "https://arxiv.org/abs/1710.02925",
@@ -571,7 +545,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Natural Language Communication with Robots ",
     "YEAR": "2016",
     "url": "https://www.aclweb.org/anthology/N16-1089.pdf",
@@ -593,7 +566,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Supertagging with LSTMs",
     "YEAR": "2016",
     "url": "https://www.aclweb.org/anthology/N16-1027.pdf",
@@ -615,7 +587,6 @@
       "R"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Towards a Dataset for Human Computer Communication via Grounded Language Acquisition ",
     "YEAR": "2016",
     "url": "/papers/2016-AAAI-Wksp.pdf",
@@ -633,7 +604,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Unsupervised Neural Hidden Markov Models  ",
     "YEAR": "2016",
     "url": "/papers/2016-EMNLP-StrcPred.pdf",
@@ -655,7 +625,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Evaluating Induced CCG Parsers on Grounded Semantic Parsing ",
     "YEAR": "2016",
     "url": "http://sivareddy.in/papers/bisk2016evaluating.pdf",
@@ -675,7 +644,6 @@
       "L"
     ],
     "BOOK": "school",
-    "BIBREC": "phdthesis",
     "TITLE": "Unsupervised Grammar Induction with Combinatory Categorial Grammars",
     "YEAR": "2015",
     "url": "/papers/Thesis.pdf",
@@ -691,7 +659,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction",
     "YEAR": "2015",
     "url": "/papers/2015-ACL.pdf",
@@ -710,7 +677,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Labeled Grammar Induction with Minimal Supervision  ",
     "YEAR": "2015",
     "url": "/papers/2015-ACLShort-Fixed.pdf",
@@ -730,7 +696,6 @@
       "L"
     ],
     "BOOK": "journal",
-    "BIBREC": "article",
     "TITLE": "An HDP Model for Inducing Combinatory Categorial Grammars",
     "YEAR": "2013",
     "url": "/papers/2013-TACL.pdf",
@@ -750,7 +715,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Simple Robust Grammar Induction with Combinatory Categorial Grammar ",
     "YEAR": "2012",
     "url": "/papers/2012-AAAI.pdf",
@@ -767,7 +731,6 @@
       "O"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Document-Topic Hierarchies from Document Graphs ",
     "YEAR": "2012",
     "url": "/papers/2012-CIKM.pdf",
@@ -785,7 +748,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Induction of Linguistic Structure with Combinatory Categorial Grammars ",
     "YEAR": "2012",
     "url": "/papers/2012-NAACL-WILS.pdf",
@@ -802,7 +764,6 @@
       "L"
     ],
     "BOOK": "inproceedings",
-    "BIBREC": "booktitle",
     "TITLE": "Normal-form parsing for CCGs with generalized composition and type-raising",
     "YEAR": "2010",
     "url": "/papers/2010-COLING.pdf",
