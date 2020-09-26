@@ -9,9 +9,9 @@ webs = json.load(open("websites.json"))
 
 # Load template
 website = "".join([line for line in open("index_template.html")])
-bibrec = {"journal": "article", 
+bibrec = {"article":"journal", 
           "inproceedings":"booktitle", 
-          "school": "phdthesis" }
+          "phdthesis": "school" }
 colors = {"L":"primary", 
           "R": "success", 
           "V": "danger", 
@@ -34,9 +34,9 @@ def create_html_entry(entry, idx):
     html = html.replace("##LINKS##", without)
 
   # Replace most values
-  for key in ["YEAR", "VENUE", "VENUE-ACR", "TITLE", "BOOK"]:
+  for key in ["YEAR", "VENUE", "VENUE-ACR", "TITLE", "BIBREC"]:
     html = html.replace("#{}#".format(key), entry[key])
-  html = html.replace("#BIBREC#", bibrec[entry["BOOK"]])
+  html = html.replace("#BOOK#", bibrec[entry["BIBREC"]])
   html = html.replace("#YEAR-btn#", entry["YEAR"] if entry["VENUE"] != "ArXiv" else "Pre.")
   html = html.replace("#TYPE#", colors[entry["cat"][0]])
   html = html.replace("#CAT#", " ".join(entry["cat"]))
