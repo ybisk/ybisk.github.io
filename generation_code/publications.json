@@ -1,6 +1,28 @@
 [
   {
     "cat": [
+      "L","V"
+    ],
+    "BIBREC": "inproceedings",
+    "TITLE": "Imagining Grounded Conceptual Representations from Perceptual Information in Situated Guessing Games",
+    "YEAR": "2020",
+    "url": "",
+    "authors": [
+      "Alessandro Suglia", 
+      "Antonio Vergari", 
+      "Ioannis Konstas", 
+      "Yonatan Bisk",
+      "Emanuele Bastianelli", 
+      "Andrea Vanzo", 
+      "Oliver Lemon"
+    ],
+    "VENUE": "The 28th International Conference on Computational Linguistics",
+    "VENUE-ACR": "Coling",
+    "extras": {
+    }
+  },
+  {
+    "cat": [
       "L"
     ],
     "BIBREC": "article",
