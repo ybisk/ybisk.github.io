@@ -93,7 +93,7 @@
       "L",
       "V"
     ],
-    "BIBREC": "article",
+    "BIBREC": "inproceedings",
     "TITLE": "A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos",
     "YEAR": "2020",
     "url": "https://arxiv.org/abs/2005.00706",
@@ -106,8 +106,8 @@
       "Yonatan Bisk",
       "Nan Duan"
     ],
-    "VENUE": "ArXiv",
-    "VENUE-ACR": "ArXiv",
+    "VENUE": "Workshop on NLP Beyond Text",
+    "VENUE-ACR": "NLPBT",
     "extras": {
       "Code": "https://github.com/frankxu2004/cooking-procedural-extraction"
     }
