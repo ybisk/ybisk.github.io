@@ -1,11 +1,12 @@
 import ast
 import json
+import yaml
 
 # Load Publications 
-pubs = json.load(open("publications.json"))
+pubs = yaml.load(open("publications.yaml"), Loader=yaml.CLoader)
 
 # Load Author urls
-webs = json.load(open("websites.json"))
+webs = yaml.load(open("websites.yaml"), Loader=yaml.CLoader)
 
 # Load template
 website = "".join([line for line in open("index_template.html")])
@@ -27,9 +28,9 @@ def create_html_entry(entry, idx):
   html = html.replace("#IDX#", str(idx))
 
   # Do we have a URL?
-  if "url" in entry:
+  if "URL" in entry:
     html = html.replace("##LINKS##", with_url)
-    html = html.replace("#URL#", entry["url"])
+    html = html.replace("#URL#", entry["URL"])
   else:
     html = html.replace("##LINKS##", without)
 
@@ -42,32 +43,33 @@ def create_html_entry(entry, idx):
   html = html.replace("#CAT#", " ".join(entry["cat"]))
 
   # Authors
-  me = entry["authors"].index("Yonatan Bisk")
+  me = entry["AUTHORS"].index("Yonatan Bisk")
   # If I'm first author -- remove field
   if me == 0:
     html = html.replace("#AUTH1#", "")
   else:
-    html = html.replace("#AUTH1#", ", ".join(entry["authors"][:me]) + ", ")
+    html = html.replace("#AUTH1#", ", ".join(entry["AUTHORS"][:me]) + ", ")
 
   # If I'm last author -- remove field
-  if me == len(entry["authors"]) - 1:
+  if me == len(entry["AUTHORS"]) - 1:
     html = html.replace("#AUTH2#", "")
   else:
-    html = html.replace("#AUTH2#", ", " + ", ".join(entry["authors"][me+1:]))
+    html = html.replace("#AUTH2#", ", " + ", ".join(entry["AUTHORS"][me+1:]))
 
   # Add links to all co-authors
   for v in webs:
     html = html.replace(v, "<a href={}>{}</a>".format(webs[v], v))
 
   # Generate cite key from first author
-  html = html.replace("#CITEKEY#", entry["authors"][0].split()[-1] + entry["YEAR"])
-  html = html.replace("#AUTH-BIB#", " and ".join(entry["authors"]))
+  html = html.replace("#CITEKEY#", entry["AUTHORS"][0].split()[-1] + entry["YEAR"])
+  html = html.replace("#AUTH-BIB#", " and ".join(entry["AUTHORS"]))
 
   # Include extra links
   additional = ""
-  for key in entry["extras"]:
-    link = entry["extras"][key]
-    additional += "&nbsp;<a href=\"{}\" onclick=\"captureOutboundLink('{}');\">[{}]</a>".format(link, link, key)
+  if "EXTRAS" in entry:
+    for key in entry["EXTRAS"]:
+      link = entry["EXTRAS"][key]
+      additional += "&nbsp;<a href=\"{}\" onclick=\"captureOutboundLink('{}');\">[{}]</a>".format(link, link, key)
   html = html.replace("#EXTRA#", additional)
 
   return html
