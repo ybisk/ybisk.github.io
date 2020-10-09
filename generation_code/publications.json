@@ -3,6 +3,27 @@
     "cat": [
       "L","V"
     ],
+    "BIBREC": "article",
+    "TITLE": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "YEAR": "2020",
+    "url": "https://alfworld.github.io/",
+    "authors": [
+      "Mohit Shridhar",
+      "Xingdi (Eric) Yuan",
+      "Marc-Alexandre Côté",
+      "Yonatan Bisk",
+      "Adam Trischler", 
+      "Matthew Hausknecht"
+    ],
+    "VENUE": "ArXiv",
+    "VENUE-ACR": "ArXiv",
+    "extras": {
+    }
+  },
+  {
+    "cat": [
+      "L","V"
+    ],
     "BIBREC": "inproceedings",
     "TITLE": "Imagining Grounded Conceptual Representations from Perceptual Information in Situated Guessing Games",
     "YEAR": "2020",
