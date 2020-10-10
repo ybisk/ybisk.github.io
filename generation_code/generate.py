@@ -23,8 +23,6 @@ colors = {
           "A": "secondary"
         }
 
-with_url = "          <a href=#URL# onclick=\"captureOutboundLink('#URL#');\"><b>#TITLE#</b></a>#EXTRA#\n"
-
 def create_html_entry(entry, idx):
   # Read entry template
   html = "".join([line for line in open("entry.html")])
@@ -66,6 +64,7 @@ def create_html_entry(entry, idx):
   html = html.replace("#EXTRA#", additional)
 
   return html
+
 
 def create_latex_entry(entry):
   tex = "\pub{#YEAR#}\n\t{\href{#URL#}{#TITLE#}}\n\t{#AUTHORS#}\n\t{#VENUE#}{#PRESENTATION#}{}\n"
