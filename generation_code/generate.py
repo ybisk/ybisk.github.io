@@ -24,19 +24,11 @@ colors = {
         }
 
 with_url = "          <a href=#URL# onclick=\"captureOutboundLink('#URL#');\"><b>#TITLE#</b></a>#EXTRA#\n"
-without = "          <b>#TITLE#</b>#EXTRA#\n"
 
 def create_html_entry(entry, idx):
   # Read entry template
   html = "".join([line for line in open("entry.html")])
   html = html.replace("#IDX#", str(idx))
-
-  # Do we have a URL?
-  if "URL" in entry:
-    html = html.replace("##LINKS##", with_url)
-    html = html.replace("#URL#", entry["URL"])
-  else:
-    html = html.replace("##LINKS##", without)
 
   # Authors
   authors = ", ".join(entry["AUTHORS"])
@@ -57,7 +49,8 @@ def create_html_entry(entry, idx):
             "#FIELDS#":    " ".join(entry["FIELD"]),
             "#CITEKEY#":   entry["AUTHORS"][0].split()[-1] + entry["YEAR"],
             "#AUTH-BIB#":  " and ".join(entry["AUTHORS"]),
-            "#AUTHORS#":    authors
+            "#AUTHORS#":    authors,
+            "#URL#":       entry["URL"]
           }
 
   # Replace values
@@ -117,4 +110,5 @@ out = open("CV.tex",'wt')
 out.write(latex)
 out.close()
 os.system("pdflatex CV.tex")
+os.system("rm CV.tex CV.log CV.aux CV.out")
 os.system("mv CV.pdf ../")
