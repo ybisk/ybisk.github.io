@@ -1,8 +1,8 @@
 ---
-- cat:
+- FIELD:
   - L
   - V
-  BIBREC: article
+  TYPE: preprint
   TITLE: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
   YEAR: '2020'
   URL: https://alfworld.github.io/
@@ -15,10 +15,10 @@
   - Matthew Hausknecht
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- cat:
+- FIELD:
   - L
   - V
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Imagining Grounded Conceptual Representations from Perceptual Information
     in Situated Guessing Games
   YEAR: '2020'
@@ -33,9 +33,9 @@
   - Oliver Lemon
   VENUE: The 28th International Conference on Computational Linguistics
   VENUE-ACR: Coling
-- cat:
+- FIELD:
   - L
-  BIBREC: article
+  TYPE: journal
   TITLE: 'The Return of Lexical Dependencies: Neural Lexicalized PCFGs'
   YEAR: '2020'
   URL: http://arxiv.org/abs/2007.15135
@@ -47,9 +47,9 @@
   VENUE-ACR: TACL
   EXTRAS:
     Code: https://github.com/neulab/neural-lpcfg
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Experience Grounds Language
   YEAR: '2020'
   URL: https://arxiv.org/abs/2004.10151
@@ -69,10 +69,10 @@
   VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
     Processing (EMNLP)
   VENUE-ACR: EMNLP
-- cat:
+- FIELD:
   - L
   - V
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'RMM: A Recursive Mental Model for Dialog Navigation'
   YEAR: '2020'
   URL: https://arxiv.org/abs/2005.00728
@@ -87,10 +87,10 @@
   VENUE-ACR: EMNLP-Findings
   EXTRAS:
     Code: https://github.com/HomeroRR/rmm
-- cat:
+- FIELD:
   - L
   - V
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos
   YEAR: '2020'
   URL: https://arxiv.org/abs/2005.00706
@@ -106,11 +106,11 @@
   VENUE-ACR: NLPBT
   EXTRAS:
     Code: https://github.com/frankxu2004/cooking-procedural-extraction
-- cat:
+- FIELD:
   - V
   - L
   - R
-  BIBREC: article
+  TYPE: preprint
   TITLE: Multi-View Learning for Vision-and-Language Navigation
   YEAR: '2020'
   URL: https://arxiv.org/abs/2003.00857
@@ -125,11 +125,11 @@
   - Noah A. Smith
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- cat:
+- FIELD:
   - V
   - L
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday
     Tasks'
   YEAR: '2020'
@@ -145,10 +145,10 @@
   - Dieter Fox
   VENUE: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   VENUE-ACR: CVPR
-- cat:
+- FIELD:
   - L
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'PIQA: Reasoning about Physical Commonsense in Natural Language'
   YEAR: '2020'
   URL: https://yonatanbisk.com/piqa
@@ -163,11 +163,11 @@
   EXTRAS:
     DARPA: https://leaderboard.allenai.org/physicaliqa/submissions/public
     Slides: papers/2020-AAAI-PIQA-Slides.pdf
-- cat:
+- FIELD:
   - L
   - V
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Robust Navigation with Language Pretraining and Stochastic Sampling
   YEAR: '2019'
   URL: https://arxiv.org/abs/1909.02244
@@ -183,10 +183,10 @@
   VENUE: Conference on Empirical Methods in Natural Language Processing and 9th International
     Joint Conference on Natural Language Processing
   VENUE-ACR: EMNLP-IJCNLP
-- cat:
+- FIELD:
   - L
   - O
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Defending Against Neural Fake News
   YEAR: '2019'
   URL: https://arxiv.org/abs/1905.12616
@@ -203,9 +203,9 @@
   EXTRAS:
     Demo: http://rowanzellers.com/grover/
     Models: https://docs.google.com/forms/d/e/1FAIpQLSfPMUXH1fdUxI3TchRS9RaEJ_W-W-adZhQ-_MymHnGkGOlBkA/viewform
-- cat:
+- FIELD:
   - O
-  BIBREC: article
+  TYPE: preprint
   TITLE: 'FIND: Identifying Functionally and Structurally Important Features in Protein
     Sequences with Deep Neural Networks'
   YEAR: '2019'
@@ -217,9 +217,9 @@
   - Yonatan Bisk
   VENUE: bioRxiv
   VENUE-ACR: bioRxiv
-- cat:
+- FIELD:
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Improving Robot Success Detection using Static Object Data
   YEAR: '2019'
   URL: https://arxiv.org/abs/1904.01650
@@ -233,10 +233,10 @@
   VENUE-ACR: IROS
   EXTRAS:
     Video: https://www.youtube.com/watch?v=0uk_1yP9hqM
-- cat:
+- FIELD:
   - R
   - V
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Early Fusion for Goal Directed Robotic Vision
   YEAR: '2019'
   URL: https://arxiv.org/abs/1811.08824
@@ -251,9 +251,9 @@
   VENUE: Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent
     Robots and Systems
   VENUE-ACR: IROS
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'HellaSwag: Can a Machine Really Finish Your Sentence? '
   YEAR: '2019'
   URL: https://arxiv.org/abs/1905.07830
@@ -265,9 +265,9 @@
   - Yejin Choi
   VENUE: Proceedings of the Association for Computational Linguistics
   VENUE-ACR: ACL
-- cat:
+- FIELD:
   - V
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'From Recognition to Cognition: Visual Commonsense Reasoning'
   YEAR: '2019'
   URL: http://visualcommonsense.com/
@@ -278,10 +278,10 @@
   - Yejin Choi
   VENUE: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   VENUE-ACR: CVPR (Oral)
-- cat:
+- FIELD:
   - V
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language
     Navigation'
   YEAR: '2019'
@@ -300,9 +300,9 @@
   VENUE-ACR: CVPR (Oral)
   EXTRAS:
     Video: https://youtu.be/AD9TNohXoPA
-- cat:
+- FIELD:
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Prospection: Interpretable Plans From Language By Predicting the Future'
   YEAR: '2019'
   URL: https://arxiv.org/abs/1903.08309
@@ -314,10 +314,10 @@
   - Dieter Fox
   VENUE: Proceedings of the International Conference on Robotics and Automation (ICRA)
   VENUE-ACR: ICRA
-- cat:
+- FIELD:
   - L
   - V
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Shifting the Baseline: Single Modality Performance on Visual Navigation
     & QA'
   YEAR: '2019'
@@ -329,9 +329,9 @@
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   VENUE-ACR: NAACL Short
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Benchmarking Hierarchical Script Knowledge
   YEAR: '2019'
   URL: https://www.aclweb.org/anthology/N19-1412
@@ -345,9 +345,9 @@
   VENUE-ACR: NAACL Short (Oral)
   EXTRAS:
     Code: https://github.com/janmbuys/ScriptTransduction/
-- cat:
+- FIELD:
   - O
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Character-based Surprisal as a Model of Reading Difficulty in the Presence
     of Errors
   YEAR: '2019'
@@ -359,9 +359,9 @@
   - Yonatan Belinkov
   VENUE: The 41st Annual Meeting of the Cognitive Science Society
   VENUE-ACR: CogSci (Oral)
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference'
   YEAR: '2018'
   URL: http://rowanzellers.com/swag/
@@ -375,9 +375,9 @@
   VENUE-ACR: EMNLP (Oral)
   EXTRAS:
     Talk: https://vimeo.com/305195438
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: Inducing Grammars with and for Neural Machine Translation
   YEAR: '2018'
   URL: https://arxiv.org/abs/1805.10850
@@ -386,10 +386,10 @@
   - Yonatan Bisk
   VENUE: Proceedings of the 2nd Workshop on Neural Machine Translation
   VENUE-ACR: Wksp on NMT (best paper)
-- cat:
+- FIELD:
   - L
   - O
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: Bridging HMMs and RNNs through Architectural Transformations
   YEAR: '2018'
   URL: https://openreview.net/pdf?id=rJxEso0osm
@@ -400,9 +400,9 @@
   VENUE: 32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL
     workshop
   VENUE-ACR: IRASL wksp @ NeurIPS
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Synthetic and Natural Noise Both Break Neural Machine Translation '
   YEAR: '2018'
   URL: https://arxiv.org/abs/1711.02173
@@ -411,9 +411,9 @@
   - Yonatan Bisk
   VENUE: Proceedings of the 6th International Conference on Learning Representations
   VENUE-ACR: ICLR (Oral)
-- cat:
+- FIELD:
   - V
-  BIBREC: inproceedings
+  TYPE: preprint
   TITLE: 'CHALET: Cornell House Agent Learning Environment '
   YEAR: '2018'
   URL: https://arxiv.org/abs/1801.07357
@@ -428,13 +428,13 @@
   VENUE-ACR: Tech Report
   EXTRAS:
     Simulator: https://github.com/lil-lab/chalet
-- cat:
+- FIELD:
   - L
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Learning Interpretable Spatial Operations in a Rich 3D Blocks World 
   YEAR: '2018'
-  URL: "/papers/2018-AAAI.pdf"
+  URL: "http://www.yonatanbisk.com/papers/2018-AAAI.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Kevin Shih
@@ -444,10 +444,10 @@
   VENUE-ACR: AAAI
   EXTRAS:
     Data: https://groundedlanguage.github.io/
-    Poster: "/papers/2018-AAAI-Poster.pdf"
-- cat:
+    Poster: "http://www.yonatanbisk.com/papers/2018-AAAI-Poster.pdf"
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Natural Language Inference from Multiple Premises
   YEAR: '2017'
   URL: https://arxiv.org/abs/1710.02925
@@ -458,10 +458,10 @@
   VENUE: Proceedings of the Eighth International Joint Conference on Natural Language
     Processing
   VENUE-ACR: IJCNLP (Oral)
-- cat:
+- FIELD:
   - L
   - R
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Natural Language Communication with Robots '
   YEAR: '2016'
   URL: https://www.aclweb.org/anthology/N16-1089.pdf
@@ -474,11 +474,11 @@
   VENUE-ACR: NAACL (Oral)
   EXTRAS:
     Data: https://groundedlanguage.github.io/
-    Slides: "/papers/2016-NAACL-Slides.pdf"
+    Slides: "http://www.yonatanbisk.com/papers/2016-NAACL-Slides.pdf"
     Talk: http://techtalks.tv/talks/natural-language-communication-with-robots/62284/
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Supertagging with LSTMs
   YEAR: '2016'
   URL: https://www.aclweb.org/anthology/N16-1027.pdf
@@ -492,26 +492,26 @@
   VENUE-ACR: NAACL Short (Oral)
   EXTRAS:
     Talk: http://techtalks.tv/talks/supertagging-with-lstms/62251/
-- cat:
+- FIELD:
   - L
   - R
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: 'Towards a Dataset for Human Computer Communication via Grounded Language
     Acquisition '
   YEAR: '2016'
-  URL: "/papers/2016-AAAI-Wksp.pdf"
+  URL: "http://www.YonatanBisk.com/papers/2016-AAAI-Wksp.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Daniel Marcu
   - William Wong
   VENUE: Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems
   VENUE-ACR: Symbolic Cognitive Systems Wksp
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: 'Unsupervised Neural Hidden Markov Models  '
   YEAR: '2016'
-  URL: "/papers/2016-EMNLP-StrcPred.pdf"
+  URL: "https://www.aclweb.org/anthology/W16-5907.pdf"
   AUTHORS:
   - Ke Tran
   - Yonatan Bisk
@@ -521,10 +521,10 @@
   VENUE: Proceedings of the Workshop on Structured Prediction for NLP
   VENUE-ACR: Structure Pred Wksp (Oral)
   EXTRAS:
-    Slides: "/papers/2016-EMNLP-StrcPred-Slides.pdf"
-- cat:
+    Slides: "http://www.YonatanBisk.com/papers/2016-EMNLP-StrcPred-Slides.pdf"
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Evaluating Induced CCG Parsers on Grounded Semantic Parsing '
   YEAR: '2016'
   URL: http://sivareddy.in/papers/bisk2016evaluating.pdf
@@ -537,23 +537,23 @@
   VENUE: Proceedings of the 2016 Conference on Empirical Methods in Natural Language
     Processing
   VENUE-ACR: EMNLP
-- cat:
+- FIELD:
   - L
-  BIBREC: phdthesis
+  TYPE: phdthesis
   TITLE: Unsupervised Grammar Induction with Combinatory Categorial Grammars
   YEAR: '2015'
-  URL: "/papers/Thesis.pdf"
+  URL: "http://www.YonatanBisk.com/papers/Thesis.pdf"
   AUTHORS:
   - Yonatan Bisk
   VENUE: University of Illinois at Urbana-Champaign
   VENUE-ACR: PhD Thesis
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Probing the Linguistic Strengths and Limitations of Unsupervised Grammar
     Induction
   YEAR: '2015'
-  URL: "/papers/2015-ACL.pdf"
+  URL: "https://www.aclweb.org/anthology/P15-1135.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
@@ -563,12 +563,12 @@
   VENUE-ACR: ACL (Oral)
   EXTRAS:
     Talk: http://techtalks.tv/talks/probing-the-linguistic-strengths-and-limitations-of-unsupervised-grammar-induction/61817/
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Labeled Grammar Induction with Minimal Supervision  '
   YEAR: '2015'
-  URL: "/papers/2015-ACLShort-Fixed.pdf"
+  URL: "http://www.YonatanBisk.com/papers/2015-ACLShort-Fixed.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Christos Christodoulopoulos
@@ -578,38 +578,38 @@
     (Volume 2: Short Papers)'
   VENUE-ACR: ACL Short
   EXTRAS:
-    Poster: "/papers/2015_ACLShort_Poster.pdf"
-- cat:
+    Poster: "http://www.YonatanBisk.com/papers/2015_ACLShort_Poster.pdf"
+- FIELD:
   - L
-  BIBREC: article
+  TYPE: journal
   TITLE: An HDP Model for Inducing Combinatory Categorial Grammars
   YEAR: '2013'
-  URL: "/papers/2013-TACL.pdf"
+  URL: "https://www.aclweb.org/anthology/Q13-1007.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
   VENUE: Transactions of the Association for Computational Linguistics
   VENUE-ACR: TACL Vol 1.
   EXTRAS:
-    Slides: "/papers/2013-TACL-Slides.pdf"
+    Slides: "http://www.YonatanBisk.com/papers/2013-TACL-Slides.pdf"
     Talk: http://techtalks.tv/talks/tacl-an-hdp-model-for-inducing-combinatory-categorial-grammars/58520/
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Simple Robust Grammar Induction with Combinatory Categorial Grammar '
   YEAR: '2012'
-  URL: "/papers/2012-AAAI.pdf"
+  URL: "http://www.YonatanBisk.com/papers/2012-AAAI.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
   VENUE: Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)
   VENUE-ACR: AAAI
-- cat:
+- FIELD:
   - O
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: 'Document-Topic Hierarchies from Document Graphs '
   YEAR: '2012'
-  URL: "/papers/2012-CIKM.pdf"
+  URL: "http://www.YonatanBisk.com/papers/2012-CIKM.pdf"
   AUTHORS:
   - Tim Weninger
   - Yonatan Bisk
@@ -617,23 +617,23 @@
   VENUE: Proceedings of the 21st ACM international conference on Information and knowledge
     management (CIKM 2012)
   VENUE-ACR: CIKM
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: workshop
   TITLE: 'Induction of Linguistic Structure with Combinatory Categorial Grammars '
   YEAR: '2012'
-  URL: "/papers/2012-NAACL-WILS.pdf"
+  URL: "http://www.YonatanBisk.com/papers/2012-NAACL-WILS.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   VENUE-ACR: Inducing Ling Structure Wksp
-- cat:
+- FIELD:
   - L
-  BIBREC: inproceedings
+  TYPE: conference
   TITLE: Normal-form parsing for CCGs with generalized composition and type-raising
   YEAR: '2010'
-  URL: "/papers/2010-COLING.pdf"
+  URL: "https://www.aclweb.org/anthology/C10-1053.pdf"
   AUTHORS:
   - Julia Hockenmaier
   - Yonatan Bisk
