@@ -16,6 +16,37 @@
         </script>
 
         <script>
+        <!-- https://www.w3schools.com/howto/howto_js_filter_table.asp -->
+        function mySearch() {
+          // Declare variables
+          var filter, tr, td, i, txtValue;
+          filter = document.getElementById("myInput").value.toUpperCase();
+          tr = document.getElementsByClassName("rTableRow");
+
+          if (filter.length == 0) {
+            for (i = 0; i < tr.length; i++) {
+              tr[i].removeAttribute("hidden");
+            }
+          } else {
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByClassName("rTableCell")[1];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1 && filter.length != 0) {
+                  tr[i].removeAttribute("hidden");
+                } else {
+                  tr[i].hidden = true;
+                }
+              }
+            }
+          }
+        }
+        </script>
+
+
+
+        <script>
             /**
 * Function that captures a click on an outbound link in Analytics.
 * This function takes a valid URL string as an argument, and uses that URL string
@@ -156,6 +187,7 @@
                     <button type="button" id="bRobo"  class="btn btn-outline-success"   onclick="area('R','LVO');">Robotics</button>
                     <button type="button" id="bCV"    class="btn btn-outline-danger"    onclick="area('V','LRO');">Vision</button>
                     <button type="button" id="bOther" class="btn btn-outline-warning"   onclick="area('O','LRV');">Other</button>
+                or <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search ...">
                 </center>
 
                 </td></tr>
