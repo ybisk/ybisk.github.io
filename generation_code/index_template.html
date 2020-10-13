@@ -3,6 +3,9 @@
 
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <meta name=viewport content="width=device-width">
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -13,6 +16,18 @@
             ga('create', 'UA-8024377-2', 'auto');
             ga('send', 'pageview');
 
+        </script>
+
+        <script>
+            function copyDivToClipboard(idx) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(idx));
+                window.getSelection().removeAllRanges(); // clear current selection
+                window.getSelection().addRange(range); // to select text
+                document.execCommand("copy");
+                $('[id="button' + idx + '"]').attr('data-original-title', "Copied!").tooltip('show')
+                window.getSelection().removeAllRanges();// to deselect
+            }
         </script>
 
         <script>
@@ -48,11 +63,11 @@
 
         <script>
             /**
-* Function that captures a click on an outbound link in Analytics.
-* This function takes a valid URL string as an argument, and uses that URL string
-* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-* using 'navigator.sendBeacon' in browser that support it.
-*/
+              * Function that captures a click on an outbound link in Analytics.
+              * This function takes a valid URL string as an argument, and uses that URL string
+              * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+              * using 'navigator.sendBeacon' in browser that support it.
+              */
             var captureOutboundLink = function(url) {
                 ga('send', 'event', 'outbound', 'click', url, {
                     'transport': 'beacon',
@@ -62,11 +77,11 @@
             }
         </script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">
         </script>
         <script language="javascript">
             function show( elem ) {
                 $('#'+elem).toggle();
+                copyDivToClipboard(elem);
             }
         </script>
 
@@ -213,6 +228,11 @@
                   </div></div>
               </td></tr></table>
 
+        <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
 
   </body>
 </html>

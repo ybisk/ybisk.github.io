@@ -4,7 +4,11 @@
       <div class="rTableCell col-md-11">
           <a href=#URL# onclick="captureOutboundLink('#URL#');"><b>#TITLE#</b></a>#EXTRA#
           <div style="float: right; clear: right;">
-              <a href=javascript:void(0) onclick="show('idx#IDX#')"><i>#VENUE-ACR#</i></a>
+              <button type="button" class="btn btn-light btn-clipboard" title
+                data-original-title="Copy BibTex" id="buttonidx#IDX#"
+                href="javascript:void(0)" onclick="show('idx#IDX#')">
+                <i>#VENUE-ACR#</i></a>
+              </button>
           </div>
           <br>
           <object width=20px height=0px></object>#AUTHORS#

@@ -32,10 +32,6 @@ h2 {
     margin-top: 1.3em;
 }
 
-.button {
-    color : 000000;
-    text-decoration:none;
-}
 
 a {
     color: #000000;
@@ -81,4 +77,14 @@ img {
 
 .rTableCell {
   padding-left:1px;
+}
+
+.btn-clipboard {
+    top: .25rem;
+    right: .25rem;
+    display: block;
+    padding: .25rem .25rem;
+    border: 10;
+    font-size:11px;
+    border-radius: .5rem;
 }
