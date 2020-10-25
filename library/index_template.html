@@ -24,11 +24,10 @@ Yonatan's Paper Library
                 range.selectNode(document.getElementById(idx));
                 window.getSelection().removeAllRanges(); // clear current selection
                 window.getSelection().addRange(range); // to select text
-                
+                navigator.clipboard.writeText(range.toString());
                 // https://stackoverflow.com/questions/30050678/show-bootstrap-alert-box-on-a-button-click
-                $("#bibAlert").append("<div class='alert alert-success alert-dismissable' id='bibAlert2'> <button type='button' class='close' data-dismiss='alert'  aria-hidden='true'>&times;</button>" + range.toString() + "</div>");
+                $("#bibAlert").append("<div class='alert alert-success alert-dismissable' id='bibAlert2'> <button type='button' class='close' data-dismiss='alert'  aria-hidden='true'>&times;</button><b>Copied:</b><br>" + range.toString().replace(/(\r\n|\n|\r)/gm,"<br>&nbsp;&nbsp;&nbsp;&nbsp;") + "</div>");
 
-                document.execCommand("copy");
                 $('[id="button' + idx + '"]').attr('data-original-title', "Copied!").tooltip('show')
                 window.getSelection().removeAllRanges();// to deselect
                 $("#myAlert").css("display", "");
