@@ -7036,6 +7036,7 @@
   YEAR: '2004'
   date: 2004/02/20
   file: https://github.com/ybisk/papers/blob/master/2004/Slobin_From_Thought_and_Language_to_Thinking_for_Speaking.pdf
+  URL: https://philarchive.org/archive/SLOFTA
   month: '02'
   pages: '14'
 - AUTHORS:
@@ -18374,18 +18375,6 @@
   file: https://github.com/ybisk/papers/blob/master/2011/TsarfatyNivreAndersson_Evaluating_Dependency_Parsing_Robust_and_HeuristicsFree_CrossAnnotation_Evaluation.pdf
   month: '07'
 - AUTHORS:
-  - Reut Tsarfaty
-  - Joakim Nivre
-  - Evelina Andersson
-  TITLE: Evaluating Dependency Parsing
-  TYPE: journal
-  VENUE: The Israeli Seminar for Computational Linguistics
-  YEAR: '2011'
-  date: 2011/06/02
-  file: https://github.com/ybisk/papers/blob/master/2011/TsarfatyNivreAndersson_Evaluating_Dependency_Parsing.pdf
-  month: '06'
-  pages: 1--35
-- AUTHORS:
   - Q D Atkinson
   TITLE: Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion
     from Africa
@@ -19349,7 +19338,7 @@
   TITLE: A Comparison of Loopy Belief Propagation and Dual Decomposition for Integrated
     CCG Supertagging and Parsing
   TYPE: conference
-  URL: http://www.cs.jhu.edu/~alopez/papers/auli_acl2011_lbp_vs_dd.pdf
+  URL: https://www.aclweb.org/anthology/P11-1048/
   VENUE: 'Proceedings of the 49th Annual Meeting of the Association for Computational
     Linguistics: Human Language Technologies'
   YEAR: '2011'
@@ -19387,18 +19376,6 @@
   number: '0'
   pages: 0--0
   volume: '0'
-- AUTHORS:
-  - David McClosky
-  - Mihai Surdeanu
-  - Christopher D Manning
-  TITLE: Event Extraction as Dependency Parsing for BioNLP 2011
-  TYPE: conference
-  URL: http://stanford.edu/~mcclosky/papers/dmcc-bionlp-2011.pdf
-  VENUE: Natural Language Processing in Biomedicine ACL 2011 Workshop
-  YEAR: '2011'
-  date: 2011/01/01
-  file: https://github.com/ybisk/papers/blob/master/2011/McCloskySurdeanuManning_Event_Extraction_as_Dependency_Parsing_for_BioNLP_2011.pdf
-  month: '01'
 - AUTHORS:
   - David McClosky
   - Mihai Surdeanu
@@ -20125,7 +20102,7 @@
   - Ben Taskar
   TITLE: Learning Determinantal Point Processes
   TYPE: conference
-  URL: http://www.seas.upenn.edu/~taskar/pubs/ldpps_uai11.pdf
+  URL: https://arxiv.org/abs/1202.3738
   VENUE: Uncertainty in Artificial Intelligence
   YEAR: '2011'
   date: 2011/01/01
@@ -20899,96 +20876,6 @@
   month: '07'
   pages: 194--204
 - AUTHORS:
-  - Danny Dig
-  TITLE: Programming with j.u.c Collections and Synchronizers
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/Lec10_ConcurrentCollectionsAndSynchronizers.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Programming_with_juc_Collections_and_Synchronizers.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Parallelism in Java 7 and beyond
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L6_ForkJoinTask.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Parallelism_in_Java_7_and_beyond.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Introduction to Parallelism
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L1_Intro_MulticoreArch.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Introduction_to_Parallelism.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Correctness and Scalability
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L8_CorrectnessAndScalability.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Correctness_and_Scalability.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: 'Multi-core Programming: Basic Concepts'
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L2_ThreadingConcepts.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Multicore_Programming_Basic_Concepts.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Programming with java.util.concurrent.atomic
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L9_Atomics.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Programming_with_javautilconcurrentatomic.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Programming with Java Threads
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L4_Programming+with+Java+Threads.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Programming_with_Java_Threads.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Programming with ThreadPools
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/L5_Programming+with+ThreadPools.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Programming_with_ThreadPools.pdf
-  month: '07'
-- AUTHORS:
-  - Danny Dig
-  TITLE: Refeactoring for Parallelism
-  TYPE: journal
-  URL: https://wiki.engr.illinois.edu/download/attachments/202146190/Lec16_RefactoringToParallelism.pdf?version
-  VENUE: I2PC
-  YEAR: '2012'
-  date: 2012/07/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Dig_Refeactoring_for_Parallelism.pdf
-  month: '07'
-- AUTHORS:
   - Pedro Domingos
   TITLE: A Few Useful Things to Know about Machine Learning
   TYPE: journal
@@ -21477,7 +21364,7 @@
   - Julia Hockenmaier
   TITLE: Simple Robust Grammar Induction with Combinatory Categorial Grammars
   TYPE: conference
-  URL: http://illinois.edu/
+  URL: http://www.yonatanbisk.com/papers/2012-AAAI.pdf
   VENUE: Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)
   YEAR: '2012'
   address: Toronto, Canada
@@ -21492,6 +21379,7 @@
   TYPE: conference
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   YEAR: '2012'
+  URL: https://www.aclweb.org/anthology/W12-1912/
   address: Montr{\'e}al, Canada
   date: 2012/06/01
   file: https://github.com/ybisk/papers/blob/master/2012/BiskHockenmaier_Induction_of_Linguistic_Structure_with_Combinatory_Categorial_Grammars.pdf
@@ -21848,56 +21736,6 @@
   month: '06'
   pages: 466--476
   publisher: Association for Computational Linguistics
-- AUTHORS:
-  - Shalom Lappin
-  TITLE: Expressive and Computational Power
-  TYPE: journal
-  VENUE: NASSLLI
-  YEAR: '2012'
-  date: 2012/06/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Lappin_Expressive_and_Computational_Power.pdf
-  month: '06'
-  pages: 1--142
-- AUTHORS:
-  - Shalom Lappin
-  TITLE: Property Theory with Curry Typing
-  TYPE: journal
-  VENUE: NASSLLI
-  YEAR: '2012'
-  date: 2012/06/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Lappin_Property_Theory_with_Curry_Typing.pdf
-  month: '06'
-  pages: 1--129
-- AUTHORS:
-  - Shalom Lappin
-  TITLE: Fine Grained Intensional Theories
-  TYPE: journal
-  VENUE: NASSLLI
-  YEAR: '2012'
-  date: 2012/06/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Lappin_Fine_Grained_Intensional_Theories.pdf
-  month: '06'
-  pages: 1--123
-- AUTHORS:
-  - Shalom Lappin
-  TITLE: Representing Meaning and Entailment
-  TYPE: journal
-  VENUE: NASSLLI
-  YEAR: '2012'
-  date: 2012/06/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Lappin_Representing_Meaning_and_Entailment.pdf
-  month: '06'
-  pages: 1--180
-- AUTHORS:
-  - Shalom Lappin
-  TITLE: Probabilistic Semantics*
-  TYPE: journal
-  VENUE: NASSLLI
-  YEAR: '2012'
-  date: 2012/06/01
-  file: https://github.com/ybisk/papers/blob/master/2012/Lappin_Probabilistic_Semantics.pdf
-  month: '06'
-  pages: 1--181
 - AUTHORS:
   - Katya Alahverdzhieva
   - Dan Flickinger
@@ -30055,19 +29893,6 @@
   - Jacob Eisenstein
   TITLE: A Latent Variable Recurrent Neural Network for Discourse Relation Language
     Models
-  TYPE: journal
-  URL: http://arxiv.org/abs/1603.01913
-  VENUE: ArXiv
-  YEAR: '2016'
-  date: 2016/03/07
-  file: https://github.com/ybisk/papers/blob/master/2016/JiHaffariEisenstein_A_Latent_Variable_Recurrent_Neural_Network_for_Discourse_Relation_Language_Models.pdf
-  month: '03'
-- AUTHORS:
-  - Yangfeng Ji
-  - Gholamreza Haffari
-  - Jacob Eisenstein
-  TITLE: A Latent Variable Recurrent Neural Network for Discourse-Driven Language
-    Models
   TYPE: conference
   URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1037.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
@@ -30075,7 +29900,7 @@
   YEAR: '2016'
   address: San Diego, California
   date: 2016/06/01
-  file: https://github.com/ybisk/papers/blob/master/2016/JiHaffariEisenstein_A_Latent_Variable_Recurrent_Neural_Network_for_DiscourseDriven_Language_Models.pdf
+  file: https://github.com/ybisk/papers/blob/master/2016/JiHaffariEisenstein_A_Latent_Variable_Recurrent_Neural_Network_for_Discourse_Relation_Language_Models.pdf
   month: '06'
   pages: 332--342
   publisher: Association for Computational Linguistics
@@ -32440,7 +32265,7 @@
   TITLE: Towards a Dataset for Human Computer Communication via Grounded Language
     Acquisition
   TYPE: conference
-  URL: https://mail.google.com/mail/u/0/
+  URL: https://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf
   VENUE: Proceedings of the AAAI Workshop on Symbiotic Cognitive Systems
   YEAR: '2016'
   date: 2016/02/01
@@ -33908,6 +33733,7 @@
   TYPE: conference
   VENUE: Proceedings of the Eighth International Joint Conference on Natural Language
     Processing
+  URL: https://arxiv.org/abs/1710.02925
   YEAR: '2017'
   address: Taipei, Taiwan
   file: https://github.com/ybisk/papers/blob/master/2017/LaiBiskHockenmaier_Natural_Language_Inference_from_Multiple_Premises.pdf
@@ -36317,6 +36143,7 @@
   TYPE: conference
   VENUE: Proceedings of the 2nd Workshop on Neural Machine Translation
   YEAR: '2018'
+  URL: https://arxiv.org/abs/1805.10850
   address: Melbourne, Australia
   file: https://github.com/ybisk/papers/blob/master/2018/TranBisk_Inducing_Grammars_with_and_for_Neural_Machine_Translation.pdf
 - AUTHORS:
@@ -36458,6 +36285,7 @@
   TYPE: conference
   VENUE: 32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL
     workshop
+  URL: https://openreview.net/pdf?id=rJxEso0osm
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/BuysBiskChoi_Bridging_HMMs_and_RNNs_through_Architectural_Transformations.pdf
 - AUTHORS:
@@ -36467,6 +36295,7 @@
   - Yejin Choi
   TITLE: 'SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference'
   TYPE: conference
+  URL: http://rowanzellers.com/swag/
   VENUE: Proceedings of the 2018 Conference on Empirical Methods in Natural Language
     Processing (EMNLP)
   YEAR: '2018'
@@ -37594,6 +37423,7 @@
   TITLE: Learning Interpretable Spatial Operations in a Rich 3D Blocks World
   TYPE: conference
   VENUE: Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18)
+  URL: https://yonatanbisk.com/papers/2018-AAAI.pdf
   YEAR: '2018'
   address: New Orleans, USA
   file: https://github.com/ybisk/papers/blob/master/2018/BiskShihChoiMarcu_Learning_Interpretable_Spatial_Operations_in_a_Rich_3D_Blocks_World.pdf
@@ -38924,6 +38754,7 @@
   TITLE: Character-based Surprisal as a Model of Reading Difficulty in the Presence
     of Errors
   TYPE: conference
+  URL: https://psyarxiv.com/zcwgn/
   VENUE: The 41st Annual Meeting of the Cognitive Science Society
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/HahnKellerBiskBelinkov_Characterbased_Surprisal_as_a_Model_of_Reading_Difficulty_in_the_Presence_of_Errors.pdf
@@ -38984,6 +38815,7 @@
   TYPE: conference
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
+  URL: https://arxiv.org/abs/1811.00613
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ThomasonGordonBisk_Shifting_the_Baseline_Single_Modality_Performance_on_Visual_Navigation_QA.pdf
 - AUTHORS:
@@ -39100,6 +38932,7 @@
   TITLE: 'HellaSwag: Can a Machine Really Finish Your Sentence?'
   TYPE: conference
   VENUE: Proceedings of the Association for Computational Linguistics
+  URL: https://rowanzellers.com/hellaswag/
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ZellersHoltzmanBiskFarhadiChoi_HellaSwag_Can_a_Machine_Really_Finish_Your_Sentence.pdf
 - AUTHORS:
@@ -39114,6 +38947,7 @@
   TYPE: conference
   VENUE: Thirty-third Conference on Neural Information Processing Systems
   YEAR: '2019'
+  URL: https://arxiv.org/abs/1905.12616
   file: https://github.com/ybisk/papers/blob/master/2019/ZellersHoltzmanRashkinBiskFarhadi_Defending_Against_Neural_Fake_News.pdf
 - AUTHORS:
   - Maarten Sap
@@ -39202,6 +39036,7 @@
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   YEAR: '2019'
+  URL: https://www.aclweb.org/anthology/N19-1412/
   file: https://github.com/ybisk/papers/blob/master/2019/BiskBuysPichottaChoi_Benchmarking_Hierarchical_Script_Knowledge.pdf
 - AUTHORS:
   - Jos{\'e} Luis Blanco Claraco
