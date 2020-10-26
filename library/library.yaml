@@ -18547,6 +18547,7 @@
   YEAR: '2011'
   date: 2011/03/01
   doi: 10.1162/coli_a_00037
+  URL: https://www.aclweb.org/anthology/J11-1005/
   file: https://github.com/ybisk/papers/blob/master/2011/ZhangClark_Syntactic_Processing_Using_the_Generalized_Perceptron_and_Beam_Search.pdf
   month: '03'
   number: '1'
@@ -18615,7 +18616,7 @@
   - Michael Collins
   TITLE: Dual Decomposition for Natural Language Processing
   TYPE: conference
-  URL: http://file:///Volumes/ACL_2011/Tutorials/pdf/Tutorials006.pdf
+  URL: https://www.aclweb.org/anthology/P11-5006/
   VENUE: 'Proceedings of the 49th Annual Meeting of the Association for Computational
     Linguistics: Human Language Technologies'
   YEAR: '2011'
@@ -29210,6 +29211,7 @@
   YEAR: '2016'
   address: Center for Complex Network Research and Physics Department, Northeastern
     University, Boston, MA 02115, USA.
+  URL: https://science.sciencemag.org/content/354/6312/aaf5239/tab-pdf
   date: 2016/11/04
   doi: 10.1126/science.aaf5239
   file: https://github.com/ybisk/papers/blob/master/2016/SinatraWangDevilleSongBarabasi_Quantifying_the_evolution_of_individual_scientific_impact.pdf
@@ -39965,20 +39967,6 @@
   pages: 40--49
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-01'
-- AUTHORS:
-  - Maxine Eskenazi
-  - Shikib Mehri
-  - Evgeniia Razumovskaia
-  - Tiancheng Zhao
-  - Dialog Research Center
-  - Language Technologies Institute
-  TITLE: 'Beyond Turing: Intelligent Agents Centered on the User'
-  TYPE: conference
-  URL: https://arxiv.org/abs/1901.06613
-  YEAR: '2019'
-  abstract: dress agents in all three areas. We also con-
-  file: https://github.com/ybisk/papers/blob/master/2019/EskenaziMehriRazumovskaiaZhaoCenter_Beyond_Turing_Intelligent_Agents_Centered_on_the_User.pdf
-  timestamp: '2020-03-20'
 - AUTHORS:
   - Vladimir Vapnik
   - Rauf Izmailov

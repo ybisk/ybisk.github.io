@@ -4,7 +4,6 @@ import random
 
 # Load Publications 
 pubs = yaml.load(open("library.yaml"), Loader=yaml.CLoader)
-no_file = 0
 
 # Load template
 types = {
@@ -38,11 +37,9 @@ def generate_bibtex(entry):
   return tex
 
 def create_html_entry(entry, idx):
-  global no_file
   # Read entry template
   html = "".join([line for line in open("entry.html")])
-  html = html.replace("#IDX#", entry["file"].rsplit("/")[-1] if "file" in entry else "nofile{}".format(no_file))
-  no_file += 1
+  html = html.replace("#IDX#", entry["file"].rsplit("/")[-1] if "file" in entry else "nofile{}".format(hash(entry["TITLE"])))
 
   # Authors
   authors = ", ".join(entry["AUTHORS"])
