@@ -5776,9 +5776,9 @@
   - Julia Hockenmaier
   TITLE: Parsing with generative models of predicate-argument structure
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/P03-1046/
   VENUE: Association for Computational Linguistics
   YEAR: '2003'
-  URL: https://www.aclweb.org/anthology/P03-1046/
   date: 2003/01/01
   file: https://github.com/ybisk/papers/blob/master/2003/Hockenmaier_Parsing_with_generative_models_of_predicateargument_structure.pdf
   month: '01'
@@ -6011,7 +6011,7 @@
   - Christopher D Manning
   TITLE: Accurate Unlexicalized Parsing
   TYPE: conference
-  URL: https://www.aclweb.org/anthology/P03-1054/ 
+  URL: https://www.aclweb.org/anthology/P03-1054/
   VENUE: Association for Computational Linguistics
   YEAR: '2003'
   date: 2003/01/01
@@ -7033,10 +7033,10 @@
   - Dan Slobin
   TITLE: From "Thought and Language" to "Thinking for Speaking"
   TYPE: journal
+  URL: https://philarchive.org/archive/SLOFTA
   YEAR: '2004'
   date: 2004/02/20
   file: https://github.com/ybisk/papers/blob/master/2004/Slobin_From_Thought_and_Language_to_Thinking_for_Speaking.pdf
-  URL: https://philarchive.org/archive/SLOFTA
   month: '02'
   pages: '14'
 - AUTHORS:
@@ -18543,11 +18543,11 @@
   - Stephen Clark
   TITLE: Syntactic Processing Using the Generalized Perceptron and Beam Search
   TYPE: journal
+  URL: https://www.aclweb.org/anthology/J11-1005/
   VENUE: Computational Linguistics
   YEAR: '2011'
   date: 2011/03/01
   doi: 10.1162/coli_a_00037
-  URL: https://www.aclweb.org/anthology/J11-1005/
   file: https://github.com/ybisk/papers/blob/master/2011/ZhangClark_Syntactic_Processing_Using_the_Generalized_Perceptron_and_Beam_Search.pdf
   month: '03'
   number: '1'
@@ -21378,9 +21378,9 @@
   - Julia Hockenmaier
   TITLE: Induction of Linguistic Structure with Combinatory Categorial Grammars
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/W12-1912/
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   YEAR: '2012'
-  URL: https://www.aclweb.org/anthology/W12-1912/
   address: Montr{\'e}al, Canada
   date: 2012/06/01
   file: https://github.com/ybisk/papers/blob/master/2012/BiskHockenmaier_Induction_of_Linguistic_Structure_with_Combinatory_Categorial_Grammars.pdf
@@ -29207,11 +29207,11 @@
   - Albert-L{\'a}szl{\'o} Barab{\'a}si
   TITLE: Quantifying the evolution of individual scientific impact
   TYPE: journal
+  URL: https://science.sciencemag.org/content/354/6312/aaf5239/tab-pdf
   VENUE: Science
   YEAR: '2016'
   address: Center for Complex Network Research and Physics Department, Northeastern
     University, Boston, MA 02115, USA.
-  URL: https://science.sciencemag.org/content/354/6312/aaf5239/tab-pdf
   date: 2016/11/04
   doi: 10.1126/science.aaf5239
   file: https://github.com/ybisk/papers/blob/master/2016/SinatraWangDevilleSongBarabasi_Quantifying_the_evolution_of_individual_scientific_impact.pdf
@@ -33733,9 +33733,9 @@
   - Julia Hockenmaier
   TITLE: Natural Language Inference from Multiple Premises
   TYPE: conference
+  URL: https://arxiv.org/abs/1710.02925
   VENUE: Proceedings of the Eighth International Joint Conference on Natural Language
     Processing
-  URL: https://arxiv.org/abs/1710.02925
   YEAR: '2017'
   address: Taipei, Taiwan
   file: https://github.com/ybisk/papers/blob/master/2017/LaiBiskHockenmaier_Natural_Language_Inference_from_Multiple_Premises.pdf
@@ -36143,9 +36143,9 @@
   - Yonatan Bisk
   TITLE: Inducing Grammars with and for Neural Machine Translation
   TYPE: conference
+  URL: https://arxiv.org/abs/1805.10850
   VENUE: Proceedings of the 2nd Workshop on Neural Machine Translation
   YEAR: '2018'
-  URL: https://arxiv.org/abs/1805.10850
   address: Melbourne, Australia
   file: https://github.com/ybisk/papers/blob/master/2018/TranBisk_Inducing_Grammars_with_and_for_Neural_Machine_Translation.pdf
 - AUTHORS:
@@ -36285,9 +36285,9 @@
   - Yejin Choi
   TITLE: Bridging HMMs and RNNs through Architectural Transformations
   TYPE: conference
+  URL: https://openreview.net/pdf?id=rJxEso0osm
   VENUE: 32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL
     workshop
-  URL: https://openreview.net/pdf?id=rJxEso0osm
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/BuysBiskChoi_Bridging_HMMs_and_RNNs_through_Architectural_Transformations.pdf
 - AUTHORS:
@@ -37424,8 +37424,8 @@
   - Daniel Marcu
   TITLE: Learning Interpretable Spatial Operations in a Rich 3D Blocks World
   TYPE: conference
-  VENUE: Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18)
   URL: https://yonatanbisk.com/papers/2018-AAAI.pdf
+  VENUE: Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18)
   YEAR: '2018'
   address: New Orleans, USA
   file: https://github.com/ybisk/papers/blob/master/2018/BiskShihChoiMarcu_Learning_Interpretable_Spatial_Operations_in_a_Rich_3D_Blocks_World.pdf
@@ -38815,9 +38815,9 @@
   TITLE: 'Shifting the Baseline: Single Modality Performance on Visual Navigation
     \\& QA'
   TYPE: conference
+  URL: https://arxiv.org/abs/1811.00613
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
-  URL: https://arxiv.org/abs/1811.00613
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ThomasonGordonBisk_Shifting_the_Baseline_Single_Modality_Performance_on_Visual_Navigation_QA.pdf
 - AUTHORS:
@@ -38933,8 +38933,8 @@
   - Yejin Choi
   TITLE: 'HellaSwag: Can a Machine Really Finish Your Sentence?'
   TYPE: conference
-  VENUE: Proceedings of the Association for Computational Linguistics
   URL: https://rowanzellers.com/hellaswag/
+  VENUE: Proceedings of the Association for Computational Linguistics
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ZellersHoltzmanBiskFarhadiChoi_HellaSwag_Can_a_Machine_Really_Finish_Your_Sentence.pdf
 - AUTHORS:
@@ -38947,9 +38947,9 @@
   - Yejin Choi
   TITLE: Defending Against Neural Fake News
   TYPE: conference
+  URL: https://arxiv.org/abs/1905.12616
   VENUE: Thirty-third Conference on Neural Information Processing Systems
   YEAR: '2019'
-  URL: https://arxiv.org/abs/1905.12616
   file: https://github.com/ybisk/papers/blob/master/2019/ZellersHoltzmanRashkinBiskFarhadi_Defending_Against_Neural_Fake_News.pdf
 - AUTHORS:
   - Maarten Sap
@@ -39035,10 +39035,10 @@
   - Yejin Choi
   TITLE: Benchmarking Hierarchical Script Knowledge
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/N19-1412/
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   YEAR: '2019'
-  URL: https://www.aclweb.org/anthology/N19-1412/
   file: https://github.com/ybisk/papers/blob/master/2019/BiskBuysPichottaChoi_Benchmarking_Hierarchical_Script_Knowledge.pdf
 - AUTHORS:
   - Jos{\'e} Luis Blanco Claraco
@@ -42998,3 +42998,33 @@
   month: June
   pages: 9876-9886
   timestamp: '2020-09-20'
+- AUTHORS:
+  - Kurt Shuster
+  - Da Ju
+  - Stephen Roller
+  - Emily Dinan
+  - Y-Lan Boureau
+  - Jason Weston
+  TITLE: 'The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational
+    Agents'
+  URL: https://www.aclweb.org/anthology/2020.acl-main.222
+  YEAR: '2020'
+  abstract: 'We introduce dodecaDialogue: a set of 12 tasks that measures if a conversational
+    agent can communicate engagingly with personality and empathy, ask questions,
+    answer questions by utilizing knowledge resources, discuss topics and situations,
+    and perceive and converse about images. By multi-tasking on such a broad large-scale
+    set of data, we hope to both move towards and measure progress in producing a
+    single unified agent that can perceive, reason and converse with humans in an
+    open-domain setting. We show that such multi-tasking improves over a BERT pre-trained
+    baseline, largely due to multi-tasking with very large dialogue datasets in a
+    similar domain, and that the multi-tasking in general provides gains to both text
+    and image-based tasks using several metrics in both the fine-tune and task transfer
+    settings. We obtain state-of-the-art results on many of the tasks, providing a
+    strong baseline for this challenge.'
+  address: Online
+  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational
+    Linguistics
+  doi: 10.18653/v1/2020.acl-main.222
+  file: https://github.com/ybisk/papers/blob/master/2020/ShusterJuRollerDinanBoureau_The_Dialogue_Dodecathlon_OpenDomain_Knowledge_and_Image_Grounded_Conversational_Agents.pdf
+  pages: 2453--2470
+  publisher: Association for Computational Linguistics
