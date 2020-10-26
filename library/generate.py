@@ -1,6 +1,7 @@
 import os
 import yaml
 import random
+from hashlib import blake2b
 
 # Load Publications 
 pubs = yaml.load(open("library.yaml"), Loader=yaml.CLoader)
@@ -39,7 +40,13 @@ def generate_bibtex(entry):
 def create_html_entry(entry, idx):
   # Read entry template
   html = "".join([line for line in open("entry.html")])
-  html = html.replace("#IDX#", entry["file"].rsplit("/")[-1] if "file" in entry else "nofile{}".format(hash(entry["TITLE"])))
+  if "file" not in entry:
+    h = blake2b(key=b'library', digest_size=8) #small_keys
+    h.update(entry["TITLE"].encode('utf8'))
+    dig = "nofile{}".format(h.hexdigest())
+  else:
+    dig = entry["file"].rsplit("/")[-1]
+  html = html.replace("#IDX#",  dig)
 
   # Authors
   authors = ", ".join(entry["AUTHORS"])

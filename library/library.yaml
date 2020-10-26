@@ -8687,7 +8687,7 @@
   - Mark Johnson
   TITLE: Effective self-training for parsing
   TYPE: conference
-  URL: http://acl.ldc.upenn.edu/N/N06/N06-1020.pdf
+  URL: https://www.aclweb.org/anthology/N06-1020
   VENUE: North American chapter of the Association for Computational Linguistics conference
   YEAR: '2006'
   date: 2006/01/01
@@ -9891,7 +9891,7 @@
   - James Curran
   TITLE: Formalism-Independent Parser Evaluation with CCG and DepBank
   TYPE: conference
-  URL: http://www.cl.cam.ac.uk/~sc609/pubs/acl07parseval.pdf
+  URL: https://www.aclweb.org/anthology/P07-1032/
   VENUE: Association for Computational Linguistics
   YEAR: '2007'
   date: 2007/01/01
@@ -10752,7 +10752,7 @@
   - Andrew McCallum
   TITLE: Piecewise Pseudolikelihood for Efficient Training of Conditional Random Fields
   TYPE: conference
-  URL: http://l2r.cs.uiuc.edu/~danr/Teaching/CS546-11/Papers/Sutton-PseudoCRF-icml2007.pdf
+  URL: https://homepages.inf.ed.ac.uk/csutton/publications/pwpl.pdf
   VENUE: International conference on Machine learning
   YEAR: '2007'
   date: 2007/01/01
@@ -15920,7 +15920,7 @@
   - Eric P Xing
   TITLE: Concise Integer Linear Programming Formulations for Dependency Parsing
   TYPE: conference
-  URL: http://www.cs.cmu.edu/~nasmith/papers/martins+smith+xing.acl09.pdf
+  URL: https://www.aclweb.org/anthology/P09-1039/
   VENUE: Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL
     and the 4th International Joint Conference on Natural Language Processing of the
     AFNLP
@@ -17278,7 +17278,7 @@
   - Mirella Lapata
   TITLE: Visual Information in Semantic Representation
   TYPE: conference
-  URL: file:///Volumes/NAACL-HLT/NAACLHLT/pdf/NAACLHLT011.pdf
+  URL: https://www.aclweb.org/anthology/N10-1011.pdf
   VENUE: 'Human Language Technologies: The 2010 Annual Conference of the North American
     Chapter of the Association for Computational Linguistics'
   YEAR: '2010'
@@ -21663,7 +21663,7 @@
   - Alexandre Klementiev
   TITLE: A Bayesian Approach to Unsupervised Semantic Role Induction
   TYPE: conference
-  URL: http://people.mmci.uni-saarland.de/~titov/papers/eacl12.pdf
+  URL: https://www.aclweb.org/anthology/E12-1003/
   VENUE: European Chapter of the Association for Computational Linguistics
   YEAR: '2012'
   date: 2012/01/01
@@ -26854,7 +26854,7 @@
   - Mark Steedman
   TITLE: Combining Formal and Distributional Models of Temporal and Intensional Semantics
   TYPE: conference
-  URL: http://homepages.inf.ed.ac.uk/s1049478/publications/sp2014.pdf
+  URL: https://www.aclweb.org/anthology/W14-2406/
   VENUE: Proceedings of the ACL 2014 Workshop on Semantic Parsing
   YEAR: '2014'
   file: https://github.com/ybisk/papers/blob/master/2014/LewisSteedman_Combining_Formal_and_Distributional_Models_of_Temporal_and_Intensional_Semantics.pdf
@@ -26863,7 +26863,7 @@
   - Mark Steedman
   TITLE: Improved CCG Parsing with Semi-supervised Supertagging
   TYPE: journal
-  URL: http://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/388
+  URL: https://transacl.org/ojs/index.php/tacl/article/view/388
   VENUE: Transactions of the Association for Computational Linguistics
   YEAR: '2014'
   date: 2014/10/07
