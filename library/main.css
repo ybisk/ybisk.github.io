@@ -55,21 +55,6 @@ p {
     display:none;
 }
 
-img {
-    background: transparent;
-    border: 0px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
-
-.name {
-  color: green;
-  display: inline-block;
-  font-weight: bold;
-}
-
 .row {
   padding-top:1px;
   padding-bottom:1px;

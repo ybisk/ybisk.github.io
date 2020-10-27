@@ -595,7 +595,7 @@
   - Thomas S Ferguson
   TITLE: A Bayesian Analysis of Some Nonparametric Problems
   TYPE: journal
-  URL: http://www.ams.org/mathscinet-getitem?mr
+  URL: https://projecteuclid.org/euclid.aos/1176342360
   VENUE: The Annals of Statistics
   YEAR: '1973'
   date: 1973/03/01
@@ -607,7 +607,7 @@
   - Paul Kosinski
   TITLE: A data flow language for operating systems programming
   TYPE: conference
-  URL: http://portal.acm.org/citation.cfm?id
+  URL: https://dl.acm.org/doi/abs/10.1145/800021.808289
   VENUE: Proceeding of ACM SIGPLAN - SIGOPS interface meeting on Programming languages
     - operating systems
   YEAR: '1973'
@@ -795,7 +795,7 @@
   - Eugene Charniak
   TITLE: Ms. Maloprop, a Language Comprehension Program
   TYPE: conference
-  URL: http://dl.acm.org/citation.cfm?id
+  URL: https://www.ijcai.org/Proceedings/77-1/Papers/001.pdf
   VENUE: Proceedings of the 5th International Joint Conference on Artificial Intelligence
     - Volume 1
   YEAR: '1977'
@@ -814,20 +814,11 @@
   - Ray Jackendoff
   TITLE: 'X Syntax: A Study of Phrase Structure'
   TYPE: book
-  URL: http://books.google.com/books?id
+  URL: https://mitpress.mit.edu/books/x-syntax
   YEAR: '1977'
   date: 1977/01/01
   month: '01'
   publisher: The MIT Press
-- AUTHORS:
-  - Ray Jackendoff
-  TITLE: 'X syntax: A study of phrase structure'
-  TYPE: journal
-  URL: http://cat.inist.fr/?aModele
-  VENUE: cat.inist.fr
-  YEAR: '1977'
-  date: 1977/01/01
-  month: '01'
 - AUTHORS:
   - A Dempster
   - N Laird
