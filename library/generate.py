@@ -23,17 +23,17 @@ types = {
 def generate_bibtex(entry):
   tex = "@{}".format(types[entry["TYPE"]][0])
   tex += "{" + "{}{},\n".format(entry["AUTHORS"][0].split()[-1], entry["YEAR"])
-  tex += "\ttitle = {}\n".format(entry["TITLE"])
-  tex += "\tauthors = {}\n".format(" and ".join(entry["AUTHORS"]))
-  tex += "\tyear = {}\n".format(entry["YEAR"])
+  tex += "\ttitle = {},\n".format(entry["TITLE"])
+  tex += "\tauthors = {},\n".format(" and ".join(entry["AUTHORS"]))
+  tex += "\tyear = {},\n".format(entry["YEAR"])
   if "VENUE" in entry:
     if len(types[entry["TYPE"]]) == 2:
-      tex += "\t{} = {}\n".format(types[entry["TYPE"]][1], entry["VENUE"])
+      tex += "\t{} = {},\n".format(types[entry["TYPE"]][1], entry["VENUE"])
     else:
-      tex += "\tbooktitle = {}\n".format(entry["VENUE"])
+      tex += "\tbooktitle = {},\n".format(entry["VENUE"])
   for key in ["month", "number", "pages", "volume", "doi", "URL"]:
     if key in entry:
-      tex += "\t{} = {}\n".format(key, entry[key])
+      tex += "\t{} = {},\n".format(key, entry[key])
   tex += "}"
   return tex
 
