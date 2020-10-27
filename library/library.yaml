@@ -333,13 +333,14 @@
   publisher: The M.I.T. Press
 - AUTHORS:
   - Tadao Kasami
-  TITLE: AN EFFICIENT RECOGNITION AND SYNTAXANALYSIS ALGORITHM FOR CONTEXT-FREE LANGUAGES.
+  TITLE: An Efficient Recognition and Syntax-Analysis Algorithm for Context-Free Languages
   TYPE: preprint
   URL: http://www.dtic.mil/docs/citations/AD0626731
+  VENUE: Air Force Cambridge Research Laboratory
   YEAR: '1965'
   address: Bedford, MA
-  address1: Air Force Cambridge Research Laboratory
   date: 1965/07/11
+  file: https://github.com/ybisk/papers/blob/master/1965/Kasami_An_Efficient_Recognition_and_SyntaxAnalysis_Algorithm_for_ContextFree_Languages.pdf
   idx: 26
   month: '07'
 - AUTHORS:
