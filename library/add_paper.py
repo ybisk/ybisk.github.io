@@ -34,10 +34,14 @@ if args.file is not None:
   else:
     print("File already exists: {} {}".format(identifier, new_loc))
 
+max_idx = max([e["idx"] for e in pubs])
 
 if args.auto is not None:
   for identifier in args.auto.split(","):
   
+    entry = {}
+    max_idx += 1
+    entry["idx"] = max_idx
     if identifier[0].isnumeric(): # ArXiv
       url = "http://export.arxiv.org/api/query?id_list=" + identifier
       tree = ET.parse(urllib.request.urlopen(url))
@@ -61,7 +65,6 @@ if args.auto is not None:
   
       subprocess.call("wget --user-agent=Lynx https://arxiv.org/pdf/" + identifier + ".pdf", shell=True)
   
-      entry = {}
       if conference is None:
         entry["TYPE"] = "preprint"
         entry["VENUE"] = "arXiv:{}".format(identifier)
@@ -81,7 +84,6 @@ if args.auto is not None:
       pdf = "{}/{}.pdf".format(base, identifier)
       
       bibtex = str(urllib.request.urlopen(bib).read(), 'utf-8')
-      entry = {}
       chunks = []
       for line in bibtex.split(",\n")[1:]:
         line = line.strip()[:-1].split("=")
