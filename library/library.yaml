@@ -8712,10 +8712,10 @@
   - Mark Johnson
   TITLE: Reranking and Self-Training for Parser Adaptation
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/P06-1043/
   VENUE: Association for Computational Linguistics
   YEAR: '2006'
   date: 2006/01/01
-  URL: https://www.aclweb.org/anthology/P06-1043/
   file: https://github.com/ybisk/papers/blob/master/2006/McCloskyCharniakJohnson_Reranking_and_SelfTraining_for_Parser_Adaptation.pdf
   month: '01'
   pages: 1--8
@@ -10012,10 +10012,10 @@
   TITLE: 'Adaptor grammars: A framework for specifying compositional nonparametric
     Bayesian models'
   TYPE: conference
+  URL: https://papers.nips.cc/paper/3101-adaptor-grammars-a-framework-for-specifying-compositional-nonparametric-bayesian-models
   VENUE: Advances in Neural Information Processing Systems
   YEAR: '2007'
   date: 2007/01/01
-  URL: https://papers.nips.cc/paper/3101-adaptor-grammars-a-framework-for-specifying-compositional-nonparametric-bayesian-models
   file: https://github.com/ybisk/papers/blob/master/2007/JohnsonGriffithsGoldwater_Adaptor_grammars_A_framework_for_specifying_compositional_nonparametric_Bayesian_models.pdf
   month: '01'
   pages: '641'
@@ -12063,8 +12063,8 @@
   - Slav Petrov
   - Dan Klein
   TITLE: Sparse multi-scale grammars for discriminative latent variable parsing
-  URL: https://www.aclweb.org/anthology/D08-1091/
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/D08-1091/
   VENUE: Empirical Methods in Natural Language Processing
   YEAR: '2008'
   date: 2008/01/01
@@ -12574,8 +12574,8 @@
   - Dan Roth
   TITLE: Active Sample Selection for Named Entity Transliteration
   TYPE: conference
-  VENUE: Association for Computational Linguistics
   URL: https://www.aclweb.org/anthology/P08-2014/
+  VENUE: Association for Computational Linguistics
   YEAR: '2008'
   date: 2008/04/22
   file: https://github.com/ybisk/papers/blob/master/2008/GoldwasserRoth_Active_Sample_Selection_for_Named_Entity_Transliteration.pdf
@@ -14547,9 +14547,9 @@
   - Jitendra Malik
   TITLE: 'Poselets: Body Part Detectors Trained Using 3D Human Pose Annotations'
   TYPE: conference
+  URL: https://ieeexplore.ieee.org/document/5459303
   VENUE: International Conference on Computer Vision
   YEAR: '2009'
-  URL: https://ieeexplore.ieee.org/document/5459303
   date: 2009/07/15
   file: https://github.com/ybisk/papers/blob/master/2009/Malik_Poselets_Body_Part_Detectors_Trained_Using_3D_Human_Pose_Annotations.pdf
   month: '07'
@@ -16387,9 +16387,9 @@
   - Michael Elhadad
   TITLE: Easy First Dependency Parsing of Modern Hebrew
   TYPE: conference
+  URL: https://www.aclweb.org/anthology/W10-1412/
   VENUE: North American Chapter of the Association for Computational Linguistics HLT
     2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages
-  URL: https://www.aclweb.org/anthology/W10-1412/
   YEAR: '2010'
   date: 2010/01/01
   file: https://github.com/ybisk/papers/blob/master/2010/GoldbergElhadad_Easy_First_Dependency_Parsing_of_Modern_Hebrew.pdf
@@ -22928,8 +22928,8 @@
   - Zdenek Zabokrtsky
   TITLE: Unsupervised Dependency Parsing using Reducibility and Fertility features
   TYPE: conference
-  VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   URL: https://www.aclweb.org/anthology/W12-1911/
+  VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   YEAR: '2012'
   address: Montr{\'e}al, Canada
   date: 2012/06/01
@@ -42662,10 +42662,12 @@
   - Emily Dinan
   - Y-Lan Boureau
   - Jason Weston
-  TYPE: conference
   TITLE: 'The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational
     Agents'
+  TYPE: conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.222
+  VENUE: Proceedings of the 58th Annual Meeting of the Association for Computational
+    Linguistics
   YEAR: '2020'
   abstract: 'We introduce dodecaDialogue: a set of 12 tasks that measures if a conversational
     agent can communicate engagingly with personality and empathy, ask questions,
@@ -42680,9 +42682,19 @@
     settings. We obtain state-of-the-art results on many of the tasks, providing a
     strong baseline for this challenge.'
   address: Online
-  VENUE: Proceedings of the 58th Annual Meeting of the Association for Computational
-    Linguistics
   doi: 10.18653/v1/2020.acl-main.222
   file: https://github.com/ybisk/papers/blob/master/2020/ShusterJuRollerDinanBoureau_The_Dialogue_Dodecathlon_OpenDomain_Knowledge_and_Image_Grounded_Conversational_Agents.pdf
   pages: 2453--2470
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Martin Lohmann
+  - Jordi Salvador
+  - Aniruddha Kembhavi
+  - Roozbeh Mottaghi
+  TITLE: Learning About Objects by Learning to Interact with Them
+  TYPE: conference
+  URL: https://arxiv.org/abs/2006.09306
+  VENUE: NeurIPS 2020
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/LohmannSalvadorKembhaviMottaghi_Learning_About_Objects_by_Learning_to_Interact_with_Them.pdf
+  month: '06'

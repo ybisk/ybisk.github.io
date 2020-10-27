@@ -12,11 +12,12 @@ base = "http://export.arxiv.org/api/query?id_list="
 identifiers = sys.argv[1:]
 for identifier in identifiers:
 
-  if identifier.isnumeric(): # ArXiv
+  if identifier[0].isnumeric(): # ArXiv
     url = base + identifier
     tree = ET.parse(urllib.request.urlopen(url))
     root = tree.getroot()
 
+    authors = []
     url = "https://arxiv.org/abs/" + identifier
     for child in root:
       for grand in child:
