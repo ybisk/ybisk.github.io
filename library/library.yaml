@@ -2565,6 +2565,7 @@
   - David J Weir
   TITLE: The Equivalence Of Four Extensions Of Context-Free Grammars
   TYPE: journal
+  URL: https://link.springer.com/article/10.1007/BF01191624
   VENUE: Mathematical Systems Theory
   YEAR: '1994'
   date: 1994/01/01
@@ -4851,7 +4852,7 @@
   - Suresh Manandhar
   TITLE: Acquisition of Large Scale Categorial Grammar Lexicons
   TYPE: conference
-  URL: http://www-users.cs.york.ac.uk/~suresh/spip.php?page
+  URL: http://www.afnlp.org/archives/pacling2001/pdf/watkinson.pdf
   VENUE: PACLING
   YEAR: '2001'
   date: 2001/01/01
@@ -8716,6 +8717,7 @@
   VENUE: Association for Computational Linguistics
   YEAR: '2006'
   date: 2006/01/01
+  URL: https://www.aclweb.org/anthology/P06-1043/
   file: https://github.com/ybisk/papers/blob/master/2006/McCloskyCharniakJohnson_Reranking_and_SelfTraining_for_Parser_Adaptation.pdf
   month: '01'
   pages: 1--8
@@ -8761,9 +8763,9 @@
   TITLE: The Evolution of Meaning-Space Structure Through Iterated Learning
   TYPE: journal
   VENUE: Emergence of Communication and Language
-  YEAR: '2006'
-  date: 2006/10/20
-  file: https://github.com/ybisk/papers/blob/master/2006/Kirby_The_Evolution_of_MeaningSpace_Structure_Through_Iterated_Learning.pdf
+  YEAR: '2007'
+  date: 2007/10/20
+  file: https://github.com/ybisk/papers/blob/master/2007/Kirby_The_Evolution_of_MeaningSpace_Structure_Through_Iterated_Learning.pdf
   month: '10'
   pages: '15'
 - AUTHORS:
@@ -8801,7 +8803,7 @@
   - Dan Klein
   TITLE: Prototype-Driven Grammar Induction
   TYPE: conference
-  URL: http://portal.acm.org/citation.cfm?doid
+  URL: https://www.aclweb.org/anthology/P06-1111/
   VENUE: Association for Computational Linguistics
   YEAR: '2006'
   address: Morristown, NJ, USA
@@ -9267,25 +9269,13 @@
   pages: 1--14
   publisher: Springer
 - AUTHORS:
-  - Cordelia Schmid
-  - Jean Ponce
-  TITLE: 'Beyond bags of features: Spatial pyramid matching for recognizing natural
-    scene categories'
-  TYPE: conference
-  URL: http://citeseerx.ist.psu.edu/viewdoc/summary?doi
-  VENUE: IEEE Conference on Computer Vision and Pattern Recognition
-  YEAR: '2006'
-  date: 2006/01/01
-  file: https://github.com/ybisk/papers/blob/master/2006/SchmidPonce_Beyond_bags_of_features_Spatial_pyramid_matching_for_recognizing_natural_scene_categories.pdf
-  month: '01'
-- AUTHORS:
   - S Lazebnik
   - Cordelia Schmid
   - Jean Ponce
   TITLE: 'Beyond Bags of Features: Spatial Pyramid Matching for Recognizing Natural
     Scene Categories'
   TYPE: conference
-  URL: http://citeseerx.ist.psu.edu/viewdoc/summary?doi
+  URL: https://ieeexplore.ieee.org/document/1641019
   VENUE: IEEE Conference on Computer Vision and Pattern Recognition
   YEAR: '2006'
   annote: This work creates pyramid histograms for images. A set of features are derived
@@ -10027,6 +10017,7 @@
   VENUE: Advances in Neural Information Processing Systems
   YEAR: '2007'
   date: 2007/01/01
+  URL: https://papers.nips.cc/paper/3101-adaptor-grammars-a-framework-for-specifying-compositional-nonparametric-bayesian-models
   file: https://github.com/ybisk/papers/blob/master/2007/JohnsonGriffithsGoldwater_Adaptor_grammars_A_framework_for_specifying_compositional_nonparametric_Bayesian_models.pdf
   month: '01'
   pages: '641'
@@ -10147,176 +10138,6 @@
   file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_More_on_CFGs_Penn_Treebank_Nonlocal_dependencies.pdf
   month: '01'
   pages: 1--7
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Statistical CCG Parsing
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Statistical_CCG_Parsing.pdf
-  month: '01'
-  pages: 1--5
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Parsing German (continued), Dependency grammars, dependency treebanks
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Parsing_German_continued_Dependency_grammars_dependency_treebanks.pdf
-  month: '01'
-  pages: 1--6
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Semantic Role Labeling with CCG
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Semantic_Role_Labeling_with_CCG.pdf
-  month: '01'
-  pages: 1--5
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Grammar formalisms; Introduction to Tree-Adjoining Grammar
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Grammar_formalisms_Introduction_to_TreeAdjoining_Grammar.pdf
-  month: '01'
-  pages: 1--11
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: TAG parsing
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_TAG_parsing.pdf
-  month: '01'
-  pages: 1--6
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Tree transformations, Lexicalized Models, Collins Parser
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Tree_transformations_Lexicalized_Models_Collins_Parser.pdf
-  month: '01'
-  pages: 1--6
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Course overview
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Course_overview.pdf
-  month: '01'
-  pages: 1--7
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Parsing German
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Parsing_German.pdf
-  month: '01'
-  pages: 1--9
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Tree-Adjoining Grammar, TAG extraction
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_TreeAdjoining_Grammar_TAG_extraction.pdf
-  month: '01'
-  pages: 1--9
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Parsing algorithms, PCFGs
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Parsing_algorithms_PCFGs.pdf
-  month: '01'
-  pages: 1--8
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Extracting a CCG from the Penn Treebank
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Extracting_a_CCG_from_the_Penn_Treebank.pdf
-  month: '01'
-  pages: 1--13
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Introduction to Combinatory Categorial Grammar
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Introduction_to_Combinatory_Categorial_Grammar.pdf
-  month: '01'
-  pages: 1--10
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Parsing with LFG; Extracting LFGs from the Penn Treebank
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Parsing_with_LFG_Extracting_LFGs_from_the_Penn_Treebank.pdf
-  month: '01'
-  pages: 1--3
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Lexical Functional Grammar
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Lexical_Functional_Grammar.pdf
-  month: '01'
-  pages: 1--5
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Context-free grammars; elementary syntax
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Contextfree_grammars_elementary_syntax.pdf
-  month: '01'
-  pages: 1--10
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Lecture4.pdf
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Lecture4pdf.pdf
-  month: '01'
-  pages: 1--5
-- AUTHORS:
-  - Julia Hockenmaier
-  TITLE: Extracting a CCG from the Tiger Treebank
-  TYPE: journal
-  VENUE: UIUC
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/Hockenmaier_Extracting_a_CCG_from_the_Tiger_Treebank.pdf
-  month: '01'
-  pages: 1--8
 - AUTHORS:
   - Y Ma
   - H Derksen
@@ -10729,7 +10550,7 @@
   - Andrew McCallum
   TITLE: An Introduction to Conditional Random Fields for Relational Learning
   TYPE: journal
-  URL: http://books.google.com/books?hl
+  URL: https://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf
   VENUE: Introduction to Statistical Relational Learning
   YEAR: '2007'
   date: 2007/01/01
@@ -10794,19 +10615,6 @@
   YEAR: '2007'
   date: 2007/01/01
   file: https://github.com/ybisk/papers/blob/master/2007/NivreMcDonald_Characterizing_the_errors_of_datadriven_dependency_parsing_models.pdf
-  month: '01'
-  pages: 122--131--131
-- AUTHORS:
-  - Joakim Nivre
-  - Ryan McDonald
-  TITLE: Characterizing the Errors of Data-Driven Dependency Parsing Models
-  TYPE: conference
-  URL: http://www.aclweb.org/anthology/D/D07/D07-1013.pdf
-  VENUE: Proceedings of the 2007 Joint Conference on Empirical Methods in Natural
-    Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)
-  YEAR: '2007'
-  date: 2007/01/01
-  file: https://github.com/ybisk/papers/blob/master/2007/NivreMcDonald_Characterizing_the_Errors_of_DataDriven_Dependency_Parsing_Models.pdf
   month: '01'
   pages: 122--131
 - AUTHORS:
@@ -12257,6 +12065,7 @@
   - Slav Petrov
   - Dan Klein
   TITLE: Sparse multi-scale grammars for discriminative latent variable parsing
+  URL: https://www.aclweb.org/anthology/D08-1091/
   TYPE: conference
   VENUE: Empirical Methods in Natural Language Processing
   YEAR: '2008'
@@ -12489,15 +12298,13 @@
   month: '01'
   publisher: MIT Press Cambridge, MA, USA
 - AUTHORS:
-  - Marshall Mayberry
+  - Marshall R. Mayberry III
   - Risto Miikkulainen
   TITLE: Incremental Nonmonotonic Parsing through Semantic Self-Organization
   TYPE: journal
   VENUE: Cognitive Science Society
-  YEAR: '2008'
-  address: The University of Texas at Austin
-  date: 2008/05/29
-  file: https://github.com/ybisk/papers/blob/master/2008/MayberryMiikkulainen_Incremental_Nonmonotonic_Parsing_through_Semantic_SelfOrganization.pdf
+  YEAR: '2003'
+  file: https://github.com/ybisk/papers/blob/master/2003/MayberryMiikkulainen_Incremental_Nonmonotonic_Parsing_through_Semantic_SelfOrganization.pdf
   month: '05'
   pages: '6'
 - AUTHORS:
@@ -12506,10 +12313,9 @@
   TITLE: Using a Sequential SOM to Parse Long-term Dependencies
   TYPE: journal
   VENUE: Cognitive Science Society
-  YEAR: '2008'
+  YEAR: '1999'
   address: The University of Texas at Austin
-  date: 2008/05/25
-  file: https://github.com/ybisk/papers/blob/master/2008/MayberryMiikkulainen_Using_a_Sequential_SOM_to_Parse_Longterm_Dependencies.pdf
+  file: https://github.com/ybisk/papers/blob/master/1999/MayberryMiikkulainen_Using_a_Sequential_SOM_to_Parse_Longterm_Dependencies.pdf
   month: '05'
   pages: '6'
 - AUTHORS:
@@ -12771,6 +12577,7 @@
   TITLE: Active Sample Selection for Named Entity Transliteration
   TYPE: conference
   VENUE: Association for Computational Linguistics
+  URL: https://www.aclweb.org/anthology/P08-2014/
   YEAR: '2008'
   date: 2008/04/22
   file: https://github.com/ybisk/papers/blob/master/2008/GoldwasserRoth_Active_Sample_Selection_for_Named_Entity_Transliteration.pdf
@@ -14391,7 +14198,7 @@
   - Mark Johnson
   TITLE: Grammars and Topic Models
   TYPE: journal
-  URL: http://www.cog.brown.edu/~mj/papers/johnson-nips09-topic.pdf
+  URL: https://www.aclweb.org/anthology/W13-3011/
   VENUE: Advances in Neural Information Processing Systems
   YEAR: '2009'
   date: 2009/01/01
@@ -14738,11 +14545,13 @@
   file: https://github.com/ybisk/papers/blob/master/2009/LimArbelaezGuMalik_Context_by_Region_Ancestry.pdf
   month: '01'
 - AUTHORS:
+  - Lubomir Bourdev
   - Jitendra Malik
   TITLE: 'Poselets: Body Part Detectors Trained Using 3D Human Pose Annotations'
   TYPE: conference
   VENUE: International Conference on Computer Vision
   YEAR: '2009'
+  URL: https://ieeexplore.ieee.org/document/5459303
   date: 2009/07/15
   file: https://github.com/ybisk/papers/blob/master/2009/Malik_Poselets_Body_Part_Detectors_Trained_Using_3D_Human_Pose_Annotations.pdf
   month: '07'
@@ -15199,16 +15008,6 @@
   file: https://github.com/ybisk/papers/blob/master/2009/ReisingerPasca_Latent_Variable_Models_of_ConceptAttribute_Attachment.pdf
   month: 08
 - AUTHORS:
-  - Joseph Reisinger
-  - Marius Pasca
-  TITLE: Extending Conceptual Hierarchies with Attributes
-  TYPE: journal
-  YEAR: '2009'
-  date: 2009/04/21
-  file: https://github.com/ybisk/papers/blob/master/2009/ReisingerPasca_Extending_Conceptual_Hierarchies_with_Attributes.pdf
-  month: '04'
-  pages: 1--9
-- AUTHORS:
   - Judea Pearl
   TITLE: 'Causal inference in statistics: An overview'
   TYPE: journal
@@ -15501,7 +15300,7 @@
   - Noah A Smith
   TITLE: Variational Inference for Grammar Induction with Prior Knowledge
   TYPE: journal
-  URL: http://www.cs.cmu.edu/~nasmith/
+  URL: https://www.aclweb.org/anthology/P09-2001/
   VENUE: Proceedings of the ACL-IJCNLP 2009 Conference Short Papers
   YEAR: '2009'
   address: Suntec, Singapore
@@ -15515,7 +15314,7 @@
   TITLE: Shared Logistic Normal Distributions for Soft Parameter Tying in Unsupervised
     Grammar Induction
   TYPE: conference
-  URL: http://portal.acm.org/citation.cfm?id
+  URL: https://www.aclweb.org/anthology/N09-1009/
   VENUE: 'Proceedings of Human Language Technologies: The 2009 Annual Conference of
     the North American Chapter of the Association for Computational Linguistics'
   YEAR: '2009'
@@ -16592,6 +16391,7 @@
   TYPE: conference
   VENUE: North American Chapter of the Association for Computational Linguistics HLT
     2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages
+  URL: https://www.aclweb.org/anthology/W10-1412/
   YEAR: '2010'
   date: 2010/01/01
   file: https://github.com/ybisk/papers/blob/master/2010/GoldbergElhadad_Easy_First_Dependency_Parsing_of_Modern_Hebrew.pdf
@@ -17364,16 +17164,6 @@
   month: '01'
   pages: 282--295
   publisher: Springer
-- AUTHORS:
-  - Jitendra Malik
-  TITLE: 'Poselets: Body part detectors trained using 3d human pose annotations'
-  TYPE: conference
-  VENUE: International Conference on Computer Vision
-  YEAR: '2010'
-  date: 2010/01/01
-  file: https://github.com/ybisk/papers/blob/master/2010/Malik_Poselets_Body_part_detectors_trained_using_3d_human_pose_annotations.pdf
-  month: '01'
-  pages: 1365--1372
 - AUTHORS:
   - Ioannis P Klapaftis
   - Suresh Manandhar
@@ -23141,6 +22931,7 @@
   TITLE: Unsupervised Dependency Parsing using Reducibility and Fertility features
   TYPE: conference
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
+  URL: https://www.aclweb.org/anthology/W12-1911/
   YEAR: '2012'
   address: Montr{\'e}al, Canada
   date: 2012/06/01
@@ -23409,7 +23200,7 @@
   - Phil Blunsom
   TITLE: Collapsed Variational Bayesian Inference for Hidden Markov Models
   TYPE: conference
-  URL: http://www.clg.ox.ac.uk/blunsom/pubs/wang13cvb.pdf
+  URL: http://proceedings.mlr.press/v31/wang13b.pdf
   VENUE: Proceedings of the 16th International Conference on Artificial Intelligence
     and Statistics (AISTATS)
   YEAR: '2013'
@@ -26915,21 +26706,6 @@
   pages: 283--300
   publisher: Elsevier Science Publishers B. V.
   volume: '57'
-- AUTHORS:
-  - Maya Cakmak
-  - Leila Takayama
-  TITLE: Teaching people how to teach robots
-  TYPE: conference
-  URL: http://dl.acm.org/citation.cfm?doid
-  VENUE: the 2014 ACM/IEEE international conference
-  YEAR: '2014'
-  address: New York, New York, USA
-  date: 2014/01/01
-  file: https://github.com/ybisk/papers/blob/master/2014/CakmakTakayama_Teaching_people_how_to_teach_robots.pdf
-  isbn: '9781450326582'
-  month: '01'
-  pages: 431--438
-  publisher: SIGAI, ACM Special Interest Group on Artificial Intelligence
 - AUTHORS:
   - Maya Cakmak
   - Leila Takayama
@@ -43005,6 +42781,7 @@
   - Emily Dinan
   - Y-Lan Boureau
   - Jason Weston
+  TYPE: conference
   TITLE: 'The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational
     Agents'
   URL: https://www.aclweb.org/anthology/2020.acl-main.222

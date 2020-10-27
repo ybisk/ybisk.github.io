@@ -50,7 +50,6 @@ def create_html_entry(entry, idx):
 
   # Authors
   authors = ", ".join(entry["AUTHORS"])
-
   values = {
             "#TITLE#":     entry["TITLE"],
             "#YEAR#":      entry["YEAR"],

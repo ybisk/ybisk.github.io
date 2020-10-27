@@ -63,7 +63,7 @@ for identifier in identifiers:
         b = line[1].strip()[1:] # remove initial quote
         if a == "title":
           entry["TITLE"] = b
-        elif a == "boooktitle":
+        elif a == "booktitle":
           entry["TYPE"] = "conference"
           entry["VENUE"] = b
         elif a == "year":
