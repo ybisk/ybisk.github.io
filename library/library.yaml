@@ -184,7 +184,7 @@
   - Zellig S Harris
   TITLE: Distributional Structure
   TYPE: journal
-  URL: https://mail.google.com/mail/u/0/?shva
+  URL: https://www.tandfonline.com/doi/abs/10.1080/00437956.1954.11659520
   VENUE: Word
   YEAR: '1954'
   date: 1954/01/01
@@ -4036,12 +4036,12 @@
   publisher: Association for Computational Linguistics
 - AUTHORS:
   - Glenn Carroll
-  - M Rooth
+  - Mats Rooth
   TITLE: Valence Induction with a Head-Lexicalized PCFG
-  TYPE: preprint
-  URL: https://mail.google.com/mail/u/0/?shva
+  TYPE: conference
+  VENUE: Proceedings of the Third Conference on Empirical Methods for Natural Language Processing
+  URL: https://www.aclweb.org/anthology/W98-1505/
   YEAR: '1998'
-  date: 1998/01/01
   file: https://github.com/ybisk/papers/blob/master/1998/CarrollRooth_Valence_Induction_with_a_HeadLexicalized_PCFG.pdf
   idx: 292
   month: '01'
@@ -18998,8 +18998,8 @@
   - Dan Roth
   TITLE: Structured Output Learning with Indirect Supervision
   TYPE: conference
-  URL: https://mail.google.com/mail/u/0/
-  VENUE: Proceedings of the th International Conference on Machine Learning
+  URL: https://icml.cc/Conferences/2010/papers/522.pdf
+  VENUE: Proceedings of the International Conference on Machine Learning
   YEAR: '2010'
   date: 2010/05/12
   file: https://github.com/ybisk/papers/blob/master/2010/ChangSrikumarGoldwasserRoth_Structured_Output_Learning_with_Indirect_Supervision.pdf
@@ -21305,10 +21305,10 @@
   - Cynthia Fisher
   - Jesse Snedeker
   TITLE: 'Counting the Nouns: Simple Structural Cues to Verb Meaning'
-  TYPE: preprint
-  URL: https://mail.google.com/mail/?ui
-  YEAR: '2011'
-  date: 2011/11/07
+  TYPE: journal
+  URL: https://pubmed.ncbi.nlm.nih.gov/22616898/
+  VENUE: Child Development
+  YEAR: '2012'
   file: https://github.com/ybisk/papers/blob/master/2011/YuanFisherSnedeker_Counting_the_Nouns_Simple_Structural_Cues_to_Verb_Meaning.pdf
   idx: 1516
   month: '11'
@@ -26201,7 +26201,7 @@
   - Joakim Nivre
   TITLE: Weakly Supervised Part-of-Speech Tagging with Coupled Token and Type Constraints
   TYPE: journal
-  URL: http://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/44
+  URL: http://transacl.org/ojs/index.php/tacl/article/view/44
   VENUE: Transactions of the Association for Computational Linguistics
   YEAR: '2013'
   date: 2013/01/01
@@ -27723,7 +27723,7 @@
   TITLE: Exploring Compositional Architectures and Word Vector Representations for
     Prepositional Phrase Attachment
   TYPE: journal
-  URL: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/488/113
+  URL: https://transacl.org/ojs/index.php/tacl/article/view/488/113
   VENUE: Transactions of the Association for Computational Linguistics
   YEAR: '2014'
   date: 2014/12/23
@@ -28484,7 +28484,7 @@
   - Giorgio Satta
   TITLE: A New Parsing Algorithm for Combinatory Categorial Grammar
   TYPE: journal
-  URL: http://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/432
+  URL: http://transacl.org/ojs/index.php/tacl/article/view/432
   VENUE: Transactions of the Association for Computational Linguistics
   YEAR: '2014'
   date: 2014/10/07
@@ -30068,7 +30068,7 @@
   - Tom M Mitchell
   TITLE: Learning a Compositional Semantics for Freebase with an Open Predicate Vocabulary
   TYPE: journal
-  URL: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/548
+  URL: https://transacl.org/ojs/index.php/tacl/article/view/548
   VENUE: Transactions of the Association for Computational Linguistics
   YEAR: '2015'
   date: 2015/01/01
@@ -31034,7 +31034,7 @@
   - Eyal Amir
   TITLE: Psycholinguistic Features for Deceptive Role Detection in Werewolf
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1047.pdf
+  URL: http://www.aclweb.org/anthology/N16-1047.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31112,7 +31112,7 @@
   - Mohit Bansal
   TITLE: The Role of Context Types and Dimensionality in Learning Word Embeddings
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1118.pdf
+  URL: http://www.aclweb.org/anthology/N16-1118.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31167,7 +31167,7 @@
   - Marco Baroni
   TITLE: Multimodal Semantic Learning from Child-Directed Input
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1043.pdf
+  URL: http://www.aclweb.org/anthology/N16-1043.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31214,7 +31214,7 @@
   - Regina Barzilay
   TITLE: Making Dependency Labeling Simple, Fast and Accurate
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1126.pdf
+  URL: http://www.aclweb.org/anthology/N16-1126.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31290,7 +31290,7 @@
   TITLE: Multi-Way, Multilingual Neural Machine Translation with a Shared Attention
     Mechanism
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1101.pdf
+  URL: http://www.aclweb.org/anthology/N16-1101.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31342,7 +31342,7 @@
   TITLE: Unsupervised Compound Splitting With Distributional Semantics Rivals Supervised
     Methods
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1075.pdf
+  URL: http://www.aclweb.org/anthology/N16-1075.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31455,7 +31455,7 @@
   - Jaime Carbonell
   TITLE: Generation from Abstract Meaning Representation using Tree Transducers
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1087.pdf
+  URL: http://www.aclweb.org/anthology/N16-1087.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31506,7 +31506,7 @@
   - Joyce Y Chai
   TITLE: Grounded Semantic Role Labeling
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1019.pdf
+  URL: http://www.aclweb.org/anthology/N16-1019.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31577,7 +31577,7 @@
   TITLE: Expected F-Measure Training for Shift-Reduce Parsing with Recurrent Neural
     Networks
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1025.pdf
+  URL: http://www.aclweb.org/anthology/N16-1025.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31831,7 +31831,7 @@
   TITLE: Morphological Inflection Generation Using Character Sequence to Sequence
     Learning
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1077.pdf
+  URL: http://www.aclweb.org/anthology/N16-1077.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31847,7 +31847,7 @@
   - Jacob Eisenstein
   TITLE: Part-of-Speech Tagging for Historical English
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1157.pdf
+  URL: http://www.aclweb.org/anthology/N16-1157.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31865,7 +31865,7 @@
   TITLE: A Latent Variable Recurrent Neural Network for Discourse Relation Language
     Models
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1037.pdf
+  URL: http://www.aclweb.org/anthology/N16-1037.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -31923,7 +31923,7 @@
   - Ali Farhadi
   TITLE: 'Stating the Obvious: Extracting Visual Common Sense Knowledge'
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1023.pdf
+  URL: http://www.aclweb.org/anthology/N16-1023.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32295,7 +32295,7 @@
   - Hongyu Guo
   TITLE: DAG-Structured Long Short-Term Memory for Semantic Compositionality
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1106.pdf
+  URL: http://www.aclweb.org/anthology/N16-1106.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32544,7 +32544,7 @@
   TITLE: 'Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional
     Relationships'
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1180.pdf
+  URL: http://www.aclweb.org/anthology/N16-1180.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32579,7 +32579,7 @@
   - Tommi S Jaakkola
   TITLE: Ten Pairs to Tag -- Multilingual POS Tagging via Coarse Mapping between Embeddings
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1156.pdf
+  URL: http://www.aclweb.org/anthology/N16-1156.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32641,7 +32641,7 @@
   - Daniel Jurafsky
   TITLE: Visualizing and Understanding Neural Models in NLP
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1082.pdf
+  URL: http://www.aclweb.org/anthology/N16-1082.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32822,7 +32822,7 @@
   - Dan Klein
   TITLE: Learning to Compose Neural Networks for Question Answering
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1181.pdf
+  URL: http://www.aclweb.org/anthology/N16-1181.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32840,7 +32840,7 @@
   - Kevin Knight
   TITLE: Simple, Fast Noise-Contrastive Estimation for Large RNN Vocabularies
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1145.pdf
+  URL: http://www.aclweb.org/anthology/N16-1145.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32856,7 +32856,7 @@
   - Kevin Knight
   TITLE: Multi-Source Neural Translation
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1004.pdf
+  URL: http://www.aclweb.org/anthology/N16-1004.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -32943,7 +32943,7 @@
   - Jayant Krishnamurthy
   TITLE: Probabilistic Models for Learning a Semantic Parser Lexicon
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1074.pdf
+  URL: http://www.aclweb.org/anthology/N16-1074.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33025,7 +33025,7 @@
   - Mirella Lapata
   TITLE: Top-down Tree Long Short-Term Memory Networks
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1035.pdf
+  URL: http://www.aclweb.org/anthology/N16-1035.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33132,7 +33132,7 @@
   - Jean Maillard
   TITLE: 'Black Holes and White Rabbits: Metaphor Identification with Visual Features'
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1020.pdf
+  URL: http://www.aclweb.org/anthology/N16-1020.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33194,7 +33194,7 @@
   - Christof Monz
   TITLE: Recurrent Memory Networks for Language Modeling
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1036.pdf
+  URL: http://www.aclweb.org/anthology/N16-1036.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33245,7 +33245,7 @@
   TITLE: 'Convolutional Neural Networks vs. Convolution Kernels: Feature Engineering
     for Answer Sentence Reranking'
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1152.pdf
+  URL: http://www.aclweb.org/anthology/N16-1152.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33289,7 +33289,7 @@
   - Gertjan van Noord
   TITLE: Bilingual Learning of Multi-sense Embeddings with Discrete Autoencoders
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1160.pdf
+  URL: http://www.aclweb.org/anthology/N16-1160.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33335,8 +33335,9 @@
   - Xianchao Long
   - Taskin Padir
   TITLE: Template-Based Human Supervised Robot Task Programming
-  TYPE: journal
-  URL: https://mail.google.com/mail/u/0/
+  TYPE: conference
+  URL: https://ieeexplore.ieee.org/document/7759708
+  VENUE: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
   YEAR: '2016'
   date: 2016/11/07
   file: https://github.com/ybisk/papers/blob/master/2016/LongPadir_TemplateBased_Human_Supervised_Robot_Task_Programming.pdf
@@ -33481,7 +33482,7 @@
   - Dan Roth
   TITLE: Cross-lingual Wikification Using Multilingual Embeddings
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf//N16-1072.pdf
+  URL: http://www.aclweb.org/anthology//N16-1072.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33527,7 +33528,7 @@
   - Alexander M Rush
   TITLE: Abstractive Sentence Summarization with Attentive Recurrent Neural Networks
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1012.pdf
+  URL: http://www.aclweb.org/anthology/N16-1012.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33758,7 +33759,7 @@
   - Manish Shrivastava
   TITLE: Transition-Based Syntactic Linearization with Lookahead Features
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1058.pdf
+  URL: http://www.aclweb.org/anthology/N16-1058.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33806,7 +33807,7 @@
   - Noah A Smith
   TITLE: Recurrent Neural Network Grammars
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1024.pdf
+  URL: http://www.aclweb.org/anthology/N16-1024.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33869,7 +33870,7 @@
   - Anders Sogaard
   TITLE: Learning a POS tagger for AAVE-like language
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf//N16-1130.pdf
+  URL: http://www.aclweb.org/anthology//N16-1130.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33885,7 +33886,7 @@
   - Anders Sogaard
   TITLE: Improving sentence compression by learning to predict gaze
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1179.pdf
+  URL: http://www.aclweb.org/anthology/N16-1179.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33916,7 +33917,7 @@
   - Lucia Specia
   TITLE: Inferring Psycholinguistic Properties of Words
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1050.pdf
+  URL: http://www.aclweb.org/anthology/N16-1050.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -33980,7 +33981,7 @@
   - Mark Steedman
   TITLE: Shift-Reduce CCG Parsing using Neural Network Models
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1052.pdf
+  URL: http://www.aclweb.org/anthology/N16-1052.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -34027,7 +34028,7 @@
   - Amarnag Subramanya
   TITLE: Multilingual Language Processing From Bytes
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1155.pdf
+  URL: http://www.aclweb.org/anthology/N16-1155.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -34277,7 +34278,7 @@
   TITLE: What to talk about and how? Selective Generation using LSTMs with Coarse-to-Fine
     Alignment
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1086.pdf
+  URL: http://www.aclweb.org/anthology/N16-1086.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -34462,7 +34463,7 @@
   - Steve Young
   TITLE: Counter-fitting Word Vectors to Linguistic Constraints
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1018.pdf
+  URL: http://www.aclweb.org/anthology/N16-1018.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -34518,7 +34519,7 @@
   - Luke S Zettlemoyer
   TITLE: LSTM CCG Parsing
   TYPE: conference
-  URL: http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1026.pdf
+  URL: http://www.aclweb.org/anthology/N16-1026.pdf
   VENUE: 'Proceedings of the 2016 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human Language Technologies'
   YEAR: '2016'
@@ -36199,7 +36200,7 @@
   TITLE: 'PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood
     and Other Modifications'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=BJrFC6ceg
   VENUE: ICLR
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/SalimansKarpathyChenKingma_PixelCNN_Improving_the_PixelCNN_with_Discretized_Logistic_Mixture_Likelihood_and_Other_Modifications.pdf
@@ -36481,8 +36482,8 @@
   - Adam Lerer
   TITLE: Automatic differentiation in PyTorch
   TYPE: conference
-  URL: https://openreview.net/forum?id
-  VENUE: NIPS-W
+  URL: https://openreview.net/forum?id=BJJsrmfCZ
+  VENUE: NIPS 2017 Workshop Autodiff
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/PaszkeGrossChintalaChananYang_Automatic_differentiation_in_PyTorch.pdf
   idx: 2509
@@ -37736,7 +37737,7 @@
   - Daniel Tarlow
   TITLE: 'DeepCoder: Learning to Write Programs'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=ByldLrqlx
   VENUE: ICLR
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/BalogGauntBrockschmidtNowozinTarlow_DeepCoder_Learning_to_Write_Programs.pdf
@@ -38744,7 +38745,7 @@
   - Stephen Clark
   TITLE: Emergent Communication through Negotiation
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=Hk6WhagRW
   VENUE: International Conference on Learning Representations
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/CaoLazaridouLanctotLeiboTuyls_Emergent_Communication_through_Negotiation.pdf
@@ -39629,7 +39630,7 @@
   - Pushmeet Kohli
   TITLE: Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=H1Xw62kRZ
   VENUE: International Conference on Learning Representations
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/BunelHausknechtDevlinSinghKohli_Leveraging_Grammar_and_Reinforcement_Learning_for_Neural_Program_Synthesis.pdf
@@ -39655,7 +39656,7 @@
   - Sanjiv Kumar
   TITLE: On the Convergence of Adam and Beyond
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=ryQu7f-RZ
   VENUE: International Conference on Learning Representations
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/ReddiKaleKumar_On_the_Convergence_of_Adam_and_Beyond.pdf
@@ -40571,7 +40572,7 @@
   - Ion Stoica
   TITLE: Parametrized Hierarchical Procedures for Neural Programming
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=rJl63fZRb
   VENUE: International Conference on Learning Representations
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/FoxShinKrishnanGoldbergSong_Parametrized_Hierarchical_Procedures_for_Neural_Programming.pdf
@@ -43142,7 +43143,7 @@
   - Roozbeh Mottaghi
   TITLE: Visual Semantic Navigation using Scene Priors
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=HJeRkh05Km
   VENUE: ICLR
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/YangWangFarhadiGuptaMottaghi_Visual_Semantic_Navigation_using_Scene_Priors.pdf
@@ -43549,7 +43550,7 @@
   - Samuel S. Schoenholz
   TITLE: A Mean Field Theory of Batch Normalization
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=SyMDXnCcF7
   VENUE: International Conference on Learning Representations
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/YangPenningtonRaoSohlDicksteinSchoenholz_A_Mean_Field_Theory_of_Batch_Normalization.pdf
@@ -43640,7 +43641,7 @@
   - Dawn Song
   TITLE: Execution-Guided Neural Program Synthesis
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=H1gfOiAqYm
   VENUE: International Conference on Learning Representations
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ChenLiuSong_ExecutionGuided_Neural_Program_Synthesis.pdf
@@ -43654,7 +43655,6 @@
   - Yale Song
   TITLE: A generative adversarial network for style modeling in a text-to-speech system
   TYPE: conference
-  URL: https://openreview.net/forum?id
   VENUE: International Conference on Learning Representations
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/MaMcduffSong_A_generative_adversarial_network_for_style_modeling_in_a_texttospeech_system.pdf
@@ -43898,7 +43898,7 @@
   - Antonio Torralba
   TITLE: 'GAN Dissection: Visualizing and Understanding Generative Adversarial Networks'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=Hyg_X2C5FX
   VENUE: International Conference on Learning Representations
   YEAR: '2019'
   idx: 2994
@@ -44658,7 +44658,7 @@
   - Karol Hausman
   TITLE: Dynamics-Aware Unsupervised Skill Discovery
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=HJgLZR4KvH
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SharmaGuLevineKumarHausman_DynamicsAware_Unsupervised_Skill_Discovery.pdf
@@ -44759,7 +44759,7 @@
   - Martin Jaggi
   TITLE: On the Relationship between Self-Attention and Convolutional Layers
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=HJlnC1rKPB
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/CordonnierLoukasJaggi_On_the_Relationship_between_SelfAttention_and_Convolutional_Layers.pdf
@@ -44905,7 +44905,7 @@
   - Joseph J. Lim
   TITLE: Program Guided Agent
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=BkxUvnEYDH
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SunWuLim_Program_Guided_Agent.pdf
@@ -44914,25 +44914,13 @@
   idx: 3056
   timestamp: '2020-02-03'
 - AUTHORS:
-  - Shao-Hua Sun
-  - Te-Lin Wu
-  - Joseph J. Lim
-  TITLE: Program Guided Agent
-  TYPE: conference
-  URL: https://openreview.net/forum?id
-  VENUE: International Conference on Learning Representations
-  YEAR: '2020'
-  file: https://github.com/ybisk/papers/blob/master/2020/SunWuLim_Program_Guided_Agent.pdf
-  idx: 3057
-  timestamp: '2020-04-29'
-- AUTHORS:
   - Divyansh Kaushik
   - Eduard Hovy
   - Zachary Lipton
   TITLE: Learning The Difference That Makes A Difference With Counterfactually-Augmented
     Data
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=Sklgs0NFvr
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KaushikHovyLipton_Learning_The_Difference_That_Makes_A_Difference_With_CounterfactuallyAugmented_Data.pdf
@@ -44945,7 +44933,7 @@
   - Christopher D. Manning
   TITLE: 'ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=r1xMH1BtvB
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ClarkLuongLeManning_ELECTRA_Pretraining_Text_Encoders_as_Discriminators_Rather_Than_Generators.pdf
@@ -45134,7 +45122,7 @@
   - Deva Ramanan
   TITLE: 'CATER: A diagnostic dataset for Compositional Actions & TEmporal Reasoning'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=HJgzt2VKPB
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/GirdharRamanan_CATER_A_diagnostic_dataset_for_Compositional_Actions_TEmporal_Reasoning.pdf
@@ -45214,7 +45202,7 @@
   - Adam Santoro
   TITLE: Environmental drivers of systematicity and generalization in a situated agent
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=SklGryBtwr
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/HillLampinenSchneiderClarkBotvinick_Environmental_drivers_of_systematicity_and_generalization_in_a_situated_agent.pdf
@@ -45316,7 +45304,7 @@
   - Joshua B. Tenenbaum
   TITLE: 'CLEVRER: Collision Events for Video Representation and Reasoning'
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=HkxYzANYDB
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/YiGanLiKohliWu_CLEVRER_Collision_Events_for_Video_Representation_and_Reasoning.pdf
@@ -45501,7 +45489,7 @@
   - Caiming Xiong
   TITLE: Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=SJgVHkrYDH
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/AsaiHashimotoHajishirziSocherXiong_Learning_to_Retrieve_Reasoning_Paths_over_Wikipedia_Graph_for_Question_Answering.pdf
@@ -45556,7 +45544,7 @@
   - Hai Zhao
   TITLE: Neural Machine Translation with Universal Visual Representation
   TYPE: conference
-  URL: https://openreview.net/forum?id
+  URL: https://openreview.net/forum?id=Byl8hhNYPS
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ZhangChenWangUtiyamaSumita_Neural_Machine_Translation_with_Universal_Visual_Representation.pdf
