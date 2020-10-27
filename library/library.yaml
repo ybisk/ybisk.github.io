@@ -10423,7 +10423,7 @@
   pages: 1--6
   publisher: National Acad Sciences
 - AUTHORS:
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - L Campbell
   TITLE: A Bayesian model for discovering typological implications
   TYPE: conference
@@ -10584,7 +10584,7 @@
   month: '01'
   publisher: MIT Press Cambridge, MA, USA
 - AUTHORS:
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Fast search for Dirichlet process mixture models
   TYPE: conference
   URL: http://hal3.name/docs/daume07astar-dp.pdf
@@ -14445,7 +14445,7 @@
   pages: 38--41
   publisher: Association for Computational Linguistics
 - AUTHORS:
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Markov random topic fields
   TYPE: conference
   VENUE: Proceedings of the ACL-IJCNLP 2009 Conference Short Papers
@@ -14457,7 +14457,7 @@
   pages: 293--296
 - AUTHORS:
   - AR Teichert
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Unsupervised Part of Speech Tagging Without a Lexicon
   TYPE: conference
   VENUE: Advances in Neural Information Processing Systems
@@ -14467,7 +14467,7 @@
   month: '01'
   publisher: Citeseer
 - AUTHORS:
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Non-Parametric Bayesian Areal Linguistics
   TYPE: conference
   URL: http://aclweb.org/anthology-new/N/N09/N09-1067.pdf
@@ -17431,7 +17431,7 @@
   publisher: Elsevier
 - AUTHORS:
   - J Jagarlamudi
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Extracting Multilingual Topics from Unaligned Comparable Corpora
   TYPE: journal
   VENUE: ECIR
@@ -19399,7 +19399,7 @@
 - AUTHORS:
   - Yezhou Yang
   - Ching Lik Teo
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - Yiannis Aloimonos
   TITLE: Corpus-Guided Sentence Generation of Natural Images
   TYPE: conference
@@ -19707,7 +19707,7 @@
   pages: 276 -- 279
   volume: '472'
 - AUTHORS:
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: 'Beyond Structured Prediction: Inverse Reinforcement Learning'
   TYPE: conference
   VENUE: 'Proceedings of the 49th Annual Meeting of the Association for Computational
@@ -21695,7 +21695,7 @@
   - Karl Stratos
   - Kota Yamaguchi
   - Yejin Choi
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - Alexander C Berg
   - Tamara L Berg
   TITLE: Detecting Visual Text
@@ -24473,7 +24473,7 @@
 - AUTHORS:
   - Alexander C Berg
   - Tamara L Berg
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - Jesse Dodge
   - Amit Goyal
   - Xufeng Han
@@ -25055,7 +25055,7 @@
   volume: '35'
 - AUTHORS:
   - He He
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - Jason Eisner
   TITLE: Dynamic Feature Selection for Dependency Parsing
   TYPE: conference
@@ -31569,7 +31569,7 @@
   - He He
   - Jordan Boyd-Graber
   - Kevin Kwok
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   TITLE: Opponent Modeling in Deep Reinforcement Learning
   TYPE: journal
   URL: https://arxiv.org/abs/1609.05559
@@ -31584,7 +31584,7 @@
   - Anupam Guha
   - Yogarshi Vyas
   - Jordan Boyd-Graber
-  - Hal Daum{\'e}III
+  - Hal Daum{\'e} III
   - Larry Davis
   TITLE: 'The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in
     Comic Book Narratives'
@@ -32394,7 +32394,7 @@
   - Anupam Guha
   - Snigdha Chaturvedi
   - Jordan Boyd-Graber
-  - Hal Daum e III
+  - Hal Daum{\'e} III
   TITLE: 'Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional
     Relationships'
   TYPE: conference
@@ -34930,7 +34930,7 @@
   - Alexis Conneau
   - Douwe Kiela
   - Holger Schwenk
-  - Lo\\"{i}c Barrault
+  - Lo{\\"i}c Barrault
   - Antoine Bordes
   TITLE: Supervised Learning of Universal Sentence Representations from Natural Language
     Inference Data
@@ -35766,7 +35766,7 @@
 - AUTHORS:
   - Allen Yilun Lin
   - Kate Kuehl
-  - Johannes Sch\\"{o}ning
+  - Johannes Sch{\\"o}ning
   - Brent Hecht
   TITLE: 'Understanding "Death by GPS": A Systematic Study of Catastrophic Incidents
     Associated with Personal Navigation Technologies'
@@ -36024,7 +36024,7 @@
 - AUTHORS:
   - Maximilian Nickel
   - Douwe Kiela
-  TITLE: Poincar\\'{e} Embeddings for Learning Hierarchical Representations
+  TITLE: Poincar{\\'e} Embeddings for Learning Hierarchical Representations
   TYPE: conference
   URL: http://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf
   VENUE: Advances in Neural Information Processing Systems 30
@@ -36229,7 +36229,7 @@
   file: https://github.com/ybisk/papers/blob/master/2017/SavvaChangDosovitskiyFunkhouserKoltun_MINOS_Multimodal_Indoor_Simulator_for_Navigation_in_Complex_Environments.pdf
   idx: 2501
 - AUTHORS:
-  - Andr\\'{e} F. T. Martins
+  - Andr{\\'e} F. T. Martins
   - Julia Kreutzer
   TITLE: 'Learning What''s Easy: Fully Differentiable Neural Easy-First Taggers'
   TYPE: conference
@@ -37849,13 +37849,13 @@
   idx: 2617
   month: '01'
 - AUTHORS:
-  - S\'{e}bastien Racani\`{e}re
+  - S{\'e}bastien Racani{\`e}re
   - Theophane Weber
   - David Reichert
   - Lars Buesing
   - Arthur Guez
   - Danilo Jimenez Rezende
-  - Adri\`{a} Puigdom\`{e}nech Badia
+  - Adri{\`a} Puigdom{\`e}nech Badia
   - Oriol Vinyals
   - Nicolas Heess
   - Yujia Li
@@ -41925,7 +41925,7 @@
   VENUE: Advances in Neural Information Processing Systems 32
   YEAR: '2019'
   editor: H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle
-    Alch\'{e}-Buc and E. Fox and R. Garnett
+    Alch{\'e}-Buc and E. Fox and R. Garnett
   file: https://github.com/ybisk/papers/blob/master/2019/PierrotLignerReedSigaudPerrin_Learning_Compositional_Neural_Programs_with_Recursive_Tree_Search_and_Planning.pdf
   groups:
   - program_induction
@@ -42523,7 +42523,7 @@
   VENUE: Advances in Neural Information Processing Systems 32
   YEAR: '2019'
   editor: H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle
-    Alch\'{e}-Buc and E. Fox and R. Garnett
+    Alch{\'e}-Buc and E. Fox and R. Garnett
   file: https://github.com/ybisk/papers/blob/master/2019/HahnPyeonKim_SelfRouting_Capsule_Networks.pdf
   groups:
   - ml
@@ -43480,7 +43480,7 @@
   VENUE: Advances in Neural Information Processing Systems 32
   YEAR: '2019'
   editor: H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle
-    Alch\'{e}-Buc and E. Fox and R. Garnett
+    Alch{\'e}-Buc and E. Fox and R. Garnett
   file: https://github.com/ybisk/papers/blob/master/2019/EllisNyePuSosaTenenbaum_Write_Execute_Assess_Program_Synthesis_with_a_REPL.pdf
   groups:
   - program_induction

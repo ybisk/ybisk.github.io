@@ -64,8 +64,11 @@ p {
   padding-left:1px;
   font-size:11px;
   padding-left:1px;
-  overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.venue {
+  overflow: hidden;
   white-space: nowrap;
 }
 

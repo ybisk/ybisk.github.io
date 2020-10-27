@@ -20,6 +20,21 @@ types = {
          "misc": ["misc"],
         }
 
+accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", 
+           "{\\'u}": "ú", "{\\'c}": "ć", "{\\'\\\\i}":"í",
+           "{\\\"a}": "ä", "{\\o}": "ø", "{\\aa}": "å", "{\\l}": "ł", "{\\'y}": "ý",
+           "{\\\"o}": "ö","{\\\"u}": "ü", "{\\'s}": "ś", 
+           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř"}
+def pretty(s):
+  for k in accents:
+    s = s.replace(k, accents[k])
+    s = s.replace(k.upper(), accents[k].upper())
+
+  if s[0] == "{" and s[-1] == "}":
+    s = s[1:-1]
+  return s
+
+
 def generate_bibtex(entry):
   tex = "@{}".format(types[entry["TYPE"]][0])
   tex += "{" + "{}{},\n".format(entry["AUTHORS"][0].split()[-1], entry["YEAR"])
@@ -52,9 +67,17 @@ def create_html_entry(entry, idx):
   html = html.replace("#IDX#",  dig)
 
   # Authors
-  authors = ", ".join(entry["AUTHORS"])
+  authors = []
+  for a in entry["AUTHORS"]:
+    a = pretty(a)
+    a = a.split()
+    if a[-1] == "III":
+      authors.append(a[-2] + " " + a[-1])
+    else:
+      authors.append(a[-1])
+  authors = ", ".join(authors)
   values = {
-            "#TITLE#":     entry["TITLE"],
+            "#TITLE#":     pretty(entry["TITLE"]),
             "#YEAR#":      entry["YEAR"],
             "#YEAR-btn#":  entry["YEAR"],
             "#VENUE#":     entry["VENUE"] if "VENUE" in entry else entry["TYPE"], #entry["TYPE"] not in ["book","preprint"] else entry["TYPE"],
