@@ -4019,8 +4019,9 @@
   - Mats Rooth
   TITLE: Valence Induction with a Head-Lexicalized PCFG
   TYPE: conference
-  VENUE: Proceedings of the Third Conference on Empirical Methods for Natural Language Processing
   URL: https://www.aclweb.org/anthology/W98-1505/
+  VENUE: Proceedings of the Third Conference on Empirical Methods for Natural Language
+    Processing
   YEAR: '1998'
   file: https://github.com/ybisk/papers/blob/master/1998/CarrollRooth_Valence_Induction_with_a_HeadLexicalized_PCFG.pdf
   idx: 292
@@ -43752,6 +43753,7 @@
   URL: https://openreview.net/forum?id=Hyg_X2C5FX
   VENUE: International Conference on Learning Representations
   YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/BauZhuStrobeltZhouTenenbaum_GAN_Dissection_Visualizing_and_Understanding_Generative_Adversarial_Networks.pdf
   idx: 2994
 - AUTHORS:
   - Jacob Devlin
@@ -43869,6 +43871,7 @@
   TITLE: Scaling data-driven robotics with reward sketching and batch reinforcement
     learning
   TYPE: journal
+  URL: https://arxiv.org/abs/1909.12200
   VENUE: arXiv:1909.12200
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/CabiColmenarejoNovikovKonyushkovaReed_Scaling_datadriven_robotics_with_reward_sketching_and_batch_reinforcement_learning.pdf
@@ -43886,6 +43889,7 @@
   TITLE: 'VaTeX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language
     Research'
   TYPE: conference
+  URL: https://arxiv.org/abs/1904.03493
   VENUE: The IEEE International Conference on Computer Vision (ICCV)
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/WangWuChenLiWang_VaTeX_A_LargeScale_HighQuality_Multilingual_Dataset_for_VideoandLanguage_Research.pdf
@@ -44046,6 +44050,7 @@
   TITLE: Pressure to communicate across knowledge asymmetries leads to pedagogically
     supportive language input
   TYPE: conference
+  URL: https://cogsci.mindmodeling.org/2019/papers/0415/index.html
   VENUE: CogSci
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/MorrisYurovsky_Pressure_to_communicate_across_knowledge_asymmetries_leads_to_pedagogically_supportive_language_input.pdf
@@ -44219,6 +44224,7 @@
   URL: https://arxiv.org/abs/2010.06775
   VENUE: EMNLP 2020 (15 pages)
   YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/TanBansal_Vokenization_Improving_Language_Understanding_with_Contextualized_VisualGrounded_Supervision.pdf
   idx: 3025
   month: '10'
   timestamp: '2020-10-22'
@@ -44589,17 +44595,6 @@
   URL: https://arxiv.org/abs/2002.08791
   VENUE: arxiv
   YEAR: '2020'
-  idx: 3046
-  month: '02'
-  timestamp: '2020-05-22'
-- AUTHORS:
-  - Andrew Gordon Wilson
-  - Pavel Izmailov
-  TITLE: '{Bayesian Deep Learning and a Probabilistic Perspective of Generalization}'
-  TYPE: conference
-  URL: https://arxiv.org/abs/2002.08791
-  VENUE: arxiv
-  YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/WilsonIzmailov_Bayesian_Deep_Learning_and_a_Probabilistic_Perspective_of_Generalization.pdf
   idx: 3047
   month: '02'
@@ -44690,6 +44685,7 @@
   URL: https://arxiv.org/abs/2010.06572
   VENUE: arXiv:2010.06572
   YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/HesselLee_Does_my_multimodal_model_learn_crossmodal_interactions_Its_harder_to_tell_than_you_might_think.pdf
   idx: 3053
   month: '10'
   timestamp: '2020-10-24'
@@ -44931,6 +44927,7 @@
   - Tessa Patapoutian
   TITLE: Can Neural Network Language Models Learn Spatial Perspective From Text Alone?
   TYPE: conference
+  URL: https://baicsworkshop.github.io/pdf/BAICS_15.pdf
   VENUE: "\u201CBridging AI and Cognitive Science\u201D (ICLR 2020)"
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/AndersonPatapoutian_Can_Neural_Network_Language_Models_Learn_Spatial_Perspective_From_Text_Alone.pdf
@@ -45038,6 +45035,7 @@
   TITLE: 'Getting Closer to AI Complete Question Answering: A Set of Prerequisite
     Real Tasks'
   TYPE: conference
+  URL: https://aaai.org/ojs/index.php/AAAI/article/view/6398
   VENUE: AAAI
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/RogersKovalevaDowneyRumshisky_Getting_Closer_to_AI_Complete_Question_Answering_A_Set_of_Prerequisite_Real_Tasks.pdf
@@ -45283,6 +45281,7 @@
   - Jason Weston
   TITLE: Recipes for building an open-domain chatbot
   TYPE: conference
+  URL: https://arxiv.org/abs/2004.13637
   VENUE: arXiv preprint arXiv:2004.13637
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/RollerDinanGoyalJuWilliamson_Recipes_for_building_an_opendomain_chatbot.pdf
@@ -45351,6 +45350,7 @@
   - Yi Yang
   TITLE: 'ActBERT: Learning Global-Local Video-Text Representations'
   TYPE: conference
+  URL: https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_ActBERT_Learning_Global-Local_Video-Text_Representations_CVPR_2020_paper.html
   VENUE: CVPR
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ZhuYang_ActBERT_Learning_GlobalLocal_VideoText_Representations.pdf
