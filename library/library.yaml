@@ -42689,3 +42689,16 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/LohmannSalvadorKembhaviMottaghi_Learning_About_Objects_by_Learning_to_Interact_with_Them.pdf
   month: '06'
+- AUTHORS:
+  - Jordi Pont-Tuset
+  - Jasper Uijlings
+  - Soravit Changpinyo
+  - Radu Soricut
+  - Vittorio Ferrari
+  TITLE: Connecting Vision and Language with Localized Narratives
+  TYPE: conference
+  URL: https://arxiv.org/abs/1912.03098
+  VENUE: ECCV 
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/PontTusetUijlingsChangpinyoSoricutFerrari_Connecting_Vision_and_Language_with_Localized_Narratives.pdf
+  month: '12'
