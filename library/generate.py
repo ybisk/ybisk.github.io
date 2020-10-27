@@ -57,9 +57,9 @@ def create_html_entry(entry, idx):
             "#VENUE#":     entry["VENUE"] if "VENUE" in entry else entry["TYPE"], #entry["TYPE"] not in ["book","preprint"] else entry["TYPE"],
             "#BOOK#":      types[entry["TYPE"]][1] if len(types[entry["TYPE"]]) == 2 else "",
             "#AUTHORS#":    authors,
-            "#URL#":       "<a class=\"btn border-success btn-clipboard\" href={} target=\"_blank\">URL</a>".format(entry["URL"]) if "URL" in entry else "",
-            "#PDF#":       "<a class=\"btn border-primary btn-clipboard\" href={} target=\"_blank\">PDF</a>".format(entry["file"]) if "file" in entry else "",
-            "#GROUPS#":    " ".join("<button type=\"button\" class=\"btn btn-light btn-hash\" onclick=\"myHash('#{}')\">#{}</button>".format(g,g) for g in entry["groups"]) if "groups" in entry else ""
+            "#URL#":       "<a class=\"btn border-success\" href={} target=\"_blank\">URL</a>".format(entry["URL"]) if "URL" in entry else "",
+            "#PDF#":       "<a class=\"btn border-primary\" href={} target=\"_blank\">PDF</a>".format(entry["file"]) if "file" in entry else "",
+            "#GROUPS#":    " ".join("<button type=\"button\" class=\"btn btn-light\" onclick=\"myHash('#{}')\">#{}</button>".format(g,g) for g in entry["groups"]) if "groups" in entry else ""
           }
 
   # Replace values

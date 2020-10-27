@@ -8,22 +8,15 @@ html {
 body {
     margin: 0 auto;
     padding: 2em 2em 4em;
-    max-width: 800px;
-    min-width: 800px;
-    font-size: 14px;
+    max-width: 1400px;
+    min-width: 1400px;
+    font-size: 11px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 1.5em;
     color: #000000;
     background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
-
-.blib {
-    max-width: 1400px;
-    min-width: 1400px;
-    font-size: 11px;
-}
-
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +32,6 @@ table {
 h2 {
     margin-top: 1.3em;
 }
-
 
 a {
     color: #000000;
@@ -85,6 +77,7 @@ img {
 
 .rTableCell {
   padding-left:1px;
+  font-size:11px;
   padding-left:1px;
   overflow: hidden;
   text-overflow: ellipsis;
