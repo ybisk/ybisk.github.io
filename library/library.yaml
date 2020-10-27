@@ -42680,7 +42680,7 @@
     settings. We obtain state-of-the-art results on many of the tasks, providing a
     strong baseline for this challenge.'
   address: Online
-  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational
+  VENUE: Proceedings of the 58th Annual Meeting of the Association for Computational
     Linguistics
   doi: 10.18653/v1/2020.acl-main.222
   file: https://github.com/ybisk/papers/blob/master/2020/ShusterJuRollerDinanBoureau_The_Dialogue_Dodecathlon_OpenDomain_Knowledge_and_Image_Grounded_Conversational_Agents.pdf
