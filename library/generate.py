@@ -33,7 +33,10 @@ def generate_bibtex(entry):
       tex += "\tbooktitle = {},\n".format(entry["VENUE"])
   for key in ["month", "number", "pages", "volume", "doi", "URL"]:
     if key in entry:
-      tex += "\t{} = {},\n".format(key, entry[key])
+      if key == "month" and entry[key][-1] == ",":
+        tex += "\t{} = {},\n".format(key, entry[key][:-1])
+      else:
+        tex += "\t{} = {},\n".format(key, entry[key])
   tex += "}"
   return tex
 

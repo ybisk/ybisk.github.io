@@ -497,7 +497,6 @@
   file: "https://github.com/ybisk/papers/blob/master/1970/RuggeriSimXu_\u201CWhy_is_Toma_late_to_school_again\u201D\
     _Preschoolers_identify_the_most_informative_questions.pdf"
   groups:
-  - unread
   - hao
   - ranjani
   issue: '9'
@@ -2870,7 +2869,7 @@
   file: https://github.com/ybisk/papers/blob/master/1995/Tesauro_Temporal_Difference_Learning_and_TDGammon.pdf
   issn: 0001-0782
   issue_date: March 1995
-  month: ar,
+  month: mar,
   number: '3'
   numpages: '11'
   pages: "58\u201368"
@@ -5540,7 +5539,7 @@
   address: Philadelphia, Pennsylvania, USA
   doi: 10.3115/1073083.1073135
   file: https://github.com/ybisk/papers/blob/master/2002/PapineniRoukosWardZhu_Bleu_a_Method_for_Automatic_Evaluation_of_Machine_Translation.pdf
-  month: ul,
+  month: jul,
   pages: 311--318
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-28'
@@ -5610,7 +5609,6 @@
   doi: 10.1017/S0305000903005701
   file: https://github.com/ybisk/papers/blob/master/2003/ChouinardClark_Adult_reformulations_of_child_errors_as_negative_evidence.pdf
   groups:
-  - unread
   - hao
   number: '3'
   pages: "637\u2013669"
@@ -16171,7 +16169,7 @@
   issue_date: January 2010
   keywords: Visual attention, biologically motivated computer vision, regions of interest,
     robot vision, saliency
-  month: an,
+  month: jan,
   number: '1'
   numpages: '39'
   pages: 6:1--6:39
@@ -22673,7 +22671,7 @@
   YEAR: '2012'
   address: Jeju Island, Korea
   file: https://github.com/ybisk/papers/blob/master/2012/BruniBoledaBaroniTran_Distributional_Semantics_in_Technicolor.pdf
-  month: ul,
+  month: jul,
   pages: 136--145
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-21'
@@ -26167,7 +26165,7 @@
   address: Baltimore, Maryland
   doi: 10.3115/v1/P14-1068
   file: https://github.com/ybisk/papers/blob/master/2014/SilbererLapata_Learning_Grounded_Meaning_Representations_with_Autoencoders.pdf
-  month: un,
+  month: jun,
   pages: 721--732
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-21'
@@ -27779,7 +27777,6 @@
   doi: https://doi.org/10.1016/j.cognition.2015.07.004
   file: https://github.com/ybisk/papers/blob/master/2015/RuggeriLombrozo_Children_adapt_their_questions_to_achieve_efficient_search.pdf
   groups:
-  - unread
   - hao
   issn: 0010-0277
   keywords: Information search, Causal inference, Hypothesis generation, Hypothesis
@@ -29039,7 +29036,7 @@
   address: Berlin, Germany
   doi: 10.18653/v1/P16-2035
   file: https://github.com/ybisk/papers/blob/master/2016/LazaridouPhamBaroni_The_red_one_On_learning_to_refer_to_things_based_on_discriminative_properties.pdf
-  month: ug,
+  month: aug,
   pages: 213--218
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-21'
@@ -32447,8 +32444,6 @@
   VENUE: arXiv:1709.08568
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/Bengio_The_Consciousness_Prior.pdf
-  groups:
-  - unread
   month: 09
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -32462,7 +32457,7 @@
   VENUE: ArXiv
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/ShabanianArpitTrischlerBengio_Variational_BiLSTMs.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Kenji Kawaguchi
   - Leslie P Kaelbling
@@ -32499,7 +32494,7 @@
   address: Vancouver, Canada
   doi: 10.18653/v1/P17-1024
   file: https://github.com/ybisk/papers/blob/master/2017/ShekharPezzelleKlimovichHerbelotNabi_FOIL_it_Find_One_mismatch_between_Image_and_Language_caption.pdf
-  month: ul,
+  month: jul,
   pages: 255--265
   publisher: Association for Computational Linguistics
   timestamp: '2020-03-10'
@@ -32674,7 +32669,7 @@
   TYPE: preprint
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/HermannHillGreenWangFaulkner_Grounded_Language_Learning_in_a_Simulated_3D_World.pdf
-  month: un,
+  month: jun,
 - AUTHORS:
   - Alexis Conneau
   - Douwe Kiela
@@ -33199,7 +33194,7 @@
   URL: https://arxiv.org/abs/1711.00199
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/XiangSchmidtNarayananFox_PoseCNN_A_Convolutional_Neural_Network_for_6D_Object_Pose_Estimation_in_Cluttered_Scenes.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Yu Xiang
   - Dieter Fox
@@ -33245,7 +33240,7 @@
   URL: https://arxiv.org/abs/1711.04735
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/PenningtonSchoenholzGanguli_Resurrecting_the_sigmoid_in_deep_learning_through_dynamical_isometry_theory_and_practice.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Georg Heigold
   - G{\"u}nter Neumann
@@ -33770,7 +33765,7 @@
   URL: https://arxiv.org/abs/1711.04987v2
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/FriedAndreasKlein_Unified_Pragmatic_Models_for_Generating_and_Following_Instructions.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Maxim Rabinovich
   - Mitchell Stern
@@ -34205,7 +34200,7 @@
   URL: https://arxiv.org/abs/1711.05597
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/ZhangButepageKjellstromMandt_Advances_in_Variational_Inference.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Bed\\v{r}ich Pi\\v{s}l
   - David Mare\\v{c}ek
@@ -34316,7 +34311,7 @@
   TYPE: preprint
   URL: https://arxiv.org/abs/1711.06821v1
   YEAR: '2017'
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Jesse Thomason
   - Aishwarya Padmakumar
@@ -34672,7 +34667,7 @@
   URL: https://arxiv.org/abs/1711.05772
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/EngelHoffmanRoberts_Latent_Constraints_Learning_to_Generate_Conditionally_from_Unconditional_Generative_Models.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Sam Wiseman
   - Stuart M Shieber
@@ -35324,7 +35319,7 @@
   VENUE: Proceedings of the 32nd AAAI Conference on Artificial Intelligence
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/BrunnerRichterWangWattenhofer_Teaching_a_Machine_to_Read_Maps_with_Deep_Reinforcement_Learning.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Ashish Shrivastava
   - Tomas Pfister
@@ -35485,7 +35480,7 @@
   URL: https://arxiv.org/abs/1711.07430
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/LinMiWuLuXiong_Action_Recognition_with_CoarsetoFine_Deep_Feature_Integration_and_Asynchronous_Fusion.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Haonan Yu
   - Haichao Zhang
@@ -35560,7 +35555,7 @@
   URL: https://arxiv.org/abs/1704.06752
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/QiaoShenQiuLiuYuille_ScaleNet_Guiding_Object_Proposal_Generation_in_Supermarkets_and_Beyond.pdf
-  month: pr,
+  month: apr,
 - AUTHORS:
   - Marcin Andrychowicz
   - Filip Wolski
@@ -36335,7 +36330,7 @@
   VENUE: In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/GordonKembhaviRastegariRedmonFox_IQA_Visual_Question_Answering_in_Interactive_Environments.pdf
-  month: ec,
+  month: dec,
 - AUTHORS:
   - Ajay Mandlekar
   - Yuke Zhu
@@ -36562,7 +36557,7 @@
   VENUE: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/MaKadavMelvinKiraAlRegib_Attend_and_Interact_HigherOrder_Object_Interactions_for_Video_Understanding.pdf
-  month: une,
+  month: june,
 - AUTHORS:
   - Inoka Amarasekara
   - Will J Grant
@@ -36809,7 +36804,7 @@
     (CVPR)
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/AndersonWuTeneyBruceJohnson_VisionandLanguage_Navigation_Interpreting_visuallygrounded_navigation_instructions_in_real_environments.pdf
-  month: ov,
+  month: nov,
 - AUTHORS:
   - Kleven Henrik
   TITLE: 'Children and Gender Inequality: Evidence from Denmark'
@@ -37451,7 +37446,7 @@
   YEAR: '2018'
   address: New Orleans
   file: https://github.com/ybisk/papers/blob/master/2018/CotterellMielkeEisnerRoark_Are_All_Languages_Equally_Hard_to_LanguageModel.pdf
-  month: un,
+  month: jun,
 - AUTHORS:
   - Elliott Donlon
   - Siyuan Dong
@@ -37658,7 +37653,7 @@
   address: New Orleans, Louisiana
   doi: 10.18653/v1/N18-2017
   file: https://github.com/ybisk/papers/blob/master/2018/GururanganSwayamdiptaLevySchwartzBowman_Annotation_Artifacts_in_Natural_Language_Inference_Data.pdf
-  month: un,
+  month: jun,
   pages: 107--112
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -37723,7 +37718,7 @@
   address: Melbourne, Australia
   doi: 10.18653/v1/P18-1238
   file: https://github.com/ybisk/papers/blob/master/2018/SharmaDingGoodmanSoricut_Conceptual_Captions_A_Cleaned_Hypernymed_Image_Alttext_Dataset_For_Automatic_Image_Captioning.pdf
-  month: ul,
+  month: jul,
   pages: 2556--2565
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -38343,7 +38338,7 @@
   address: Florence, Italy
   doi: 10.18653/v1/P19-1644
   file: https://github.com/ybisk/papers/blob/master/2019/SuhrZhouZhangZhangBai_A_Corpus_for_Reasoning_about_Natural_Language_Grounded_in_Photographs.pdf
-  month: ul,
+  month: jul,
   pages: 6418--6428
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -38370,8 +38365,6 @@
   VENUE: arXiv:1909.08782
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/IlharcoZhangBaldridge_Largescale_representation_learning_from_visually_grounded_untranscribed_speech.pdf
-  groups:
-  - unread
   month: 09
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -38482,8 +38475,6 @@
   VENUE: arXiv:1912.06321
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/KadianTruongGokaslanCleggWijmans_Are_We_Making_Real_Progress_in_Simulated_Environments_Measuring_the_Sim2Real_Gap_in_Embodied_Visual_Navigation.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -38608,8 +38599,6 @@
   VENUE: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/MatthewsKriegmanCappelleBongard_Word2vec_to_behavior_morphology_facilitates_the_grounding_of_language_in_machines.pdf
-  groups:
-  - unread
   month: 08
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -38674,8 +38663,6 @@
   VENUE: 2020 International Conference on Robotics and Automation (ICRA 2020)
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/LiuDarunaChernova_CAGE_ContextAware_Grasping_Engine.pdf
-  groups:
-  - unread
   month: 09
   timestamp: '2020-07-14'
 - AUTHORS:
@@ -38862,8 +38849,6 @@
   VENUE: arXiv:1912.09930
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/MaterzynskaXiaoHerzigXuWang_SomethingElse_Compositional_Action_Recognition_with_SpatialTemporal_Interaction_Networks.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -38913,8 +38898,6 @@
   VENUE: arXiv:1911.03977
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ZhangYangHeDeng_Multimodal_Intelligence_Representation_Learning_Information_Fusion_and_Applications.pdf
-  groups:
-  - unread
   month: '11'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -38927,8 +38910,6 @@
   VENUE: arXiv:1910.02610
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ChenLinDurrett_Multihop_Question_Answering_via_Reasoning_Chains.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -38971,9 +38952,8 @@
   doi: 10.18653/v1/D19-1276
   file: https://github.com/ybisk/papers/blob/master/2019/LiEisner_Specializing_Word_Embeddings_for_Parsing_by_Information_Bottleneck.pdf
   groups:
-  - unread
   - hao
-  month: ov,
+  month: nov,
   pages: 2744--2754
   publisher: Association for Computational Linguistics
   timestamp: '2020-05-06'
@@ -39002,7 +38982,7 @@
     interpretable paths that correspond to hard monotonic alignments.
   address: Minneapolis, Minnesota
   file: https://github.com/ybisk/papers/blob/master/2019/LinZhuGormleyEisner_Neural_FiniteState_Transducers_Beyond_Rational_Relations.pdf
-  month: un,
+  month: jun,
   pages: 272--283
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -39035,12 +39015,10 @@
   doi: 10.1145/3345508
   file: "https://github.com/ybisk/papers/blob/master/2019/WijnenDavisonReidsmaMeijCharisi_Now_We\u2019\
     re_Talking_Learning_by_Explaining_Your_Reasoning_to_a_Social_Robot.pdf"
-  groups:
-  - unread
   issue_date: January 2020
   keywords: Social robotics, computer-aided learning system, inquiry learning, learning
     by explaining
-  month: ec,
+  month: dec,
   number: '1'
   numpages: '29'
   publisher: Association for Computing Machinery
@@ -39106,8 +39084,6 @@
   VENUE: Conference on Robot Learning (CoRL)
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/DasariEbertTianNairBucher_RoboNet_LargeScale_MultiRobot_Learning.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39137,8 +39113,6 @@
   VENUE: arXiv:1912.12773
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/SchmeckpeperXieRybkinTianDaniilidis_Learning_Predictive_Models_From_Observation_and_Interaction.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39437,8 +39411,6 @@
     better insights into how it is capable of solving the Mathematics Dataset's challenging
     problems. Pretrained models and code will be made available after publication.
   file: https://github.com/ybisk/papers/blob/master/2019/SchlagSmolenskyFernandezJojicSchmidhuber_Enhancing_the_Transformer_with_Explicit_Relational_Encoding_for_Math_Problem_Solving.pdf
-  groups:
-  - unread
   month: December
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39486,8 +39458,6 @@
     use of TPRs in both the encoder and decoder to explicitly capture relational structure
     information for symbolic reasoning.'
   file: https://github.com/ybisk/papers/blob/master/2019/ChenHuangPalangiSmolenskyForbus_Natural_to_FormalLanguage_Generation_using_Tensor_Product_Representations.pdf
-  groups:
-  - unread
   month: December
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39578,8 +39548,6 @@
   VENUE: arXiv:1904.10151
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/QiWuAndersonWangWang_REVERIE_Remote_Embodied_Visual_Referring_Expression_in_Real_Indoor_Environments.pdf
-  groups:
-  - unread
   month: '04'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39603,7 +39571,7 @@
     generation, and show how challenging it is.
   address: Florence, Italy
   file: https://github.com/ybisk/papers/blob/master/2019/NarayanChenJayannavarHockenmaier_Collaborative_Dialogue_in_Minecraft.pdf
-  month: ul,
+  month: jul,
   pages: 5405--5415
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -39739,7 +39707,7 @@
   address: Minneapolis, Minnesota
   doi: 10.18653/v1/W19-1605
   file: https://github.com/ybisk/papers/blob/master/2019/HuangJainMehtaBaldridgeIe_Multimodal_Discriminative_Model_for_VisionandLanguage_Navigation.pdf
-  month: un,
+  month: jun,
   pages: 40--49
   publisher: Association for Computational Linguistics
   timestamp: '2020-04-01'
@@ -39763,8 +39731,6 @@
     the desired function, whereas methods of the new paradigm employ both strong and
     weak convergence mechanisms. This can significantly increase the rate of convergence.
   file: https://github.com/ybisk/papers/blob/master/2019/VapnikIzmailov_Rethinking_statistical_learning_theory_learning_using_statistical_invariants.pdf
-  groups:
-  - unread
   issn: 1573-0565
   number: '3'
   pages: 381--423
@@ -39894,8 +39860,6 @@
   VENUE: arxiv:1912.02315
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/LuGoswamiRohrbachParikhLee_12in1_MultiTask_Vision_and_Language_Representation_Learning.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39965,8 +39929,6 @@
   VENUE: arXiv:1912.00953
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/WuDonahueBalduzziSimonyanLillicrap_LOGAN_Latent_Optimisation_for_Generative_Adversarial_Networks.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -39980,8 +39942,6 @@
   VENUE: arXiv:1905.13549
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/WangGeXingLipton_Learning_Robust_Global_Representations_by_Penalizing_Local_Predictive_Power.pdf
-  groups:
-  - unread
   month: '05'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -40055,8 +40015,6 @@
   VENUE: arXiv:1905.02175
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/IlyasSanturkarTsiprasEngstromTran_Adversarial_Examples_Are_Not_Bugs_They_Are_Features.pdf
-  groups:
-  - unread
   month: '05'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -40082,8 +40040,6 @@
     GitHub: https://github.com/qipeng/golden-retriever'
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/QiLinMehrWangManning_Answering_Complex_Opendomain_Questions_Through_Iterative_Query_Generation.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -40200,7 +40156,7 @@
     in NLP conferences.
   address: Minneapolis, Minnesota
   file: https://github.com/ybisk/papers/blob/master/2019/GaoEgerKuznetsovGurevychMiyao_Does_My_Rebuttal_Matter_Insights_from_a_Major_NLP_Conference.pdf
-  month: un,
+  month: jun,
   pages: 1274--1290
   publisher: Association for Computational Linguistics
 - AUTHORS:
@@ -40266,8 +40222,6 @@
   VENUE: arXiv:1909.11573
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/NguyenNguyenNguyenNguyenNahavandi_Deep_Learning_for_Deepfakes_Creation_and_Detection.pdf
-  groups:
-  - unread
   month: 09
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -40280,8 +40234,6 @@
   VENUE: ICCV Workshop
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/DasguptaPatroNamboodiri_Dynamic_Attention_Networks_for_Task_Oriented_Grounding.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -40513,7 +40465,7 @@
   address: Hong Kong, China
   doi: 10.18653/v1/D19-1332
   file: https://github.com/ybisk/papers/blob/master/2019/ZhouKhashabiNingRoth_Going_on_a_vacation_takes_longer_than_Going_for_a_walk_A_Study_of_Temporal_Commonsense_Understanding.pdf
-  month: ov,
+  month: nov,
   pages: 3363--3369
   publisher: Association for Computational Linguistics
   timestamp: '2020-02-17'
@@ -40831,11 +40783,9 @@
   abstract: Background
   doi: 10.7717/peerj.8247
   file: https://github.com/ybisk/papers/blob/master/2019/SilbigerStubler_Unprofessional_peer_reviews_disproportionately_harm_underrepresented_groups_in_STEM.pdf
-  groups:
-  - unread
   issn: 2167-8359
   keywords: Peer review, Underrepresented minorities, STEM, Intersectionality
-  month: ec,
+  month: dec,
   pages: e8247
   timestamp: '2020-04-26'
   volume: '7'
@@ -40935,8 +40885,6 @@
   VENUE: arxiv:1910.04302
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/DiengRuizBleiTitsias_Prescribed_Generative_Adversarial_Networks.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41033,8 +40981,6 @@
   VENUE: arxiv:1909.02533
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/NovotnyRaviGrahamNeverovaVedaldi_C3DPO_Canonical_3D_Pose_Networks_for_NonRigid_Structure_From_Motion.pdf
-  groups:
-  - unread
   month: 09
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41113,8 +41059,6 @@
   VENUE: arXiv:1910.01077
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ZolnaReedNovikovColmenarejBudden_TaskRelevant_Adversarial_Imitation_Learning.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41212,8 +41156,6 @@
   VENUE: arxiv
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/KongdAutumeLingYuDai_A_Mutual_Information_Maximization_Perspective_of_Language_Representation_Learning.pdf
-  groups:
-  - unread
   month: '10'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41367,8 +41309,6 @@
   VENUE: AAAI
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ChenMengXuLiXu_DMRM_A_Dualchannel_Multihop_Reasoning_Model_for_Visual_Dialog.pdf
-  groups:
-  - unread
   month: '12'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41400,8 +41340,6 @@
   VENUE: arxiv
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KaplanMcCandlishHenighanBrownChess_Scaling_Laws_for_Neural_Language_Models.pdf
-  groups:
-  - unread
   month: '01'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41425,8 +41363,6 @@
   VENUE: ICRA
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KuoKatzBarbu_Deep_compositional_robotic_planners_that_follow_natural_language_commands.pdf
-  groups:
-  - unread
   month: '02'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41441,8 +41377,6 @@
   VENUE: arXiv:2001.03615
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/JiangMisraRohrbachLearnedMillerChen_In_Defense_of_Grid_Features_for_Visual_Question_Answering.pdf
-  groups:
-  - unread
   month: '01'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41510,8 +41444,6 @@
   VENUE: arXiv:2004.13649
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KostrikovYaratsFergus_Image_Augmentation_Is_All_You_Need_Regularizing_Deep_Reinforcement_Learning_from_Pixels.pdf
-  groups:
-  - unread
   month: '04'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -41526,8 +41458,6 @@
   VENUE: Project web page at https://ezliu.github.io/dream
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/LiuRaghunathanLiangFinn_Explore_then_Execute_Adapting_without_Rewards_via_Factorized_MetaReinforcement_Learning.pdf
-  groups:
-  - unread
   month: 08
   timestamp: '2020-08-07'
 - AUTHORS:
@@ -41591,8 +41521,6 @@
   VENUE: ACL
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SubramanianBoginGuptaWolfsonSingh_Obtaining_Faithful_Interpretations_from_Compositional_Neural_Networks.pdf
-  groups:
-  - unread
   month: '05'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -41617,9 +41545,7 @@
     domains.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/MuLiangGoodman_Shaping_Visual_Representations_with_Language_for_FewShot_Classification.pdf
-  groups:
-  - unread
-  month: ul,
+  month: jul,
   pages: 4823--4830
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -41641,7 +41567,7 @@
     process, without any prior hypothesis on the form of the model.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/BaillyGabor_Emergence_of_Syntax_Needs_Minimal_Supervision.pdf
-  month: ul,
+  month: jul,
   pages: 477--487
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-10'
@@ -41686,7 +41612,7 @@
     at the testing time.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/HuangHuChangHauptmann_Unsupervised_Multimodal_Neural_Machine_Translation_with_Pseudo_Visual_Pivoting.pdf
-  month: ul,
+  month: jul,
   pages: 8226--8237
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -41716,8 +41642,6 @@
   VENUE: arxiv:2002.05709
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ChenKornblithNorouziHinton_A_Simple_Framework_for_Contrastive_Learning_of_Visual_Representations.pdf
-  groups:
-  - unread
   month: '02'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41742,8 +41666,6 @@
   VENUE: ArXiv
   YEAR: '2020'
   file: "https://github.com/ybisk/papers/blob/master/2020/RamsauerSch\xE4flLehnerSeidlWidrich_Hopfield_Networks_is_All_You_Need.pdf"
-  groups:
-  - unread
   journaltitle: ArXiv
   month: '07'
   timestamp: '2020-08-07'
@@ -41766,7 +41688,7 @@
     problem.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/JayannavarNarayanChenHockenmaier_Learning_to_execute_instructions_in_a_Minecraft_dialogue.pdf
-  month: ul,
+  month: jul,
   pages: 2589--2602
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -41778,8 +41700,6 @@
   URL: https://arxiv.org/abs/2002.08791
   VENUE: arxiv
   YEAR: '2020'
-  groups:
-  - unread
   month: '02'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -41791,8 +41711,6 @@
   VENUE: arxiv
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/WilsonIzmailov_Bayesian_Deep_Learning_and_a_Probabilistic_Perspective_of_Generalization.pdf
-  groups:
-  - unread
   month: '02'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41805,8 +41723,6 @@
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/CordonnierLoukasJaggi_On_the_Relationship_between_SelfAttention_and_Convolutional_Layers.pdf
-  groups:
-  - unread
   timestamp: '2020-04-26'
 - AUTHORS:
   - Ramprasaath R. Selvaraju
@@ -41822,8 +41738,6 @@
   VENUE: arXiv:2001.06927
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SelvarajuTendulkarParikhHorvitzRibeiro_SQuINTing_at_VQA_Models_Interrogating_VQA_Models_with_SubQuestions.pdf
-  groups:
-  - unread
   month: '01'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41836,8 +41750,6 @@
   VENUE: IEEE Intl. Conf. on Robotics and Automation
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KingstonWellsMollKavraki_Informing_MultiModal_Planning_with_Synergistic_Discrete_Leads.pdf
-  groups:
-  - unread
   timestamp: '2020-05-22'
 - AUTHORS:
   - Ethan Perez
@@ -41851,8 +41763,6 @@
   VENUE: arxiv:2002.09758
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/PerezLewisYihChoKiela_Unsupervised_Question_Decomposition_for_Question_Answering.pdf
-  groups:
-  - unread
   month: '02'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41873,8 +41783,6 @@
   VENUE: arxiv
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/AdiwardanaLuongSoHallFiedel_Towards_a_Humanlike_OpenDomain_Chatbot.pdf
-  groups:
-  - unread
   month: '01'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -41923,7 +41831,7 @@
     scenes or objects are involved in gameplay (zero-shot best accuracy 50.06{\%}).'
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/SugliaKonstasVanzoBastianelliElliott_CompGuessWhat_A_Multitask_Evaluation_Framework_for_Grounded_Language_Learning.pdf
-  month: ul,
+  month: jul,
   pages: 7625--7641
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -41966,8 +41874,6 @@
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SunWuLim_Program_Guided_Agent.pdf
-  groups:
-  - unread
   timestamp: '2020-04-29'
 - AUTHORS:
   - Divyansh Kaushik
@@ -42095,7 +42001,7 @@
     leveraged by \textbf{N3} when synthesizing model parameters.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/JinLiuYanEichenbergerMorency_Language_to_Network_Conditional_Parameter_Adaptation_with_Natural_Language_Descriptions.pdf
-  month: ul,
+  month: jul,
   pages: 6994--7007
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-10'
@@ -42121,7 +42027,7 @@
     large benefits in segmentation quality.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/FriedAlayracBlunsomDyerClark_Learning_to_Segment_Actions_from_Observation_and_Narration.pdf
-  month: ul,
+  month: jul,
   pages: 2569--2588
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42133,8 +42039,6 @@
   VENUE: "\u201CBridging AI and Cognitive Science\u201D (ICLR 2020)"
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/AndersonPatapoutian_Can_Neural_Network_Language_Models_Learn_Spatial_Perspective_From_Text_Alone.pdf
-  groups:
-  - unread
   timestamp: '2020-04-26'
 - AUTHORS:
   - Ramanan Sekar
@@ -42149,8 +42053,6 @@
   VENUE: Videos and code at https://ramanans1.github.io/plan2explore/
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SekarRybkinDaniilidisAbbeelHafner_Planning_to_Explore_via_SelfSupervised_World_Models.pdf
-  groups:
-  - unread
   month: '05'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -42177,8 +42079,6 @@
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/GirdharRamanan_CATER_A_diagnostic_dataset_for_Compositional_Actions_TEmporal_Reasoning.pdf
-  groups:
-  - unread
   timestamp: '2020-04-26'
 - AUTHORS:
   - Xin Wang
@@ -42225,7 +42125,7 @@
     publicly available at https://github.com/aws/aws-refcocog-adv.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/AkulaGellaAlOnaizanZhuReddy_Words_Arent_Enough_Their_Order_Matters_On_the_Robustness_of_Grounding_Visual_Referring_Expressions.pdf
-  month: ul,
+  month: jul,
   pages: 6555--6565
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42256,7 +42156,6 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/HillLampinenSchneiderClarkBotvinick_Environmental_drivers_of_systematicity_and_generalization_in_a_situated_agent.pdf
   groups:
-  - unread
   - hao
   timestamp: '2020-05-06'
 - AUTHORS:
@@ -42269,8 +42168,6 @@
   VENUE: AAAI
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/BouraouiCamachoColladosSchockaert_Inducing_Relational_Knowledge_from_BERT.pdf
-  groups:
-  - unread
   timestamp: '2020-04-26'
 - <?xml version: 1.0" encoding
   <plist version: 1.0">
@@ -42307,7 +42204,7 @@
     better. The codes and the datasets are released on our project page: https://github.com/Sha-Lab/babywalk.'
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/ZhuHuChenDengJain_BabyWalk_Going_Farther_in_VisionandLanguage_Navigation_by_Taking_Baby_Steps.pdf
-  month: ul,
+  month: jul,
   pages: 2539--2556
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42355,8 +42252,6 @@
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/YiGanLiKohliWu_CLEVRER_Collision_Events_for_Video_Representation_and_Reasoning.pdf
-  groups:
-  - unread
   timestamp: '2020-04-30'
 - AUTHORS:
   - Douwe Kiela
@@ -42372,8 +42267,6 @@
   VENUE: arXiv:2005.04790
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KielaFiroozMohanGoswamiSingh_The_Hateful_Memes_Challenge_Detecting_Hate_Speech_in_Multimodal_Memes.pdf
-  groups:
-  - unread
   month: '05'
   timestamp: '2020-05-22'
 - AUTHORS:
@@ -42400,7 +42293,7 @@
     can occur alongside a set of measures to detect them.
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/LazaridouPotapenkoTieleman_Multiagent_Communication_meets_Natural_Language_Synergies_between_Functional_and_Structural_Language_Learning.pdf
-  month: ul,
+  month: jul,
   pages: 7663--7674
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42461,8 +42354,6 @@
   elocation-id: 2020.01.08.896712
   eprint: https://www.biorxiv.org/content/early/2020/01/09/2020.01.08.896712.full.pdf
   file: https://github.com/ybisk/papers/blob/master/2020/ZhangFrassinelliTuomainenSkipperVigliocco_More_than_words_The_online_orchestration_of_word_predictability_prosody_gesture_and_mouth_movements_during_natural_language_comprehension.pdf
-  groups:
-  - unread
   publisher: Cold Spring Harbor Laboratory
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -42483,8 +42374,6 @@
   VENUE: arXiv preprint arXiv:2004.13637
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/RollerDinanGoyalJuWilliamson_Recipes_for_building_an_opendomain_chatbot.pdf
-  groups:
-  - unread
   timestamp: '2020-04-29'
 - AUTHORS:
   - Wesley J. Maddox
@@ -42497,8 +42386,6 @@
   VENUE: arXiv:2003.02139
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/MaddoxBentonWilson_Rethinking_Parameter_Counting_in_Deep_Models_Effective_Dimensionality_Revisited.pdf
-  groups:
-  - unread
   month: '03'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -42526,7 +42413,7 @@
     two benchmark datasets.'
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/YuJiangYangXia_Improving_Multimodal_Named_Entity_Recognition_via_Entity_Span_Detection_with_Unified_Multimodal_Transformer.pdf
-  month: ul,
+  month: jul,
   pages: 3342--3352
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42576,7 +42463,7 @@
     on new object categories not seen during training.'
   address: Online
   file: https://github.com/ybisk/papers/blob/master/2020/SchuzZarriess_Knowledge_Supports_Visual_Language_Grounding_A_Case_Study_on_Colour_Terms.pdf
-  month: ul,
+  month: jul,
   pages: 6536--6542
   publisher: Association for Computational Linguistics
   timestamp: '2020-07-08'
@@ -42594,8 +42481,6 @@
   VENUE: International Conference on Learning Representations
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ZhangChenWangUtiyamaSumita_Neural_Machine_Translation_with_Universal_Visual_Representation.pdf
-  groups:
-  - unread
   timestamp: '2020-05-02'
 - AUTHORS:
   - Matt Gardner
@@ -42650,8 +42535,6 @@
   VENUE: arXiv:2001.04246
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ChenLiQiuWangLi_AdaBERT_TaskAdaptive_BERT_Compression_with_Differentiable_Neural_Architecture_Search.pdf
-  groups:
-  - unread
   month: '01'
   timestamp: '2020-04-26'
 - AUTHORS:
@@ -42736,8 +42619,6 @@
   VENUE: CVPR 2020
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/SigurdssonAlayracNematzadehSmairaMalinowski_Visual_Grounding_in_Video_for_Unsupervised_Word_Translation.pdf
-  groups:
-  - unread
   month: '03'
   timestamp: '2020-08-18'
 - AUTHORS:
