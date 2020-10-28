@@ -13,105 +13,137 @@ parser = argparse.ArgumentParser(description='Add paper to library.')
 parser.add_argument('--auto',  type=str, default=None,
                     help='ArXiv or ACL identifier or comma separated list')
 parser.add_argument('--file', help='Add a file', type=str, default=None)
-parser.add_argument('--idx', help='Add a file', type=int, default=None)
+parser.add_argument('--bib', help='new record for file', type=str, default=None)
+parser.add_argument('--idx', help='idx for file', type=int, default=None)
 args = parser.parse_args()
 
-def new_file(entry):
-    new_name = "".join([a.split()[-1].translate(str.maketrans('','',string.punctuation)) for a in entry["AUTHORS"][:5]])
-    new_name += "_"
-    new_name += "_".join(entry["TITLE"].translate(str.maketrans('','',string.punctuation)).split())
-    new_name = "{}/".format(entry["YEAR"]) + new_name + ".pdf"
-    new_loc = "/Users/ybisk/Dropbox/Website/papers/" + new_name
-    entry["file"] = "https://github.com/ybisk/papers/blob/master/{}".format(new_name)
-    if not os.path.isdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"])):
-      os.mkdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"]))
-    return new_loc
-
-if args.file is not None:
-  new_loc = new_file(pubs[args.idx])
+def new_file(entry, download):
+  """
+    1. Computes target file location for new PDF given entry.
+    2. Moves file to location
+    3. executes git add and commit
+  """
+  new_name = "".join([a.split()[-1].translate(str.maketrans('','',string.punctuation)) for a in entry["AUTHORS"][:5]])
+  new_name += "_"
+  new_name += "_".join(entry["TITLE"].translate(str.maketrans('','',string.punctuation)).split())
+  new_name = "{}/".format(entry["YEAR"]) + new_name + ".pdf"
+  new_loc = "/Users/ybisk/Dropbox/Website/papers/" + new_name
+  entry["file"] = "https://github.com/ybisk/papers/blob/master/{}".format(new_name)
+  if not os.path.isdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"])):
+    os.mkdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"]))
   if not os.path.isfile(new_loc):
-    os.rename(args.file, new_loc)
+    os.rename(download, new_loc)
+    os.system('cd ~/Dropbox/website/papers;' + 
+              'git add {};'.format(new_loc) + 
+              'git commit -m {};'.format(new_loc.rsplit("/",1)[-1]))
+    return True
   else:
-    print("File already exists: {} {}".format(identifier, new_loc))
+    print("File already exists: {}".format(new_loc))
+  return False
 
+def arxiv_entry(entry, identifier):
+  """
+    Create BibTeX record from ArXiv api call
+  """
+  url = "http://export.arxiv.org/api/query?id_list=" + identifier
+  tree = ET.parse(urllib.request.urlopen(url))
+  root = tree.getroot()
+  
+  conference = None
+  authors = []
+  url = "https://arxiv.org/abs/" + identifier
+  for child in root:
+    for grand in child:
+      if "}title" in grand.tag:
+        title = grand.text
+      elif "}author" in grand.tag:
+        for name in grand:
+          authors.append(name.text)
+      elif "}published" in grand.tag:
+        date = grand.text.split("-")
+        year = date[0]
+        month = date[1]
+      elif "}comment" in grand.tag:
+        conference = grand.text
+  
+  
+  if conference is None:
+    entry["TYPE"] = "preprint"
+    entry["VENUE"] = "arXiv:{}".format(identifier)
+  else:
+    entry["TYPE"] = "conference"
+    entry["VENUE"] = conference
+  
+  entry["AUTHORS"] = authors
+  entry["TITLE"] = title
+  entry["URL"] = url
+  entry["YEAR"] = year
+  entry["month"] = month
+
+def bib_entry(entry, bibtex):
+  """
+    Parse BibTeX to yaml
+  """
+  chunks = []
+  for line in bibtex:
+    line = line.strip()[:-1].split("=")
+    a = line[0].strip()
+    if len(line) == 2:
+      b = line[1].strip()[1:] # remove initial quote
+      if a == "title":
+        entry["TITLE"] = b
+      elif a == "booktitle":
+        entry["TYPE"] = "conference"
+        entry["VENUE"] = b
+      elif a == "year":
+        entry["YEAR"] = b
+      elif a == "url":
+        entry["URL"] = b
+      elif a == "author":
+        entry["AUTHORS"] = ["{} {}".format(a.split(",")[1].strip(), a.split(",")[0].strip()) for a in b.split(" and")]
+      elif a != "month": # don't want to handle the non-quoted BS
+        entry[a] = b
+ 
 max_idx = max([e["idx"] for e in pubs])
-
+### Run through a series of arxiv or ACL links creating entries and linking files
 if args.auto is not None:
   for identifier in args.auto.split(","):
-  
     entry = {}
     max_idx += 1
     entry["idx"] = max_idx
     if identifier[0].isnumeric(): # ArXiv
-      url = "http://export.arxiv.org/api/query?id_list=" + identifier
-      tree = ET.parse(urllib.request.urlopen(url))
-      root = tree.getroot()
-  
-      authors = []
-      url = "https://arxiv.org/abs/" + identifier
-      for child in root:
-        for grand in child:
-          if "}title" in grand.tag:
-            title = grand.text
-          elif "}author" in grand.tag:
-            for name in grand:
-              authors.append(name.text)
-          elif "}published" in grand.tag:
-            date = grand.text.split("-")
-            year = date[0]
-            month = date[1]
-          elif "}comment" in grand.tag:
-            conference = grand.text
-  
+      arxiv_entry(entry, identifier)
       subprocess.call("wget --user-agent=Lynx https://arxiv.org/pdf/" + identifier + ".pdf", shell=True)
-  
-      if conference is None:
-        entry["TYPE"] = "preprint"
-        entry["VENUE"] = "arXiv:{}".format(identifier)
-      else:
-        entry["TYPE"] = "conference"
-        entry["VENUE"] = conference
-  
-      entry["AUTHORS"] = authors
-      entry["TITLE"] = title
-      entry["URL"] = url
-      entry["YEAR"] = year
-      entry["month"] = month
-      
     else: # ACL anthology
       base = "https://www.aclweb.org/anthology"
       bib = "{}/{}.bib".format(base, identifier)
-      pdf = "{}/{}.pdf".format(base, identifier)
-      
       bibtex = str(urllib.request.urlopen(bib).read(), 'utf-8')
-      chunks = []
-      for line in bibtex.split(",\n")[1:]:
-        line = line.strip()[:-1].split("=")
-        a = line[0].strip()
-        if len(line) == 2:
-          b = line[1].strip()[1:] # remove initial quote
-          if a == "title":
-            entry["TITLE"] = b
-          elif a == "booktitle":
-            entry["TYPE"] = "conference"
-            entry["VENUE"] = b
-          elif a == "year":
-            entry["YEAR"] = b
-          elif a == "url":
-            entry["URL"] = b
-          elif a == "author":
-            entry["AUTHORS"] = ["{} {}".format(a.split(",")[1].strip(), a.split(",")[0].strip()) for a in b.split(" and")]
-          elif a != "month": # don't want to handle the non-quoted BS
-            entry[a] = b
-  
+      bib_entry(entry, bibtex.split(",\n")[1:])
+
+      pdf = "{}/{}.pdf".format(base, identifier)
       subprocess.call("wget --user-agent=Lynx {}".format(pdf), shell=True)
-  
-    new_loc = new_file(entry)
-    if not os.path.isfile(new_loc):
-      os.rename("{}.pdf".format(identifier), new_loc)
+
+    if new_file(entry, "{}.pdf".format(identifier)):
       pubs.append(entry)
-    else:
-      print("File already exists: {} {}".format(identifier, new_loc))
+
+### Load a downloaded BibTeX file
+elif args.bib is not None:
+  entry = {}
+  max_idx += 1
+  entry["idx"] = max_idx
+  acl_entry(entry, "".join([line for line in open(args.bib)]).split(",\n")[1:])
+
+  if args.file is not None:
+    if new_file(entry, args.file):
+      pubs.append(entry)
+
+### Attach a PDF to an existing record
+elif args.file is not None and args.idx is not None:
+  new_loc = new_file(pubs[args.idx], args.file)
+
+else:
+  print("Invalid combination of arguments")
+  print("    --file must be coupled with --idx or --bib")
 
 o = open("library.yaml",'wt')
 o.write(yaml.dump(pubs))
