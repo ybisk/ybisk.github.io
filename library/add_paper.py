@@ -15,6 +15,7 @@ parser.add_argument('--auto',  type=str, default=None,
 parser.add_argument('--file', help='Add a file', type=str, default=None)
 parser.add_argument('--bib', help='new record for file', type=str, default=None)
 parser.add_argument('--idx', help='idx for file', type=int, default=None)
+parser.add_argument('--manual', help='interactive mode for old papers', action='store_true')
 args = parser.parse_args()
 
 def new_file(entry, download):
@@ -140,6 +141,27 @@ elif args.bib is not None:
 ### Attach a PDF to an existing record
 elif args.file is not None and args.idx is not None:
   new_loc = new_file(pubs[args.idx], args.file)
+
+### Manual model
+elif args.manual:
+  entry = {}
+  max_idx += 1
+  entry["idx"] = max_idx
+  entry["TITLE"] = input("Enter title\t").strip()
+  entry["AUTHORS"] = [v.strip() for v in input("Enter authors -- 'and' separated\t").split(" and ")]
+  entry["VENUE"] = input("Enter venue\t").strip()
+  entry["YEAR"] = input("Enter year\t").strip()
+  entry["TYPE"] = input("Enter type: conference/journal/preprint/...")
+  print("Beginning optional fields")
+  print("enter key to create new field or type DONE to finish")
+  key = input("Enter key:\t")
+  while key.strip().lower() != "done":
+    entry[key.strip()] = input("Enter {}:\t".format(key)).strip()
+    key = input("Enter key:\t")
+
+  if args.file is not None:
+    if new_file(entry, args.file):
+      pubs.append(entry)
 
 else:
   print("Invalid combination of arguments")

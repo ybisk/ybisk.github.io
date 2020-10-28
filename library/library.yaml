@@ -45741,7 +45741,7 @@
   TITLE: "Unsupervised Learning of Visual Representations by Solving Jigsaw\n  Puzzles"
   TYPE: conference
   URL: https://arxiv.org/abs/1603.09246
-  VENUE: ECCV 
+  VENUE: ECCV
   YEAR: '2016'
   file: https://github.com/ybisk/papers/blob/master/2016/NorooziFavaro_Unsupervised_Learning_of_Visual_Representations_by_Solving_Jigsaw_Puzzles.pdf
   idx: 3103
@@ -45754,8 +45754,8 @@
   TYPE: conference
   URL: https://arxiv.org/abs/1803.07728
   VENUE: ICLR
-  code: https://github.com/gidariss/FeatureLearningRotNet
   YEAR: '2018'
+  code: https://github.com/gidariss/FeatureLearningRotNet
   file: https://github.com/ybisk/papers/blob/master/2018/GidarisSinghKomodakis_Unsupervised_Representation_Learning_by_Predicting_Image_Rotations.pdf
   idx: 3104
   month: '03'
@@ -45825,3 +45825,15 @@
   file: https://github.com/ybisk/papers/blob/master/2020/NagarajanGrauman_Learning_Affordance_Landscapes_for_Interaction_Exploration_in_3D_Environments.pdf
   idx: 3109
   month: 08
+- AUTHORS:
+  - Richard Held
+  - Alan Hein
+  TITLE: Movement-Produced Stimulation in the Development of Visually Guided Behavior
+  TYPE: journal
+  VENUE: Journal of Comparative and Physiological Psychology
+  YEAR: '1963'
+  file: https://github.com/ybisk/papers/blob/master/1963/HeldHein_MovementProduced_Stimulation_in_the_Development_of_Visually_Guided_Behavior.pdf
+  idx: 3110
+  number: '5'
+  pages: 872--876
+  volume: '56'
