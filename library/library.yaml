@@ -45666,3 +45666,49 @@
   idx: 3097
   pages: 179-188
   publisher: ACM
+- AUTHORS:
+  - Seungwhan Moon
+  - Satwik Kottur
+  - Paul A. Crook
+  - Ankita De
+  - Shivani Poddar
+  - Theodore Levin
+  - David Whitney
+  - Daniel Difranco
+  - Ahmad Beirami
+  - Eunjoon Cho
+  - Rajen Subba
+  - Alborz Geramifard
+  TITLE: Situated and Interactive Multimodal Conversations
+  TYPE: conference
+  URL: https://arxiv.org/abs/2006.01460
+  VENUE: arXiv:2006.01460
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/MoonKotturCrookDePoddar_Situated_and_Interactive_Multimodal_Conversations.pdf
+  idx: 3098
+  month: '06'
+- AUTHORS:
+  - Rodolfo Corona
+  - Daniel Fried
+  - Coline Devin
+  - Dan Klein
+  - Trevor Darrell
+  TITLE: Modularity Improves Out-of-Domain Instruction Following
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2010.12764
+  VENUE: arXiv:2010.12764
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/CoronaFriedDevinKleinDarrell_Modularity_Improves_OutofDomain_Instruction_Following.pdf
+  idx: 3099
+  month: '10'
+- AUTHORS:
+  - Peter A. Jansen
+  TITLE: "Visually-Grounded Planning without Vision: Language Models Infer\n  Detailed\
+    \ Plans from High-level Instructions"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2009.14259
+  VENUE: "Findings of EMNLP"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/Jansen_VisuallyGrounded_Planning_without_Vision_Language_Models_Infer_Detailed_Plans_from_Highlevel_Instructions.pdf
+  idx: 3100
+  month: 09
