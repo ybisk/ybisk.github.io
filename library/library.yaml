@@ -45639,3 +45639,30 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2019/PontTusetUijlingsChangpinyoSoricutFerrari_Connecting_Vision_and_Language_with_Localized_Narratives.pdf
   idx: 3096
+- AUTHORS:
+  - Rajinder Sodhi
+  - Hrvoje Benko
+  - Andy Wilson
+  TITLE: 'LightGuide: Projected Visualizations for Hand Movement Guidance'
+  TYPE: conference
+  URL: https://www.microsoft.com/en-us/research/publication/lightguide-projected-visualizations-hand-movement-guidance/
+  VENUE: CHI '12 Proceedings of the SIGCHI Conference on Human Factors in Computing
+    Systems
+  YEAR: '2012'
+  abstract: "LightGuide is a system that explores a new approach to gesture guidance\
+    \ where we project guidance hints directly on a user\u2019s body. These projected\
+    \ hints guide the user in completing the desired motion with their body part which\
+    \ is particularly useful for performing movements that require accuracy and proper\
+    \ technique, such as during exercise or physical therapy. Our proof-of-concept\
+    \ implementation consists of a single low-cost depth camera and projector and\
+    \ we present four novel interaction techniques that are focused on guiding a user\u2019\
+    s hand in mid-air. Our visualizations are designed to incorporate both feedback\
+    \ and feedforward cues to help guide users through a range of movements. We quantify\
+    \ the performance of LightGuide in a user study comparing each of our on-body\
+    \ visualizations to hand animation videos on a computer display in both time and\
+    \ accuracy. Exceeding our expectations, participants performed movements with\
+    \ an average error of 21.6mm, nearly 85% more accurately than when guided by video."
+  file: https://github.com/ybisk/papers/blob/master/2012/SodhiBenkoWilson_LightGuide_Projected_Visualizations_for_Hand_Movement_Guidance.pdf
+  idx: 3097
+  pages: 179-188
+  publisher: ACM
