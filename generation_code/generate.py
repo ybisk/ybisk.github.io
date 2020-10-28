@@ -23,13 +23,27 @@ colors = {
           "A": "secondary"
         }
 
+# TODO: Redundant with library
+accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", 
+           "{\\'u}": "ú", "{\\'c}": "ć", "{\\'\\\\i}":"í",
+           "{\\\"a}": "ä", "{\\o}": "ø", "{\\aa}": "å", "{\\l}": "ł", "{\\'y}": "ý",
+           "{\\\"o}": "ö","{\\\"u}": "ü", "{\\'s}": "ś", "{\\^o}": "ô",
+           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř"}
+def pretty(s):
+  for k in accents:
+    s = s.replace(k, accents[k])
+    s = s.replace(k.upper(), accents[k].upper())
+  if s[0] == "{" and s[-1] == "}":
+    s = s[1:-1]
+  return s
+
 def create_html_entry(entry, idx):
   # Read entry template
   html = "".join([line for line in open("entry.html")])
   html = html.replace("#IDX#", str(idx))
 
   # Authors
-  authors = ", ".join(entry["AUTHORS"])
+  authors = pretty(", ".join(entry["AUTHORS"]))
   # Add links to all co-authors
   for v in webs:
     authors = authors.replace(v, "<a href={}>{}</a>".format(webs[v], v))
