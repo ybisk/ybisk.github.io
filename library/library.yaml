@@ -45707,8 +45707,121 @@
     \ Plans from High-level Instructions"
   TYPE: conference
   URL: https://arxiv.org/abs/2009.14259
-  VENUE: "Findings of EMNLP"
+  VENUE: Findings of EMNLP
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/Jansen_VisuallyGrounded_Planning_without_Vision_Language_Models_Infer_Detailed_Plans_from_Highlevel_Instructions.pdf
   idx: 3100
   month: 09
+- AUTHORS:
+  - Arunkumar Byravan
+  - Dieter Fox
+  TITLE: 'SE3-Nets: Learning Rigid Body Motion using Deep Neural Networks'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1606.02378v3
+  VENUE: IEEE International Conference on Robotics\n  and Automation (ICRA)
+  YEAR: '2016'
+  file: https://github.com/ybisk/papers/blob/master/2016/ByravanFox_SE3Nets_Learning_Rigid_Body_Motion_using_Deep_Neural_Networks.pdf
+  idx: 3101
+  month: '06'
+- AUTHORS:
+  - Carl Doersch
+  - Abhinav Gupta
+  - Alexei A. Efros
+  TITLE: Unsupervised Visual Representation Learning by Context Prediction
+  TYPE: conference
+  URL: https://arxiv.org/abs/1505.05192
+  VENUE: ICCV
+  YEAR: '2015'
+  file: https://github.com/ybisk/papers/blob/master/2015/DoerschGuptaEfros_Unsupervised_Visual_Representation_Learning_by_Context_Prediction.pdf
+  idx: 3102
+  month: '05'
+- AUTHORS:
+  - Mehdi Noroozi
+  - Paolo Favaro
+  TITLE: "Unsupervised Learning of Visual Representations by Solving Jigsaw\n  Puzzles"
+  TYPE: conference
+  URL: https://arxiv.org/abs/1603.09246
+  VENUE: ECCV 
+  YEAR: '2016'
+  file: https://github.com/ybisk/papers/blob/master/2016/NorooziFavaro_Unsupervised_Learning_of_Visual_Representations_by_Solving_Jigsaw_Puzzles.pdf
+  idx: 3103
+  month: '03'
+- AUTHORS:
+  - Spyros Gidaris
+  - Praveer Singh
+  - Nikos Komodakis
+  TITLE: Unsupervised Representation Learning by Predicting Image Rotations
+  TYPE: conference
+  URL: https://arxiv.org/abs/1803.07728
+  VENUE: ICLR
+  code: https://github.com/gidariss/FeatureLearningRotNet
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/GidarisSinghKomodakis_Unsupervised_Representation_Learning_by_Predicting_Image_Rotations.pdf
+  idx: 3104
+  month: '03'
+- AUTHORS:
+  - Deepak Pathak
+  - Philipp Krahenbuhl
+  - Jeff Donahue
+  - Trevor Darrell
+  - Alexei A. Efros
+  TITLE: 'Context Encoders: Feature Learning by Inpainting'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1604.07379
+  VENUE: arxiv:1604.07379
+  YEAR: '2016'
+  file: https://github.com/ybisk/papers/blob/master/2016/PathakKrahenbuhlDonahueDarrellEfros_Context_Encoders_Feature_Learning_by_Inpainting.pdf
+  idx: 3105
+  month: '04'
+- AUTHORS:
+  - Pierre Sermanet
+  - Corey Lynch
+  - Yevgen Chebotar
+  - Jasmine Hsu
+  - Eric Jang
+  - Stefan Schaal
+  - Sergey Levine
+  TITLE: 'Time-Contrastive Networks: Self-Supervised Learning from Video'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1704.06888
+  VENUE: arXiv:1704.06888
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/SermanetLynchChebotarHsuJang_TimeContrastive_Networks_SelfSupervised_Learning_from_Video.pdf
+  idx: 3106
+  month: '04'
+- AUTHORS:
+  - Dinesh Jayaraman
+  - Kristen Grauman
+  TITLE: Learning image representations tied to ego-motion
+  TYPE: conference
+  URL: https://arxiv.org/abs/1505.02206
+  VENUE: ICCV
+  YEAR: '2015'
+  file: https://github.com/ybisk/papers/blob/master/2015/JayaramanGrauman_Learning_image_representations_tied_to_egomotion.pdf
+  idx: 3107
+  month: '05'
+- AUTHORS:
+  - Lerrel Pinto
+  - Dhiraj Gandhi
+  - Yuanfeng Han
+  - Yong-Lae Park
+  - Abhinav Gupta
+  TITLE: "The Curious Robot: Learning Visual Representations via Physical\n  Interactions"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1604.01360
+  VENUE: arXiv:1604.01360
+  YEAR: '2016'
+  file: https://github.com/ybisk/papers/blob/master/2016/PintoGandhiHanParkGupta_The_Curious_Robot_Learning_Visual_Representations_via_Physical_Interactions.pdf
+  idx: 3108
+  month: '04'
+- AUTHORS:
+  - Tushar Nagarajan
+  - Kristen Grauman
+  TITLE: "Learning Affordance Landscapes for Interaction Exploration in 3D\n  Environments"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2008.09241
+  VENUE: NeurIPS
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/NagarajanGrauman_Learning_Affordance_Landscapes_for_Interaction_Exploration_in_3D_Environments.pdf
+  idx: 3109
+  month: 08
