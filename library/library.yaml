@@ -32340,7 +32340,7 @@
   idx: 2245
   month: '07'
 - AUTHORS:
-  - Tom{\'a}{\v s} Ko{\v c}isk 'y
+  - Tom{\'a}{\v{s}} Ko{\v{c}}isk{\'y}
   - G{\'a}bor Melis
   - Edward Grefenstette
   - Chris Dyer
@@ -32354,6 +32354,7 @@
     Processing
   YEAR: '2016'
   date: 2016/01/01
+  file: https://github.com/ybisk/papers/blob/master/2016/KovciskyMelisGrefenstetteDyerLing_Semantic_Parsing_with_SemiSupervised_Sequential_Autoencoders.pdf
   idx: 2246
   month: '01'
   pages: 1078--1087
@@ -36155,7 +36156,7 @@
   TITLE: '{Six Challenges for Neural Machine Translation}'
   TYPE: conference
   URL: https://arxiv.org/abs/1706.03872
-  VENUE: 12 pages; First Workshop on Neural Machine Translation, 2017
+  VENUE: First Workshop on Neural Machine Translation
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2017/KoehnKnowles_Six_Challenges_for_Neural_Machine_Translation.pdf
   idx: 2498
@@ -37801,8 +37802,8 @@
   TITLE: '{VAE with a VampPrior}'
   TYPE: conference
   URL: https://arxiv.org/abs/1705.07120
-  VENUE: 16 pages, final version, AISTATS 2018
-  YEAR: '2017'
+  VENUE: AISTATS
+  YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2017/TomczakWelling_VAE_with_a_VampPrior.pdf
   idx: 2614
   month: '05'
@@ -38374,8 +38375,9 @@
   TITLE: '{MAttNet: Modular Attention Network for Referring Expression Comprehension}'
   TYPE: conference
   URL: https://arxiv.org/abs/1801.08186
-  VENUE: '14 pages, 13 figures, Project and Demo: http://gpuvision.cs.unc.edu/refer/comprehension'
+  VENUE: CVPR
   YEAR: '2018'
+  code: https://github.com/lichengunc/MAttNet
   file: https://github.com/ybisk/papers/blob/master/2018/YuLinShenYangLu_MAttNet_Modular_Attention_Network_for_Referring_Expression_Comprehension.pdf
   idx: 2654
   month: '01'
@@ -38387,8 +38389,7 @@
     of Quantities from Vision}'
   TYPE: conference
   URL: https://arxiv.org/abs/1804.05018v1
-  VENUE: 12 pages (references included). To appear in the Proceedings of NAACL-HLT
-    2018
+  VENUE: NAACL 2018
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/PezzelleSorodocBernardi_Comparatives_Quantifiers_Proportions_A_MultiTask_Model_for_the_Learning_of_Quantities_from_Vision.pdf
   idx: 2655
@@ -38745,8 +38746,8 @@
     with Indirect Intervention}'
   TYPE: conference
   URL: https://arxiv.org/abs/1812.04155
-  VENUE: 14 pages, 11 figures, appendix included
-  YEAR: '2018'
+  VENUE: CVPR
+  YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2018/NguyenDeyBrockettDolan_Visionbased_Navigation_with_Languagebased_Assistance_via_Imitation_Learning_with_Indirect_Intervention.pdf
   idx: 2680
   month: '12'
@@ -38776,7 +38777,7 @@
     Comprehension}'
   TYPE: conference
   URL: https://arxiv.org/abs/1810.12885
-  VENUE: 14 pages
+  VENUE: arxiv:1810.12885
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/ZhangLiuLiuGaoDuh_ReCoRD_Bridging_the_Gap_between_Human_and_Machine_Commonsense_Reading_Comprehension.pdf
   idx: 2682
@@ -39344,7 +39345,7 @@
   TITLE: '{Reinforcement and Imitation Learning for Diverse Visuomotor Skills}'
   TYPE: conference
   URL: https://arxiv.org/abs/1802.09564
-  VENUE: 13 pages, 6 figures
+  VENUE: 'Proceedings of Robotics: Science and Systems'
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/ZhuWangMerelRusuErez_Reinforcement_and_Imitation_Learning_for_Diverse_Visuomotor_Skills.pdf
   idx: 2716
@@ -39812,7 +39813,7 @@
   TITLE: '{Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures}'
   TYPE: conference
   URL: https://arxiv.org/abs/1805.06627
-  VENUE: ACL 2018 camera-ready version, 14 pages including appendices
+  VENUE: ACL
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/VilnisLiMurtyMcCallum_Probabilistic_Embedding_of_Knowledge_Graphs_with_Box_Lattice_Measures.pdf
   idx: 2748
@@ -40162,9 +40163,9 @@
   TITLE: '{Gibson Env: Real-World Perception for Embodied Agents}'
   TYPE: conference
   URL: https://arxiv.org/abs/1808.10654v1
-  VENUE: Access the code, dataset, and project website at http://gibsonenv.vision/
-    . CVPR 2018
+  VENUE: CVPR
   YEAR: '2018'
+  code: http://gibsonenv.vision/
   file: https://github.com/ybisk/papers/blob/master/2018/XiaZamirHeSaxMalik_Gibson_Env_RealWorld_Perception_for_Embodied_Agents.pdf
   idx: 2772
   month: 08
@@ -41118,7 +41119,7 @@
   TITLE: '{Multi-Target Embodied Question Answering}'
   TYPE: conference
   URL: https://arxiv.org/abs/1904.04686v1
-  VENUE: 10 pages, 6 figures
+  VENUE: CVPR
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/YuChenGkioxariBansalBerg_MultiTarget_Embodied_Question_Answering.pdf
   idx: 2836
@@ -42650,7 +42651,7 @@
     Vision-and-Language Tasks}'
   TYPE: conference
   URL: https://arxiv.org/abs/1908.02265
-  VENUE: 11 pages, 5 figures
+  VENUE: NeurIPS
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/LuBatraParikhLee_ViLBERT_Pretraining_TaskAgnostic_Visiolinguistic_Representations_for_VisionandLanguage_Tasks.pdf
   idx: 2921
@@ -43039,8 +43040,8 @@
   TITLE: '{Procedure Planning in Instructional Videos}'
   TYPE: conference
   URL: https://arxiv.org/abs/1907.01172
-  VENUE: 10 pages, 4 figures
-  YEAR: '2019'
+  VENUE: ECCV
+  YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2019/ChangHuangXuAdeliFeiFei_Procedure_Planning_in_Instructional_Videos.pdf
   idx: 2947
   month: '07'
