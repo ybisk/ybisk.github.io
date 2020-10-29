@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     padding: 2em 2em 4em;
     max-width: 1400px;
-    min-width: 800px;
+    min-width: 1000px;
     font-size: 12px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 1.5em;
@@ -63,7 +63,7 @@ p {
 }
 
 th {
-  font-size:14px;
+  font-size:12px;
 }
 
 td {
@@ -76,8 +76,23 @@ td {
 }
 
 .venue {
-  overflow: hidden;
-  white-space: nowrap;
+  width:100px;
+  display:table-cell;
+}
+
+.year {
+  width:20px;
+  display:table-cell;
+}
+
+.title {
+  width:1000px;
+  display:table-cell;
+}
+
+.author {
+  width:200px;
+  display:table-cell;
 }
 
 .btn {

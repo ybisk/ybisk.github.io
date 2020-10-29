@@ -85,7 +85,7 @@ def create_html_entry(entry, idx):
             "#AUTHORS#":    authors,
             "#URL#":       "<a class=\"btn border-success\" href={} target=\"_blank\">URL</a>".format(entry["URL"]) if "URL" in entry else "",
             "#PDF#":       "<a class=\"btn border-primary\" href={} target=\"_blank\">PDF</a>".format(entry["file"]) if "file" in entry else "",
-            "#GROUPS#":    " ".join("<button type=\"button\" class=\"btn btn-light\" onclick=\"myHash('#{}')\">#{}</button>".format(g,g) for g in entry["groups"]) if "groups" in entry else ""
+            "#GROUPS#":    " ".join("<button type=\"button\" class=\"btn btn-light\" disabled>#{}</button>".format(g,g) for g in entry["groups"]) if "groups" in entry else ""
           }
 
   # Replace values
