@@ -21,10 +21,10 @@ types = {
         }
 
 accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", 
-           "{\\'u}": "ú", "{\\'c}": "ć", "{\\'\\\\i}":"í",
+           "{\\'u}": "ú", "{\\'c}": "ć", "{\\'\\\\i}":"í","{\\`a}": "à",
            "{\\\"a}": "ä", "{\\o}": "ø", "{\\aa}": "å", "{\\l}": "ł", "{\\'y}": "ý",
-           "{\\\"o}": "ö","{\\\"u}": "ü", "{\\'s}": "ś", 
-           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř"}
+           "{\\\"o}": "ö","{\\\\\"o}": "ö", "{\\\"u}": "ü", "{\\'s}": "ś", 
+           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř", "\\\\&":"&"}
 def pretty(s):
   for k in accents:
     s = s.replace(k, accents[k])
@@ -80,7 +80,7 @@ def create_html_entry(entry, idx):
             "#TITLE#":     pretty(entry["TITLE"]),
             "#YEAR#":      entry["YEAR"],
             "#YEAR-btn#":  entry["YEAR"],
-            "#VENUE#":     entry["VENUE"] if "VENUE" in entry else entry["TYPE"], #entry["TYPE"] not in ["book","preprint"] else entry["TYPE"],
+            "#VENUE#":     pretty(entry["VENUE"]) if "VENUE" in entry else entry["TYPE"], 
             "#BOOK#":      types[entry["TYPE"]][1] if len(types[entry["TYPE"]]) == 2 else "",
             "#AUTHORS#":    authors,
             "#URL#":       "<a class=\"btn border-success\" href={} target=\"_blank\">URL</a>".format(entry["URL"]) if "URL" in entry else "",

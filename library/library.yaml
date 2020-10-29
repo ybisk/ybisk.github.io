@@ -55,7 +55,7 @@
   volume: '15'
 - AUTHORS:
   - J R Firth
-  TITLE: THE TECHNIQUE OF SEMANTICS.
+  TITLE: The Technique of Semantics.
   TYPE: journal
   VENUE: Transactions of the Philological Society
   YEAR: '1935'
@@ -979,15 +979,17 @@
   file: https://github.com/ybisk/papers/blob/master/1981/Dejong_Generalizations_Based_on_Explanations.pdf
   idx: 74
 - AUTHORS:
-  - J Shimron
-  - D Navon
+  - Joseph Shimron
+  - David Navon
   TITLE: 'The Dependence on Graphemes and on Their Translation to Phonemes in Reading:
-    A {\ldots}'
+    A Developmental Perspective'
   TYPE: journal
-  URL: http://eric.ed.gov/ERICWebPortal/recordDetail?accno
-  VENUE: eric.ed.gov
-  YEAR: '1981'
-  date: 1981/01/01
+  URL: https://www.jstor.org/stable/747484?seq=1
+  VENUE: Reading Research Quarterly
+  vol: 17
+  number: 2
+  YEAR: '1982'
+  pages: 210-228
   file: https://github.com/ybisk/papers/blob/master/1981/ShimronNavon_The_Dependence_on_Graphemes_and_on_Their_Translation_to_Phonemes_in_Reading_A_ldots.pdf
   idx: 75
   month: '01'
@@ -2336,9 +2338,9 @@
   - A Bar-Noy
   - D Dolev
   TITLE: A partial equivalence between shared-memory and message-passing in an asynchronous
-    fail-stop {\ldots}
+    fail-stop distributed environment
   TYPE: journal
-  URL: http://www.springerlink.com/index/V347876V8661QT1H.pdf
+  URL: https://link.springer.com/article/10.1007/BF01187073
   VENUE: Theory of Computing Systems
   YEAR: '1993'
   date: 1993/01/01
@@ -3161,11 +3163,10 @@
   - Jo{\~a}o Costeira
   - Takeo Kanade
   TITLE: A Multi-body Factorization Method for Motion Analysis
-  TYPE: journal
-  URL: http://www.dtic.mil/cgi-bin/GetTRDoc?Location
-  VENUE: 'Robotics research: the seventh international {\ldots}'
-  YEAR: '1996'
-  date: 1996/01/01
+  TYPE: conference
+  URL: https://ieeexplore.ieee.org/document/466815
+  VENUE: 'IEEE International Conference on Computer Vision'
+  YEAR: '1995'
   file: https://github.com/ybisk/papers/blob/master/1996/CosteiraKanade_A_Multibody_Factorization_Method_for_Motion_Analysis.pdf
   idx: 230
   month: '01'
@@ -4705,7 +4706,7 @@
 - AUTHORS:
   - G Kiraz
   TITLE: 'Multitiered nonlinear morphology using multitape finite automata: a case
-    study on Syriac {\ldots}'
+    study on Syriac and Arabic'
   TYPE: journal
   VENUE: Computational Linguistics
   YEAR: '2000'
@@ -4785,9 +4786,9 @@
 - AUTHORS:
   - EB McClure
   TITLE: A meta-analytic review of sex differences in facial expression processing
-    and their development in {\ldots}
+    and their development in infants, children, and adolescents
   TYPE: journal
-  URL: http://cat.inist.fr/?aModele
+  URL: https://pubmed.ncbi.nlm.nih.gov/10825784/
   VENUE: Psychological Bulletin
   YEAR: '2000'
   date: 2000/01/01
@@ -4847,10 +4848,10 @@
   - F Xia
   - Martha Palmer
   TITLE: Converting dependency structures to phrase structures
-  TYPE: journal
-  VENUE: Proceedings of the first international conference on {\ldots}
-  YEAR: '2000'
-  date: 2000/01/01
+  URL: https://www.aclweb.org/anthology/H01-1014/
+  TYPE: conference
+  VENUE: Proceedings of the First International Conference on Human Language Technology Research
+  YEAR: '2001'
   file: https://github.com/ybisk/papers/blob/master/2000/XiaPalmer_Converting_dependency_structures_to_phrase_structures.pdf
   idx: 353
   month: '01'
@@ -7919,7 +7920,8 @@
   - Dmitriy Genzel
   TITLE: Inducing a multilingual dictionary from a parallel multitext in related languages
   TYPE: conference
-  VENUE: Proceedings of the conference on Human Language {\ldots}
+  VENUE: Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing
+  URL: https://www.aclweb.org/anthology/H05-1110/
   YEAR: '2005'
   date: 2005/01/01
   file: https://github.com/ybisk/papers/blob/master/2005/Genzel_Inducing_a_multilingual_dictionary_from_a_parallel_multitext_in_related_languages.pdf
@@ -9650,7 +9652,7 @@
 - AUTHORS:
   - P Miller
   TITLE: 'Processing Unpointed Hebrew: What Can We Learn from Determining the Identicalness
-    of {\ldots}'
+    of Monosyllabic and Bisyllabic Nouns'
   TYPE: journal
   URL: http://www.springerlink.com/index/Y183388653WL16H3.pdf
   VENUE: Journal of Psycholinguistic Research
@@ -12060,7 +12062,7 @@
   - Arthur Asuncion
   TITLE: Fast collapsed gibbs sampling for latent dirichlet allocation
   TYPE: journal
-  VENUE: Proceeding of the 14th ACM SIGKDD international {\ldots}
+  VENUE: Proceeding of the 14th ACM SIGKDD 
   YEAR: '2008'
   date: 2008/01/01
   file: https://github.com/ybisk/papers/blob/master/2008/PorteousNewmanIhlerAsuncion_Fast_collapsed_gibbs_sampling_for_latent_dirichlet_allocation.pdf
@@ -13259,10 +13261,10 @@
   - Andreas Zollmann
   - A Venugopal
   - Franz Josef Och
-  TITLE: A systematic comparison of phrase-based, hierarchical and syntax-augmented
-    {\ldots}
+  TITLE: A Systematic Comparison of Phrase-Based, Hierarchical and Syntax-Augmented Statistical MT
   TYPE: conference
   VENUE: COLING
+  URL: https://www.aclweb.org/anthology/C08-1144/
   YEAR: '2008'
   date: 2008/01/01
   file: https://github.com/ybisk/papers/blob/master/2008/ZollmannVenugopalOch_A_systematic_comparison_of_phrasebased_hierarchical_and_syntaxaugmented_ldots.pdf
@@ -13755,7 +13757,7 @@
   TITLE: Synchronizing Translated Movie Subtitles
   TYPE: journal
   URL: http://www.let.rug.nl/tiedeman/blog/paper/lrec2008-subsync.pdf
-  VENUE: the Proceedings of the Sixth International {\ldots}
+  VENUE: LREC
   YEAR: '2008'
   date: 2008/01/01
   file: https://github.com/ybisk/papers/blob/master/2008/Tiedemann_Synchronizing_Translated_Movie_Subtitles.pdf
@@ -16392,7 +16394,7 @@
   pages: 74--82
 - AUTHORS:
   - Drahom{\'\\i}ra "johanka" Spoustov{\'a}
-  - Jan Haji{\v c}
+  - Jan Haji\v{c}
   - Jan Raab
   - Miroslav Spousta
   TITLE: Semi-Supervised Training for the Averaged Perceptron POS Tagger
@@ -16587,7 +16589,7 @@
   TITLE: Variational Bayesian analysis for hidden Markov models
   TYPE: journal
   URL: http://www3.interscience.wiley.com/journal/122407364/abstract
-  VENUE: Australian \\& New Zealand {\ldots}
+  VENUE: Australian \\& New Zealand Journal of Statistics
   YEAR: '2009'
   date: 2009/01/01
   file: https://github.com/ybisk/papers/blob/master/2009/McGroryTitterington_Variational_Bayesian_analysis_for_hidden_Markov_models.pdf
@@ -31877,8 +31879,8 @@
   pages: 110--125
   volume: '10'
 - AUTHORS:
-  - Marta R Costa-juss a
-  - Jos e A R Fonollosa
+  - Marta R Costa-juss{\`a}
+  - Jos{\'e} A R Fonollosa
   TITLE: Character-based Neural Machine Translation
   TYPE: conference
   URL: http://anthology.aclweb.org/P16-2058
