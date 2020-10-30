@@ -1,6 +1,6 @@
 import os
 import yaml
-import random
+import string
 from hashlib import blake2b
 
 # Load Publications 
@@ -20,11 +20,13 @@ types = {
          "misc": ["misc"],
         }
 
-accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", 
+accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", "{\\'i}": "í", 
            "{\\'u}": "ú", "{\\'c}": "ć", "{\\'\\\\i}":"í","{\\`a}": "à",
            "{\\\"a}": "ä", "{\\o}": "ø", "{\\aa}": "å", "{\\l}": "ł", "{\\'y}": "ý",
            "{\\\"o}": "ö","{\\\\\"o}": "ö", "{\\\"u}": "ü", "{\\'s}": "ś", 
-           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř", "\\\\&":"&"}
+           "\\v{c}": "č", "\\v{s}": "š", "\\v{r}": "ř", "\\\\&":"&", "\\\\%":"%", 
+           "\\c{c}": "ç", "\\u{g}": "ğ", "{\\~a}": "ã", "{\\ss}":"ß",
+           "{\\AA}": "Å", "{\\\"e}": "ë", "{\\'n}":"ń", "{\\\"i}": "ï"}
 def pretty(s):
   for k in accents:
     s = s.replace(k, accents[k])
@@ -34,10 +36,11 @@ def pretty(s):
     s = s[1:-1]
   return s
 
+punct = str.maketrans(dict.fromkeys(string.punctuation))
 
 def generate_bibtex(entry):
   tex = "@{}".format(types[entry["TYPE"]][0])
-  tex += "{" + "{}{},\n".format(entry["AUTHORS"][0].split()[-1], entry["YEAR"])
+  tex += "{" + "{}{},\n".format(entry["AUTHORS"][0].split()[-1].translate(punct), entry["YEAR"])
   tex += "\ttitle = {},\n".format(entry["TITLE"])
   tex += "\tauthors = {},\n".format(" and ".join(entry["AUTHORS"]))
   tex += "\tyear = {},\n".format(entry["YEAR"])

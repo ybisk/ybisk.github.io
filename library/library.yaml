@@ -12199,7 +12199,7 @@
   - Aurelie Nicholas
   - Stuart Brody
   - Pascal de Sutter
-  - Fran{\c c}ois de Carufel
+  - Fran\c{c}ois de Carufel
   TITLE: A Woman's History of Vaginal Orgasm is Discernible from Her Walk
   TYPE: journal
   VENUE: Journal of Sexual Medicine
@@ -12685,7 +12685,7 @@
   idx: 919
   month: '01'
 - AUTHORS:
-  - Tom{\'a}{\v s} Grim
+  - Tom{\'a}\v{s} Grim
   TITLE: A possible role of social activity to explain differences in publication
     output among ecologists
   TYPE: journal
@@ -16852,7 +16852,7 @@
   month: '03'
   pages: 1--410
 - AUTHORS:
-  - Sel{\c c}uk K{\"o}pr{\"u}
+  - Sel\c{c}uk K{\"o}pr{\"u}
   - "Adnan Yaz\u0131c\u0131"
   TITLE: Lattice Parsing to Integrate Speech Recognition and Rule-Based Machine Translation
   TYPE: conference
@@ -18291,7 +18291,7 @@
   pages: 1--264
   publisher: Blackwell Publishing
 - AUTHORS:
-  - Sa{\v s}a Petrovi{\'c}
+  - Sa\v{s}a Petrovi{\'c}
   - Miles Osborne
   - Victor Lavrenko
   TITLE: Streaming First Story Detection with application to Twitter
@@ -24573,7 +24573,7 @@
   - Ranjitha Kumar
   - Maxine Lim
   - Noah Goodman
-  - Radom{\'\\i}r M{\v e}ch
+  - Radom{\'\\i}r M\v{e}ch
   TITLE: Proceedings of the 25th annual ACM symposium on User interface software and
     technology - UIST '12
   TYPE: conference
@@ -24716,7 +24716,7 @@
   volume: '6'
 - AUTHORS:
   - Razvan Pascanu
-  - '{\c C}a{\u g}lar G{\"u}l{\c c}ehre'
+  - '\c{C}a{\u g}lar G{\"u}l\c{c}ehre'
   - Kyunghyun Cho
   - Yoshua Bengio
   TITLE: How to Construct Deep Recurrent Neural Networks
@@ -25850,7 +25850,7 @@
   pages: 74--84
   publisher: Association for Computational Linguistics
 - AUTHORS:
-  - Sa{\v s}a Petrovi{\'c}
+  - Sa\v{s}a Petrovi{\'c}
   - David Matthews
   TITLE: Unsupervised joke generation from big data
   TYPE: conference
@@ -28615,7 +28615,7 @@
   publisher: Springer US
   volume: '67'
 - AUTHORS:
-  - '{\c{C}}etin Meri\\c{c}li'
+  - '\c{C}etin Meri\c{c}li'
   - Steven D. Klee
   - Jack Paparian
   - Manuela Veloso
@@ -28718,10 +28718,10 @@
     Representations with Substitute Words
   TYPE: phdthesis
   URL: http://www2.denizyuret.com/bib/yatbaz/yatbaz2013phd/thesis.pdf
-  VENUE: Ko{\c c} University
+  VENUE: Ko\c{c} University
   YEAR: '2014'
   idx: 2017
-  publisher: Ko{\c c}University
+  publisher: Ko\c{c}University
 - AUTHORS:
   - Marco Marelli
   - Stefano Menini
@@ -28930,7 +28930,7 @@
   - Tim Rockt{\"a}schel
   - Edward Grefenstette
   - Karl Moritz Hermann
-  - Tom{\'a}{\v s} Ko{\v c}isk{\'y}
+  - Tom{\'a}\v{s} Ko\v{c}isk{\'y}
   - Phil Blunsom
   TITLE: Reasoning about Entailment with Neural Attention
   TYPE: journal
@@ -30587,7 +30587,7 @@
   idx: 2132
   month: '01'
 - AUTHORS:
-  - Simon {\v S}uster
+  - Simon \v{S}uster
   - Gertjan van Noord
   - Ivan Titov
   TITLE: Word Representations, Tree Models and Syntactic Functions
@@ -31160,8 +31160,8 @@
   publisher: Association for Computational Linguistics
 - AUTHORS:
   - Iulian Vlad Serban
-  - Alberto Garc i a-Dur a n
-  - '{\c C}a{\u g}lar G{\"u}l{\c c}ehre'
+  - Alberto Garc{\'i}a-Dur{\'a}n
+  - '\c{C}a{\u g}lar G{\"u}l\c{c}ehre'
   - Sungjin Ahn
   - Sarath Chandar
   - Aaron Courville
@@ -31542,7 +31542,7 @@
   - Tim Cooijmans
   - Nicolas Ballas
   - C{\'e}sar Laurent
-  - '{\c C}a{\u g}lar G{\"u}l{\c c}ehre'
+  - '\c{C}a\u{g}lar G{\"u}l\c{c}ehre'
   - Aaron Courville
   TITLE: Recurrent Batch Normalization
   TYPE: journal
@@ -32342,7 +32342,7 @@
   idx: 2245
   month: '07'
 - AUTHORS:
-  - Tom{\'a}{\v{s}} Ko{\v{c}}isk{\'y}
+  - Tom{\'a}\v{s} Ko\v{c}isk{\'y}
   - G{\'a}bor Melis
   - Edward Grefenstette
   - Chris Dyer
@@ -33238,7 +33238,7 @@
   idx: 2302
   isbn: 978-2-9517408-9-1
   language: english
-  location: Portoro{\v z}, Slovenia
+  location: Portoro\v{z}, Slovenia
   month: may
   publisher: European Language Resources Association (ELRA)
 - AUTHORS:
@@ -33924,15 +33924,15 @@
   TITLE: '{Leveraging Video Descriptions to Learn Video Question Answering}'
   TYPE: conference
   URL: https://arxiv.org/abs/1611.04021
-  VENUE: 7 pages, 5 figures. Accepted to AAAI 2017. Camera-ready version
-  YEAR: '2016'
+  VENUE: AAAI 
+  YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2016/ZengChenChuangLiaoNiebles_Leveraging_Video_Descriptions_to_Learn_Video_Question_Answering.pdf
   idx: 2343
   month: '11'
 - AUTHORS:
   - Bilge Mutlu
   - Nicholas Roy
-  - Selma {\v S}abanovi{\'c}
+  - Selma \v{S}abanovi{\'c}
   TITLE: Cognitive Human--Robot Interaction
   TYPE: inbook
   VENUE: Springer Handbook of Robotics
@@ -34308,10 +34308,10 @@
   pages: 1754--1764
   publisher: Association for Computational Linguistics
 - AUTHORS:
-  - Nikola Mrk{\v s}i{\'c}
+  - Nikola Mrk\v{s}i{\'c}
   - Diarmuid {\'O}S{\'e}aghdha
   - Blaise Thomson
-  - Milica Ga{\v s}ic
+  - Milica Ga\v{s}ic
   - Lina M Rojas-Barahona
   - Pei-Hao Su
   - David Vandyke
@@ -34406,7 +34406,7 @@
   - Phil Blunsom
   - Chris Dyer
   - Edward Grefenstette
-  - Tom{\'a}{\v s} Ko{\v c}isk{\'y}
+  - Tom{\'a}\v{s} Ko\v{c}isk{\'y}
   TITLE: The Neural Noisy Channel
   TYPE: journal
   URL: https://arxiv.org/abs/1611.02554
@@ -35339,7 +35339,7 @@
   idx: 2437
 - AUTHORS:
   - Dirk Weissenborn
-  - Tom{\'a}{\v s} Ko{\v c}isk{\'y}
+  - Tom{\'a}\v{s} Ko\v{c}isk{\'y}
   - Chris Dyer
   TITLE: '{Dynamic Integration of Background Knowledge in Neural NLU Systems}'
   TYPE: preprint
@@ -35675,7 +35675,7 @@
   month: September
   read: '0'
 - AUTHORS:
-  - Tom{\'a}{\v s} Ko{\v c}isk{\'y}
+  - Tom{\'a}\v{s} Ko\v{c}isk{\'y}
   - Jonathan Schwarz
   - Phil Blunsom
   - Chris Dyer
@@ -35731,8 +35731,9 @@
   TITLE: '{Non-local Neural Networks}'
   TYPE: conference
   URL: https://arxiv.org/abs/1711.07971
-  VENUE: 'CVPR 2018, code is available at: https://github.com/facebookresearch/video-nonlocal-net'
-  YEAR: '2017'
+  VENUE: CVPR
+  code: https://github.com/facebookresearch/video-nonlocal-net
+  YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2017/WangGirshickGuptaHe_Nonlocal_Neural_Networks.pdf
   idx: 2467
   month: '11'
@@ -38238,7 +38239,7 @@
   file: https://github.com/ybisk/papers/blob/master/2018/BauerWangBansal_Commonsense_for_Generative_MultiHop_Question_Answering_Tasks.pdf
   idx: 2643
 - AUTHORS:
-  - Adam Li{\v s}ka
+  - Adam Li\v{s}ka
   - Germ{\'a}n Kruszewski
   - Marco Baroni
   TITLE: Memorize or generalize? Searching for a compositional RNN in a haystack
@@ -38256,7 +38257,7 @@
   TITLE: '{Colorless green recurrent networks dream hierarchically}'
   TYPE: conference
   URL: https://arxiv.org/abs/1803.11138
-  VENUE: Accepted to NAACL 2018
+  VENUE: NAACL 
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/GulordavaBojanowskiGraveLinzenBaroni_Colorless_green_recurrent_networks_dream_hierarchically.pdf
   idx: 2645
@@ -38408,7 +38409,7 @@
   TITLE: 'VizWiz Grand Challenge: Answering Visual Questions from Blind People'
   TYPE: conference
   URL: https://arxiv.org/abs/1802.08218
-  VENUE: Accepted to CVPR 2018
+  VENUE: CVPR
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/GurariLiStanglGuoLin_VizWiz_Grand_Challenge_Answering_Visual_Questions_from_Blind_People.pdf
   idx: 2656
@@ -38562,7 +38563,7 @@
   TITLE: '{SparseMAP: Differentiable Sparse Structured Inference}'
   TYPE: conference
   URL: https://arxiv.org/abs/1802.04223
-  VENUE: 15 pages, including appendix
+  VENUE: ICML
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/NiculaeMartinsBlondelCardie_SparseMAP_Differentiable_Sparse_Structured_Inference.pdf
   idx: 2667
@@ -39072,9 +39073,10 @@
   - "Philipp Kr\xE4henb\xFChl"
   - Ross Girshick
   TITLE: '{Long-Term Feature Banks for Detailed Video Understanding}'
-  TYPE: conference
+  TYPE: preprint
   URL: https://arxiv.org/abs/1812.05038
-  VENUE: Code and models are available at https://github.com/facebookresearch/video-long-term-feature-banks
+  VENUE: arxiv:1812.05038
+  code: https://github.com/facebookresearch/video-long-term-feature-banks
   YEAR: '2018'
   file: "https://github.com/ybisk/papers/blob/master/2018/WuFeichtenhoferFanHeKr\xE4\
     henb\xFChl_LongTerm_Feature_Banks_for_Detailed_Video_Understanding.pdf"
@@ -39383,7 +39385,7 @@
   month: January
 - AUTHORS:
   - Tiago Ramalho
-  - Tom{\'a}{\v s} Kocisk{\'y}
+  - Tom{\'a}\v{s} Kocisk{\'y}
   - Frederic Besse
   - S. M. Ali Eslami
   - G{\'a}bor Melis
@@ -40074,7 +40076,7 @@
     Finger}'
   TYPE: conference
   URL: https://arxiv.org/abs/1803.00628
-  VENUE: IEEE IROS 2018. 9 pages
+  VENUE: IROS 
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/DonlonDongLiuLiAdelson_GelSlim_A_HighResolution_Compact_Robust_and_Calibrated_Tactilesensing_Finger.pdf
   idx: 2767
@@ -40377,7 +40379,8 @@
   TITLE: '{Learning by Playing - Solving Sparse Reward Tasks from Scratch}'
   TYPE: conference
   URL: https://arxiv.org/abs/1802.10567
-  VENUE: A video of the rich set of learned behaviours can be found at https://youtu.be/mPKyvocNe_M
+  VENUE: Proceedings of the 35th International Conference on Machine Learning
+  video: https://youtu.be/mPKyvocNe_M
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/RiedmillerHafnerLampeNeunertDegrave_Learning_by_Playing_Solving_Sparse_Reward_Tasks_from_Scratch.pdf
   idx: 2785
@@ -41069,7 +41072,7 @@
     Dropout}'
   TYPE: conference
   URL: https://arxiv.org/abs/1904.04195v1
-  VENUE: NAACL 2019 (12 pages)
+  VENUE: NAACL
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/TanYuBansal_Learning_to_Navigate_Unseen_Environments_Back_Translation_with_Environmental_Dropout.pdf
   idx: 2832
@@ -41083,7 +41086,7 @@
   TITLE: '{Expressing Visual Relationships via Language}'
   TYPE: conference
   URL: https://arxiv.org/abs/1906.07689
-  VENUE: ACL 2019 (11 pages)
+  VENUE: ACL 
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/TanDernoncourtLinBuiBansal_Expressing_Visual_Relationships_via_Language.pdf
   idx: 2833
@@ -42402,7 +42405,7 @@
     of Robot Instructions}'
   TYPE: conference
   URL: https://arxiv.org/abs/1903.09243
-  VENUE: Accepted to ICRA 2019
+  VENUE: ICRA
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/PatkiDanieleWalterHoward_Inferring_Compact_Representations_for_Efficient_Natural_Language_Understanding_of_Robot_Instructions.pdf
   idx: 2904
@@ -43168,9 +43171,9 @@
   - Hannaneh Hajishirzi
   - Mohammad Rastegari
   TITLE: '{DiCENet: Dimension-wise Convolutions for Efficient Networks}'
-  TYPE: conference
+  TYPE: preprint
   URL: https://arxiv.org/abs/1906.03516
-  VENUE: 11 pages, 8 Figures, 4 Tables
+  VENUE: arxiv:1906.03516
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/MehtaHajishirziRastegari_DiCENet_Dimensionwise_Convolutions_for_Efficient_Networks.pdf
   idx: 2955
@@ -43391,9 +43394,9 @@
   - Juergen Schmidhuber
   TITLE: '{Unsupervised Minimax: Adversarial Curiosity, Generative Adversarial Networks,
     and Predictability Minimization}'
-  TYPE: conference
+  TYPE: preprint
   URL: https://arxiv.org/abs/1906.04493
-  VENUE: 12 pages, 1 figure, 87 references
+  VENUE: arxiv:1906.04493
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/Schmidhuber_Unsupervised_Minimax_Adversarial_Curiosity_Generative_Adversarial_Networks_and_Predictability_Minimization.pdf
   idx: 2971
@@ -43782,9 +43785,9 @@
   - Nikos G. Tsagarakis
   TITLE: '{V2CNet: A Deep Learning Framework to Translate Videos to Commands for Robotic
     Manipulation}'
-  TYPE: conference
+  TYPE: preprint
   URL: https://arxiv.org/abs/1903.10869v1
-  VENUE: '15 pages. arXiv admin note: substantial text overlap with arXiv:1710.00290'
+  VENUE: arxiv:1903.10869
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/NguyenDoReidCaldwellTsagarakis_V2CNet_A_Deep_Learning_Framework_to_Translate_Videos_to_Commands_for_Robotic_Manipulation.pdf
   idx: 2996
@@ -43850,7 +43853,7 @@
   TITLE: '{Attention is not Explanation}'
   TYPE: conference
   URL: https://arxiv.org/abs/1902.10186
-  VENUE: Accepted as NAACL 2019 Long Paper. Draft Version
+  VENUE: NAACL 
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/JainWallace_Attention_is_not_Explanation.pdf
   idx: 3001
@@ -43928,7 +43931,7 @@
   TITLE: '{Visualizing and Measuring the Geometry of BERT}'
   TYPE: conference
   URL: https://arxiv.org/abs/1906.02715
-  VENUE: 8 pages, 5 figures
+  VENUE: Advances in Neural Information Processing Systems 32
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/CoenenReifYuanKimPearce_Visualizing_and_Measuring_the_Geometry_of_BERT.pdf
   idx: 3005
@@ -43957,9 +43960,9 @@
   - Hao Tian
   - Hua Wu
   TITLE: '{ERNIE: Enhanced Representation through Knowledge Integration}'
-  TYPE: conference
+  TYPE: preprint
   URL: https://arxiv.org/abs/1904.09223
-  VENUE: 8 pages
+  VENUE: arxiv:1904.09223
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/SunWangLiFengChen_ERNIE_Enhanced_Representation_through_Knowledge_Integration.pdf
   idx: 3007
@@ -43984,11 +43987,11 @@
   - Dinesh Manocha
   - Jun Wang
   - Kai Xu
-  TITLE: '{Visual Navigation by Generating Next Expected Observations}'
+  TITLE: '{NeoNav: Improving the Generalization of Visual Navigation via Generating Next Expected Observations}'
   TYPE: conference
   URL: https://arxiv.org/abs/1906.07207
-  VENUE: '8 content pages, 4 supplementary pages, Corresponding author: Kai Xu (kevin.kai.xu@gmail.com)'
-  YEAR: '2019'
+  VENUE: AAAI
+  YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2019/WuManochaWangXu_Visual_Navigation_by_Generating_Next_Expected_Observations.pdf
   idx: 3009
   month: '06'
@@ -43999,7 +44002,7 @@
   TITLE: '{Sim-Real Joint Reinforcement Transfer for 3D Indoor Navigation}'
   TYPE: conference
   URL: https://arxiv.org/abs/1904.03895v2
-  VENUE: Paper has been accepted by CVPR 2019
+  VENUE: CVPR
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/ZhuZhuYang_SimReal_Joint_Reinforcement_Transfer_for_3D_Indoor_Navigation.pdf
   idx: 3010
@@ -44226,7 +44229,7 @@
     Supervision}'
   TYPE: conference
   URL: https://arxiv.org/abs/2010.06775
-  VENUE: EMNLP 2020 (15 pages)
+  VENUE: EMNLP 
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/TanBansal_Vokenization_Improving_Language_Understanding_with_Contextualized_VisualGrounded_Supervision.pdf
   idx: 3025
