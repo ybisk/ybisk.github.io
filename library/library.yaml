@@ -45858,3 +45858,15 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/KWangMayhewRoth_CrossLingual_Ability_of_Multilingual_BERT_An_Empirical_Study.pdf
   idx: 3111
+- AUTHORS:
+  - Nur Ahmed
+  - Muntasir Wahed
+  TITLE: "The De-democratization of AI: Deep Learning and the Compute Divide in\n\
+    \  Artificial Intelligence Research"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2010.15581
+  VENUE: arxiv:2010.15581
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/AhmedWahed_The_Dedemocratization_of_AI_Deep_Learning_and_the_Compute_Divide_in_Artificial_Intelligence_Research.pdf
+  idx: 3112
+  month: '10'
