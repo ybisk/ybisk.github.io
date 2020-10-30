@@ -45928,3 +45928,11 @@
   file: https://github.com/ybisk/papers/blob/master/2020/NekotoMarivateMatsilaFasubaaKolawole_Participatory_Research_for_Lowresourced_Machine_Translation_A_Case_Study_in_African_Languages.pdf
   idx: 3113
   month: '10'
+- AUTHORS:
+  - Karl Stratos
+  TITLE: The Transfomer Architecture
+  TYPE: preprint
+  VENUE: http://karlstratos.com/notes/
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/Stratos_The_Transfomer_Architecture.pdf
+  idx: 3114
