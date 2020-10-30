@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 import string
 import subprocess
 import argparse
@@ -101,7 +102,12 @@ def bib_entry(entry, bibtex):
       elif a == "url":
         entry["URL"] = b
       elif a == "author":
-        entry["AUTHORS"] = ["{} {}".format(a.split(",")[1].strip(), a.split(",")[0].strip()) for a in b.split(" and")]
+        entry["AUTHORS"] = []
+        for a in b.split(" and"):
+          if "," in a:
+            entry["AUTHORS"].append("{} {}".format(a.split(",")[1].strip(), a.split(",")[0].strip()))
+          else:
+            entry["AUTHORS"].append(a.strip())
       elif a != "month": # don't want to handle the non-quoted BS
         entry[a] = b
  
@@ -112,7 +118,18 @@ if args.auto is not None:
     entry = {}
     max_idx += 1
     entry["idx"] = max_idx
-    if identifier[0].isnumeric(): # ArXiv
+    if "." not in identifier: # OpenReview
+      url = "https://openreview.net/forum?id=" + identifier
+      tree = ET.parse(urllib.request.urlopen(url))
+      for child in tree.getroot():
+        for grand in child:
+          if grand.text is not None and "_bibtex" in grand.text:
+            v = json.loads(grand.text)["props"]["pageProps"]["forumNote"]["content"]
+      bib_entry(entry, v['_bibtex'].split(",\n")[:])
+      pdf = url.replace("forum", "pdf")
+      subprocess.call("wget -o {}.pdf --user-agent=Lynx '{}'".format(identifier, pdf), shell=True)
+
+    elif identifier[0].isnumeric(): # ArXiv
       arxiv_entry(entry, identifier)
       subprocess.call("wget --user-agent=Lynx https://arxiv.org/pdf/" + identifier + ".pdf", shell=True)
     else: # ACL anthology

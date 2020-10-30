@@ -986,13 +986,13 @@
   TYPE: journal
   URL: https://www.jstor.org/stable/747484?seq=1
   VENUE: Reading Research Quarterly
-  vol: 17
-  number: 2
   YEAR: '1982'
-  pages: 210-228
   file: https://github.com/ybisk/papers/blob/master/1981/ShimronNavon_The_Dependence_on_Graphemes_and_on_Their_Translation_to_Phonemes_in_Reading_A_ldots.pdf
   idx: 75
   month: '01'
+  number: 2
+  pages: 210-228
+  vol: 17
 - AUTHORS:
   - Jayaram Sethuraman
   - Ram C Tiwari
@@ -3165,7 +3165,7 @@
   TITLE: A Multi-body Factorization Method for Motion Analysis
   TYPE: conference
   URL: https://ieeexplore.ieee.org/document/466815
-  VENUE: 'IEEE International Conference on Computer Vision'
+  VENUE: IEEE International Conference on Computer Vision
   YEAR: '1995'
   file: https://github.com/ybisk/papers/blob/master/1996/CosteiraKanade_A_Multibody_Factorization_Method_for_Motion_Analysis.pdf
   idx: 230
@@ -4848,9 +4848,10 @@
   - F Xia
   - Martha Palmer
   TITLE: Converting dependency structures to phrase structures
-  URL: https://www.aclweb.org/anthology/H01-1014/
   TYPE: conference
-  VENUE: Proceedings of the First International Conference on Human Language Technology Research
+  URL: https://www.aclweb.org/anthology/H01-1014/
+  VENUE: Proceedings of the First International Conference on Human Language Technology
+    Research
   YEAR: '2001'
   file: https://github.com/ybisk/papers/blob/master/2000/XiaPalmer_Converting_dependency_structures_to_phrase_structures.pdf
   idx: 353
@@ -7920,8 +7921,9 @@
   - Dmitriy Genzel
   TITLE: Inducing a multilingual dictionary from a parallel multitext in related languages
   TYPE: conference
-  VENUE: Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing
   URL: https://www.aclweb.org/anthology/H05-1110/
+  VENUE: Proceedings of Human Language Technology Conference and Conference on Empirical
+    Methods in Natural Language Processing
   YEAR: '2005'
   date: 2005/01/01
   file: https://github.com/ybisk/papers/blob/master/2005/Genzel_Inducing_a_multilingual_dictionary_from_a_parallel_multitext_in_related_languages.pdf
@@ -12062,7 +12064,7 @@
   - Arthur Asuncion
   TITLE: Fast collapsed gibbs sampling for latent dirichlet allocation
   TYPE: journal
-  VENUE: Proceeding of the 14th ACM SIGKDD 
+  VENUE: Proceeding of the 14th ACM SIGKDD
   YEAR: '2008'
   date: 2008/01/01
   file: https://github.com/ybisk/papers/blob/master/2008/PorteousNewmanIhlerAsuncion_Fast_collapsed_gibbs_sampling_for_latent_dirichlet_allocation.pdf
@@ -13261,10 +13263,11 @@
   - Andreas Zollmann
   - A Venugopal
   - Franz Josef Och
-  TITLE: A Systematic Comparison of Phrase-Based, Hierarchical and Syntax-Augmented Statistical MT
+  TITLE: A Systematic Comparison of Phrase-Based, Hierarchical and Syntax-Augmented
+    Statistical MT
   TYPE: conference
-  VENUE: COLING
   URL: https://www.aclweb.org/anthology/C08-1144/
+  VENUE: COLING
   YEAR: '2008'
   date: 2008/01/01
   file: https://github.com/ybisk/papers/blob/master/2008/ZollmannVenugopalOch_A_systematic_comparison_of_phrasebased_hierarchical_and_syntaxaugmented_ldots.pdf
@@ -24716,7 +24719,7 @@
   volume: '6'
 - AUTHORS:
   - Razvan Pascanu
-  - '\c{C}a{\u g}lar G{\"u}l\c{c}ehre'
+  - \c{C}a{\u g}lar G{\"u}l\c{c}ehre
   - Kyunghyun Cho
   - Yoshua Bengio
   TITLE: How to Construct Deep Recurrent Neural Networks
@@ -28615,7 +28618,7 @@
   publisher: Springer US
   volume: '67'
 - AUTHORS:
-  - '\c{C}etin Meri\c{c}li'
+  - \c{C}etin Meri\c{c}li
   - Steven D. Klee
   - Jack Paparian
   - Manuela Veloso
@@ -31161,7 +31164,7 @@
 - AUTHORS:
   - Iulian Vlad Serban
   - Alberto Garc{\'i}a-Dur{\'a}n
-  - '\c{C}a{\u g}lar G{\"u}l\c{c}ehre'
+  - \c{C}a{\u g}lar G{\"u}l\c{c}ehre
   - Sungjin Ahn
   - Sarath Chandar
   - Aaron Courville
@@ -31542,7 +31545,7 @@
   - Tim Cooijmans
   - Nicolas Ballas
   - C{\'e}sar Laurent
-  - '\c{C}a\u{g}lar G{\"u}l\c{c}ehre'
+  - \c{C}a\u{g}lar G{\"u}l\c{c}ehre
   - Aaron Courville
   TITLE: Recurrent Batch Normalization
   TYPE: journal
@@ -33924,7 +33927,7 @@
   TITLE: '{Leveraging Video Descriptions to Learn Video Question Answering}'
   TYPE: conference
   URL: https://arxiv.org/abs/1611.04021
-  VENUE: AAAI 
+  VENUE: AAAI
   YEAR: '2017'
   file: https://github.com/ybisk/papers/blob/master/2016/ZengChenChuangLiaoNiebles_Leveraging_Video_Descriptions_to_Learn_Video_Question_Answering.pdf
   idx: 2343
@@ -35732,8 +35735,8 @@
   TYPE: conference
   URL: https://arxiv.org/abs/1711.07971
   VENUE: CVPR
-  code: https://github.com/facebookresearch/video-nonlocal-net
   YEAR: '2018'
+  code: https://github.com/facebookresearch/video-nonlocal-net
   file: https://github.com/ybisk/papers/blob/master/2017/WangGirshickGuptaHe_Nonlocal_Neural_Networks.pdf
   idx: 2467
   month: '11'
@@ -38257,7 +38260,7 @@
   TITLE: '{Colorless green recurrent networks dream hierarchically}'
   TYPE: conference
   URL: https://arxiv.org/abs/1803.11138
-  VENUE: NAACL 
+  VENUE: NAACL
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/GulordavaBojanowskiGraveLinzenBaroni_Colorless_green_recurrent_networks_dream_hierarchically.pdf
   idx: 2645
@@ -39076,8 +39079,8 @@
   TYPE: preprint
   URL: https://arxiv.org/abs/1812.05038
   VENUE: arxiv:1812.05038
-  code: https://github.com/facebookresearch/video-long-term-feature-banks
   YEAR: '2018'
+  code: https://github.com/facebookresearch/video-long-term-feature-banks
   file: "https://github.com/ybisk/papers/blob/master/2018/WuFeichtenhoferFanHeKr\xE4\
     henb\xFChl_LongTerm_Feature_Banks_for_Detailed_Video_Understanding.pdf"
   idx: 2698
@@ -40076,7 +40079,7 @@
     Finger}'
   TYPE: conference
   URL: https://arxiv.org/abs/1803.00628
-  VENUE: IROS 
+  VENUE: IROS
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/DonlonDongLiuLiAdelson_GelSlim_A_HighResolution_Compact_Robust_and_Calibrated_Tactilesensing_Finger.pdf
   idx: 2767
@@ -40380,11 +40383,11 @@
   TYPE: conference
   URL: https://arxiv.org/abs/1802.10567
   VENUE: Proceedings of the 35th International Conference on Machine Learning
-  video: https://youtu.be/mPKyvocNe_M
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/RiedmillerHafnerLampeNeunertDegrave_Learning_by_Playing_Solving_Sparse_Reward_Tasks_from_Scratch.pdf
   idx: 2785
   month: '02'
+  video: https://youtu.be/mPKyvocNe_M
 - AUTHORS:
   - Behnam Neyshabur
   - Zhiyuan Li
@@ -41086,7 +41089,7 @@
   TITLE: '{Expressing Visual Relationships via Language}'
   TYPE: conference
   URL: https://arxiv.org/abs/1906.07689
-  VENUE: ACL 
+  VENUE: ACL
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/TanDernoncourtLinBuiBansal_Expressing_Visual_Relationships_via_Language.pdf
   idx: 2833
@@ -43853,7 +43856,7 @@
   TITLE: '{Attention is not Explanation}'
   TYPE: conference
   URL: https://arxiv.org/abs/1902.10186
-  VENUE: NAACL 
+  VENUE: NAACL
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/JainWallace_Attention_is_not_Explanation.pdf
   idx: 3001
@@ -43987,7 +43990,8 @@
   - Dinesh Manocha
   - Jun Wang
   - Kai Xu
-  TITLE: '{NeoNav: Improving the Generalization of Visual Navigation via Generating Next Expected Observations}'
+  TITLE: '{NeoNav: Improving the Generalization of Visual Navigation via Generating
+    Next Expected Observations}'
   TYPE: conference
   URL: https://arxiv.org/abs/1906.07207
   VENUE: AAAI
@@ -44229,7 +44233,7 @@
     Supervision}'
   TYPE: conference
   URL: https://arxiv.org/abs/2010.06775
-  VENUE: EMNLP 
+  VENUE: EMNLP
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/TanBansal_Vokenization_Improving_Language_Understanding_with_Contextualized_VisualGrounded_Supervision.pdf
   idx: 3025
@@ -45843,3 +45847,14 @@
   number: '5'
   pages: 872--876
   volume: '56'
+- AUTHORS:
+  - Karthikeyan K
+  - Zihan Wang
+  - Stephen Mayhew
+  - Dan Roth
+  TITLE: 'Cross-Lingual Ability of Multilingual BERT: An Empirical Study'
+  TYPE: conference
+  VENUE: International Conference on Learning Representations
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/KWangMayhewRoth_CrossLingual_Ability_of_Multilingual_BERT_An_Empirical_Study.pdf
+  idx: 3111
