@@ -12,7 +12,7 @@ pubs = yaml.load(open("library.yaml"), Loader=yaml.CLoader)
 
 parser = argparse.ArgumentParser(description='Add paper to library.')
 parser.add_argument('--auto',  type=str, default=None,
-                    help='ArXiv or ACL identifier or comma separated list')
+                    help='ArXiv, ACL, or OpenReview identifier or comma separated list')
 parser.add_argument('--file', help='Add a file', type=str, default=None)
 parser.add_argument('--bib', help='new record for file', type=str, default=None)
 parser.add_argument('--idx', help='idx for file', type=int, default=None)
