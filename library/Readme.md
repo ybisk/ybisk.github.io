@@ -20,3 +20,11 @@ Options:
 
 **Main Website**
 `index_template.html`
+
+
+## FAQ
+1. Where are the PDFs? In a private https://github.com/ybisk/papers repo so I don't get sued
+2. Why not use a DB? You ~can't in GitHub
+3. Why not have the JS in the website update a backend yaml and load from it?  Because the JS processing is sorta slow for such a large number of records
+4. Why a yaml? JSON works too, either way is just much more manageable than BibTeX, it's easier to generate the record than store things that way
+5. Feature requests? Sure, but no promises :) 
