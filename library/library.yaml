@@ -45936,3 +45936,24 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/Stratos_The_Transfomer_Architecture.pdf
   idx: 3114
+- AUTHORS:
+  - Aaquib Tabrez
+  - Matthew B. Luebbers
+  - Bradley Hayes
+  TITLE: "A Survey of Mental Modeling Techniques in Human\u2013Robot Teaming"
+  TYPE: journal
+  URL: https://link.springer.com/article/10.1007/s43154-020-00019-0#article-info
+  VENUE: Current Robotics Reports
+  YEAR: '2020'
+  abstract: "As robots become increasingly prevalent and capable, the complexity of\
+    \ roles and responsibilities assigned to them as well as our expectations for\
+    \ them will increase in kind. For these autonomous systems to operate safely and\
+    \ efficiently in human-populated environments, they will need to cooperate and\
+    \ coordinate with human teammates. Mental models provide a formal mechanism for\
+    \ achieving fluent and effective teamwork during human\u2013robot interaction\
+    \ by enabling awareness between teammates and allowing for coordinated action."
+  doi: 10.1007/s43154-020-00019-0
+  file: "https://github.com/ybisk/papers/blob/master/2020/TabrezLuebbersHayes_A_Survey_of_Mental_Modeling_Techniques_in_Human\u2013\
+    Robot_Teaming.pdf"
+  idx: 3115
+  month: 08
