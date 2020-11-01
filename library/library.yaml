@@ -45957,3 +45957,17 @@
     Robot_Teaming.pdf"
   idx: 3115
   month: 08
+- AUTHORS:
+  - George Konidaris
+  - Leslie Pack Kaelbling
+  - Tomas Lozano-Perez
+  TITLE: 'From Skills to Symbols: Learning Symbolic Representations for Abstract High-Level
+    Planning'
+  TYPE: journal
+  VENUE: Journal of Artificial Intelligence Research
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/KonidarisKaelblingLozanoPerez_From_Skills_to_Symbols_Learning_Symbolic_Representations_for_Abstract_HighLevel_Planning.pdf
+  idx: 3116
+  pages: 215-289
+  volume: '61'
+  URL: https://www.jair.org/index.php/jair/article/view/11175
