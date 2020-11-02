@@ -45964,10 +45964,24 @@
   TITLE: 'From Skills to Symbols: Learning Symbolic Representations for Abstract High-Level
     Planning'
   TYPE: journal
+  URL: https://www.jair.org/index.php/jair/article/view/11175
   VENUE: Journal of Artificial Intelligence Research
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/KonidarisKaelblingLozanoPerez_From_Skills_to_Symbols_Learning_Symbolic_Representations_for_Abstract_HighLevel_Planning.pdf
   idx: 3116
   pages: 215-289
   volume: '61'
-  URL: https://www.jair.org/index.php/jair/article/view/11175
+- AUTHORS:
+  - Biony Banks
+  - Cai Wingfield
+  - Louise Connell
+  TITLE: Linguistic Distributional Knowledge and Sensorimotor Grounding both Contribute
+    to Semantic Category Production
+  TYPE: preprint
+  URL: https://psyarxiv.com/7eucw/
+  VENUE: PsyArXiv
+  YEAR: '2020'
+  doi: 10.31234/osf.io/7eucw
+  file: https://github.com/ybisk/papers/blob/master/2020/BanksWingfieldConnell_Linguistic_Distributional_Knowledge_and_Sensorimotor_Grounding_both_Contribute_to_Semantic_Category_Production.pdf
+  idx: 3117
+  month: oct
