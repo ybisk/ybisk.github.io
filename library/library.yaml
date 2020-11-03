@@ -45985,3 +45985,13 @@
   file: https://github.com/ybisk/papers/blob/master/2020/BanksWingfieldConnell_Linguistic_Distributional_Knowledge_and_Sensorimotor_Grounding_both_Contribute_to_Semantic_Category_Production.pdf
   idx: 3117
   month: oct
+- AUTHORS:
+  - Jacob Eisenstein
+  TITLE: Introduction to Natural Language Processing
+  TYPE: book
+  VENUE: MIT Press
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/Eisenstein_Introduction_to_Natural_Language_Processing.pdf
+  idx: 3118
+  isbn: '9780262042840'
+  month: oct
