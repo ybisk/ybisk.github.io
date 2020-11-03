@@ -45995,3 +45995,16 @@
   idx: 3118
   isbn: '9780262042840'
   month: oct
+- AUTHORS:
+  - Mark Steedman
+  TITLE: Dependency and Co\"{o}rdination in the Grammar of Dutch and English
+  TYPE: journal
+  URL: https://www.jstor.org/stable/414385
+  VENUE: Language
+  YEAR: '1985'
+  file: https://github.com/ybisk/papers/blob/master/1985/Steedman_Dependency_and_Coordinatio_in_the_Grammar_of_Dutch_and_English.pdf
+  idx: 3119
+  month: sept
+  number: '3'
+  pages: '523--568'
+  vol: '61'
