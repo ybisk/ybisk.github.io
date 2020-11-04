@@ -33,7 +33,7 @@ def new_file(entry, download):
   entry["file"] = "https://github.com/ybisk/papers/blob/master/{}".format(new_name)
   if not os.path.isdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"])):
     os.mkdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"]))
-  if not os.path.isfile(new_loc):
+  if True or not os.path.isfile(new_loc):
     os.rename(download, new_loc)
     os.system('cd ~/Dropbox/website/papers;' + 
               'git add {};'.format(new_loc) + 
@@ -127,7 +127,7 @@ if args.auto is not None:
             v = json.loads(grand.text)["props"]["pageProps"]["forumNote"]["content"]
       bib_entry(entry, v['_bibtex'].split(",\n")[:])
       pdf = url.replace("forum", "pdf")
-      subprocess.call("wget -o {}.pdf --user-agent=Lynx '{}'".format(identifier, pdf), shell=True)
+      subprocess.call("wget -O {}.pdf --user-agent=Lynx '{}'".format(identifier, pdf), shell=True)
 
     elif identifier[0].isnumeric(): # ArXiv
       arxiv_entry(entry, identifier)
