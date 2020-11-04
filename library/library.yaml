@@ -46026,18 +46026,6 @@
   idx: 3121
   month: '02'
 - AUTHORS:
-  - Yigitcan Kaya
-  - Sanghyun Hong
-  - Tudor Dumitras
-  TITLE: 'Shallow-Deep Networks: Understanding and Mitigating Network Overthinking'
-  TYPE: conference
-  URL: https://arxiv.org/abs/1810.07052
-  VENUE: 'Accepted to ICML2019. Source code here: www.shallowdeep.network'
-  YEAR: '2018'
-  file: https://github.com/ybisk/papers/blob/master/2018/KayaHongDumitras_ShallowDeep_Networks_Understanding_and_Mitigating_Network_Overthinking.pdf
-  idx: 3122
-  month: '10'
-- AUTHORS:
   - Angela Fan
   - Edouard Grave
   - Armand Joulin
@@ -46077,28 +46065,11 @@
   TITLE: 'BERT Loses Patience: Fast and Robust Inference with Early Exit'
   TYPE: conference
   URL: https://arxiv.org/abs/2006.04152
-  VENUE: NeurIPS 2020
+  VENUE: NeurIPS
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/ZhouXuGeMcAuleyXu_BERT_Loses_Patience_Fast_and_Robust_Inference_with_Early_Exit.pdf
   idx: 3125
   month: '06'
-- AUTHORS:
-  - Zhuohan Li
-  - Eric Wallace
-  - Sheng Shen
-  - Kevin Lin
-  - Kurt Keutzer
-  - Dan Klein
-  - Joseph E. Gonzalez
-  TITLE: "Train Large, Then Compress: Rethinking Model Size for Efficient Training\n\
-    \  and Inference of Transformers"
-  TYPE: conference
-  URL: https://arxiv.org/abs/2002.11794
-  VENUE: ICML 2020
-  YEAR: '2020'
-  file: https://github.com/ybisk/papers/blob/master/2020/LiWallaceShenLinKeutzer_Train_Large_Then_Compress_Rethinking_Model_Size_for_Efficient_Training_and_Inference_of_Transformers.pdf
-  idx: 3126
-  month: '02'
 - AUTHORS:
   - Yigitcan Kaya
   - Sanghyun Hong
@@ -46106,48 +46077,9 @@
   TITLE: 'Shallow-Deep Networks: Understanding and Mitigating Network Overthinking'
   TYPE: conference
   URL: https://arxiv.org/abs/1810.07052
-  VENUE: 'Accepted to ICML2019. Source code here: www.shallowdeep.network'
+  VENUE: ICML
+  code: www.shallowdeep.network
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/KayaHongDumitras_ShallowDeep_Networks_Understanding_and_Mitigating_Network_Overthinking.pdf
   idx: 3127
   month: '10'
-- AUTHORS:
-  - Angela Fan
-  - Edouard Grave
-  - Armand Joulin
-  TITLE: Reducing Transformer Depth on Demand with Structured Dropout
-  TYPE: conference
-  VENUE: International Conference on Learning Representations
-  YEAR: '2020'
-  file: https://github.com/ybisk/papers/blob/master/2020/FanGraveJoulin_Reducing_Transformer_Depth_on_Demand_with_Structured_Dropout.pdf
-  idx: 3128
-- AUTHORS:
-  - Angela H. Jiang
-  - Daniel L. -K. Wong
-  - Giulio Zhou
-  - David G. Andersen
-  - Jeffrey Dean
-  - Gregory R. Ganger
-  - Gauri Joshi
-  - Michael Kaminksy
-  - Michael Kozuch
-  - Zachary C. Lipton
-  - Padmanabhan Pillai
-  TITLE: Accelerating Deep Learning by Focusing on the Biggest Losers
-  TYPE: preprint
-  URL: https://arxiv.org/abs/1910.00762
-  VENUE: arXiv:1910.00762
-  YEAR: '2019'
-  file: https://github.com/ybisk/papers/blob/master/2019/JiangWongZhouAndersenDean_Accelerating_Deep_Learning_by_Focusing_on_the_Biggest_Losers.pdf
-  idx: 3129
-  month: '10'
-- AUTHORS:
-  - Angela Fan
-  - Edouard Grave
-  - Armand Joulin
-  TITLE: Reducing Transformer Depth on Demand with Structured Dropout
-  TYPE: conference
-  VENUE: International Conference on Learning Representations
-  YEAR: '2020'
-  file: https://github.com/ybisk/papers/blob/master/2020/FanGraveJoulin_Reducing_Transformer_Depth_on_Demand_with_Structured_Dropout.pdf
-  idx: 3130

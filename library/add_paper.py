@@ -33,7 +33,7 @@ def new_file(entry, download):
   entry["file"] = "https://github.com/ybisk/papers/blob/master/{}".format(new_name)
   if not os.path.isdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"])):
     os.mkdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"]))
-  if True or not os.path.isfile(new_loc):
+  if not os.path.isfile(new_loc):
     os.rename(download, new_loc)
     os.system('cd ~/Dropbox/website/papers;' + 
               'git add {};'.format(new_loc) + 
