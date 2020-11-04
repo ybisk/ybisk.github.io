@@ -118,7 +118,7 @@ if args.auto is not None:
     entry = {}
     max_idx += 1
     entry["idx"] = max_idx
-    if "." not in identifier: # OpenReview
+    if "." not in identifier and "-" not in identifier: # OpenReview hack
       url = "https://openreview.net/forum?id=" + identifier
       tree = ET.parse(urllib.request.urlopen(url))
       for child in tree.getroot():
