@@ -54,7 +54,7 @@ def generate_bibtex(entry):
       if key == "month" and entry[key][-1] == ",":
         tex += "\t{} = {},\n".format(key, entry[key][:-1])
       else:
-        tex += "\t{} = {},\n".format(key, entry[key])
+        tex += "\t{} = {{{}}},\n".format(key, entry[key])
   tex += "}"
   return tex
 
