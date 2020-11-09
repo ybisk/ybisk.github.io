@@ -19,6 +19,10 @@ parser.add_argument('--idx', help='idx for file', type=int, default=None)
 parser.add_argument('--manual', help='interactive mode for old papers', action='store_true')
 args = parser.parse_args()
 
+if len(sys.argv) < 3:
+  parser.print_help()
+  sys.exit(2)
+
 def new_file(entry, download):
   """
     1. Computes target file location for new PDF given entry.
@@ -149,7 +153,7 @@ elif args.bib is not None:
   entry = {}
   max_idx += 1
   entry["idx"] = max_idx
-  acl_entry(entry, "".join([line for line in open(args.bib)]).split(",\n")[1:])
+  bib_entry(entry, "".join([line for line in open(args.bib)]).split(",\n")[1:])
 
   if args.file is not None:
     if new_file(entry, args.file):

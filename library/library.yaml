@@ -46112,3 +46112,16 @@
   idx: 3128
   pages: 3645--3650
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Ryo Saegusa
+  - Giorgio Metta
+  - Giulio Sandini
+  - Sophie Sakka
+  TITLE: Active motor babbling for sensorimotor learning
+  TYPE: conference
+  URL: https://ieeexplore.ieee.org/document/4913101
+  VENUE: 2008 IEEE International Conference on Robotics and Biomimetics
+  YEAR: '2008'
+  doi: 10.1109/ROBIO.2009.4913101
+  file: https://github.com/ybisk/papers/blob/master/2008/SaegusaMettaSandiniSakka_Active_motor_babbling_for_sensorimotor_learning.pdf
+  idx: 3129
