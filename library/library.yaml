@@ -46140,3 +46140,15 @@
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/SavinovRaichukVincentMarinierPollefeys_Episodic_Curiosity_through_Reachability.pdf
   idx: 3130
+- AUTHORS:
+  - Ruthe Foushee
+  - Tom Griffiths
+  - Mahesh Srinivasan
+  TITLE: 'Lexical Complexity of Child-Directed and Overheard Speech: Implications
+    for Learning'
+  TYPE: conference
+  URL: https://cogsci.mindmodeling.org/2016/papers/0298/index.html
+  VENUE: Proceedings of the 38th Annual Conference of the Cognitive Science Society
+  YEAR: '2016'
+  file: https://github.com/ybisk/papers/blob/master/2016/FousheeGriffithsSrinivasan_Lexical_Complexity_of_ChildDirected_and_Overheard_Speech_Implications_for_Learning.pdf
+  idx: 3131
