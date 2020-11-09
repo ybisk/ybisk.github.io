@@ -42415,7 +42415,7 @@
   month: '03'
 - AUTHORS:
   - Khanh Nguyen
-  - "Hal Daum\xE9 III"
+  - Hal Daum{\'e} III
   TITLE: Help, Anna! Visual Navigation with Natural Multimodal Assistance via Retrospective
     Curiosity-Encouraging Imitation Learning
   TYPE: conference

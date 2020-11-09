@@ -41,14 +41,14 @@ punct = str.maketrans(dict.fromkeys(string.punctuation))
 def generate_bibtex(entry):
   tex = "@{}".format(types[entry["TYPE"]][0])
   tex += "{" + "{}{},\n".format(entry["AUTHORS"][0].split()[-1].translate(punct), entry["YEAR"])
-  tex += "\ttitle = {},\n".format(entry["TITLE"])
-  tex += "\tauthors = {},\n".format(" and ".join(entry["AUTHORS"]))
+  tex += "\ttitle = {{{}}},\n".format(entry["TITLE"])
+  tex += "\tauthor = {{{}}},\n".format(" and ".join(entry["AUTHORS"]))
   tex += "\tyear = {},\n".format(entry["YEAR"])
   if "VENUE" in entry:
     if len(types[entry["TYPE"]]) == 2:
-      tex += "\t{} = {},\n".format(types[entry["TYPE"]][1], entry["VENUE"])
+      tex += "\t{} = {{{}}},\n".format(types[entry["TYPE"]][1], entry["VENUE"])
     else:
-      tex += "\tbooktitle = {},\n".format(entry["VENUE"])
+      tex += "\tbooktitle = {{{}}},\n".format(entry["VENUE"])
   for key in ["month", "number", "pages", "volume", "doi", "URL"]:
     if key in entry:
       if key == "month" and entry[key][-1] == ",":
