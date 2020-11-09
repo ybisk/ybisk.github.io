@@ -45222,7 +45222,8 @@
   TITLE: Information-Theoretic Probing with Minimum Description Length
   TYPE: conference
   URL: https://arxiv.org/abs/2003.12298
-  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/VoitaTitov_InformationTheoretic_Probing_with_Minimum_Description_Length.pdf
   idx: 3079
@@ -46125,3 +46126,17 @@
   doi: 10.1109/ROBIO.2009.4913101
   file: https://github.com/ybisk/papers/blob/master/2008/SaegusaMettaSandiniSakka_Active_motor_babbling_for_sensorimotor_learning.pdf
   idx: 3129
+- AUTHORS:
+  - Nikolay Savinov
+  - Anton Raichuk
+  - Damien Vincent
+  - Raphael Marinier
+  - Marc Pollefeys
+  - Timothy Lillicrap
+  - Sylvain Gelly
+  TITLE: Episodic Curiosity through Reachability
+  TYPE: conference
+  VENUE: International Conference on Learning Representations
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/SavinovRaichukVincentMarinierPollefeys_Episodic_Curiosity_through_Reachability.pdf
+  idx: 3130
