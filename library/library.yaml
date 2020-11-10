@@ -46152,24 +46152,3 @@
   YEAR: '2016'
   file: https://github.com/ybisk/papers/blob/master/2016/FousheeGriffithsSrinivasan_Lexical_Complexity_of_ChildDirected_and_Overheard_Speech_Implications_for_Learning.pdf
   idx: 3131
-- AUTHORS:
-  - Kyunghyun Cho
-  - Bart van Merri{\"e}nboer
-  - Caglar Gulcehre
-  - Dzmitry Bahdanau
-  - Fethi Bougares
-  - Holger Schwenk
-  - Yoshua Bengio
-  TITLE: Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical
-    Machine Translation
-  TYPE: conference
-  URL: https://www.aclweb.org/anthology/D14-1179
-  VENUE: Proceedings of the 2014 Conference on Empirical Methods in Natural Language
-    Processing ({EMNLP})
-  YEAR: '2014'
-  address: Doha, Qatar
-  doi: 10.3115/v1/D14-1179
-  file: https://github.com/ybisk/papers/blob/master/2014/ChoMerrienboerGulcehreBahdanauBougares_Learning_Phrase_Representations_using_RNN_EncoderDecoder_for_Statistical_Machine_Translation.pdf
-  idx: 3132
-  pages: 1724--1734
-  publisher: Association for Computational Linguistics
