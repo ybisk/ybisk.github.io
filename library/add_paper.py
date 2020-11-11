@@ -133,7 +133,7 @@ if args.auto is not None:
       pdf = url.replace("forum", "pdf")
       subprocess.call("wget -O {}.pdf --user-agent=Lynx '{}'".format(identifier, pdf), shell=True)
 
-    elif identifier[0].isnumeric(): # ArXiv
+    elif not any(c.isalpha() for c in identifier): # ArXiv
       arxiv_entry(entry, identifier)
       subprocess.call("wget --user-agent=Lynx https://arxiv.org/pdf/" + identifier + ".pdf", shell=True)
     else: # ACL anthology

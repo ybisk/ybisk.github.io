@@ -46182,3 +46182,38 @@
   file: https://github.com/ybisk/papers/blob/master/2020/PengLi_Generating_Unobserved_Alternatives_A_Case_Study_through_SuperResolution_and_Decompression.pdf
   idx: 3133
   month: '11'
+- AUTHORS:
+  - Hyounghun Kim
+  - Abhaysinh Zala
+  - Graham Burri
+  - Hao Tan
+  - Mohit Bansal
+  TITLE: '{A}rra{M}on: A Joint Navigation-Assembly Instruction Interpretation Task
+    in Dynamic Environments'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.findings-emnlp.348
+  VENUE: 'Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing: Findings'
+  YEAR: '2020'
+  abstract: For embodied agents, navigation is an important ability but not an isolated
+    goal. Agents are also expected to perform specific tasks after reaching the target
+    location, such as picking up objects and assembling them into a particular arrangement.
+    We combine Vision-andLanguage Navigation, assembling of collected objects, and
+    object referring expression comprehension, to create a novel joint navigation-and-assembly
+    task, named ARRAMON. During this task, the agent (similar to a PokeMON GO player)
+    is asked to find and collect different target objects one-by-one by navigating
+    based on natural language (English) instructions in a complex, realistic outdoor
+    environment, but then also ARRAnge the collected objects part-by-part in an egocentric
+    grid-layout environment. To support this task, we implement a 3D dynamic environment
+    simulator and collect a dataset with human-written navigation and assembling instructions,
+    and the corresponding ground truth trajectories. We also filter the collected
+    instructions via a verification stage, leading to a total of 7.7K task instances
+    (30.8K instructions and paths). We present results for several baseline models
+    (integrated and biased) and metrics (nDTW, CTC, rPOD, and PTC), and the large
+    model-human performance gap demonstrates that our task is challenging and presents
+    a wide scope for future work.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/KimZalaBurriTanBansal_ArraMon_A_Joint_NavigationAssembly_Instruction_Interpretation_Task_in_Dynamic_Environments.pdf
+  idx: 3134
+  pages: 3910--3927
+  publisher: Association for Computational Linguistics
