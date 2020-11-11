@@ -38182,6 +38182,7 @@
   TITLE: Mapping Navigation Instructions to Continuous Control Actions with Position-Visitation
     Prediction
   TYPE: conference
+  URL: https://arxiv.org/abs/1811.04179
   VENUE: Conference on Robot Learning (CoRL)
   YEAR: '2018'
   file: https://github.com/ybisk/papers/blob/master/2018/BlukisMisraKnepperArtzi_Mapping_Navigation_Instructions_to_Continuous_Control_Actions_with_PositionVisitation_Prediction.pdf
@@ -41034,6 +41035,7 @@
   TITLE: Learning to Map Natural Language Instructions to Physical Quadcopter Control
     using Simulated Flight
   TYPE: conference
+  URL: https://arxiv.org/abs/1910.09664
   VENUE: Conference on Robot Learning (CoRL)
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/BlukisTermeNiklassonKnepperArtzi_Learning_to_Map_Natural_Language_Instructions_to_Physical_Quadcopter_Control_using_Simulated_Flight.pdf
@@ -46152,3 +46154,31 @@
   YEAR: '2016'
   file: https://github.com/ybisk/papers/blob/master/2016/FousheeGriffithsSrinivasan_Lexical_Complexity_of_ChildDirected_and_Overheard_Speech_Implications_for_Learning.pdf
   idx: 3131
+- AUTHORS:
+  - Peter Anderson
+  - Ayush Shrivastava
+  - Joanne Truong
+  - Arjun Majumdar
+  - Devi Parikh
+  - Dhruv Batra
+  - Stefan Lee
+  TITLE: Sim-to-Real Transfer for Vision-and-Language Navigation
+  TYPE: conference
+  URL: https://arxiv.org/abs/2011.03807
+  VENUE: CoRL 2020
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/AndersonShrivastavaTruongMajumdarParikh_SimtoReal_Transfer_for_VisionandLanguage_Navigation.pdf
+  idx: 3132
+  month: '11'
+- AUTHORS:
+  - Shichong Peng
+  - Ke Li
+  TITLE: "Generating Unobserved Alternatives: A Case Study through\n  Super-Resolution\
+    \ and Decompression"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2011.01926
+  VENUE: 'Website: https://niopeng.github.io/HyperRIM/'
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/PengLi_Generating_Unobserved_Alternatives_A_Case_Study_through_SuperResolution_and_Decompression.pdf
+  idx: 3133
+  month: '11'
