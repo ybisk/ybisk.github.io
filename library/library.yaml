@@ -46217,3 +46217,39 @@
   idx: 3134
   pages: 3910--3927
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Justin T. Chiu
+  - Alexander M. Rush
+  TITLE: Scaling Hidden Markov Language Models
+  TYPE: conference
+  URL: https://arxiv.org/abs/2011.04640
+  VENUE: EMNLP
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ChiuRush_Scaling_Hidden_Markov_Language_Models.pdf
+  idx: 3135
+  month: '11'
+- AUTHORS:
+  - Sudeep Dasari
+  - Abhinav Gupta
+  TITLE: Transformers for One-Shot Visual Imitation
+  TYPE: conference
+  URL: https://arxiv.org/abs/2011.05970
+  VENUE: "For code and project video please check our website:\n  https://oneshotfeatures.github.io/"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/DasariGupta_Transformers_for_OneShot_Visual_Imitation.pdf
+  idx: 3136
+  month: '11'
+- AUTHORS:
+  - Matthew Marge
+  - Carol Espy-Wilson
+  - Nigel Ward
+  TITLE: "Spoken Language Interaction with Robots: Research Issues and Recommendations,\
+    \ Report from the NSF Future Directions Workshop"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2011.05533
+  VENUE: "NSF Future Directions Workshop on Speech for Robotics"
+  URL:  https://isr.umd.edu/2019-SFRW
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/MargeEspyWilsonWard_Spoken_Language_Interaction_with_Robots_Research_Issues_and_Recommendations_Report_from_the_NSF_Future_Directions_Workshop.pdf
+  idx: 3137
+  month: '11'
