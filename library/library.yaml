@@ -46265,3 +46265,35 @@
   idx: 3138
   pages: 3149--3157
   volume: '25'
+- AUTHORS:
+  - Meera Hahn
+  - Jacob Krantz
+  - Dhruv Batra
+  - Devi Parikh
+  - James Rehg
+  - Stefan Lee
+  - Peter Anderson
+  TITLE: Where Are You? Localization from Embodied Dialog
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.59
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'We present WHERE ARE YOU? (WAY), a dataset of {\textasciitilde}6k dialogs
+    in which two humans {--} an Observer and a Locator {--} complete a cooperative
+    localization task. The Observer is spawned at random in a 3D environment and can
+    navigate from first-person views while answering questions from the Locator. The
+    Locator must localize the Observer in a detailed top-down map by asking questions
+    and giving instructions. Based on this dataset, we define three challenging tasks:
+    Localization from Embodied Dialog or LED (localizing the Observer from dialog
+    history), Embodied Visual Dialog (modeling the Observer), and Cooperative Localization
+    (modeling both agents). In this paper, we focus on the LED task {--} providing
+    a strong baseline model with detailed ablations characterizing both dataset biases
+    and the importance of various modeling choices. Our best model achieves 32.7{\%}
+    success at identifying the Observer{''}s location within 3m in unseen buildings,
+    vs. 70.4{\%} for human Locators.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/HahnKrantzBatraParikhRehg_Where_Are_You_Localization_from_Embodied_Dialog.pdf
+  idx: 3139
+  pages: 806--822
+  publisher: Association for Computational Linguistics
