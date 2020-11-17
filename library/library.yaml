@@ -46308,3 +46308,19 @@
   file: https://github.com/ybisk/papers/blob/master/2020/LynchSermanet_Grounding_Language_in_Play.pdf
   idx: 3140
   month: '05'
+- AUTHORS:
+  - Corey Lynch
+  - Mohi Khansari
+  - Ted Xiao
+  - Vikash Kumar
+  - Jonathan Tompson
+  - Sergey Levine
+  - Pierre Sermanet
+  TITLE: Learning Latent Plans from Play
+  TYPE: conference
+  URL: https://arxiv.org/abs/1903.01973
+  VENUE: "3rd Conference on Robot Learning"
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/LynchKhansariXiaoKumarTompson_Learning_Latent_Plans_from_Play.pdf
+  idx: 3141
+  month: '03'
