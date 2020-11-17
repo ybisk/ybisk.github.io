@@ -46297,3 +46297,14 @@
   idx: 3139
   pages: 806--822
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Corey Lynch
+  - Pierre Sermanet
+  TITLE: Grounding Language in Play
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2005.07648
+  VENUE: arXiv:2005.07648
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/LynchSermanet_Grounding_Language_in_Play.pdf
+  idx: 3140
+  month: '05'
