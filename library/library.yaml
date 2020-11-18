@@ -46319,8 +46319,628 @@
   TITLE: Learning Latent Plans from Play
   TYPE: conference
   URL: https://arxiv.org/abs/1903.01973
-  VENUE: "3rd Conference on Robot Learning"
+  VENUE: 3rd Conference on Robot Learning
   YEAR: '2019'
   file: https://github.com/ybisk/papers/blob/master/2019/LynchKhansariXiaoKumarTompson_Learning_Latent_Plans_from_Play.pdf
   idx: 3141
   month: '03'
+- AUTHORS:
+  - Shunyu Yao
+  - Rohan Rao
+  - Matthew Hausknecht
+  - Karthik Narasimhan
+  TITLE: 'Keep {CALM} and Explore: Language Models for Action Generation in Text-based
+    Games'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.704
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Text-based games present a unique challenge for autonomous agents to operate
+    in natural language and handle enormous action spaces. In this paper, we propose
+    the Contextual Action Language Model (CALM) to generate a compact set of action
+    candidates at each game state. Our key insight is to train language models on
+    human gameplay, where people demonstrate linguistic priors and a general game
+    sense for promising actions conditioned on game history. We combine CALM with
+    a reinforcement learning agent which re-ranks the generated action candidates
+    to maximize in-game rewards. We evaluate our approach using the Jericho benchmark,
+    on games unseen by CALM during training. Our method obtains a 69{\%} relative
+    improvement in average game score over the previous state-of-the-art model. Surprisingly,
+    on half of these games, CALM is competitive with or better than other models that
+    have access to ground truth admissible actions. Code and data are available at
+    https://github.com/princeton-nlp/calm-textgame.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/YaoRaoHausknechtNarasimhan_Keep_CALM_and_Explore_Language_Models_for_Action_Generation_in_Textbased_Games.pdf
+  idx: 3142
+  pages: 8736--8754
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Tanvi Dinkar
+  - Pierre Colombo
+  - Matthieu Labeau
+  - Chlo{\'e} Clavel
+  TITLE: The importance of fillers for text representations of speech transcripts
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.641
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: While being an essential component of spoken language, fillers (e.g. {``}um{''}
+    or {``}uh{''}) often remain overlooked in Spoken Language Understanding (SLU)
+    tasks. We explore the possibility of representing them with deep contextualised
+    embeddings, showing improvements on modelling spoken language and two downstream
+    tasks {---} predicting a speaker{'}s stance and expressed confidence.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/DinkarColomboLabeauClavel_The_importance_of_fillers_for_text_representations_of_speech_transcripts.pdf
+  idx: 3143
+  pages: 7985--7993
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Adam Fisch
+  - Kenton Lee
+  - Ming-Wei Chang
+  - Jonathan Clark
+  - Regina Barzilay
+  TITLE: '{C}ap{WAP}: Image Captioning with a Purpose'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.705
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: The traditional image captioning task uses generic reference captions
+    to provide textual information about images. Different user populations, however,
+    will care about different visual aspects of images. In this paper, we propose
+    a new task, Captioning with A Purpose (CapWAP). Our goal is to develop systems
+    that can be tailored to be useful for the information needs of an intended population,
+    rather than merely provide generic information about an image. In this task, we
+    use question-answer (QA) pairs{---}a natural expression of information need{---}from
+    users, instead of reference captions, for both training and post-inference evaluation.
+    We show that it is possible to use reinforcement learning to directly optimize
+    for the intended information need, by rewarding outputs that allow a question
+    answering model to provide correct answers to sampled user questions. We convert
+    several visual question answering datasets into CapWAP datasets, and demonstrate
+    that under a variety of scenarios our purposeful captioning system learns to anticipate
+    and fulfill specific information needs better than its generic counterparts, as
+    measured by QA performance on user questions from unseen images, when using the
+    caption alone as context.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/FischLeeChangClarkBarzilay_CapWAP_Image_Captioning_with_a_Purpose.pdf
+  idx: 3144
+  pages: 8755--8768
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Jie Lei
+  - Licheng Yu
+  - Tamara Berg
+  - Mohit Bansal
+  TITLE: What is More Likely to Happen Next? Video-and-Language Future Event Prediction
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.706
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Given a video with aligned dialogue, people can often infer what is more
+    likely to happen next. Making such predictions requires not only a deep understanding
+    of the rich dynamics underlying the video and dialogue, but also a significant
+    amount of commonsense knowledge. In this work, we explore whether AI models are
+    able to learn to make such multimodal commonsense next-event predictions. To support
+    research in this direction, we collect a new dataset, named Video-and-Language
+    Event Prediction (VLEP), with 28,726 future event prediction examples (along with
+    their rationales) from 10,234 diverse TV Show and YouTube Lifestyle Vlog video
+    clips. In order to promote the collection of non-trivial challenging examples,
+    we employ an adversarial human-and-model-in-the-loop data collection procedure.
+    We also present a strong baseline incorporating information from video, dialogue,
+    and commonsense knowledge. Experiments show that each type of information is useful
+    for this challenging task, and that compared to the high human performance on
+    VLEP, our model provides a good starting point but leaves large room for future
+    work.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/LeiYuBergBansal_What_is_More_Likely_to_Happen_Next_VideoandLanguage_Future_Event_Prediction.pdf
+  idx: 3145
+  pages: 8769--8784
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Jaemin Cho
+  - Jiasen Lu
+  - Dustin Schwenk
+  - Hannaneh Hajishirzi
+  - Aniruddha Kembhavi
+  TITLE: '{X-LXMERT}: {P}aint, {C}aption and {A}nswer {Q}uestions with {M}ulti-{M}odal
+    {T}ransformers'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.707
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'Mirroring the success of masked language models, vision-and-language
+    counterparts like VILBERT, LXMERT and UNITER have achieved state of the art performance
+    on a variety of multimodal discriminative tasks like visual question answering
+    and visual grounding. Recent work has also successfully adapted such models towards
+    the generative task of image captioning. This begs the question: Can these models
+    go the other way and generate images from pieces of text? Our analysis of a popular
+    representative from this model family {--} LXMERT {--} finds that it is unable
+    to generate rich and semantically meaningful imagery with its current training
+    setup. We introduce X-LXMERT, an extension to LXMERT with training refinements
+    including: discretizing visual representations, using uniform masking with a large
+    range of masking ratios and aligning the right pre-training datasets to the right
+    objectives which enables it to paint. X-LXMERT{''}s image generation capabilities
+    rival state of the art generative models while its question answering and captioning
+    abilities remains comparable to LXMERT. Finally, we demonstrate the generality
+    of these training refinements by adding image generation capabilities into UNITER
+    to produce X-UNITER.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/ChoLuSchwenkHajishirziKembhavi_XLXMERT_Paint_Caption_and_Answer_Questions_with_MultiModal_Transformers.pdf
+  idx: 3146
+  pages: 8785--8805
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Wanrong Zhu
+  - Xin Wang
+  - Pradyumna Narayana
+  - Kazoo Sone
+  - Sugato Basu
+  - William Yang Wang
+  TITLE: 'Towards Understanding Sample Variance in Visually Grounded Language Generation:
+    Evaluations and Observations'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.708
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'A major challenge in visually grounded language generation is to build
+    robust benchmark datasets and models that can generalize well in real-world settings.
+    To do this, it is critical to ensure that our evaluation protocols are correct,
+    and benchmarks are reliable. In this work, we set forth to design a set of experiments
+    to understand an important but often ignored problem in visually grounded language
+    generation: given that humans have different utilities and visual attention, how
+    will the sample variance in multi-reference datasets affect the models{''} performance?
+    Empirically, we study several multi-reference datasets and corresponding vision-and-language
+    tasks. We show that it is of paramount importance to report variance in experiments;
+    that human-generated references could vary drastically in different datasets/tasks,
+    revealing the nature of each task; that metric-wise, CIDEr has shown systematically
+    larger variances than others. Our evaluations on reference-per-instance shed light
+    on the design of reliable datasets in the future.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/ZhuWangNarayanaSoneBasu_Towards_Understanding_Sample_Variance_in_Visually_Grounded_Language_Generation_Evaluations_and_Observations.pdf
+  idx: 3147
+  pages: 8806--8811
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Jack Hessel
+  - Zhenhai Zhu
+  - Bo Pang
+  - Radu Soricut
+  TITLE: 'Beyond Instructional Videos: Probing for More Diverse Visual-Textual Grounding
+    on {Y}ou{T}ube'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.709
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'Pretraining from unlabelled web videos has quickly become the de-facto
+    means of achieving high performance on many video understanding tasks. Features
+    are learned via prediction of grounded relationships between visual content and
+    automatic speech recognition (ASR) tokens. However, prior pretraining work has
+    been limited to only instructional videos; a priori, we expect this domain to
+    be relatively {``}easy:{''''} speakers in instructional videos will often reference
+    the literal objects/actions being depicted. We ask: can similar models be trained
+    on more diverse video corpora? And, if so, what types of videos are {``}grounded{''''}
+    and what types are not? We fit a representative pretraining model to the diverse
+    YouTube8M dataset, and study its success and failure cases. We find that visual-textual
+    grounding is indeed possible across previously unexplored video categories, and
+    that pretraining on a more diverse set results in representations that generalize
+    to both non-instructional and instructional domains.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/HesselZhuPangSoricut_Beyond_Instructional_Videos_Probing_for_More_Diverse_VisualTextual_Grounding_on_YouTube.pdf
+  idx: 3148
+  pages: 8812--8822
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Bowen Zhang
+  - Hexiang Hu
+  - Vihan Jain
+  - Eugene Ie
+  - Fei Sha
+  TITLE: Learning to Represent Image and Text with Denotation Graph
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.60
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Learning to fuse vision and language information and representing them
+    is an important research problem with many applications. Recent progresses have
+    leveraged the ideas of pre-training (from language modeling) and attention layers
+    in Transformers to learn representation from datasets containing images aligned
+    with linguistic expressions that describe the images. In this paper, we propose
+    learning representations from a set of implied, visually grounded expressions
+    between image and text, automatically mined from those datasets. In particular,
+    we use denotation graphs to represent how specific concepts (such as sentences
+    describing images) can be linked to abstract and generic concepts (such as short
+    phrases) that are also visually grounded. This type of generic-to-specific relations
+    can be discovered using linguistic analysis tools. We propose methods to incorporate
+    such relations into learning representation. We show that state-of-the-art multimodal
+    learning models can be further improved by leveraging automatically harvested
+    structural relations. The representations lead to stronger empirical results on
+    downstream tasks of cross-modal image retrieval, referring expression, and compositional
+    attribute-object recognition. Both our codes and the extracted denotation graphs
+    on the Flickr30K and the COCO datasets are publically available on https://sha-lab.github.io/DG.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/ZhangHuJainIeSha_Learning_to_Represent_Image_and_Text_with_Denotation_Graph.pdf
+  idx: 3149
+  pages: 823--839
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Zhiyuan Fang
+  - Tejas Gokhale
+  - Pratyay Banerjee
+  - Chitta Baral
+  - Yezhou Yang
+  TITLE: '{V}ideo2{C}ommonsense: Generating Commonsense Descriptions to Enrich Video
+    Captioning'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.61
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Captioning is a crucial and challenging task for video understanding.
+    In videos that involve active agents such as humans, the agent{'}s actions can
+    bring about myriad changes in the scene. Observable changes such as movements,
+    manipulations, and transformations of the objects in the scene, are reflected
+    in conventional video captioning. Unlike images, actions in videos are also inherently
+    linked to social aspects such as intentions (why the action is taking place),
+    effects (what changes due to the action), and attributes that describe the agent.
+    Thus for video understanding, such as when captioning videos or when answering
+    questions about videos, one must have an understanding of these commonsense aspects.
+    We present the first work on generating \textit{commonsense} captions directly
+    from videos, to describe latent aspects such as intentions, effects, and attributes.
+    We present a new dataset {``}Video-to-Commonsense (V2C){''} that contains $\sim9k$
+    videos of human agents performing various actions, annotated with 3 types of commonsense
+    descriptions. Additionally we explore the use of open-ended video-based commonsense
+    question answering (V2C-QA) as a way to enrich our captions. Both the generation
+    task and the QA task can be used to enrich video captions.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/FangGokhaleBanerjeeBaralYang_Video2Commonsense_Generating_Commonsense_Descriptions_to_Enrich_Video_Captioning.pdf
+  idx: 3150
+  pages: 840--860
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Gregory Yauney
+  - Jack Hessel
+  - David Mimno
+  TITLE: '{D}omain-{S}pecific {L}exical {G}rounding in {N}oisy {V}isual-{T}extual
+    {D}ocuments'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.160
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Images can give us insights into the contextual meanings of words, but
+    current image-text grounding approaches require detailed annotations. Such granular
+    annotation is rare, expensive, and unavailable in most domain-specific contexts.
+    In contrast, unlabeled multi-image, multi-sentence documents are abundant. Can
+    lexical grounding be learned from such documents, even though they have significant
+    lexical and visual overlap? Working with a case study dataset of real estate listings,
+    we demonstrate the challenge of distinguishing highly correlated grounded terms,
+    such as {``}kitchen{''} and {``}bedroom{''}, and introduce metrics to assess this
+    document similarity. We present a simple unsupervised clustering-based method
+    that increases precision and recall beyond object detection and image tagging
+    baselines when evaluated on labeled subsets of the dataset. The proposed method
+    is particularly effective for local contextual meanings of a word, for example
+    associating {``}granite{''} with countertops in the real estate dataset and with
+    rocky landscapes in a Wikipedia dataset.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/YauneyHesselMimno_DomainSpecific_Lexical_Grounding_in_Noisy_VisualTextual_Documents.pdf
+  idx: 3151
+  pages: 2039--2045
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Linjie Li
+  - Yen-Chun Chen
+  - Yu Cheng
+  - Zhe Gan
+  - Licheng Yu
+  - Jingjing Liu
+  TITLE: '{HERO}: Hierarchical Encoder for {V}ideo+{L}anguage Omni-representation
+    Pre-training'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.161
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'We present HERO, a novel framework for large-scale video+language omni-representation
+    learning. HERO encodes multimodal inputs in a hierarchical structure, where local
+    context of a video frame is captured by a Cross-modal Transformer via multimodal
+    fusion, and global video context is captured by a Temporal Transformer. In addition
+    to standard Masked Language Modeling (MLM) and Masked Frame Modeling (MFM) objectives,
+    we design two new pre-training tasks: (i) Video-Subtitle Matching (VSM), where
+    the model predicts both global and local temporal alignment; and (ii) Frame Order
+    Modeling (FOM), where the model predicts the right order of shuffled video frames.
+    HERO is jointly trained on HowTo100M and large-scale TV datasets to gain deep
+    understanding of complex social dynamics with multi-character interactions. Comprehensive
+    experiments demonstrate that HERO achieves new state of the art on multiple benchmarks
+    over Text-based Video/Video-moment Retrieval, Video Question Answering (QA), Video-and-language
+    Inference and Video Captioning tasks across different domains. We also introduce
+    two new challenging benchmarks How2QA and How2R for Video QA and Retrieval, collected
+    from diverse video content over multimodalities.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/LiChenChengGanYu_HERO_Hierarchical_Encoder_for_VideoLanguage_Omnirepresentation_Pretraining.pdf
+  idx: 3152
+  pages: 2046--2065
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Reuben Tan
+  - Bryan Plummer
+  - Kate Saenko
+  TITLE: Detecting Cross-Modal Inconsistency to Defend Against Neural Fake News
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.163
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Large-scale dissemination of disinformation online intended to mislead
+    or deceive the general population is a major societal problem. Rapid progression
+    in image, video, and natural language generative models has only exacerbated this
+    situation and intensified our need for an effective defense mechanism. While existing
+    approaches have been proposed to defend against neural fake news, they are generally
+    constrained to the very limited setting where articles only have text and metadata
+    such as the title and authors. In this paper, we introduce the more realistic
+    and challenging task of defending against machine-generated news that also includes
+    images and captions. To identify the possible weaknesses that adversaries can
+    exploit, we create a NeuralNews dataset which is comprised of 4 different types
+    of generated articles as well as conduct a series of human user study experiments
+    based on this dataset. Coupled with providing a relatively effective approach
+    based on detecting visual-semantic inconsistencies, the valuable insights gleaned
+    from our user study experiments and, consequently, this paper will serve as an
+    effective first line of defense and a valuable reference for future work in defending
+    against machine-generated disinformation.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/TanPlummerSaenko_Detecting_CrossModal_Inconsistency_to_Defend_Against_Neural_Fake_News.pdf
+  idx: 3153
+  pages: 2081--2106
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Haoyue Shi
+  - Karen Livescu
+  - Kevin Gimpel
+  TITLE: On the Role of Supervision in Unsupervised Constituency Parsing
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.614
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: 'We analyze several recent unsupervised constituency parsing models, which
+    are tuned with respect to the parsing F1 score on the Wall Street Journal (WSJ)
+    development set (1,700 sentences). We introduce strong baselines for them, by
+    training an existing supervised parsing model (Kitaev and Klein, 2018) on the
+    same labeled examples they access. When training on the 1,700 examples, or even
+    when using only 50 examples for training and 5 for development, such a few-shot
+    parsing approach can outperform all the unsupervised parsing methods by a significant
+    margin. Few-shot parsing can be further improved by a simple data augmentation
+    method and self-training. This suggests that, in order to arrive at fair conclusions,
+    we should carefully consider the amount of labeled data used for model development.
+    We propose two protocols for future work on unsupervised parsing: (i) use fully
+    unsupervised criteria for hyperparameter tuning and model selection; (ii) use
+    as few labeled examples as possible for model development, and compare to few-shot
+    parsing trained on the same labeled examples.'
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/ShiLivescuGimpel_On_the_Role_of_Supervision_in_Unsupervised_Constituency_Parsing.pdf
+  idx: 3154
+  pages: 7611--7621
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Zujie Liang
+  - Weitao Jiang
+  - Haifeng Hu
+  - Jiaying Zhu
+  TITLE: Learning to Contrast the Counterfactual Samples for Robust Visual Question
+    Answering
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.265
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: In the task of Visual Question Answering (VQA), most state-of-the-art
+    models tend to learn spurious correlations in the training set and achieve poor
+    performance in out-of-distribution test data. Some methods of generating counterfactual
+    samples have been proposed to alleviate this problem. However, the counterfactual
+    samples generated by most previous methods are simply added to the training data
+    for augmentation and are not fully utilized. Therefore, we introduce a novel self-supervised
+    contrastive learning mechanism to learn the relationship between original samples,
+    factual samples and counterfactual samples. With the better cross-modal joint
+    embeddings learned from the auxiliary training objective, the reasoning capability
+    and robustness of the VQA model are boosted significantly. We evaluate the effectiveness
+    of our method by surpassing current state-of-the-art models on the VQA-CP dataset,
+    a diagnostic benchmark for assessing the VQA model{'}s robustness.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/LiangJiangHuZhu_Learning_to_Contrast_the_Counterfactual_Samples_for_Robust_Visual_Question_Answering.pdf
+  idx: 3155
+  pages: 3285--3292
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Yicong Hong
+  - Cristian Rodriguez
+  - Qi Wu
+  - Stephen Gould
+  TITLE: Sub-Instruction Aware Vision-and-Language Navigation
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.271
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Vision-and-language navigation requires an agent to navigate through a
+    real 3D environment following natural language instructions. Despite significant
+    advances, few previous works are able to fully utilize the strong correspondence
+    between the visual and textual sequences. Meanwhile, due to the lack of intermediate
+    supervision, the agent{'}s performance at following each part of the instruction
+    cannot be assessed during navigation. In this work, we focus on the granularity
+    of the visual and language sequences as well as the traceability of agents through
+    the completion of an instruction. We provide agents with fine-grained annotations
+    during training and find that they are able to follow the instruction better and
+    have a higher chance of reaching the target at test time. We enrich the benchmark
+    dataset Room-to-Room (R2R) with sub-instructions and their corresponding paths.
+    To make use of this data, we propose effective sub-instruction attention and shifting
+    modules that select and attend to a single sub-instruction at each time-step.
+    We implement our sub-instruction modules in four state-of-the-art agents, compare
+    with their baseline models, and show that our proposed method improves the performance
+    of all four agents. We release the Fine-Grained R2R dataset (FGR2R) and the code
+    at https://github.com/YicongHong/Fine-Grained-R2R.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/HongRodriguezWuGould_SubInstruction_Aware_VisionandLanguage_Navigation.pdf
+  idx: 3156
+  pages: 3360--3376
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Hisashi Kamezawa
+  - Noriki Nishida
+  - Nobuyuki Shimizu
+  - Takashi Miyazaki
+  - Hideki Nakayama
+  TITLE: A Visually-grounded First-person Dialogue Dataset with Verbal and Non-verbal
+    Responses
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.267
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: In real-world dialogue, first-person visual information about where the
+    other speakers are and what they are paying attention to is crucial to understand
+    their intentions. Non-verbal responses also play an important role in social interactions.
+    In this paper, we propose a visually-grounded first-person dialogue (VFD) dataset
+    with verbal and non-verbal responses. The VFD dataset provides manually annotated
+    (1) first-person images of agents, (2) utterances of human speakers, (3) eye-gaze
+    locations of the speakers, and (4) the agents{'} verbal and non-verbal responses.
+    We present experimental results obtained using the proposed VFD dataset and recent
+    neural network models (e.g., BERT, ResNet). The results demonstrate that first-person
+    vision helps neural network models correctly understand human intentions, and
+    the production of non-verbal responses is a challenging task like that of verbal
+    responses. Our dataset is publicly available.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/KamezawaNishidaShimizuMiyazakiNakayama_A_Visuallygrounded_Firstperson_Dialogue_Dataset_with_Verbal_and_Nonverbal_Responses.pdf
+  idx: 3157
+  pages: 3299--3310
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Alexander Ku
+  - Peter Anderson
+  - Roma Patel
+  - Eugene Ie
+  - Jason Baldridge
+  TITLE: 'Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense
+    Spatiotemporal Grounding'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.356
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: We introduce Room-Across-Room (RxR), a new Vision-and-Language Navigation
+    (VLN) dataset. RxR is multilingual (English, Hindi, and Telugu) and larger (more
+    paths and instructions) than other VLN datasets. It emphasizes the role of language
+    in VLN by addressing known biases in paths and eliciting more references to visible
+    entities. Furthermore, each word in an instruction is time-aligned to the virtual
+    poses of instruction creators and validators. We establish baseline scores for
+    monolingual and multilingual settings and multitask learning when including Room-to-Room
+    annotations (Anderson et al., 2018). We also provide results for a model that
+    learns from synchronized pose traces by focusing only on portions of the panorama
+    attended to in human demonstrations. The size, scope and detail of RxR dramatically
+    expands the frontier for research on embodied language agents in photorealistic
+    simulated environments.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/KuAndersonPatelIeBaldridge_RoomAcrossRoom_Multilingual_VisionandLanguage_Navigation_with_Dense_Spatiotemporal_Grounding.pdf
+  idx: 3158
+  pages: 4392--4412
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Yanpeng Zhao
+  - Ivan Titov
+  TITLE: Visually Grounded Compound {PCFG}s
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.354
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Exploiting visual groundings for language understanding has recently been
+    drawing much attention. In this work, we study visually grounded grammar induction
+    and learn a constituency parser from both unlabeled text and its visual groundings.
+    Existing work on this task (Shi et al., 2019) optimizes a parser via Reinforce
+    and derives the learning signal only from the alignment of images and sentences.
+    While their model is relatively accurate overall, its error distribution is very
+    uneven, with low performance on certain constituents types (e.g., 26.2{\%} recall
+    on verb phrases, VPs) and high on others (e.g., 79.6{\%} recall on noun phrases,
+    NPs). This is not surprising as the learning signal is likely insufficient for
+    deriving all aspects of phrase-structure syntax and gradient estimates are noisy.
+    We show that using an extension of probabilistic context-free grammar model we
+    can do fully-differentiable end-to-end visually grounded learning. Additionally,
+    this enables us to complement the image-text alignment loss with a language modeling
+    objective. On the MSCOCO test captions, our model establishes a new state of the
+    art, outperforming its non-grounded version and, thus, confirming the effectiveness
+    of visual groundings in constituency grammar induction. It also substantially
+    outperforms the previous grounded model, with largest improvements on more {`}abstract{'}
+    categories (e.g., +55.1{\%} recall on VPs).
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/ZhaoTitov_Visually_Grounded_Compound_PCFGs.pdf
+  idx: 3159
+  pages: 4369--4379
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Ece Takmaz
+  - Mario Giulianelli
+  - Sandro Pezzelle
+  - Arabella Sinclair
+  - Raquel Fern{\'a}ndez
+  TITLE: '{R}efer, {R}euse, {R}educe: {G}enerating {S}ubsequent {R}eferences in {V}isual
+    and {C}onversational {C}ontexts'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.353
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Dialogue participants often refer to entities or situations repeatedly
+    within a conversation, which contributes to its cohesiveness. Subsequent references
+    exploit the common ground accumulated by the interlocutors and hence have several
+    interesting properties, namely, they tend to be shorter and reuse expressions
+    that were effective in previous mentions. In this paper, we tackle the generation
+    of first and subsequent references in visually grounded dialogue. We propose a
+    generation model that produces referring utterances grounded in both the visual
+    and the conversational context. To assess the referring effectiveness of its output,
+    we also implement a reference resolution system. Our experiments and analyses
+    show that the model produces better, more effective referring utterances than
+    a model not grounded in the dialogue context, and generates subsequent references
+    that exhibit linguistic patterns akin to humans.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/TakmazGiulianelliPezzelleSinclairFernandez_Refer_Reuse_Reduce_Generating_Subsequent_References_in_Visual_and_Conversational_Contexts.pdf
+  idx: 3160
+  pages: 4350--4368
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Hung Le
+  - Doyen Sahoo
+  - Nancy Chen
+  - Steven C.H. Hoi
+  TITLE: '{B}i{ST}: Bi-directional Spatio-Temporal Reasoning for Video-Grounded Dialogues'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.145
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: Video-grounded dialogues are very challenging due to (i) the complexity
+    of videos which contain both spatial and temporal variations, and (ii) the complexity
+    of user utterances which query different segments and/or different objects in
+    videos over multiple dialogue turns. However, existing approaches to video-grounded
+    dialogues often focus on superficial temporal-level visual cues, but neglect more
+    fine-grained spatial signals from videos. To address this drawback, we proposed
+    Bi-directional Spatio-Temporal Learning (BiST), a vision-language neural framework
+    for high-resolution queries in videos based on textual cues. Specifically, our
+    approach not only exploits both spatial and temporal-level information, but also
+    learns dynamic information diffusion between the two feature spaces through spatial-to-temporal
+    and temporal-to-spatial reasoning. The bidirectional strategy aims to tackle the
+    evolving semantics of user queries in the dialogue setting. The retrieved visual
+    cues are used as contextual information to construct relevant responses to the
+    users. Our empirical results and comprehensive qualitative analysis show that
+    BiST achieves competitive performance and generates reasonable responses on a
+    large-scale AVSD benchmark. We also adapt our BiST models to the Video QA setting,
+    and substantially outperform prior approaches on the TGIF-QA benchmark.
+  address: Online
+  file: https://github.com/ybisk/papers/blob/master/2020/LeSahooChenHoi_BiST_Bidirectional_SpatioTemporal_Reasoning_for_VideoGrounded_Dialogues.pdf
+  idx: 3161
+  pages: 1846--1859
+  publisher: Association for Computational Linguistics
