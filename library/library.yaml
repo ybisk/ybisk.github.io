@@ -46950,7 +46950,7 @@
   - Shengjie Li
   - Radu Soricut
   - Matthew Stone
-  TITLE: "Clue: Cross-modal Coherence Modeling for Caption Generation"
+  TITLE: 'Clue: Cross-modal Coherence Modeling for Caption Generation'
   TYPE: conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.583
   VENUE: Proceedings of the 58th Annual Meeting of the Association for Computational
@@ -46972,3 +46972,18 @@
   idx: 3162
   pages: 6525--6535
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Malihe Alikhani
+  - Baber Khalid
+  - Rahul Shome
+  - Chaitanya Mitash
+  - Kostas Bekris
+  - Matthew Stone
+  TITLE: 'That and There: Judging the Intent of Pointing Actions with Robotic Arms'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1912.06602
+  VENUE: AAAI 
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2019/AlikhaniKhalidShomeMitashBekris_That_and_There_Judging_the_Intent_of_Pointing_Actions_with_Robotic_Arms.pdf
+  idx: 3163
+  month: '12'
