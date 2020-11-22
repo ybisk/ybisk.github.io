@@ -46982,8 +46982,36 @@
   TITLE: 'That and There: Judging the Intent of Pointing Actions with Robotic Arms'
   TYPE: conference
   URL: https://arxiv.org/abs/1912.06602
-  VENUE: AAAI 
+  VENUE: AAAI
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2019/AlikhaniKhalidShomeMitashBekris_That_and_There_Judging_the_Intent_of_Pointing_Actions_with_Robotic_Arms.pdf
   idx: 3163
   month: '12'
+- AUTHORS:
+  - Ben Peters
+  - Vlad Niculae
+  - Andr{\'e} F. T. Martins
+  TITLE: Sparse Sequence-to-Sequence Models
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/P19-1146
+  VENUE: Proceedings of the 57th Annual Meeting of the Association for Computational
+    Linguistics
+  YEAR: '2019'
+  abstract: Sequence-to-sequence models are a powerful workhorse of NLP. Most variants
+    employ a softmax transformation in both their attention mechanism and output layer,
+    leading to dense alignments and strictly positive output probabilities. This density
+    is wasteful, making models less interpretable and assigning probability mass to
+    many implausible outputs. In this paper, we propose sparse sequence-to-sequence
+    models, rooted in a new family of $\alpha$-entmax transformations, which includes
+    softmax and sparsemax as particular cases, and is sparse for any $\alpha > 1$.
+    We provide fast algorithms to evaluate these transformations and their gradients,
+    which scale well for large vocabulary sizes. Our models are able to produce sparse
+    alignments and to assign nonzero probability to a short list of plausible outputs,
+    sometimes rendering beam search exact. Experiments on morphological inflection
+    and machine translation reveal consistent gains over dense models.
+  address: Florence, Italy
+  doi: 10.18653/v1/P19-1146
+  file: https://github.com/ybisk/papers/blob/master/2019/PetersNiculaeMartins_Sparse_SequencetoSequence_Models.pdf
+  idx: 3164
+  pages: 1504--1519
+  publisher: Association for Computational Linguistics
