@@ -1,6 +1,21 @@
 ---
 - FIELD:
   - L
+  TYPE: conference
+  TITLE: 'Knowledge-driven Self-supervision for Zero-shot Commonsense Question Answering'
+  YEAR: '2021'
+  URL: https://arxiv.org/abs/2011.03863
+  AUTHORS:
+  - Kaixin Ma
+  - Filip Ilievski
+  - Jonathan Francis
+  - Yonatan Bisk
+  - Eric Nyberg
+  - Alessandro Oltramari
+  VENUE: 35th AAAI Conference on Artificial Intelligence
+  VENUE-ACR: AAAI
+- FIELD:
+  - L
   - V
   TYPE: preprint
   TITLE: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
