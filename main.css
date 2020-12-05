@@ -26,10 +26,34 @@ html {
     align: center;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the cards */
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: left;
+}
+
+
 body {
     margin: 0 auto;
+    padding: 0 10px;
     max-width: 900px;
-    min-width: 900px;
     font-size: 14px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 1.5em;
@@ -74,7 +98,7 @@ samp {
     display: none;
 }
 
-p {
+.dynamic_link {
     font-size: 11px;
     line-height: 12px;
     display: inline-block;

@@ -7,16 +7,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <meta name=viewport content="width=device-width">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-8024377-2', 'auto');
-            ga('send', 'pageview');
-
-        </script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBC1D21RJT"></script>
@@ -25,55 +15,6 @@
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-CBC1D21RJT');
-        </script>
-
-
-        <script>
-            /**
-              * Function that captures a click on an outbound link in Analytics.
-              * This function takes a valid URL string as an argument, and uses that URL string
-              * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-              * using 'navigator.sendBeacon' in browser that support it.
-              */
-            var captureOutboundLink = function(url) {
-                ga('send', 'event', 'outbound', 'click', url, {
-                    'transport': 'beacon',
-                    'hitCallback': function(){document.location = url;}
-                });
-                return false;
-            }
-        </script>
-
-        </script>
-        <script language="javascript">
-            function show( elem ) {
-                $('#'+elem).toggle();
-                copyDivToClipboard(elem);
-            }
-        </script>
-
-        <script>
-          function area(ON, OFF){
-              var ON = ON.split('')
-              var OFF = OFF.split('')
-              var turn_on = [];
-              var turn_off = [];
-              for (var idx = 0; idx < ON.length; idx++) {
-                turn_on = turn_on.concat(Array.from(document.getElementsByClassName(ON[idx])))
-              }
-              for (var idx = 0; idx < OFF.length; idx++) {
-                turn_off = turn_off.concat(Array.from(document.getElementsByClassName(OFF[idx])))
-              }
-
-              for (var i = 0; i < turn_on.length; i++){
-                    turn_on[i].removeAttribute("hidden");
-              }
-              for (var i = 0; i < turn_off.length; i++){
-                  if (!turn_on.includes(turn_off[i])) {
-                    turn_off[i].hidden = true;
-                  }
-              }
-          }
         </script>
 
         <meta charset="utf-8">
@@ -125,36 +66,102 @@
           </div>
         </div>
       </main>
-      <center>
-        <table style="width:800px">
+        <div style="font-size:14pt">Our research focuses broadly on language grounding, action taking, and theory-of-mind.  All of our current work assumes the importance of perception and/or world building as crucial to constructing semantic representations for and with language.</div><br>
 
-            <tr><td colspan=5>
-                    <div style="font-size:14pt">Our research focuses broadly on language grounding, action taking, and theory-of-mind.  All of our current work assumes the importance of perception and/or world building as crucial to constructing semantic representations for and with language.</div><br>
-            </td></tr>
+         <h3>Current Team</h3>
 
-            <tr><td colspan=4><h3>Current Team</h3></tr>
-            <tr>
-                    <td width=200><a href="http://ychangad.student.ust.hk/"><img src=images/students/yingshanchang.jpg style="width:200;display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"></a></td>
-                    <td width=200><b>Yingshan Chang</b><br> is a first year MLT working on multimodal coreference, reasoning, and information extraction.</td>
-                    <td width=10></td>
-                    <td width=200><a href="https://www.jaredfern.com/"><img src=images/students/jaredfernandez.jpg style="width:200;display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"></a></td>
-                    <td width=200><b>Jared Fernandez</b><br> (co-advised with <a href="http://strubell.github.io/">Emma Strubell</a>) is a first year PhD working on efficiency in multimodal training and inference.</td>
-            </tr>
-            <tr>
-                    <td width=200><a href="http://jzhanson.com/"><img src=images/students/joshzhanson.jpg style="width:200;display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"></a></td>
-                    <td width=200><b>Josh Zhanson</b><br> is a first year MLT working on self-supervised visual representation learning.</td>
-                    <td width=10></td>
-                    <td width=200><a href="http://www.zhuhao.me/"><img src=images/students/haozhu.jpg style="width:200;display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"></a></td>
-                    <td width=200><b>Hao Zhu</b><br> (co-advised with <a href="http://phontron.com/">Graham Neubig</a>) is a second year PhD working on meta-learning and theory-of-mind informed pedagogy </td>
-            </tr>
-            <tr><td colspan=3><br><i>Fall 2021:</i> I am likely taking 1-2 new students next year in embodiment or language-to-control</td>
-            <td colspan=2><br><i><a href="https://blog.nelsonliu.me/2019/10/24/student-perspectives-on-applying-to-nlp-phd-programs/">Nelson Liu's post on applying to NLP PhD programs</a></i></td></tr>
-            <tr><td colspan=5><h3><br>Visitors</h3></tr>
-            <tr><td colspan=5><br>Intern/Visitor decisions for Summer 2021 have already been made -- but other places <i><a href="https://www.isi.edu/projects/nlg/summer_internships">ISI@USC</a></i> may still be looking</td>
+          <center>
+          <div class="row">
+            <div class="column">
+              <div class="card mb-3" style="max-width: 425px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/students/yingshanchang.jpg class="card-img" alt="Yingshan Chang">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://zdxdsw.github.io/">Yingshan Chang</a></h5>
+                      <p class="card-text"> is a first year MLT working on multimodal coreference, reasoning, and information extraction.
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="https://zdxdsw.github.io/">https://zdxdsw.github.io/</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+
+            <div class="column">
+              <div class="card mb-3" style="max-width: 425px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/students/jaredfernandez.jpg class="card-img" alt="Jared Fernandez">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.jaredfern.com/">Jared Fernandez</a></h5>
+                      <p class="card-text">
+                        (co-advised with <a href="http://strubell.github.io/">Emma Strubell</a>) is a first year PhD working on efficiency in multimodal training and inference.
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="https://www.jaredfern.com/">https://www.jaredfern.com/</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+
+            <div class="column">
+              <div class="card mb-3" style="max-width: 425px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/students/joshzhanson.jpg class="card-img" alt="Josh Zhanson">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="http://jzhanson.com/">Josh Zhanson</a></h5>
+                      <p class="card-text">
+                        is a first year MLT working on self-supervised visual representation learning.
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="http://jzhanson.com/">http://jzhanson.com/</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+
+            <div class="column">
+              <div class="card mb-3" style="max-width: 425px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/students/haozhu.jpg class="card-img" alt="Hao Zhu">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="http://www.zhuhao.me/">Hao Zhu</a></h5>
+                      <p class="card-text">
+                        (co-advised with <a href="http://phontron.com/">Graham Neubig</a>) is a second year PhD working on meta-learning and theory-of-mind informed pedagogy 
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="http://www.zhuhao.me/">http://www.zhuhao.me/</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+          </div> <!-- row -->
+          </center>
 
 
-      </table>
-    </center>
+            <br><i>Fall 2021:</i> I am likely taking 1-2 new students next year in embodiment or language-to-control
+            <br><i><a href="https://blog.nelsonliu.me/2019/10/24/student-perspectives-on-applying-to-nlp-phd-programs/">Nelson Liu's post on applying to NLP PhD programs</a></i>
+
+            <br><br>
+            <h3>Visitors</h3>
+            <br>Intern/Visitor decisions for Summer 2021 have already been made -- but other places <i><a href="https://www.isi.edu/projects/nlg/summer_internships">ISI@USC</a></i> may still be looking
+
+
   </body>
 </html>
 
