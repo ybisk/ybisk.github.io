@@ -42,13 +42,11 @@ html {
   }
 }
 
-/* Style the cards */
-.card {
+.student {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 4px;
   text-align: left;
 }
-
 
 body {
     margin: 0 auto;
