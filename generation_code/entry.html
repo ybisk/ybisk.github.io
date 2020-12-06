@@ -1,25 +1,31 @@
-<div class="rTableRow row #FIELDS#">
-      <div class="rTableCell col-md-1"><button type="button" disabled class="card text-dark border-#FIELD# btn-sm">#YEAR-btn#</button>
-      </div>
-      <div class="rTableCell col-md-11">
-          <a href=#URL# onclick="captureOutboundLink('#URL#');"><b>#TITLE#</b></a>#EXTRA#
-          <div style="float: right; clear: right;">
-              <button type="button" class="sbtn btn btn-light btn-clipboard" title
+<div class="card #FIELDS#">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-1">
+          <button type="button" disabled class="btn ybtn text-dark btn-outline-#FIELD#">#YEAR-btn#</button>
+        </div>
+        <div class="col-md-11">
+          <a href=#URL# onclick="captureOutboundLink('#URL#');"><b>#TITLE#</b></a><br>
+          <div class="card-text">
+            <i>#VENUE#</i><br>
+            #AUTHORS#<br>
+            <button type="button" class="sbtn btn btn-light" title
                 data-original-title="Copy BibTex" id="buttonidx#IDX#"
                 href="javascript:void(0)" onclick="show('idx#IDX#')">
-                <i>#VENUE-ACR#</i></a>
+                <i>BibTeX</i>
               </button>
-          </div>
-          <br>
-          <object width=20px height=0px></object>#AUTHORS#
-          <br>
-          <p id="idx#IDX#"  class="dynamic_link">
-             @#BIBREC#{#CITEKEY#,<br>
-             &nbsp;&nbsp;&nbsp;&nbsp;author    = {#AUTH-BIB#},<br>
-             &nbsp;&nbsp;&nbsp;&nbsp;title     = {{#TITLE#}}, <br>
-             &nbsp;&nbsp;&nbsp;&nbsp;#BOOK# = {#VENUE#},<br>
-             &nbsp;&nbsp;&nbsp;&nbsp;year      = {#YEAR#},<br>
-             }
-          </p>
+              #EXTRA#
+              <div id="idx#IDX#"  class="dynamic_link">
+                 <br>
+                 @#BIBREC#{#CITEKEY#,<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;author    = {#AUTH-BIB#},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;title     = {{#TITLE#}}, <br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;#BOOK# = {#VENUE#},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;year      = {#YEAR#},<br>
+                 }
+              </div>
+          </div> <!-- text -->
+        </div>
       </div>
-</div>
+  </div> <!-- body -->
+</div> <!-- card -->

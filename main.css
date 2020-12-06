@@ -141,6 +141,16 @@ img {
     border-radius: .5rem;
 }
 
+.ybtn {
+    top: .25rem;
+    right: .25rem;
+    padding: .15rem .15rem;
+    border: 10;
+    font-size:14px;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
 .sbtn {
     top: .25rem;
     right: .25rem;
@@ -148,4 +158,13 @@ img {
     border: 10;
     font-size:12px;
     border-radius: .5rem;
+}
+
+.card {
+    border: 1;
+} 
+
+.card-body{
+  padding:5px !important;
+  width: 100%;
 }
