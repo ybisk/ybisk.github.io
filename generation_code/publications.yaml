@@ -2,7 +2,7 @@
 - FIELD:
   - L
   TYPE: conference
-  TITLE: 'Knowledge-driven Self-supervision for Zero-shot Commonsense Question Answering'
+  TITLE: 'Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering'
   YEAR: '2021'
   URL: https://arxiv.org/abs/2011.03863
   AUTHORS:
@@ -14,6 +14,8 @@
   - Alessandro Oltramari
   VENUE: 35th AAAI Conference on Artificial Intelligence
   VENUE-ACR: AAAI
+  EXTRAS:
+    Code: https://github.com/Mayer123/HyKAS-CSKG
 - FIELD:
   - L
   - V
