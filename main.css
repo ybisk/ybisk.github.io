@@ -97,7 +97,7 @@ samp {
 }
 
 .dynamic_link {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 12px;
     display: inline-block;
     background-color:rgb(239, 249, 255);
@@ -133,36 +133,29 @@ img {
 }
 
 .btn {
-    top: .25rem;
-    right: .25rem;
-    padding: .25rem .25rem;
-    border: 10;
+    top: .5em;
+    right: .5em;
+    padding: .25em .25em;
     font-size:18px;
-    border-radius: .5rem;
+    border-radius: .5em;
 }
 
 .ybtn {
-    top: .25rem;
-    right: .25rem;
-    padding: .15rem .15rem;
-    border: 10;
+    top: .5em;
+    right: .5em;
+    padding: .15em .15em;
     font-size:14px;
     font-weight: bold;
-    border-radius: .5rem;
+    border-radius: .5em;
 }
 
 .sbtn {
-    top: .25rem;
-    right: .25rem;
-    padding: .25rem .25rem;
-    border: 10;
+    top: .5em;
+    right: .5em;
+    padding: .5em .5em;
     font-size:12px;
-    border-radius: .5rem;
+    border-radius: .5em;
 }
-
-.card {
-    border: 1;
-} 
 
 .card-body{
   padding:5px !important;
