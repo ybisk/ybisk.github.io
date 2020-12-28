@@ -452,7 +452,7 @@
   TYPE: conference
   TITLE: Learning Interpretable Spatial Operations in a Rich 3D Blocks World 
   YEAR: '2018'
-  URL: "http://www.yonatanbisk.com/papers/2018-AAAI.pdf"
+  URL: https://arxiv.org/abs/1712.03463
   AUTHORS:
   - Yonatan Bisk
   - Kevin Shih
@@ -482,7 +482,7 @@
   TYPE: conference
   TITLE: 'Natural Language Communication with Robots '
   YEAR: '2016'
-  URL: https://www.aclweb.org/anthology/N16-1089.pdf
+  URL: https://www.aclweb.org/anthology/N16-1089/
   AUTHORS:
   - Yonatan Bisk
   - Deniz Yuret
@@ -499,7 +499,7 @@
   TYPE: conference
   TITLE: Supertagging with LSTMs
   YEAR: '2016'
-  URL: https://www.aclweb.org/anthology/N16-1027.pdf
+  URL: https://www.aclweb.org/anthology/N16-1027/
   AUTHORS:
   - Ashish Vaswani
   - Yonatan Bisk
@@ -529,7 +529,7 @@
   TYPE: workshop
   TITLE: 'Unsupervised Neural Hidden Markov Models  '
   YEAR: '2016'
-  URL: "https://www.aclweb.org/anthology/W16-5907.pdf"
+  URL: "https://www.aclweb.org/anthology/W16-5907/"
   AUTHORS:
   - Ke Tran
   - Yonatan Bisk
@@ -571,7 +571,7 @@
   TITLE: Probing the Linguistic Strengths and Limitations of Unsupervised Grammar
     Induction
   YEAR: '2015'
-  URL: "https://www.aclweb.org/anthology/P15-1135.pdf"
+  URL: "https://www.aclweb.org/anthology/P15-1135/"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
@@ -602,7 +602,7 @@
   TYPE: journal
   TITLE: An HDP Model for Inducing Combinatory Categorial Grammars
   YEAR: '2013'
-  URL: "https://www.aclweb.org/anthology/Q13-1007.pdf"
+  URL: "https://www.aclweb.org/anthology/Q13-1007/"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
@@ -651,7 +651,7 @@
   TYPE: conference
   TITLE: Normal-form parsing for CCGs with generalized composition and type-raising
   YEAR: '2010'
-  URL: "https://www.aclweb.org/anthology/C10-1053.pdf"
+  URL: "https://www.aclweb.org/anthology/C10-1053/"
   AUTHORS:
   - Julia Hockenmaier
   - Yonatan Bisk
