@@ -2,6 +2,22 @@
 - FIELD:
   - L
   TYPE: conference
+  TITLE: 'An Empirical Study on the Generalization Power of Neural Representations Learned via Visual Guessing Games'
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Alessandro Suglia
+  - Yonatan Bisk
+  - Ioannis Konstas
+  - Antonio Vergari
+  - Emanuele Bastianelli
+  - Andrea Vanzo
+  - Oliver Lemon
+  VENUE: 'The 2021 Conference of the European Chapter of the Association for Computational Linguistics'
+  VENUE-ACR: EACL
+- FIELD:
+  - L
+  TYPE: conference
   TITLE: 'Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering'
   YEAR: '2021'
   URL: https://arxiv.org/abs/2011.03863
