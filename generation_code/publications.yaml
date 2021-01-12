@@ -35,9 +35,9 @@
 - FIELD:
   - L
   - V
-  TYPE: preprint
+  TYPE: conference
   TITLE: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
-  YEAR: '2020'
+  YEAR: '2021'
   URL: https://alfworld.github.io/
   AUTHORS:
   - Mohit Shridhar
@@ -46,8 +46,8 @@
   - Yonatan Bisk
   - Adam Trischler
   - Matthew Hausknecht
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: Proceedings of the International Conference on Learning Representations
+  VENUE-ACR: ICLR
 - FIELD:
   - L
   - V
