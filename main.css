@@ -75,7 +75,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 table {
-  border-spacing: 0px
+  border-spacing: 0px;
+  padding: 0px;
+  border-collapse: collapse;
 }
 
 h2 {
@@ -160,4 +162,8 @@ img {
 .card-body{
   padding:5px !important;
   width: 100%;
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
+    padding: 2px;
 }
