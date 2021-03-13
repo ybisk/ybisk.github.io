@@ -70,9 +70,9 @@
       <main role="main">
         <center><h3>Fall 2021</h3></center>
         <div>On-Device Machine Learning is a project-based course covering how to build, train, and deploy models that can run on low-power devices (e.g. smart phones, refrigerators, and mobile robots).  The course will cover advances topics on distillation, quantization, weight imprinting, power calculation and more.  Every week we will discuss a new research paper and area in this space one day, and have a lab working-group the second.  Specifically, students will be provided with low-power compute hardware (e.g. SBCs and inference accelerators) in addition to sensors (e.g. microphones, cameras, and robotics) for their course project.  The project will involve three components for building low-power multimodal models: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;(1) inference  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;(2) performing training/updates for interactive ML, and <br>
-&nbsp;&nbsp;&nbsp;&nbsp;(3) maximizing power. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) inference  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) performing training/updates for interactive ML, and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) maximizing power. <br>
 The more that can be performed on device, the more privacy preserving and mobile the solution is.</div>
 <div>
 For each stage of the course project, the final model produced will have an mAh "budget" equivalent to one full charge of a smart phone battery (~4 Ah or 2hrs on Jetson Nano, 7hrs on RPi, or 26hrs on a RPi Zero W).</div>
@@ -98,10 +98,9 @@ For each stage of the course project, the final model produced will have an mAh 
                   <div class="col-md-6">
                       <img src=../images/YonatanBisk_square.jpg class="card-img" alt="Yonatan Bisk" >
                   </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
+                  <div class="col-md-6 vcard" >
+                    <div class="card-body" >
                       <h5 class="card-title"><b>Yonatan Bisk</b></h5>
-                      <!--<p class="card-text">Yonatan Bisk</p>-->
                       <p class="card-text"><small class="text-muted"><a href="mailto:ybisk@cs.cmu.edu">ybisk@cs.cmu.edu</a></small>
                       </p>
                     </div> <!-- card-body -->
@@ -113,9 +112,9 @@ For each stage of the course project, the final model produced will have an mAh 
                   <div class="col-md-6">
                       <img src=images/emma.jpg class="card-img" alt="Emma Strubell">
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 vcard">
                     <div class="card-body">
-                      <h5 class="card-title"><b>Emma Strubell</b></h5>
+                      <h5 class="card-title"><b><a href="https://strubell.github.io/">Emma Strubell</a></b></h5>
                       <p class="card-text"><small class="text-muted"><a href="mailto:strubell@cmu.edu">strubell@cmu.edu</a></small></p>
                     </div> <!-- card-body -->
                   </div> <!-- col -->
@@ -130,10 +129,10 @@ For each stage of the course project, the final model produced will have an mAh 
                   <div class="col-md-6">
                       <img src=images/.jpg class="card-img" alt="" style="width:250px;">
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 vcard">
                     <div class="card-body">
-                      <h5 class="card-title"><b></b></h5>
-                      <p class="card-text"><small calss="text-muted"><a href=""></a></small></p>
+                      <h5 class="card-title"><b>Student 1</b></h5>
+                      <p class="card-text"><small calss="text-muted"><a href="">student@cmu.edu</a></small></p>
                     </div> <!-- card-body -->
                   </div> <!-- col -->
                 </div> <!-- row -->
@@ -143,10 +142,10 @@ For each stage of the course project, the final model produced will have an mAh 
                   <div class="col-md-6">
                       <img src=images/.jpg class="card-img" alt="" style="width:250px;">
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 vcard">
                     <div class="card-body">
-                      <h5 class="card-title"><b></b></h5>
-                      <p class="card-text"><small calss="text-muted"><a href=""></a></small></p>
+                      <h5 class="card-title"><b>Student 2</b></h5>
+                      <p class="card-text"><small calss="text-muted"><a href="">student@cmu.edu</a></small></p>
                     </div> <!-- card-body -->
                   </div> <!-- col -->
                 </div> <!-- row -->
@@ -154,12 +153,12 @@ For each stage of the course project, the final model produced will have an mAh 
             </div> <!-- column -->
 
           <hr>
-          <h4><b>Slack and Canvas</b></h4>
+          <h4><b>Slack and Course Communication</b></h4>
           <p>All course communication will happen via slack including slides and discussions.</p>
           <p><b>Slack</b>
           <ul>
             <li><b>#general-questions</b>: For questions about lectures, the course, or help from others on class projects</li>
-            <li><b>#group-N-X</b>: Each group should come up with a name and create their own private channel (invite TAs and instructur).  Use the same name for your GitHub fork and pin the link to the channel.  Please also invite us to the GitHub. Example: #group-fun-vizwiz</li>
+            <li><b>🔒group-N</b>: Each group should come up with a name and create their own private channel (invite TAs and instructur).  Use the same name for your GitHub fork and pin the link to the channel.  Please also invite us to the GitHub. Example: 🔒group-RoboFun</li>
             <li><b>#hardware/#modality</b>: Hardware or Modality related questions should be asked broadly for anyone to help with.</li>
             <li><b>Private Messages</b>: If there is a question you would like to address to the instructors, please create a 4-person PM on slack.  Please check #general-questions first and post there when possible.</li>
           </ul>
@@ -173,15 +172,15 @@ For each stage of the course project, the final model produced will have an mAh 
                   <td class="col-sm-6" style="border-top:none;">Project/Lab</td>
                 </tr>
               <tr class="d-flex" style="border-top:none;">
-                  <td class="col-sm-4" style="border-top:none;">– Participation</td>
+                  <td class="col-sm-4" style="border-top:none;">&nbsp;&nbsp;– Participation</td>
                   <td class="col-sm-2" style="border-top:none;">15%</td>
-                  <td class="col-sm-4" style="border-top:none;">– Lab Reports (1page)</td>
+                  <td class="col-sm-4" style="border-top:none;">&nbsp;&nbsp;– Lab Reports (1page)</td>
                   <td class="col-sm-2" style="border-top:none;">50%</td>
               </tr>
               <tr class="d-flex" style="border-top:none;">
-                  <td class="col-sm-4" style="border-top:none;">– Paper Presentations</td>
+                  <td class="col-sm-4" style="border-top:none;">&nbsp;&nbsp;– Paper Presentations</td>
                   <td class="col-sm-2" style="border-top:none;">15%</td>
-                  <td class="col-sm-4" style="border-top:none;">– Final Report/Presentation</td>
+                  <td class="col-sm-4" style="border-top:none;">&nbsp;&nbsp;– Final Report/Presentation</td>
                   <td class="col-sm-2" style="border-top:none;">20%</td>
               </tr>
           </table>
@@ -262,11 +261,12 @@ For each stage of the course project, the final model produced will have an mAh 
           </center>
 
           <h5>Resources</h5>
-          <ul>
+          <ul class="resources">
             <li> <a href="https://www.oreilly.com/library/view/tinyml/9781492052036/">TinyML by Warden and Situnayake 2019</a></li>
             <li> <a href="https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/about">Getting Started with AI on Jetson Nano </a></li>
-            <li> <a href="https://pytorch.org/mobile/home/">PyTroch Mobile</a></li>
+            <li> <a href="https://pytorch.org/mobile/home/">PyTorch Mobile</a></li>
             <li> <a href="https://github.com/microsoft/onnxruntime/blob/master/docs/ONNX_Runtime_for_Mobile_Platforms.md">ONNX Mobile</a></li>
+            <li> <a href="https://github.com/ybisk/robot/blob/main/Code/manual.py">Example DexArm Rotary Code</a></li>
           </ul>
 
           <hr>
@@ -274,8 +274,8 @@ For each stage of the course project, the final model produced will have an mAh 
           <table class="table table-striped">
             <thead>
               <tr class="d-flex">
-                <th class="col-md-6">Discussion</th>
-                <th class="col-md-6">Lab</th>
+                <th class="col-md-6"><center>Discussion</center></th>
+                <th class="col-md-6"><center>Lab</center></th>
               </tr>
             </thead>
 
@@ -290,19 +290,19 @@ For each stage of the course project, the final model produced will have an mAh 
             <td class="col-md-6">Sept 1: <b>Hardware and Modality choices</b><br>
             <ul><li> Hardware trade-off discussions:
               <ul>
-                <li> Raspberry Pi Zero W -- 150 mA</li>
-                <li> Raspberry Pi 4 -- 600 mA</li>
-                <li> Jetson Nano & Google Coral -- 2A</li>
+                <li> Raspberry Pi Zero W <span style="float:right">150 mA</span></li>
+                <li> Raspberry Pi 4 <span style="float:right">600 mA</span></li>
+                <li> Jetson Nano & Google Coral <span style="float:right"> 2A</span></li>
               </ul></li>
               <li> Input Options:
               <ul>
-                <li> Speech Recognition: Microphone </li>
-                <li> Images:             Camera     </li>
+                <li> Speech Recognition: <span style="float:right">Microphone </span></li>
+                <li> Images:             <span style="float:right">Camera     </span></li>
               </ul></li>
               <li> Output Options:
               <ul>
-                <li> Text Output:        LCD Display </li>
-                <li> Control:            Robot </li>
+                <li> Text Output:        <span style="float:right">LCD Display</span> </li>
+                <li> Control:            <span style="float:right">Robot</span> </li>
                 <li> Additional sensors/extensions will be available: Temperature, LEDs, etc</li>
               </ul>
             </ul>
@@ -341,7 +341,7 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">
                 Sept 22: <b> Implement baseline model</b> </b>
-                <ul><li>Use pretrained models</li><li>Report 1 -- 5%</li></ul>
+                <ul><li>Use pretrained models</li><li>Report 1 <span style="float:right">5%</span></li></ul>
               </td>
             </tr>
 
@@ -356,7 +356,7 @@ For each stage of the course project, the final model produced will have an mAh 
                 Sept 29: <b>Benchmarking</b>
                 <ul>
                   <li>Performance, space, and power</li>
-                  <li>Report 2 -- 5%</li>
+                  <li>Report 2 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -372,7 +372,7 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">
                 Oct 6: <b>Quatization or distillation results</b>
-                <ul><li>Report 3 -- 5%</li></ul>
+                <ul><li>Report 3 <span style="float:right">5%</span></li></ul>
               </td>
             </tr>
 
@@ -387,7 +387,7 @@ For each stage of the course project, the final model produced will have an mAh 
               <td class="col-md-6">Oct 13: <b>Benchmark training </b>
                 <ul>
                   <li>Include limitations -- e.g. batch size</li>
-                  <li>Report 4 -- 5%</li>
+                  <li>Report 4 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -402,7 +402,7 @@ For each stage of the course project, the final model produced will have an mAh 
               <td class="col-md-6">Oct 20: <b>Propose Solution</b>
                 <ul>
                   <li>Initial implementation</li>
-                  <li>Report 5 -- 5%</li>
+                  <li>Report 5 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -416,7 +416,7 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">Oct 27: <b>Implementation</b>
                 <ul>
-                  <li>Report 6 -- 5%</li>
+                  <li>Report 6 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -429,7 +429,7 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">Nov 3: <b>Implementation</b>
                 <ul>
-                  <li>Report 7 -- 5%</li>
+                  <li>Report 7 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -446,7 +446,7 @@ For each stage of the course project, the final model produced will have an mAh 
               <td class="col-md-6">Nov 10: <b>Training benchmarks </b>
                 <ul>
                   <li>Static dataset provided by instructors</li>
-                  <li>Report 8 -- 5%</li>
+                  <li>Report 8 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -456,7 +456,7 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">Nov 17: <b>Carbon & Alternative Power</b>
                 <ul>
-                  <li>Report 9 -- 5%</li>
+                  <li>Report 9 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
@@ -479,14 +479,14 @@ For each stage of the course project, the final model produced will have an mAh 
               </td>
               <td class="col-md-6">Dec 1: <b>Collect and Train</b>
                 <ul>
-                  <li> Train/Eval a single new instance collected by the group</li>
-                  <li>Report 10 -- 5%</li>
+                  <li> Train/Eval a new instance collected by the group</li>
+                  <li>Report 10 <span style="float:right">5%</span></li>
                 </ul>
               </td>
             </tr>
 
             <tr class="d-flex">
-              <td class="col-md-6"><b>Final Presentation</b>
+              <td class="col-md-6">TBD: <b>Final Presentation</b>
               </td>
               <td class="col-md-6">
               </td>
