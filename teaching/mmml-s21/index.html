@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBC1D21RJT"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CBC1D21RJT');
+        </script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content:"Yonatan Bisk">
+        <link rel="canonical" href="https://yonatanbisk.com">
+        <title>11-777 MultiModal Machine Learning</title>
+        <meta name="title" content="11-777 MMML">
+        <meta name="description" content="Multimodal Machine Learning 11-777 - at CMU">
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://YonatanBisk.com/teaching">
+        <meta property="og:title" content:"Yonatan Bisk">
+        <meta property="og:image" content="https://yonatanbisk.com/images/cmu-logo.png">
+        <meta property="og:description" content="Multimodal Machine Learning 11-777 - at CMU">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://YonatanBisk.com/teaching">
+        <meta property="twitter:title" content:"Yonatan Bisk">
+        <meta property="twitter:image" content="https://yonatanbisk.com/images/cmu-logo.png">
+        <meta property="twitter:description" content="Multimodal Machine Learning 11-777- at CMU">
+
+        <link rel="stylesheet" href="http://www.YonatanBisk.com/main.css">
+        <link rel="icon" type="image/png" href="http://www.YonatanBisk.com/icon.png">
+    </head>
+    <body>
+
+      <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#429450">
+        <a class="navbar-brand" href="#"><img src="http://www.YonatanBisk.com/images/CLAW-BW.svg" class="d-inline-block" height=40 alt="small logo of a two fingered claw"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbars">
+          <div class="navbar-nav">
+           <a class="nav-item nav-link" href="http://www.YonatanBisk.com/index.html" style="font-size:2em">&nbsp;Home&nbsp; </a>
+           <a class="nav-item nav-link" href="http://www.YonatanBisk.com/group.html" style="font-size:2em">&nbsp;Lab&nbsp; <span class="sr-only">(current)</span></a>
+           <a class="nav-item nav-link" href="http://www.YonatanBisk.com/publications.html" style="font-size:2em">&nbsp;Publications&nbsp;</a>
+           <a class="nav-item nav-link" href="https://arxiv.org/abs/2004.10151" style="font-size:2em">&nbsp;EGL&nbsp;</a>
+           <a class="nav-item nav-link active" href="#" style="font-size:2em">&nbsp;Teaching&nbsp;</a>
+          </div>
+        </div>
+      </nav>
+
+        <div class="jumbotron">
+          <div class="container">
+              <center><h1>11-777: <b>M</b>ulti<b>M</b>odal <b>M</b>achine <b>L</b>earning</h1></center>
+          </div>
+        </div>
+
+      <main role="main">
+        <center><h3>Spring 2021&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/">Previous Years</a></h3></center>
+        <div>This course focuses on core techniques and modern advances for integrating different "modalities" into a shared representation or reasoning system.  Specifically, these include text, audio, images/videos and action taking.</div><br>
+
+          <div class="table">
+            <div class="row">
+              <div class="col-sm-12">
+              <ul>
+                <li><b>Time & Place</b>: 10:40am - 12:00pm on Zoom Tu/Th</li>
+                <li><b>Canvas</b>: <a href="https://canvas.cmu.edu/courses/21851">Lectures and additional details</a></li>
+                <li><b>Course questions and discussion</b>: <a href="https://mmml-s21.slack.com">Slack</a></li>
+                <li><b>GitHub Template</b>: <a href="https://github.com/ybisk/11-777-template">https://github.com/ybisk/11-777-template</a></li>
+              </ul>
+              </div>
+            </div>
+          <hr>
+            <div class="card-columns">
+              <div class="card student sm-3" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=http://www.YonatanBisk.com/images/YonatanBisk_square.jpg class="card-img" alt="Yonatan Bisk" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Instructor</b></h5>
+                      <p class="card-text">Yonatan Bisk</p>
+                      <p class="card-text"><small class="text-muted"><a href="mailto:ybisk@cs.cmu.edu">ybisk@cs.cmu</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+              <div class="card student sm-3" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/torsten.jpg class="card-img" alt="Torsten Wörtwein" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Teaching Assistant</b></h5>
+                      <p class="card-text">Torsten Wörtwein</p>
+                      <p class="card-text"><small calss="text-muted"><a href="mailto:twoertwe@cs.cmu.edu">twoertwe@cs.cmu</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+              <div class="card student sm-3" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/jielin.jpg class="card-img" alt="Jielin Qiu" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Teaching Assistant</b></h5>
+                      <p class="card-text">Jielin Qiu</p>
+                      <p class="card-text"><small calss="text-muted"><a href="mailto:jielinq@andrew.cmu.edu">jielinq@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+          <hr>
+          <h4><b>Slack and Canvas</b></h4>
+          <p>All course communication will happen via slack and canvas.  All videos will be posted to Canvas for offline viewing though aspects of the class/teaching will be interactive in the zoom sessions.</p>
+          <p><b>Slack</b>
+          <ul>
+            <li><b>#general-questions</b>: For questions about lectures, the course, or help from others on class projects</li>
+            <li><b>#group-N-X</b>: Each group should come up with a name and create their own private channel (invite TAs and instructur).  Use the same name for your GitHub fork and pin the link to the channel.  Please also invite us to the GitHub. Example: #group-fun-vizwiz</li>
+            <li><b>#dataset-XYZ</b>: Each core dataset will also have its own slack channel that anyone can join (across groups) to ask for help on setup, preprocessing, and other issues that might arise.</li>
+            <li><b>Private Messages</b>: If there is a question you would like to address to the instructors, please create a 4-person PM on slack.  Please check #general-questions first and post there when possible.</li>
+          </ul>
+          <hr>
+          <h4><b>Assignments Timeline and Grading</b></h4>
+
+          The course is primarily project based, but there will be readings throughout the course which are only graded via participation.
+
+          <br>
+          <br>
+          <b>Project Timeline and Assignments:</b>
+                <table class="table table-hover table-condensed">
+                <tr class="d-flex" style="border-top:none;">
+                  <td class="col-sm-2" style="border-top:none;">Feb 18</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                  <td class="col-sm-6" style="border-top:none;">Group Formed and Dataset Chosen</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                </tr>
+
+                <tr class="d-flex" style="border-top:none;">
+                  <td class="col-sm-2" style="border-top:none;">Mar 04</td>
+                  <td class="col-sm-1" style="border-top:none;">R1</td>
+                  <td class="col-sm-6" style="border-top:none;">Task Definition and Data Analysis</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Mar 11</td>
+                  <td class="col-sm-1" style="border-top:none;">R2</td>
+                  <td class="col-sm-6" style="border-top:none;">Related Work and Background</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Mar 18</td>
+                  <td class="col-sm-1" style="border-top:none;">R3</td>
+                  <td class="col-sm-6" style="border-top:none;">Baselines, Metrics, and Empty Results Table</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Apr 01</td>
+                  <td class="col-sm-1" style="border-top:none;">R4</td>
+                  <td class="col-sm-6" style="border-top:none;">Analysis of Baselines</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Apr 22</td>
+                  <td class="col-sm-1" style="border-top:none;">R5</td>
+                  <td class="col-sm-6" style="border-top:none;">Proposed Approach</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">May 11</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                  <td class="col-sm-6" style="border-top:none;">Presentation</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">May 13</td>
+                  <td class="col-sm-1" style="border-top:none;">R6</td>
+                  <td class="col-sm-6" style="border-top:none;">Completed Report</td>
+                  <td class="col-sm-1" style="border-top:none;">(20%)</td>
+                </tr>
+                </table>
+          <br>
+          <b>Participation:</b><br>
+          Participation in Class or Slack (20%)<br>Participation is evaluated as "actively asking/answering questions based on the lectures, readings, and/or assisting other teams with project issues". Concretely, this means that every novel question or helpful answer provided in Slack will count for 1%, up to a total of 20% of your grade.
+
+          <br>
+          <br>
+          <b>Submission Policies:</b><br>
+          <ul>
+            <li>All deadlines are midnight EST (determined by GitHub commit time)</li>
+            <li>Late days: Every team has a budget of 3 late days. They will be automatically calculated based on git commit, after which 2% absolute is removed from max grade.</li>
+          </ul>
+
+          <hr>
+          <h4><b>Datasets</b></h4>
+          The course will be primarily centered on a few datasets/tasks to facilitate cross-team collaboration and technical assistance. If your team has a good reason to work on something not listed here, please reach out so we can discuss it and put together a proposal.<br>
+          <table class="table table-condensed table-striped">
+            <thead>
+              <tr class="d-flex">
+                <th class="col-md-3">Paper</th>
+                <th class="col-md-2">GitHub</th>
+                <th class="col-md-7">Domain</th>
+              </tr>
+            </thead>
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="https://arxiv.org/abs/1912.01734">ALFRED</a></td>
+              <td class="col-md-2"><a href="https://github.com/askforalfred/alfred">Code</a><br><a href="https://askforalfred.com/EAI21/">Challenge</a></td>
+              <td class="col-md-7">Embodied instruction following with interaction</td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="https://dl.acm.org/doi/10.1145/3394171.3413909 ">MEmoR</a></td>
+              <td class="col-md-2"><a href="https://github.com/sunlightsgy/MEmoR">Code</a> <br>Ask TA for data</td>
+              <td class="col-md-7">Emotion in conversational context on the big bang theory.</td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="http://lil.nlp.cornell.edu/nlvr/">Natural Language for Visual Reasoning</a></td>
+              <td class="col-md-2"><a href="https://github.com/lil-lab/nlvr/tree/master/nlvr">Code v1</a><br><a href="https://github.com/lil-lab/nlvr/tree/master/nlvr2">Code v2</a></td>
+              <td class="col-md-7">Visual reasoning about pairs of images and language descriptions.  For NLVR2, look at the <a href="https://arxiv.org/abs/2004.02709">Contrastive Sets</a> fold.</td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="https://arxiv.org/abs/2010.07954">Room-Across-Room</a></td>
+              <td class="col-md-2"><a href="https://github.com/google-research-datasets/RxR">Code</a></td>
+              <td class="col-md-7">Embodied instruction following (with views and multilingual)</td>
+            </tr>
+
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html">Social-IQ</a></td>
+              <td class="col-md-2"><a href="https://github.com/A2Zadeh/Social-IQ">Code</a><br><a href="https://www.thesocialiq.com/">Proj page</a></td>
+              <td class="col-md-7">Video Question Answering focused on social interactions</td>
+            </tr>
+
+            <tr class="d-flex">
+              <td class="col-md-3"><a href="https://vizwiz.org/workshops/2021-workshop/">VizWiz Challenge</a></td>
+              <td class="col-md-2"><a href="https://vizwiz.org/workshops/2021-workshop/">Challenge</a></td>
+              <td class="col-md-7">Image Captioning and Question Answering for the blind and visually impaired</td>
+            </tr>
+
+
+          </table>
+          Limited AWS and Google Cloud compute credits will be made available to each group, so please consider both your interests and available compute resources when deciding on a dataset/project.
+          <br>
+          <hr>
+          <h4><b>Lectures</b></h4>
+          <table class="table table-striped">
+            <thead>
+              <tr class="d-flex">
+                <th class="col-md-6">Tuesday</th>
+                <th class="col-md-6">Thursday</th>
+              </tr>
+            </thead>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Feb 2: <b>Course Structure</b>
+                    <ul><li>Research and technical challenges</li><li>Syllabus and requirements</li></ul>
+              </td>
+              <td class="col-md-6">
+                Feb 4: <b>Multimodal applications and datasets</b><br>
+                      <ul><li>Research tasks and datasets</li> <li>Team projects</li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Feb 9: <b>Basics: "Deep learning"</b> <br>
+                      <ul><li>Language, Vision, Audio</li> <li>Loss functions and neural networks</li></ul>
+              </td>
+              <td class="col-md-6">
+                Feb 11: <b>Basics: Optimization</b><br>
+                      <ul><li>Gradients and backprop</li> <li>Practical deep learning optimization</li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Feb 16: <b>Unimodal representations (Vision)</b><br>
+                      <ul><li>CNNs</li> <li>Residuals and Skip connections</li></ul>
+              </td>
+              <td class="col-md-6">
+                Feb 18: <b>Unimodal representations (Language)</b><br>
+                      <ul><li>Gating and LSTMs</li> <li>Transformers</li><li><font color="red">Groups Formed and Dataset Chosen</font></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Feb 23 <b>-- NO CLASS -- </b>
+              </td>
+              <td class="col-md-6">
+                Feb 25: <b><font color="blue">Project Hours (Reports 1&2)</font></b><br><br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Mar 2: <b>Multimodal & Coordinated Representations </b><br>
+                      <ul><li>Auto-encoders</li> <li>CCA</li><li>Multi-view Clustering</li></ul>
+              </td>
+              <td class="col-md-6">
+                Mar 4: <b>Alignment and Attention</b><br>
+                      <ul><li>Explicit - Dynamic Time Warping</li> <li>Implicit -- Attention</li><li><font color="red">R1: Task Definition and Data Analysis</font></li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Mar 9: <b>Alignment + Representation</b><br>
+                      <ul><li>Self-attention</li> <li>Multimodal Transformers</li></ul>
+              </td>
+              <td class="col-md-6">
+                Mar 11: <b><font color="blue">Project Hours (Report 3)</font></b>
+                  <ul><li><font color="red">R2: Related Work and Background</font></li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Mar 16: <b><font color="blue">Project Hours (Report 3)</font></b>
+              </td>
+              <td class="col-md-6">
+                Mar 18:<b>Alignment + Representation (Cont)</b><br>  
+                      <ul><li>Self-attention models</li> <li>Multimodal Transformers</li><font color="red">R3: Baselines, Metrics, and Empty Results</font></li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Mar 23:<b>Alignment + Translation</b><br>
+                      <ul><li>Module networks</li><li>Tree-based & Stack models</li></ul>
+              </td>
+              <td class="col-md-6">
+                Mar 25: <b>Probabilistic Graphical Models</b><br>
+                      <ul><li>Dynamic Bayesian networks</li> <li>Coupled and factor HMMs</li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Mar 30: <b>Discriminative Graphical Models</b><br>
+                      <ul><li>Conditional Random Fields</li><li>Continuous and fully-connected CRFs</li></ul>
+              </td>
+              <td class="col-md-6">
+                Apr 1: <b>Reinforcement Learning</b><br>
+                      <ul><li>Markov Decision Process</li><li>Q learning and policy gradients</li><li><font color="red">R4: Analysis of Baselines</font></li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Apr 6: <b>Multimodal RL</b><br>
+                      <ul><li>Deep Q learning</li><li>Multimodal aplications</li></ul>
+              </td>
+              <td class="col-md-6">
+                Apr 8: <b><font color="blue">Project Hours (Report 5)</font></b>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Apr 13: <b>Fusion and co-learning</b><br>
+                      <ul><li>Multi-kernel learning and fusion</li><li>Few shot learning and co-learning</li></ul>
+              </td>
+              <td class="col-md-6">
+                Apr 15: <b>-- NO CLASS --</b>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Apr 20: <b>New research directions</b>
+                        <ul><li>Recent approaches in MMML</li></ul>
+              </td>
+              <td class="col-md-6">
+                Apr 22: <b>Embodiment</b>
+                      <ul><li>Action as a modality</li><li><font color="red">R5: Proposed Approach</font></li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Apr 27: <b><font color="blue">Project Hours (Final)</font></b><br><br>
+              </td>
+              <td class="col-md-6">
+                Apr 29: <b><font color="blue">Project Hours (Final)</font></b>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                May 4: <b>Guest Lecture (Mark Yatskar - UPenn)</b><br><br>
+              </td>
+              <td class="col-md-6">
+                May 6: <b>Guest Lecture (Chris Paxton - NVIDIA)</b>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                May 11: <font color="red">Project Presentations (live)</font>
+              </td>
+              <td class="col-md-6">
+                May 13: <b>-- NO CLASS --</b> 
+                      <ul><li><font color="red">R6: Final Reports</font></li></ul>
+              </td>
+            </tr> <!-- row -->
+          </table> <!-- table -->
+
+      </main>
+  </body>
+</html>
+
