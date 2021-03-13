@@ -478,7 +478,7 @@
   VENUE-ACR: AAAI
   EXTRAS:
     Data: https://groundedlanguage.github.io/
-    Poster: "http://www.yonatanbisk.com/papers/2018-AAAI-Poster.pdf"
+    Poster: "http://yonatanbisk.com/papers/2018-AAAI-Poster.pdf"
 - FIELD:
   - L
   TYPE: conference
@@ -508,7 +508,7 @@
   VENUE-ACR: NAACL (Oral)
   EXTRAS:
     Data: https://groundedlanguage.github.io/
-    Slides: "http://www.yonatanbisk.com/papers/2016-NAACL-Slides.pdf"
+    Slides: "http://yonatanbisk.com/papers/2016-NAACL-Slides.pdf"
     Talk: http://techtalks.tv/talks/natural-language-communication-with-robots/62284/
 - FIELD:
   - L
@@ -533,7 +533,7 @@
   TITLE: 'Towards a Dataset for Human Computer Communication via Grounded Language
     Acquisition '
   YEAR: '2016'
-  URL: "http://www.YonatanBisk.com/papers/2016-AAAI-Wksp.pdf"
+  URL: "http://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Daniel Marcu
@@ -555,7 +555,7 @@
   VENUE: Proceedings of the Workshop on Structured Prediction for NLP
   VENUE-ACR: Structure Pred Wksp (Oral)
   EXTRAS:
-    Slides: "http://www.YonatanBisk.com/papers/2016-EMNLP-StrcPred-Slides.pdf"
+    Slides: "http://yonatanbisk.com/papers/2016-EMNLP-StrcPred-Slides.pdf"
 - FIELD:
   - L
   TYPE: conference
@@ -576,7 +576,7 @@
   TYPE: phdthesis
   TITLE: Unsupervised Grammar Induction with Combinatory Categorial Grammars
   YEAR: '2015'
-  URL: "http://www.YonatanBisk.com/papers/Thesis.pdf"
+  URL: "http://yonatanbisk.com/papers/Thesis.pdf"
   AUTHORS:
   - Yonatan Bisk
   VENUE: University of Illinois at Urbana-Champaign
@@ -602,7 +602,7 @@
   TYPE: conference
   TITLE: 'Labeled Grammar Induction with Minimal Supervision  '
   YEAR: '2015'
-  URL: "http://www.YonatanBisk.com/papers/2015-ACLShort-Fixed.pdf"
+  URL: "http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Christos Christodoulopoulos
@@ -612,7 +612,7 @@
     (Volume 2: Short Papers)'
   VENUE-ACR: ACL Short
   EXTRAS:
-    Poster: "http://www.YonatanBisk.com/papers/2015_ACLShort_Poster.pdf"
+    Poster: "http://yonatanbisk.com/papers/2015_ACLShort_Poster.pdf"
 - FIELD:
   - L
   TYPE: journal
@@ -625,14 +625,14 @@
   VENUE: Transactions of the Association for Computational Linguistics
   VENUE-ACR: TACL Vol 1.
   EXTRAS:
-    Slides: "http://www.YonatanBisk.com/papers/2013-TACL-Slides.pdf"
+    Slides: "http://yonatanbisk.com/papers/2013-TACL-Slides.pdf"
     Talk: http://techtalks.tv/talks/tacl-an-hdp-model-for-inducing-combinatory-categorial-grammars/58520/
 - FIELD:
   - L
   TYPE: conference
   TITLE: 'Simple Robust Grammar Induction with Combinatory Categorial Grammar '
   YEAR: '2012'
-  URL: "http://www.YonatanBisk.com/papers/2012-AAAI.pdf"
+  URL: "http://yonatanbisk.com/papers/2012-AAAI.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
@@ -643,7 +643,7 @@
   TYPE: conference
   TITLE: 'Document-Topic Hierarchies from Document Graphs '
   YEAR: '2012'
-  URL: "http://www.YonatanBisk.com/papers/2012-CIKM.pdf"
+  URL: "http://yonatanbisk.com/papers/2012-CIKM.pdf"
   AUTHORS:
   - Tim Weninger
   - Yonatan Bisk
@@ -656,7 +656,7 @@
   TYPE: workshop
   TITLE: 'Induction of Linguistic Structure with Combinatory Categorial Grammars '
   YEAR: '2012'
-  URL: "http://www.YonatanBisk.com/papers/2012-NAACL-WILS.pdf"
+  URL: "http://yonatanbisk.com/papers/2012-NAACL-WILS.pdf"
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
