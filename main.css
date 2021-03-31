@@ -86,8 +86,13 @@ h2 {
 
 
 a {
-    color: #000000;
-    text-decoration: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
@@ -119,7 +124,6 @@ img {
 .name {
   color: green;
   display: inline-block;
-  font-weight: bold;
 }
 
 .row {
