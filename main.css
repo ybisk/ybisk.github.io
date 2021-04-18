@@ -90,7 +90,7 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: #4D4D4D;
   background-color: transparent;
   text-decoration: none;
 }
