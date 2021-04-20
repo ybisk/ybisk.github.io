@@ -1,6 +1,18 @@
 ---
 - FIELD:
   - L
+  - V
+  TYPE: preprint
+  TITLE: 'Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models'
+  YEAR: '2021'
+  URL: https://arxiv.org/abs/2104.08666
+  AUTHORS:
+  - Tejas Srinivasan
+  - Yonatan Bisk
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
+  - L
   TYPE: conference
   TITLE: 'An Empirical Study on the Generalization Power of Neural Representations Learned via Visual Guessing Games'
   YEAR: '2021'
