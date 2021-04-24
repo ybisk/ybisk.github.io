@@ -522,7 +522,6 @@
   EXTRAS:
     Data: https://groundedlanguage.github.io/
     Slides: "http://yonatanbisk.com/papers/2016-NAACL-Slides.pdf"
-    Talk: http://techtalks.tv/talks/natural-language-communication-with-robots/62284/
 - FIELD:
   - L
   TYPE: conference
@@ -537,8 +536,6 @@
   VENUE: Proceedings of the 15th Annual Conference of the North American Chapter of
     the Association for Computational Linguistics (Short Papers)
   VENUE-ACR: NAACL Short (Oral)
-  EXTRAS:
-    Talk: http://techtalks.tv/talks/supertagging-with-lstms/62251/
 - FIELD:
   - L
   - R
@@ -608,8 +605,6 @@
     Linguistics and the 7th International Joint Conference on Natural Language Processing
     (Volume 1: Long Papers)'
   VENUE-ACR: ACL (Oral)
-  EXTRAS:
-    Talk: http://techtalks.tv/talks/probing-the-linguistic-strengths-and-limitations-of-unsupervised-grammar-induction/61817/
 - FIELD:
   - L
   TYPE: conference
@@ -639,7 +634,6 @@
   VENUE-ACR: TACL Vol 1.
   EXTRAS:
     Slides: "http://yonatanbisk.com/papers/2013-TACL-Slides.pdf"
-    Talk: http://techtalks.tv/talks/tacl-an-hdp-model-for-inducing-combinatory-categorial-grammars/58520/
 - FIELD:
   - L
   TYPE: conference
