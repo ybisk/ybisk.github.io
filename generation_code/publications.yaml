@@ -1,5 +1,30 @@
 ---
 - FIELD:
+  - O
+  - L
+  TYPE: conference
+  TITLE: "Few-shot Language Coordination by Modeling Theory of Mind"
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Hao Zhu
+  - Graham Neubig
+  - Yonatan Bisk
+  VENUE: 'The Thirty-eighth International Conference on Machine Learning'
+  VENUE-ACR: ICML
+- FIELD:
+  - L
+  TYPE: conference
+  TITLE: "Grounding 'Grounding' in NLP"
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Khyathi Raghavi Chandu
+  - Yonatan Bisk
+  - Alan W Black
+  VENUE: 'Findings of The 2021 Conference of the Association for Computational Linguistics'
+  VENUE-ACR: Findings of ACL 
+- FIELD:
   - L
   - V
   TYPE: preprint
