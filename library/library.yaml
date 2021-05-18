@@ -47015,3 +47015,235 @@
   idx: 3164
   pages: 1504--1519
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Jesse Vig
+  - Sebastian Gehrmann
+  - Yonatan Belinkov
+  - Sharon Qian
+  - Daniel Nevo
+  - Yaron Singer
+  - Stuart Shieber
+  TITLE: Investigating Gender Bias in Language Models Using Causal Mediation Analysis
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/92650b2e92217715fe312e6fa7b90d82-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/VigGehrmannBelinkovQianNevo_Investigating_Gender_Bias_in_Language_Models_Using_Causal_Mediation_Analysis.pdf
+  idx: 3165
+  pages: 12388--12401
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Zihang Dai
+  - Guokun Lai
+  - Yiming Yang
+  - Quoc Le
+  TITLE: 'Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language
+    Processing'
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/2cd2915e69546904e4e5d4a2ac9e1652-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/DaiLaiYangLe_FunnelTransformer_Filtering_out_Sequential_Redundancy_for_Efficient_Language_Processing.pdf
+  idx: 3166
+  pages: 4271--4282
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Amin Parvaneh
+  - Ehsan Abbasnejad
+  - Damien Teney
+  - Javen Qinfeng Shi
+  - Anton van den Hengel
+  TITLE: 'Counterfactual Vision-and-Language Navigation: Unravelling the Unseen'
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/39016cfe079db1bfb359ca72fcba3fd8-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/ParvanehAbbasnejadTeneyShiHengel_Counterfactual_VisionandLanguage_Navigation_Unravelling_the_Unseen.pdf
+  idx: 3167
+  pages: 5296--5307
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Laura Ruis
+  - Jacob Andreas
+  - Marco Baroni
+  - Diane Bouchacourt
+  - Brenden M Lake
+  TITLE: A Benchmark for Systematic Generalization in Grounded Language Understanding
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/e5a90182cc81e12ab5e72d66e0b46fe3-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/RuisAndreasBaroniBouchacourtLake_A_Benchmark_for_Systematic_Generalization_in_Grounded_Language_Understanding.pdf
+  idx: 3168
+  pages: 19861--19872
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Kaitao Song
+  - Xu Tan
+  - Tao Qin
+  - Jianfeng Lu
+  - Tie-Yan Liu
+  TITLE: 'MPNet: Masked and Permuted Pre-training for Language Understanding'
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/c3a690be93aa602ee2dc0ccab5b7b67e-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/SongTanQinLuLiu_MPNet_Masked_and_Permuted_Pretraining_for_Language_Understanding.pdf
+  idx: 3169
+  pages: 16857--16867
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Alex Tamkin
+  - Dan Jurafsky
+  - Noah Goodman
+  TITLE: 'Language Through a Prism: A Spectral Approach for Multiscale Language Representations'
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/3acb2a202ae4bea8840224e6fce16fd0-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/TamkinJurafskyGoodman_Language_Through_a_Prism_A_Spectral_Approach_for_Multiscale_Language_Representations.pdf
+  idx: 3170
+  pages: 5492--5504
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - C\'{e}dric Colas
+  - Tristan Karch
+  - Nicolas Lair
+  - Jean-Michel Dussoux
+  - Cl\'{e}ment Moulin-Frier
+  - Peter Dominey
+  - Pierre-Yves Oudeyer
+  TITLE: Language as a Cognitive Tool to Imagine Goals in Curiosity Driven Exploration
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/274e6fcf4a583de4a81c6376f17673e7-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/ColasKarchLairDussouxMoulinFrier_Language_as_a_Cognitive_Tool_to_Imagine_Goals_in_Curiosity_Driven_Exploration.pdf
+  idx: 3171
+  pages: 3761--3774
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Simon Stepputtis
+  - Joseph Campbell
+  - Mariano Phielipp
+  - Stefan Lee
+  - Chitta Baral
+  - Heni Ben Amor
+  TITLE: Language-Conditioned Imitation Learning for Robot Manipulation Tasks
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/9909794d52985cbc5d95c26e31125d1a-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/StepputtisCampbellPhielippLeeBaral_LanguageConditioned_Imitation_Learning_for_Robot_Manipulation_Tasks.pdf
+  idx: 3172
+  pages: 13139--13150
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Yipeng Kang
+  - Tonghan Wang
+  - Gerard de Melo
+  TITLE: Incorporating Pragmatic Reasoning Communication into Emergent Language
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/7520fa31d14f45add6d61e52df5a03ff-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/KangWangMelo_Incorporating_Pragmatic_Reasoning_Communication_into_Emergent_Language.pdf
+  idx: 3173
+  pages: 10348--10359
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Ximeng Sun
+  - Rameswar Panda
+  - Rogerio Feris
+  - Kate Saenko
+  TITLE: 'AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning'
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/634841a6831464b64c072c8510c7f35c-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/SunPandaFerisSaenko_AdaShare_Learning_What_To_Share_For_Efficient_Deep_MultiTask_Learning.pdf
+  idx: 3174
+  pages: 8728--8740
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Kanishk Gandhi
+  - Brenden M Lake
+  TITLE: Mutual exclusivity as a challenge for deep neural networks
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/a378383b89e6719e15cd1aa45478627c-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/GandhiLake_Mutual_exclusivity_as_a_challenge_for_deep_neural_networks.pdf
+  idx: 3175
+  pages: 14182--14192
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Yoav Levine
+  - Noam Wies
+  - Or Sharir
+  - Hofit Bata
+  - Amnon Shashua
+  TITLE: Limits to Depth Efficiencies of Self-Attention
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/ff4dfdf5904e920ce52b48c1cef97829-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/LevineWiesSharirBataShashua_Limits_to_Depth_Efficiencies_of_SelfAttention.pdf
+  idx: 3176
+  pages: 22640--22651
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Pei Wang
+  - Junqi Wang
+  - Pushpi Paranamana
+  - Patrick Shafto
+  TITLE: A mathematical theory of cooperative communication
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/cc58f7abf0b0cf2d5ac95ab60e4f14e9-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/WangWangParanamanaShafto_A_mathematical_theory_of_cooperative_communication.pdf
+  idx: 3177
+  pages: 17582--17593
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Emin Orhan
+  - Vaibhav Gupta
+  - Brenden M Lake
+  TITLE: Self-supervised learning through the eyes of a child
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/7183145a2a3e0ce2b68cd3735186b1d5-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: 2020
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/OrhanGuptaLake_Selfsupervised_learning_through_the_eyes_of_a_child.pdf
+  idx: 3178
+  pages: 9960--9971
+  publisher: Curran Associates, Inc.
+  volume: '33'

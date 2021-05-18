@@ -102,7 +102,7 @@ def bib_entry(entry, bibtex):
         entry["TYPE"] = "conference"
         entry["VENUE"] = b
       elif a == "year":
-        entry["YEAR"] = b
+        entry["YEAR"] = b.replace("{","").replace("}","")
       elif a == "url":
         entry["URL"] = b
       elif a == "author":
