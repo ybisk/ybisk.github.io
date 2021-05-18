@@ -47346,3 +47346,293 @@
   file: https://github.com/ybisk/papers/blob/master/2021/JainLiuLazebnikKembhaviWeihs_GridToPix_Training_Embodied_Agents_with_Minimal_Supervision.pdf
   idx: 3185
   month: '04'
+- AUTHORS:
+  - Xinyun Chen
+  - Chen Liang
+  - Adams Wei Yu
+  - Dawn Song
+  - Denny Zhou
+  TITLE: Compositional Generalization via Neural-Symbolic Stack Machines
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/2020/file/12b1e42dc0746f22cf361267de07073f-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: '2020'
+  editor: H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin
+  file: https://github.com/ybisk/papers/blob/master/2020/ChenLiangYuSongZhou_Compositional_Generalization_via_NeuralSymbolic_Stack_Machines.pdf
+  idx: 3186
+  pages: 1690--1701
+  publisher: Curran Associates, Inc.
+  volume: '33'
+- AUTHORS:
+  - Alex Warstadt
+  - Yian Zhang
+  - Xiaocheng Li
+  - Haokun Liu
+  - Samuel R. Bowman
+  TITLE: 'Learning Which Features Matter: {R}o{BERT}a Acquires a Preference for Linguistic
+    Generalizations (Eventually)'
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.emnlp-main.16
+  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+    Processing (EMNLP)
+  YEAR: '2020'
+  abstract: One reason pretraining on self-supervised linguistic tasks is effective
+    is that it teaches models features that are helpful for language understanding.
+    However, we want pretrained models to learn not only to represent linguistic features,
+    but also to use those features preferentially during fine-turning. With this goal
+    in mind, we introduce a new English-language diagnostic set called MSGS (the Mixed
+    Signals Generalization Set), which consists of 20 ambiguous binary classification
+    tasks that we use to test whether a pretrained model prefers linguistic or surface
+    generalizations during finetuning. We pretrain RoBERTa from scratch on quantities
+    of data ranging from 1M to 1B words and compare their performance on MSGS to the
+    publicly available RoBERTa{\_}BASE. We find that models can learn to represent
+    linguistic features with little pretraining data, but require far more data to
+    learn to prefer linguistic generalizations over surface ones. Eventually, with
+    about 30B words of pretraining data, RoBERTa{\_}BASE does consistently demonstrate
+    a linguistic bias with some regularity. We conclude that while self-supervised
+    pretraining is an effective way to learn helpful inductive biases, there is likely
+    room to improve the rate at which models learn which features matter.
+  address: Online
+  doi: 10.18653/v1/2020.emnlp-main.16
+  file: https://github.com/ybisk/papers/blob/master/2020/WarstadtZhangLiLiuBowman_Learning_Which_Features_Matter_RoBERTa_Acquires_a_Preference_for_Linguistic_Generalizations_Eventually.pdf
+  idx: 3187
+  pages: 217--235
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Jun Chen
+  - Han Guo
+  - Kai Yi
+  - Boyang Li
+  - Mohamed Elhoseiny
+  TITLE: "VisualGPT: Data-efficient Adaptation of Pretrained Language Models for\n\
+    \  Image Captioning"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2102.10407
+  VENUE: arXiv:2102.10407
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/ChenGuoYiLiElhoseiny_VisualGPT_Dataefficient_Adaptation_of_Pretrained_Language_Models_for_Image_Captioning.pdf
+  idx: 3188
+  month: '02'
+- AUTHORS:
+  - Theo Jaunet
+  - Corentin Kervadec
+  - Romain Vuillemot
+  - Grigory Antipov
+  - Moez Baccouche
+  - Christian Wolf
+  TITLE: 'VisQA: X-raying Vision and Language Reasoning in Transformers'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2104.00926
+  VENUE: arXiv:2104.00926
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/JaunetKervadecVuillemotAntipovBaccouche_VisQA_Xraying_Vision_and_Language_Reasoning_in_Transformers.pdf
+  idx: 3189
+  month: '04'
+- AUTHORS:
+  - Antoine Miech
+  - Jean-Baptiste Alayrac
+  - Ivan Laptev
+  - Josef Sivic
+  - Andrew Zisserman
+  TITLE: "Thinking Fast and Slow: Efficient Text-to-Visual Retrieval with\n  Transformers"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2103.16553
+  VENUE: Accepted to CVPR 2021
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/MiechAlayracLaptevSivicZisserman_Thinking_Fast_and_Slow_Efficient_TexttoVisual_Retrieval_with_Transformers.pdf
+  idx: 3190
+  month: '03'
+- AUTHORS:
+  - Zhiyuan Fang
+  - Jianfeng Wang
+  - Xiaowei Hu
+  - Lijuan Wang
+  - Yezhou Yang
+  - Zicheng Liu
+  TITLE: Compressing Visual-linguistic Model via Knowledge Distillation
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2104.02096
+  VENUE: arXiv:2104.02096
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/FangWangHuWangYang_Compressing_Visuallinguistic_Model_via_Knowledge_Distillation.pdf
+  idx: 3191
+  month: '04'
+- AUTHORS:
+  - Yue Yang
+  - Artemis Panagopoulou
+  - Qing Lyu
+  - Li Zhang
+  - Mark Yatskar
+  - Chris Callison-Burch
+  TITLE: Visual Goal-Step Inference using wikiHow
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2104.05845
+  VENUE: arXiv:2104.05845
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/YangPanagopoulouLyuZhangYatskar_Visual_GoalStep_Inference_using_wikiHow.pdf
+  idx: 3192
+  month: '04'
+- AUTHORS:
+  - Karan Samel
+  - Zelin Zhao
+  - Binghong Chen
+  - Kuan Wang
+  - Robin Luo
+  - Le Song
+  TITLE: How to Design Sample and Computationally Efficient VQA Models
+  TYPE: conference
+  URL: https://arxiv.org/abs/2103.11537
+  VENUE: 20 pages, 5 figures
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/SamelZhaoChenWangLuo_How_to_Design_Sample_and_Computationally_Efficient_VQA_Models.pdf
+  idx: 3193
+  month: '03'
+- AUTHORS:
+  - Alon Talmor
+  - Ori Yoran
+  - Amnon Catav
+  - Dan Lahav
+  - Yizhong Wang
+  - Akari Asai
+  - Gabriel Ilharco
+  - Hannaneh Hajishirzi
+  - Jonathan Berant
+  TITLE: 'MultiModalQA: Complex Question Answering over Text, Tables and Images'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2104.06039
+  VENUE: ICLR 2021
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/TalmorYoranCatavLahavWang_MultiModalQA_Complex_Question_Answering_over_Text_Tables_and_Images.pdf
+  idx: 3194
+  month: '04'
+- AUTHORS:
+  - Annie S. Chen
+  - Suraj Nair
+  - Chelsea Finn
+  TITLE: "Learning Generalizable Robotic Reward Functions from \"In-The-Wild\" Human\n\
+    \  Videos"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2103.16817
+  VENUE: https://sites.google.com/view/dvd-human-videos
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/ChenNairFinn_Learning_Generalizable_Robotic_Reward_Functions_from_InTheWild_Human_Videos.pdf
+  idx: 3195
+  month: '03'
+- AUTHORS:
+  - Zhisong Zhang
+  - Xiang Kong
+  - Zhengzhong Liu
+  - Xuezhe Ma
+  - Eduard Hovy
+  TITLE: A Two-Step Approach for Implicit Event Argument Detection
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.acl-main.667
+  VENUE: Proceedings of the 58th Annual Meeting of the Association for Computational
+    Linguistics
+  YEAR: '2020'
+  abstract: 'In this work, we explore the implicit event argument detection task,
+    which studies event arguments beyond sentence boundaries. The addition of cross-sentence
+    argument candidates imposes great challenges for modeling. To reduce the number
+    of candidates, we adopt a two-step approach, decomposing the problem into two
+    sub-problems: argument head-word detection and head-to-span expansion. Evaluated
+    on the recent RAMS dataset (Ebner et al., 2020), our model achieves overall better
+    performance than a strong sequence labeling baseline. We further provide detailed
+    error analysis, presenting where the model mainly makes errors and indicating
+    directions for future improvements. It remains a challenge to detect implicit
+    arguments, calling for more future work of document-level modeling for this task.'
+  address: Online
+  doi: 10.18653/v1/2020.acl-main.667
+  file: https://github.com/ybisk/papers/blob/master/2020/ZhangKongLiuMaHovy_A_TwoStep_Approach_for_Implicit_Event_Argument_Detection.pdf
+  idx: 3196
+  pages: 7479--7485
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Ozan Caglayan
+  - Ramon Sanabria
+  - Shruti Palaskar
+  - "Lo\xEFc Barrault"
+  - Florian Metze
+  TITLE: Multimodal Grounding for Sequence-to-Sequence Speech Recognition
+  TYPE: conference
+  URL: https://arxiv.org/abs/1811.03865
+  VENUE: ICASSP 2019
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/CaglayanSanabriaPalaskarBarraultMetze_Multimodal_Grounding_for_SequencetoSequence_Speech_Recognition.pdf
+  idx: 3197
+  month: '11'
+- AUTHORS:
+  - Po-Yao Huang
+  - Xiaojun Chang
+  - Alexander Hauptmann
+  TITLE: Multi-Head Attention with Diversity for Learning Grounded Multilingual Multimodal
+    Representations
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/D19-1154
+  VENUE: Proceedings of the 2019 Conference on Empirical Methods in Natural Language
+    Processing and the 9th International Joint Conference on Natural Language Processing
+    (EMNLP-IJCNLP)
+  YEAR: '2019'
+  abstract: With the aim of promoting and understanding the multilingual version of
+    image search, we leverage visual object detection and propose a model with diverse
+    multi-head attention to learn grounded multilingual multimodal representations.
+    Specifically, our model attends to different types of textual semantics in two
+    languages and visual objects for fine-grained alignments between sentences and
+    images. We introduce a new objective function which explicitly encourages attention
+    diversity to learn an improved visual-semantic embedding space. We evaluate our
+    model in the German-Image and English-Image matching tasks on the Multi30K dataset,
+    and in the Semantic Textual Similarity task with the English descriptions of visual
+    content. Results show that our model yields a significant performance gain over
+    other methods in all of the three tasks.
+  address: Hong Kong, China
+  doi: 10.18653/v1/D19-1154
+  file: https://github.com/ybisk/papers/blob/master/2019/HuangChangHauptmann_MultiHead_Attention_with_Diversity_for_Learning_Grounded_Multilingual_Multimodal_Representations.pdf
+  idx: 3198
+  pages: 1461--1467
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Xuezhe Ma
+  - Zecong Hu
+  - Jingzhou Liu
+  - Nanyun Peng
+  - Graham Neubig
+  - Eduard Hovy
+  TITLE: Stack-Pointer Networks for Dependency Parsing
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/P18-1130
+  VENUE: 'Proceedings of the 56th Annual Meeting of the Association for Computational
+    Linguistics (Volume 1: Long Papers)'
+  YEAR: '2018'
+  abstract: 'We introduce a novel architecture for dependency parsing: stack-pointer
+    networks (StackPtr). Combining pointer networks (Vinyals et al., 2015) with an
+    internal stack, the proposed model first reads and encodes the whole sentence,
+    then builds the dependency tree top-down (from root-to-leaf) in a depth-first
+    fashion. The stack tracks the status of the depth-first search and the pointer
+    networks select one child for the word at the top of the stack at each step. The
+    StackPtr parser benefits from the information of whole sentence and all previously
+    derived subtree structures, and removes the left-to-right restriction in classical
+    transition-based parsers. Yet the number of steps for building any (non-projective)
+    parse tree is linear in the length of the sentence just as other transition-based
+    parsers, yielding an efficient decoding algorithm with $O(n^2)$ time complexity.
+    We evaluate our model on 29 treebanks spanning 20 languages and different dependency
+    annotation schemas, and achieve state-of-the-art performances on 21 of them'
+  address: Melbourne, Australia
+  doi: 10.18653/v1/P18-1130
+  file: https://github.com/ybisk/papers/blob/master/2018/MaHuLiuPengNeubig_StackPointer_Networks_for_Dependency_Parsing.pdf
+  idx: 3199
+  pages: 1403--1414
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Xuezhe Ma
+  - Chunting Zhou
+  - Xian Li
+  - Graham Neubig
+  - Eduard Hovy
+  TITLE: "FlowSeq: Non-Autoregressive Conditional Sequence Generation with\n  Generative\
+    \ Flow"
+  TYPE: conference
+  URL: https://arxiv.org/abs/1909.02480
+  VENUE: Accepted by EMNLP 2019 (Long Paper)
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/MaZhouLiNeubigHovy_FlowSeq_NonAutoregressive_Conditional_Sequence_Generation_with_Generative_Flow.pdf
+  idx: 3200
+  month: 09
