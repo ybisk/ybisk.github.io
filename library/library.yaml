@@ -47247,3 +47247,102 @@
   pages: 9960--9971
   publisher: Curran Associates, Inc.
   volume: '33'
+- AUTHORS:
+  - Khanh Nguyen
+  - Dipendra Misra
+  - Robert Schapire
+  - "Miro Dud\xEDk"
+  - Patrick Shafto
+  TITLE: Interactive Learning from Activity Description
+  TYPE: conference
+  URL: https://arxiv.org/abs/2102.07024
+  VENUE: 36 pages, 6 figures, 5 tables
+  YEAR: '2021'
+  file: "https://github.com/ybisk/papers/blob/master/2021/NguyenMisraSchapireDud\xED\
+    kShafto_Interactive_Learning_from_Activity_Description.pdf"
+  idx: 3179
+  month: '02'
+- AUTHORS:
+  - Simon Kornblith
+  - Mohammad Norouzi
+  - Honglak Lee
+  - Geoffrey Hinton
+  TITLE: Similarity of Neural Network Representations Revisited
+  TYPE: conference
+  URL: https://arxiv.org/abs/1905.00414
+  VENUE: ICML 2019
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/KornblithNorouziLeeHinton_Similarity_of_Neural_Network_Representations_Revisited.pdf
+  idx: 3180
+  month: '05'
+- AUTHORS:
+  - Yihe Dong
+  - Jean-Baptiste Cordonnier
+  - Andreas Loukas
+  TITLE: "Attention is Not All You Need: Pure Attention Loses Rank Doubly\n  Exponentially\
+    \ with Depth"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2103.03404
+  VENUE: arXiv:2103.03404
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/DongCordonnierLoukas_Attention_is_Not_All_You_Need_Pure_Attention_Loses_Rank_Doubly_Exponentially_with_Depth.pdf
+  idx: 3181
+  month: '03'
+- AUTHORS:
+  - Ming Zhao
+  - Peter Anderson
+  - Vihan Jain
+  - Su Wang
+  - Alexander Ku
+  - Jason Baldridge
+  - Eugene Ie
+  TITLE: On the Evaluation of Vision-and-Language Navigation Instructions
+  TYPE: conference
+  URL: https://arxiv.org/abs/2101.10504
+  VENUE: Accepted to EACL 2021
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/ZhaoAndersonJainWangKu_On_the_Evaluation_of_VisionandLanguage_Navigation_Instructions.pdf
+  idx: 3182
+  month: '01'
+- AUTHORS:
+  - Tushar Nagarajan
+  - Yanghao Li
+  - Christoph Feichtenhofer
+  - Kristen Grauman
+  TITLE: 'EGO-TOPO: Environment Affordances from Egocentric Video'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2001.04583
+  VENUE: "Published in CVPR 2020, project page:\n  http://vision.cs.utexas.edu/projects/ego-topo/"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/NagarajanLiFeichtenhoferGrauman_EGOTOPO_Environment_Affordances_from_Egocentric_Video.pdf
+  idx: 3183
+  month: '01'
+- AUTHORS:
+  - Kanishk Gandhi
+  - Gala Stojnic
+  - Brenden M. Lake
+  - Moira R. Dillon
+  TITLE: "Baby Intuitions Benchmark (BIB): Discerning the goals, preferences, and\n\
+    \  actions of others"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2102.11938
+  VENUE: arXiv:2102.11938
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/GandhiStojnicLakeDillon_Baby_Intuitions_Benchmark_BIB_Discerning_the_goals_preferences_and_actions_of_others.pdf
+  idx: 3184
+  month: '02'
+- AUTHORS:
+  - Unnat Jain
+  - Iou-Jen Liu
+  - Svetlana Lazebnik
+  - Aniruddha Kembhavi
+  - Luca Weihs
+  - Alexander Schwing
+  TITLE: 'GridToPix: Training Embodied Agents with Minimal Supervision'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2105.00931
+  VENUE: 'Project page: https://unnat.github.io/gridtopix/'
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/JainLiuLazebnikKembhaviWeihs_GridToPix_Training_Embodied_Agents_with_Minimal_Supervision.pdf
+  idx: 3185
+  month: '04'
