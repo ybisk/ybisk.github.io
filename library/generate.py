@@ -93,7 +93,7 @@ def create_html_entry(entry, idx):
 
   # Replace values
   for key in values:
-    html = html.replace(key, values[key])
+    html = html.replace(key, str(values[key]))
   html = html.replace("#BIBTEX#", generate_bibtex(entry))
   return html
 
