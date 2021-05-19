@@ -47636,3 +47636,55 @@
   file: https://github.com/ybisk/papers/blob/master/2019/MaZhouLiNeubigHovy_FlowSeq_NonAutoregressive_Conditional_Sequence_Generation_with_Generative_Flow.pdf
   idx: 3200
   month: 09
+- AUTHORS:
+  - Lin Shao
+  - Toki Migimatsu
+  - Qiang Zhang
+  - Karen Yang
+  - Jeannette Bohg
+  TITLE: 'Concept2Robot: Learning Manipulation Concepts from Instructions and Human
+    Demonstrations'
+  TYPE: conference
+  VENUE: 'Robotics: Science and Systems'
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ShaoMigimatsuZhangYangBohg_Concept2Robot_Learning_Manipulation_Concepts_from_Instructions_and_Human_Demonstrations.pdf
+  idx: 3201
+- AUTHORS:
+  - Katyal, Kapil
+  - Popek, Katie
+  - Paxton, Chris
+  - Burlina, Phil
+  - Hager, Gregory D.
+  TITLE: Uncertainty-Aware Occupancy Map Prediction Using Generative Networks for
+    Robot Navigation
+  TYPE: conference
+  VENUE: 2019 International Conference on Robotics and Automation (ICRA)
+  YEAR: '2019'
+  doi: 10.1109/ICRA.2019.8793500
+  file: https://github.com/ybisk/papers/blob/master/2019/KapilKatieChrisPhilD_UncertaintyAware_Occupancy_Map_Prediction_Using_Generative_Networks_for_Robot_Navigation.pdf
+  idx: 3202
+  pages: 5453-5459
+- AUTHORS:
+  - Zhisong Zhang
+  - Xuezhe Ma
+  - Eduard Hovy
+  TITLE: An Empirical Investigation of Structured Output Modeling for Graph-based
+    Neural Dependency Parsing
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/P19-1562
+  VENUE: Proceedings of the 57th Annual Meeting of the Association for Computational
+    Linguistics
+  YEAR: '2019'
+  abstract: In this paper, we investigate the aspect of structured output modeling
+    for the state-of-the-art graph-based neural dependency parser (Dozat and Manning,
+    2017). With evaluations on 14 treebanks, we empirically show that global output-structured
+    models can generally obtain better performance, especially on the metric of sentence-level
+    Complete Match. However, probably because neural models already learn good global
+    views of the inputs, the improvement brought by structured output modeling is
+    modest.
+  address: Florence, Italy
+  doi: 10.18653/v1/P19-1562
+  file: https://github.com/ybisk/papers/blob/master/2019/ZhangMaHovy_An_Empirical_Investigation_of_Structured_Output_Modeling_for_Graphbased_Neural_Dependency_Parsing.pdf
+  idx: 3203
+  pages: 5592--5598
+  publisher: Association for Computational Linguistics
