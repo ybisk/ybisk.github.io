@@ -47688,3 +47688,19 @@
   idx: 3203
   pages: 5592--5598
   publisher: Association for Computational Linguistics
+- AUTHORS:
+  - Mathilde Caron
+  - Hugo Touvron
+  - Ishan Misra
+  - "Herv\xE9 J\xE9gou"
+  - Julien Mairal
+  - Piotr Bojanowski
+  - Armand Joulin
+  TITLE: Emerging Properties in Self-Supervised Vision Transformers
+  TYPE: conference
+  URL: https://arxiv.org/abs/2104.14294
+  VENUE: 21 pages
+  YEAR: '2021'
+  file: "https://github.com/ybisk/papers/blob/master/2021/CaronTouvronMisraJ\xE9gouMairal_Emerging_Properties_in_SelfSupervised_Vision_Transformers.pdf"
+  idx: 3204
+  month: '04'
