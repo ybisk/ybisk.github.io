@@ -47704,3 +47704,40 @@
   file: "https://github.com/ybisk/papers/blob/master/2021/CaronTouvronMisraJ\xE9gouMairal_Emerging_Properties_in_SelfSupervised_Vision_Transformers.pdf"
   idx: 3204
   month: '04'
+- AUTHORS:
+  - Yansen Wang
+  - R. Charles Murray
+  - Haogang Bao
+  - Carolyn Rose
+  TITLE: Agent-Based Dynamic Collaboration Support in a Smart Office Space
+  TYPE: conference
+  URL: https://www.aclweb.org/anthology/2020.sigdial-1.31
+  VENUE: Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse
+    and Dialogue
+  YEAR: '2020'
+  abstract: For the past 15 years, in computer-supported collaborative learning applications,
+    conversational agents have been used to structure group interactions in online
+    chat-based environments. A series of experimental studies has provided an empirical
+    foundation for the design of chat-based conversational agents that significantly
+    improve learning over no-support control conditions and static-support control
+    conditions. In this demo, we expand upon this foundation, bringing conversational
+    agents to structure group interaction into physical spaces, with the specific
+    goal of facilitating collaboration and learning in workplace scenarios.
+  address: 1st virtual meeting
+  file: https://github.com/ybisk/papers/blob/master/2020/WangMurrayBaoRose_AgentBased_Dynamic_Collaboration_Support_in_a_Smart_Office_Space.pdf
+  idx: 3205
+  pages: 257--260
+  publisher: Association for Computational Linguistics
+- AUTHORS:
+  - David Adamson
+  - Gregory Dyke
+  - Hyeju Jang
+  - Carolyn Penstein Rose
+  TITLE: Towards an Agile Approach to Adapting Dynamic Collaboration Support to Student
+    Needs
+  TYPE: journal
+  VENUE: International Journal of Artificial Intelligence in Education
+  YEAR: '2014'
+  file: https://github.com/ybisk/papers/blob/master/2014/AdamsonDykeJangRose_Towards_an_Agile_Approach_to_Adapting_Dynamic_Collaboration_Support_to_Student_Needs.pdf
+  idx: 3206
+  url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1057.2039&rep=rep1&type=pdf
