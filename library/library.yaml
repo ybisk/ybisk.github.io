@@ -47835,3 +47835,50 @@
   file: https://github.com/ybisk/papers/blob/master/2021/MiangolehDilleMaiParisAksoy_Boosting_Monocular_Depth_Estimation_Models_to_HighResolution_via_ContentAdaptive_MultiResolution_Merging.pdf
   idx: 3212
   month: '05'
+- AUTHORS:
+  - Shikib Mehri
+  - Alan W Black
+  - Maxine Eskenazi
+  TITLE: 'CMU GetGoing: An Understandable and Memorable Dialog System for Seniors'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1909.01322
+  VENUE: "Accepted to the Dialog for Good (DiGo) workshop\n  (http://dialogforgood.org)\
+    \ at SIGDial 2019"
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/MehriBlackEskenazi_CMU_GetGoing_An_Understandable_and_Memorable_Dialog_System_for_Seniors.pdf
+  idx: 3213
+  month: 09
+- AUTHORS:
+  - Anirudh Goyal
+  - Aniket Didolkar
+  - Nan Rosemary Ke
+  - Charles Blundell
+  - Philippe Beaudoin
+  - Nicolas Heess
+  - Michael Mozer
+  - Yoshua Bengio
+  TITLE: Neural Production Systems
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2103.01937
+  VENUE: arXiv:2103.01937
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/GoyalDidolkarKeBlundellBeaudoin_Neural_Production_Systems.pdf
+  idx: 3214
+  month: '03'
+- AUTHORS:
+  - Kezhen Chen
+  - Qiuyuan Huang
+  - Paul Smolensky
+  - Kenneth Forbus
+  - Jianfeng Gao
+  TITLE: Learning Inference Rules with Neural TP-Reasoner
+  TYPE: conference
+  URL: https://www.microsoft.com/en-us/research/publication/learning-inference-rules-with-neural-tp-reasoner/
+  VENUE: NeurIPS 2020, workshop
+  YEAR: '2020'
+  abstract: 'Most standard deep learning models do not perform logical rule-based
+    reasoning
+
+    like human and are hard to understand. We present a novel neural architectur'
+  file: https://github.com/ybisk/papers/blob/master/2020/ChenHuangSmolenskyForbusGao_Learning_Inference_Rules_with_Neural_TPReasoner.pdf
+  idx: 3215
