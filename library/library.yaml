@@ -47882,3 +47882,44 @@
     like human and are hard to understand. We present a novel neural architectur'
   file: https://github.com/ybisk/papers/blob/master/2020/ChenHuangSmolenskyForbusGao_Learning_Inference_Rules_with_Neural_TPReasoner.pdf
   idx: 3215
+- AUTHORS:
+  - Letitia Parcalabescu
+  - Albert Gatt
+  - Anette Frank
+  - Iacer Calixto
+  TITLE: "Seeing past words: Testing the cross-modal capabilities of pretrained\n\
+    \  V&L models on counting tasks"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2012.12352
+  VENUE: "Paper accepted for publication at MMSR 2021; 13 pages, 3 figures, 7\n  Tables"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ParcalabescuGattFrankCalixto_Seeing_past_words_Testing_the_crossmodal_capabilities_of_pretrained_VL_models_on_counting_tasks.pdf
+  idx: 3216
+  month: '12'
+- AUTHORS:
+  - Mukund Sundararajan
+  - Ankur Taly
+  - Qiqi Yan
+  TITLE: Axiomatic Attribution for Deep Networks
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1703.01365
+  VENUE: arXiv:1703.01365
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/SundararajanTalyYan_Axiomatic_Attribution_for_Deep_Networks.pdf
+  idx: 3217
+  month: '03'
+- AUTHORS:
+  - Wojciech Samek
+  - "Gr\xE9goire Montavon"
+  - Sebastian Lapuschkin
+  - Christopher J. Anders
+  - "Klaus-Robert M\xFCller"
+  TITLE: "Explaining Deep Neural Networks and Beyond: A Review of Methods and\n  Applications"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2003.07631
+  VENUE: 30 pages, 20 figures
+  YEAR: '2020'
+  file: "https://github.com/ybisk/papers/blob/master/2020/SamekMontavonLapuschkinAndersM\xFC\
+    ller_Explaining_Deep_Neural_Networks_and_Beyond_A_Review_of_Methods_and_Applications.pdf"
+  idx: 3218
+  month: '03'
