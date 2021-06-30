@@ -47923,3 +47923,28 @@
     ller_Explaining_Deep_Neural_Networks_and_Beyond_A_Review_of_Methods_and_Applications.pdf"
   idx: 3218
   month: '03'
+- AUTHORS:
+  - Mateusz Malinowski
+  - Mario Fritz
+  TITLE: "A Multi-World Approach to Question Answering about Real-World Scenes\n \
+    \ based on Uncertain Input"
+  TYPE: conference
+  URL: https://arxiv.org/abs/1410.0210
+  VENUE: NIPS
+  YEAR: '2014'
+  file: https://github.com/ybisk/papers/blob/master/2014/MalinowskiFritz_A_MultiWorld_Approach_to_Question_Answering_about_RealWorld_Scenes_based_on_Uncertain_Input.pdf
+  idx: 3219
+  month: '10'
+- AUTHORS:
+  - Royi Lachmy
+  - Valentina Pyatkin
+  - Reut Tsarfaty
+  TITLE: "Draw Me a Flower: Grounding Formal Abstract Structures Stated in\n  Informal\
+    \ Natural Language"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2106.14321
+  VENUE: arXiv:2106.14321
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/LachmyPyatkinTsarfaty_Draw_Me_a_Flower_Grounding_Formal_Abstract_Structures_Stated_in_Informal_Natural_Language.pdf
+  idx: 3220
+  month: '06'
