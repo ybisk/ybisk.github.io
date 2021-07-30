@@ -1,0 +1,32 @@
+<div class="card #FIELDS#">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-1">
+          <button type="button" disabled class="btn ybtn text-dark btn-outline-#FIELD#">#YEAR-btn#</button>
+        </div>
+        <div class="col-md-11">
+          <b>#TITLE#</b><br>
+          <div class="card-text">
+            <i>#VENUE#</i><br>
+            #AUTHORS#<br>
+            <button type="button" class="sbtn btn btn-light" title
+                data-original-title="Copy BibTex" id="buttonidx#IDX#"
+                href="javascript:void(0)" onclick="show('idx#IDX#')">
+                <i>BibTeX</i>
+              </button>
+              #EXTRA#
+              <div id="idx#IDX#"  class="dynamic_link">
+                 <br>
+                 @#BIBREC#{#CITEKEY#,<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;author    = {#AUTH-BIB#},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;title     = {{#TITLE#}}, <br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;#BOOK# = {#VENUE#},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;year      = {#YEAR#},<br>
+                 }
+              </div>
+          </div> <!-- text -->
+        </div>
+      </div>
+  </div> <!-- body -->
+</div> <!-- card -->
+

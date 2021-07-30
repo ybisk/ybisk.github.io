@@ -1,5 +1,47 @@
 ---
 - FIELD:
+  - R
+  - L
+  TYPE: preprint
+  TITLE: 'Language Grounding with 3D Objects'
+  YEAR: '2021'
+  URL: 'https://arxiv.org/abs/2107.12514'
+  AUTHORS:
+  - Jesse Thomason
+  - Mohit Shridhar
+  - Yonatan Bisk
+  - Chris Paxton
+  - Luke Zettlemoyer
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
+  - V
+  TYPE: conference
+  TITLE: "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment"
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Jianwei Yang
+  - Yonatan Bisk
+  - Jianfeng Gao
+  VENUE: "International Conference on Computer Vision"
+  VENUE-ACR: ICCV
+- FIELD:
+  - V
+  - L
+  TYPE: workshop
+  TITLE: "KB-VLP: Knowledge Based Vision and Language Pretraining"
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Kezhen Chen
+  - Qiuyuan Huang
+  - Yonatan Bisk
+  - Daniel McDuff
+  - Jianfeng Gao
+  VENUE: "ICML21 Workshop on Self-Supervised Learning"
+  VENUE-ACR: "ICML-SSL"
+- FIELD:
   - O
   - L
   TYPE: conference

@@ -39,7 +39,10 @@ def pretty(s):
 
 def create_html_entry(entry, idx):
   # Read entry template
-  html = "".join([line for line in open("entry.html")])
+  if len(entry["URL"].strip()) > 0:
+    html = "".join([line for line in open("entry.html")])
+  else:
+    html = "".join([line for line in open("entry_nourl.html")])
   html = html.replace("#IDX#", str(idx))
 
   # Authors
