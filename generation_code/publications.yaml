@@ -19,7 +19,7 @@
   TYPE: conference
   TITLE: "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment"
   YEAR: '2021'
-  URL: ''
+  URL: 'https://arxiv.org/abs/2108.09980'
   AUTHORS:
   - Jianwei Yang
   - Yonatan Bisk
