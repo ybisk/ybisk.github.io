@@ -47973,3 +47973,148 @@
   YEAR: '2020'
   file: https://github.com/ybisk/papers/blob/master/2020/LeungHawkinsYurovsky_Parents_scaffold_the_formation_of_conversational_pacts_with_their_children.pdf
   idx: 3222
+- AUTHORS:
+  - Devendra Singh Chaplot
+  - Dhiraj Gandhi
+  - Saurabh Gupta
+  - Abhinav Gupta
+  - Ruslan Salakhutdinov
+  TITLE: Learning to Explore using Active Neural SLAM
+  TYPE: conference
+  URL: https://arxiv.org/abs/2004.05155
+  VENUE: "Published in ICLR-2020. See the project webpage at\n  https://devendrachaplot.github.io/projects/Neural-SLAM\
+    \ for supplementary\n  videos. The code is available at\n  https://github.com/devendrachaplot/Neural-SLAM"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ChaplotGandhiGuptaGuptaSalakhutdinov_Learning_to_Explore_using_Active_Neural_SLAM.pdf
+  idx: 3224
+  month: '04'
+- AUTHORS:
+  - Jason D. Lee
+  - Qi Lei
+  - Nikunj Saunshi
+  - Jiacheng Zhuo
+  TITLE: "Predicting What You Already Know Helps: Provable Self-Supervised\n  Learning"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2008.01064
+  VENUE: arXiv:2008.01064
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/LeeLeiSaunshiZhuo_Predicting_What_You_Already_Know_Helps_Provable_SelfSupervised_Learning.pdf
+  idx: 3225
+  month: 08
+- AUTHORS:
+  - Jaehoon Lee
+  - Samuel S. Schoenholz
+  - Jeffrey Pennington
+  - Ben Adlam
+  - Lechao Xiao
+  - Roman Novak
+  - Jascha Sohl-Dickstein
+  TITLE: 'Finite Versus Infinite Neural Networks: an Empirical Study'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2007.15801
+  VENUE: 17+11 pages; v2 references added, minor improvements
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/LeeSchoenholzPenningtonAdlamXiao_Finite_Versus_Infinite_Neural_Networks_an_Empirical_Study.pdf
+  idx: 3226
+  month: '07'
+- AUTHORS:
+  - Karan Desai
+  - Justin Johnson
+  TITLE: 'VirTex: Learning Visual Representations from Textual Annotations'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2006.06666
+  VENUE: Code available at https://github.com/kdexd/virtex
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/DesaiJohnson_VirTex_Learning_Visual_Representations_from_Textual_Annotations.pdf
+  idx: 3227
+  month: '06'
+- AUTHORS:
+  - Nikhil Mishra
+  - Mostafa Rohaninejad
+  - Xi Chen
+  - Pieter Abbeel
+  TITLE: A Simple Neural Attentive Meta-Learner
+  TYPE: conference
+  URL: https://arxiv.org/abs/1707.03141
+  VENUE: ICLR
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2017/MishraRohaninejadChenAbbeel_A_Simple_Neural_Attentive_MetaLearner.pdf
+  idx: 3229
+  month: '07'
+- AUTHORS:
+  - Luyao Yuan
+  - Zipeng Fu
+  - Jingyue Shen
+  - Lu Xu
+  - Junhong Shen
+  - Song-Chun Zhu
+  TITLE: Emergence of Pragmatics from Referential Game between Theory of Mind Agents
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2001.07752
+  VENUE: arXiv:2001.07752
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/YuanFuShenXuShen_Emergence_of_Pragmatics_from_Referential_Game_between_Theory_of_Mind_Agents.pdf
+  idx: 3230
+  month: '01'
+- AUTHORS:
+  - Thomas Kipf
+  - Yujia Li
+  - Hanjun Dai
+  - Vinicius Zambaldi
+  - Alvaro Sanchez-Gonzalez
+  - Edward Grefenstette
+  - Pushmeet Kohli
+  - Peter Battaglia
+  TITLE: 'CompILE: Compositional Imitation Learning and Execution'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1812.01483
+  VENUE: ICML
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2018/KipfLiDaiZambaldiSanchezGonzalez_CompILE_Compositional_Imitation_Learning_and_Execution.pdf
+  idx: 3232
+  month: '12'
+- AUTHORS:
+  - Adithyavairavan Murali
+  - Arsalan Mousavian
+  - Clemens Eppner
+  - Chris Paxton
+  - Dieter Fox
+  TITLE: 6-DOF Grasping for Target-driven Object Manipulation in Clutter
+  TYPE: conference
+  URL: https://arxiv.org/abs/1912.03628
+  VENUE: International Conference on Robotics and Automation (ICRA) 2020
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/MuraliMousavianEppnerPaxtonFox_6DOF_Grasping_for_Targetdriven_Object_Manipulation_in_Clutter.pdf
+  idx: 3233
+  month: '12'
+- AUTHORS:
+  - Max Schwarzer
+  - Ankesh Anand
+  - Rishab Goel
+  - R Devon Hjelm
+  - Aaron Courville
+  - Philip Bachman
+  TITLE: "Data-Efficient Reinforcement Learning with Self-Predictive\n  Representations"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2007.05929
+  VENUE: ICLR
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/SchwarzerAnandGoelHjelmCourville_DataEfficient_Reinforcement_Learning_with_SelfPredictive_Representations.pdf
+  idx: 3234
+  month: '07'
+- AUTHORS:
+  - Ankur P. Parikh
+  - Xuezhi Wang
+  - Sebastian Gehrmann
+  - Manaal Faruqui
+  - Bhuwan Dhingra
+  - Diyi Yang
+  - Dipanjan Das
+  TITLE: 'ToTTo: A Controlled Table-To-Text Generation Dataset'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2004.14373
+  VENUE: Accepted to EMNLP 2020
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ParikhWangGehrmannFaruquiDhingra_ToTTo_A_Controlled_TableToText_Generation_Dataset.pdf
+  idx: 3235
+  month: '04'

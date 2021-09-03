@@ -1,5 +1,37 @@
 ---
 - FIELD:
+  - L
+  - V
+  TYPE: preprint
+  TITLE: 'WebQA: Multihop and Multimodal QA'
+  YEAR: '2021'
+  URL: 'https://arxiv.org/abs/2109.00590'
+  AUTHORS:
+  - Yingshan Chang
+  - Mridu Narang
+  - Hisami Suzuki
+  - Guihong Cao
+  - Jianfeng Gao
+  - Yonatan Bisk
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
+  - L
+  TYPE: conference
+  TITLE: 'Dependency Induction Through the Lens of Visual Perception'
+  YEAR: '2021'
+  URL: ''
+  AUTHORS:
+  - Ruisi Su
+  - Shruti Rijhwani
+  - Hao Zhu
+  - Junxian He
+  - Xinyu Wang
+  - Yonatan Bisk
+  - Graham Neubig
+  VENUE: The SIGNLL Conference on Computational Natural Language Learning
+  VENUE-ACR: CoNLL
+- FIELD:
   - R
   - L
   TYPE: preprint
