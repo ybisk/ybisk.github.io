@@ -48134,3 +48134,129 @@
   file: https://github.com/ybisk/papers/blob/master/2020/WangWuLiuCaiZhu_HAT_HardwareAware_Transformers_for_Efficient_Natural_Language_Processing.pdf
   idx: 3236
   month: '05'
+- AUTHORS:
+  - Andrew Howard
+  - Mark Sandler
+  - Grace Chu
+  - Liang-Chieh Chen
+  - Bo Chen
+  - Mingxing Tan
+  - Weijun Wang
+  - Yukun Zhu
+  - Ruoming Pang
+  - Vijay Vasudevan
+  - Quoc V. Le
+  - Hartwig Adam
+  TITLE: Searching for MobileNetV3
+  TYPE: conference
+  URL: https://arxiv.org/abs/1905.02244
+  VENUE: ICCV 2019
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/HowardSandlerChuChenChen_Searching_for_MobileNetV3.pdf
+  idx: 3237
+  month: '05'
+- AUTHORS:
+  - Ilya Loshchilov
+  - Frank Hutter
+  TITLE: Decoupled Weight Decay Regularization
+  TYPE: conference
+  URL: https://arxiv.org/abs/1711.05101
+  VENUE: Published as a conference paper at ICLR 2019
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/LoshchilovHutter_Decoupled_Weight_Decay_Regularization.pdf
+  idx: 3238
+  month: '11'
+- AUTHORS:
+  - Jiankang Deng
+  - Jia Guo
+  - Niannan Xue
+  - Stefanos Zafeiriou
+  TITLE: 'ArcFace: Additive Angular Margin Loss for Deep Face Recognition'
+  TYPE: conference
+  URL: https://arxiv.org/abs/1801.07698
+  VENUE: ArcFace with parallel acceleration
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/DengGuoXueZafeiriou_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition.pdf
+  idx: 3239
+  month: '01'
+- AUTHORS:
+  - Jie Hu
+  - Li Shen
+  - Samuel Albanie
+  - Gang Sun
+  - Enhua Wu
+  TITLE: Squeeze-and-Excitation Networks
+  TYPE: conference
+  URL: https://arxiv.org/abs/1709.01507
+  VENUE: journal version of the CVPR 2018 paper, accepted by TPAMI
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/HuShenAlbanieSunWu_SqueezeandExcitation_Networks.pdf
+  idx: 3240
+  month: 09
+- AUTHORS:
+  - Leslie N. Smith
+  TITLE: "A disciplined approach to neural network hyper-parameters: Part 1 --\n \
+    \ learning rate, batch size, momentum, and weight decay"
+  TYPE: conference
+  URL: https://arxiv.org/abs/1803.09820
+  VENUE: "Files to help replicate the results reported here are available on\n  Github"
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/Smith_A_disciplined_approach_to_neural_network_hyperparameters_Part_1_learning_rate_batch_size_momentum_and_weight_decay.pdf
+  idx: 3241
+  month: '03'
+- AUTHORS:
+  - Terrance DeVries
+  - Graham W. Taylor
+  TITLE: Improved Regularization of Convolutional Neural Networks with Cutout
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1708.04552
+  VENUE: arXiv:1708.04552
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/DeVriesTaylor_Improved_Regularization_of_Convolutional_Neural_Networks_with_Cutout.pdf
+  idx: 3243
+  month: 08
+- AUTHORS:
+  - Yuge Huang
+  - Yuhan Wang
+  - Ying Tai
+  - Xiaoming Liu
+  - Pengcheng Shen
+  - Shaoxin Li
+  - Jilin Li
+  - Feiyue Huang
+  TITLE: "CurricularFace: Adaptive Curriculum Learning Loss for Deep Face\n  Recognition"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2004.00288
+  VENUE: CVPR 2020
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/HuangWangTaiLiuShen_CurricularFace_Adaptive_Curriculum_Learning_Loss_for_Deep_Face_Recognition.pdf
+  idx: 3244
+  month: '04'
+- AUTHORS:
+  - Xianyang Li
+  - Feng Wang
+  - Qinghao Hu
+  - Cong Leng
+  TITLE: 'AirFace: Lightweight and Efficient Model for Face Recognition'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1907.12256
+  VENUE: arXiv:1907.12256
+  YEAR: '2019'
+  file: https://github.com/ybisk/papers/blob/master/2019/LiWangHuLeng_AirFace_Lightweight_and_Efficient_Model_for_Face_Recognition.pdf
+  idx: 3245
+  month: '07'
+- AUTHORS:
+  - Xiaobo Wang
+  - Shuo Wang
+  - Shifeng Zhang
+  - Tianyu Fu
+  - Hailin Shi
+  - Tao Mei
+  TITLE: Support Vector Guided Softmax Loss for Face Recognition
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1812.11317
+  VENUE: arXiv:1812.11317
+  YEAR: '2018'
+  file: https://github.com/ybisk/papers/blob/master/2018/WangWangZhangFuShi_Support_Vector_Guided_Softmax_Loss_for_Face_Recognition.pdf
+  idx: 3246
+  month: '12'
