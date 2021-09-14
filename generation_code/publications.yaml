@@ -34,7 +34,7 @@
 - FIELD:
   - R
   - L
-  TYPE: preprint
+  TYPE: conference
   TITLE: 'Language Grounding with 3D Objects'
   YEAR: '2021'
   URL: 'https://arxiv.org/abs/2107.12514'
@@ -44,8 +44,8 @@
   - Yonatan Bisk
   - Chris Paxton
   - Luke Zettlemoyer
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: Conference on Robot Learning (CoRL)
+  VENUE-ACR: CoRL
 - FIELD:
   - V
   TYPE: conference
