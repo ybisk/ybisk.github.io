@@ -48260,3 +48260,15 @@
   file: https://github.com/ybisk/papers/blob/master/2018/WangWangZhangFuShi_Support_Vector_Guided_Softmax_Loss_for_Face_Recognition.pdf
   idx: 3246
   month: '12'
+- AUTHORS:
+  - Gedas Bertasius
+  - Heng Wang
+  - Lorenzo Torresani
+  TITLE: Is Space-Time Attention All You Need for Video Understanding?
+  TYPE: conference
+  URL: https://arxiv.org/abs/2102.05095
+  VENUE: Accepted to ICML 2021
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/BertasiusWangTorresani_Is_SpaceTime_Attention_All_You_Need_for_Video_Understanding.pdf
+  idx: 3247
+  month: '02'
