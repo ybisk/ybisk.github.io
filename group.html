@@ -1,278 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <meta name=viewport content="width=device-width, initial-scale=1">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBC1D21RJT"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-CBC1D21RJT');
-        </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBC1D21RJT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CBC1D21RJT');
+    </script>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="author" content:"Yonatan Bisk">
-        <link rel="canonical" href="https://yonatanbisk.com">
-        <title>CLAW Lab</title>
-        <meta name="title" content="CLAW Lab">
-        <meta name="description" content="Connecting Language to Actions and the World Lab - at CMU">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content:"Yonatan Bisk">
+    <link rel="canonical" href="https://yonatanbisk.com">
+    <title>CLAW Lab</title>
+    <meta name="title" content="CLAW Lab">
+    <meta name="description" content="Connecting Language to Actions and the World Lab - at CMU">
 
-        <!-- Open Graph -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://YonatanBisk.com/group.html">
-        <meta property="og:title" content:"CLAW Lab">
-        <meta property="og:image" content="https://yonatanbisk.com/images/CLAW-stacked-full.png">
-        <meta property="og:description" content="Connecting Language to Actions and the World Lab - at CMU">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://YonatanBisk.com/group.html">
+    <meta property="og:title" content:"CLAW Lab">
+    <meta property="og:image" content="https://yonatanbisk.com/images/CLAW-stacked-full.png">
+    <meta property="og:description" content="Connecting Language to Actions and the World Lab - at CMU">
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://YonatanBisk.com/group.html">
-        <meta property="twitter:title" content:"CLAW Lab">
-        <meta property="twitter:image" content="https://yonatanbisk.com/images/CLAW-stacked-full.png">
-        <meta property="twitter:description" content="Connecting Language to Actions and the World Lab - at CMU">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://YonatanBisk.com/group.html">
+    <meta property="twitter:title" content:"CLAW Lab">
+    <meta property="twitter:image" content="https://yonatanbisk.com/images/CLAW-stacked-full.png">
+    <meta property="twitter:description" content="Connecting Language to Actions and the World Lab - at CMU">
 
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" type="image/png" href="https://yonatanbisk.com/images/cmu-icon.png">
-    </head>
-    <body>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="https://yonatanbisk.com/images/cmu-icon.png">
+  </head>
+  <body>
 
-      <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#429450">
-        <a class="navbar-brand" href="#"><img src="images/CLAW-BW.svg" class="d-inline-block" height=40 alt="small logo of a two fingered claw"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#429450">
+      <a class="navbar-brand" href="#"><img src="images/CLAW-BW.svg" class="d-inline-block" height=40 alt="small logo of a two fingered claw"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbars">
-          <div class="navbar-nav">
-           <a class="nav-item nav-link" href="index.html" style="font-size:2em">&nbsp;Home&nbsp; </a>
-           <a class="nav-item nav-link active" href="#" style="font-size:2em">&nbsp;Lab&nbsp; <span class="sr-only">(current)</span></a>
-           <a class="nav-item nav-link" href="publications.html" style="font-size:2em">&nbsp;Publications&nbsp;</a>
-           <a class="nav-item nav-link" href="https://arxiv.org/abs/2004.10151" style="font-size:2em">&nbsp;EGL&nbsp;</a>
-           <a class="nav-item nav-link" href="teaching/index.html" style="font-size:2em">&nbsp;Teaching&nbsp;</a>
-          </div>
+      <div class="collapse navbar-collapse" id="navbars">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html" style="font-size:2em">&nbsp;Home&nbsp; </a>
+          <a class="nav-item nav-link active" href="#" style="font-size:2em">&nbsp;Lab&nbsp; <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="publications.html" style="font-size:2em">&nbsp;Publications&nbsp;</a>
+          <a class="nav-item nav-link" href="https://arxiv.org/abs/2004.10151" style="font-size:2em">&nbsp;EGL&nbsp;</a>
+          <a class="nav-item nav-link" href="teaching/index.html" style="font-size:2em">&nbsp;Teaching&nbsp;</a>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-        <div class="jumbotron">
-          <div class="container">
-            <img src="images/CLAW-banner.png" style="width:100%;margin:auto" alt="CLAW group banner: Connecting Language to Actions & the World">
+    <div class="jumbotron">
+      <div class="container">
+        <img src="images/CLAW-banner.png" style="width:100%;margin:auto" alt="CLAW group banner: Connecting Language to Actions & the World">
+      </div>
+    </div>
+
+    <main role="main">
+      <center><h1>CLAW Crew</h1></center>
+      <div>Our research focuses on language grounding <img src="images/WSs/WS3_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">, action taking <img src="images/WSs/WS4_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">, and theory-of-mind <img src="images/WSs/WS5_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">.  All of our current work assumes the importance of perception and/or world building as crucial to constructing semantic representations for and with language.</div><br>
+
+      <h3>PhD Students</h3>
+      <center>
+        <div class="card-group">
+
+          <!-- Jared -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/jaredfernandez.jpg class="card-img-top" alt="Jared Fernandez">
+            <div class="card-body" >
+              <h5 class="card-title"><a href="https://www.jaredfern.com/"><b>Jared Fernandez</b></a>
+                <h6><a href="https://twitter.com/FernJared">@FernJared</a></h6>
+                <img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
+              </h5>
+              <p class="card-text">
+              Multimodal Efficiency
+              <h6>LTI & NSF GRFP</h6>
+              <h6>(co- <a href="http://strubell.github.io/">Emma Strubell</a>)</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <!-- Vidhi -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/vidhijain.jpg class="card-img-top" alt="Vidhi Jain">
+            <div class="card-body">
+              <h5 class="card-title"><a href="http://vidhijain.github.io/"><b>Vidhi Jain</b></a>
+                <h6><a href="https://twitter.com/viddivj">@viddivj</a></h6>
+                <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
+              </h5>
+              <p class="card-text">
+              Language to Control 
+              <h6>RI & FAIR AI resident</h6>
+              <h6>&nbsp;</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <!-- Tiffany -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/tiffanymin.jpg class="card-img-top" alt="So Yeon (Tiffany) Min">
+            <div class="card-body">
+              <h5 class="card-title"><a href="http://soyeonm.github.io/"><b>Tiffany Min</b></a>
+                <h6><a href="">&nbsp;</a></h6>
+                <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
+              </h5>
+              <p class="card-text">
+              Knowledge for Embodiment
+              <h6>MLD</h6>
+              <h6>(co- <a href="https://www.cs.cmu.edu/~rsalakhu/">Rus Salakhutdinov</a>)</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <!-- Hao -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/haozhu.jpg class="card-img-top" alt="Hao Zhu">
+            <div class="card-body">
+              <h5 class="card-title"><a href="http://www.zhuhao.me/"><b>Hao Zhu</b></a>
+                <h6><a href="https://twitter.com/_Hao_Zhu">@_Hao_Zhu</a></h6>
+                <img width=50 src="images/WSs/WS5_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></h5>
+              <p class="card-text">
+              Pedagogy & Theory-of-mind
+              <h6>LTI </h6>
+              <h6>(co- <a href="http://phontron.com/">Graham Neubig</a>)</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- group -->
+      </center>
+
+      <br><br>
+      <h3>MS Students</h3>
+      <center>
+        <div class="card-group">
+
+          <!-- Yingshan -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/yingshanchang.jpg class="card-img-top" alt="Yingshan Chang">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://zdxdsw.github.io/"><b>Yingshan Chang</b></a>
+                <h6><a href="https://twitter.com/_Yingshan">@_Yingshan</a></h6>
+                <img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
+              </h5>
+              <p class="card-text"> 
+              Multimodal reasoning
+              <h6>LTI MLT</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <!-- Erin -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/undergraduate/erinzhang.jpg class="card-img" alt="Erin Zhang">
+            <div class="card-body">
+              <h5 class="card-title"><a href=""><b>Xiaoyu (Erin) Zhang</b></a>
+                <h6><a href="">&nbsp;</a></h6>
+                <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></h5>
+              <p class="card-text">
+              Language for Manipuation 
+              <h6>5th year
+              </h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <!-- Josh -->
+          <div class="card student" style="max-width: 400px;">
+            <img src=images/students/joshzhanson.jpg class="card-img-top" alt="Josh Zhanson">
+            <div class="card-body">
+              <h5 class="card-title"><a href="http://jzhanson.com/"><b>Josh Zhanson</b></a>
+                <h6><a href="https://twitter.com/jzhanson">@jzhanson</a></h6>
+                <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></h5>
+              <p class="card-text">
+              Embodied visual representations
+              <h6>LTI MLT & NSF GRFP</h6>
+              </p>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+          <div class="card student" style="max-width: 400px;">
           </div>
-        </div>
 
-      <main role="main">
-        <center><h1>CLAW Crew</h1></center>
-        <div>Our research focuses broadly on language grounding <img src="images/WSs/WS3_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">, action taking <img src="images/WSs/WS4_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">, and theory-of-mind <img src="images/WSs/WS5_small.png" width=70 style="display:inline;margin-bottom:0px;margin-top:0px;border:0px;">.  All of our current work assumes the importance of perception and/or world building as crucial to constructing semantic representations for and with language.</div><br>
+        </div> <!-- row -->
+      </center>
 
-          <center>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                  <img src=images/students/yingshanchang.jpg class="card-img-top" alt="Yingshan Chang">
-                  <div class="card-body">
-                      <h5 class="card-title"><a href="https://zdxdsw.github.io/"><b>Yingshan Chang</b></a>
-                          <img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </h5>
-                      <p class="card-text"> 
-                          Multimodal reasoning
-                          <h6>LTI MLT
-                          <br><a href="https://twitter.com/_Yingshan">@_Yingshan</a></h6>
-                      </p>
-                    </div> <!-- card-body -->
-              </div> <!-- card -->
-            </div> <!-- column -->
+      <br><br>
+      <h3>Visitors and Undergraduates</h3>
 
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                  <img src=images/students/jaredfernandez.jpg class="card-img-top" alt="Jared Fernandez">
-                    <div class="card-body" >
-                      <h5 class="card-title"><a href="https://www.jaredfern.com/"><b>Jared Fernandez</b></a>
-                          <img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </h5>
-                      <p class="card-text">
-                         Efficiency
-                         <h6>LTI PhD & NSF GRFP
-                         <br><a href="https://twitter.com/FernJared">@FernJared</a></h6>
-                      <br><h6>(co- <a href="http://strubell.github.io/">Emma Strubell</a>)</h6>
-                      </p>
-                    </div> <!-- card-body -->
-              </div> <!-- card -->
-            </div> <!-- column -->
+      <center>
 
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <img src=images/students/vidhijain.jpg class="card-img-top" alt="Vidhi Jain">
-                  <div class="card-body">
-                      <h5 class="card-title"><a href="http://vidhijain.github.io/"><b>Vidhi Jain</b></a>
-                          <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </h5>
-                      <p class="card-text">
-                        Language to Control. 
-                        <h6>RI PhD & FAIR resident
-                        <br><a href="https://twitter.com/viddivj">@viddivj</a></h6>
-                      </p>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-              </div> <!-- column -->
-            </div> <!-- row -->
+        <table class="table">
+          <tbody>
+            <tr>
+              <td scope="row">2021</td>
+              <td>Feiyu (Gavin) Zhu</td>
+              <td>Undergraduate</td>
+              <td>Video Summarization</td>
+              <td>co-<a href="https://cpaxton.github.io/">Chris Paxton</a></td>
+              <td><img width=30 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></td>
+            </tr>
+            <tr>
+              <td>2021</td>
+              <td><a href="https://blessingitorobassey.github.io/">Blessing Bassey</a></td>
+              <td>Summer Intern</td>
+              <td>TextVQA</td>
+              <td></td>
+              <td><img width=30 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></td>
+            </tr>
+            <tr>
+              <td>2021</td>
+              <td><a href="https://msclar.github.io/">Melanie Sclar</a></td>
+              <td>Summer Intern</td>
+              <td>Symmetric Theory-of-Mind</td>
+              <td>PhD @ UWashington</td>
+              <td><img width=30 src="images/WSs/WS5_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></td>
+            </tr>
+          </tbody>
+        </table>
+      </center>
 
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <img src=images/students/tiffanymin.jpg class="card-img-top" alt="So Yeon (Tiffany) Min">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="http://soyeonm.github.io/"><b>Tiffany Min</b></a>
-                          <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </h5>
-                      <p class="card-text">
-                        Knowledge for Embodiment
-                        <br><h6>MLD PhD</h6>
-                      <br>
-                      <h6 style="line-height:0em">(co- <a href="https://www.cs.cmu.edu/~rsalakhu/">Rus Salakhutdinov</a>)</h6>
-                      </p>
-                    </div> <!-- card-body -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-
-
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <img src=images/students/joshzhanson.jpg class="card-img-top" alt="Josh Zhanson">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="http://jzhanson.com/"><b>Josh Zhanson</b></a>
-                        <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></h5>
-                      <p class="card-text">
-                        Embodied visual representation learning
-                        <h6>LTI MLT & NSF GRFP
-                        <br><a href="https://twitter.com/jzhanson">@jzhanson</a></h6>
-                      </p>
-                    </div> <!-- card-body -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-
-            <div class="col-md-4">
-              <div class="card student mb-3" style="max-width: 400px;">
-                  <img src=images/students/haozhu.jpg class="card-img-top" alt="Hao Zhu">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="http://www.zhuhao.me/"><b>Hao Zhu</b></a>
-                        <img width=50 src="images/WSs/WS5_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"></h5>
-                      <p class="card-text">
-                         Pedagogy & Theory-of-mind
-                         <h6>LTI PhD
-                         <br><a href="https://twitter.com/_Hao_Zhu">@_Hao_Zhu</a></h6>
-                      <br><h6  style="line-height:0em">(co- <a href="http://phontron.com/">Graham Neubig</a>)</h6>
-
-                      </p>
-                    </div> <!-- card-body -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-
-          </div> <!-- row -->
-          </center>
-
-
-            <br><br>
-            <h3>Visitors and Undergraduates</h3>
-
-          <center>
-          <div class="row">
-            <div class="column">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                      <img src=images/undergraduate/gavinzhu.jpg class="card-img" alt="Gavin Zhu">
-                  </div>
-                  <div class="col-md-6 vcard">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="https://www.linkedin.com/in/feiyu-gavin-zhu-0b48961a7/"><b>Feiyu (Gavin) Zhu</b></a></h5>
-                      <p class="card-text">
-                        Video Summarization
-                        <br><br>
-                        2021
-<img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </p>
-                    </div> <!-- card-body -->
-                  </div> <!-- col -->
-                </div> <!-- row -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-
-            <div class="column">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                      <img src=images/undergraduate/erinzhang.jpg class="card-img" alt="Erin Zhang">
-                  </div>
-                  <div class="col-md-6 vcard">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href=""><b>Xiaoyu (Erin) Zhang</b></a></h5>
-                      <p class="card-text">
-                        Language for Manipulation
-                        <br><br>
-                        2021<img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </p>
-                    </div> <!-- card-body -->
-                  </div> <!-- col -->
-                </div> <!-- row -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-          </div> <!-- row -->
-
-          <div class="row">
-            <div class="column">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                      <img src=images/interns/blessingbassey.jpg class="card-img" alt="Blessing Bassey">
-                  </div>
-                  <div class="col-md-6 vcard">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="https://blessingitorobassey.github.io/"><b>Blessing Bassey</b></a></h5>
-                      <p class="card-text">
-                        TextVQA related problems
-                        <br><br>
-                        Summer 2021
-<img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </p>
-                    </div> <!-- card-body -->
-                  </div> <!-- col -->
-                </div> <!-- row -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-
-            <div class="column">
-              <div class="card student mb-3" style="max-width: 400px;">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                      <img src=images/interns/melaniesclar.jpg class="card-img" alt="Melanie Sclar">
-                  </div>
-                  <div class="col-md-6 vcard">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="https://msclar.github.io/"><b>Melanie Sclar</b></a></h5>
-                      <p class="card-text">
-                        Symmetric formulations of Theory-of-Mind.
-                        <br><br>
-                        Summer 2021
-<img width=50 src="images/WSs/WS5_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;">
-                      </p>
-                    </div> <!-- card-body -->
-                  </div> <!-- col -->
-                </div> <!-- row -->
-              </div> <!-- card -->
-            </div> <!-- column -->
-          </div> <!-- row -->
-          </center>
-
-            <br>
-            <br>
-      </main>
+    </main>
   </body>
 </html>
 

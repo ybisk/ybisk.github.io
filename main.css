@@ -44,8 +44,11 @@ html {
 
 .student {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  padding: 4px;
+  padding: 2px;
   text-align: left;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 body {
