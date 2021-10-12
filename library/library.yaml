@@ -48272,3 +48272,98 @@
   file: https://github.com/ybisk/papers/blob/master/2021/BertasiusWangTorresani_Is_SpaceTime_Attention_All_You_Need_for_Video_Understanding.pdf
   idx: 3247
   month: '02'
+- AUTHORS:
+  - Anmol Gulati
+  - James Qin
+  - Chung-Cheng Chiu
+  - Niki Parmar
+  - Yu Zhang
+  - Jiahui Yu
+  - Wei Han
+  - Shibo Wang
+  - Zhengdong Zhang
+  - Yonghui Wu
+  - Ruoming Pang
+  TITLE: 'Conformer: Convolution-augmented Transformer for Speech Recognition'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2005.08100
+  VENUE: Submitted to Interspeech 2020
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/GulatiQinChiuParmarZhang_Conformer_Convolutionaugmented_Transformer_for_Speech_Recognition.pdf
+  idx: 3248
+  month: '05'
+- AUTHORS:
+  - Zhengyuan Yang
+  - Zhe Gan
+  - Jianfeng Wang
+  - Xiaowei Hu
+  - Yumao Lu
+  - Zicheng Liu
+  - Lijuan Wang
+  TITLE: An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2109.05014
+  VENUE: arXiv:2109.05014
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/YangGanWangHuLu_An_Empirical_Study_of_GPT3_for_FewShot_KnowledgeBased_VQA.pdf
+  idx: 3249
+  month: 09
+- AUTHORS:
+  - Mohit Shridhar
+  - Lucas Manuelli
+  - Dieter Fox
+  TITLE: 'CLIPort: What and Where Pathways for Robotic Manipulation'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2109.12098
+  VENUE: 'CoRL 2021. Project Website: https://cliport.github.io/'
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/ShridharManuelliFox_CLIPort_What_and_Where_Pathways_for_Robotic_Manipulation.pdf
+  idx: 3250
+  month: 09
+- AUTHORS:
+  - Andy Zeng
+  - Pete Florence
+  - Jonathan Tompson
+  - Stefan Welker
+  - Jonathan Chien
+  - Maria Attarian
+  - Travis Armstrong
+  - Ivan Krasin
+  - Dan Duong
+  - Vikas Sindhwani
+  - Johnny Lee
+  TITLE: "Transporter Networks: Rearranging the Visual World for Robotic\n  Manipulation"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2010.14406
+  VENUE: "Project webpage: https://transporternets.github.io Summary video:\n  https://youtu.be/8afHfReCfPo?t=12214"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ZengFlorenceTompsonWelkerChien_Transporter_Networks_Rearranging_the_Visual_World_for_Robotic_Manipulation.pdf
+  idx: 3251
+  month: '10'
+- AUTHORS:
+  - Kaichun Mo
+  - Yuzhe Qin
+  - Fanbo Xiang
+  - Hao Su
+  - Leonidas Guibas
+  TITLE: "O2O-Afford: Annotation-Free Large-Scale Object-Object Affordance\n  Learning"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2106.15087
+  VENUE: arXiv:2106.15087
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/MoQinXiangSuGuibas_O2OAfford_AnnotationFree_LargeScale_ObjectObject_Affordance_Learning.pdf
+  idx: 3252
+  month: '06'
+- AUTHORS:
+  - Yixin Lin
+  - Austin S. Wang
+  - Eric Undersander
+  - Akshara Rai
+  TITLE: "Efficient and Interpretable Robot Manipulation with Graph Neural\n  Networks"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2102.13177
+  VENUE: arXiv:2102.13177
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/LinWangUndersanderRai_Efficient_and_Interpretable_Robot_Manipulation_with_Graph_Neural_Networks.pdf
+  idx: 3253
+  month: '02'
