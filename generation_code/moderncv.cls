@@ -362,8 +362,8 @@
 \newcommand*{\cventry}[6]{%
   \cvline{\hfill #1}{%
     {\bfseries#2}%
-    \ifthenelse{\equal{#3}{}}{}{, {\slshape#3}}%
-    \ifthenelse{\equal{#4}{}}{}{, #4}%
+    \ifthenelse{\equal{#3}{}}{}{ {\slshape#3}}%
+    \ifthenelse{\equal{#4}{}}{}{ #4}%
     \ifthenelse{\equal{#5}{}}{}{, #5}%
     %.%
     \ifthenelse{\equal{#6}{}}{}{\newline{}\small#6}

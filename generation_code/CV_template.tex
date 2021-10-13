@@ -14,6 +14,8 @@
 \usepackage[left=0.9in,top=0.9in,bottom=0.9in,right=0.9in]{geometry}
 \usepackage{calc}
 \recomputelengths                             % required when changes are made to page layout lengths
+\newcommand{\NW}[1]{\makebox[\widthof{Shruti Gangopadhyay }][l]{#1}}
+\newcommand{\DW}[1]{\hfill \makebox[\widthof{MLD}][l]{#1}}
 
 % personal data
 \firstname{Yonatan}
@@ -32,7 +34,7 @@
 \vspace{-10pt}
 
 \section{Positions}
-\cventry{2020}{Assistant Professor}{Carnegie Mellon University}{}{}{Language Technologies Institute (primary) \& Robotics Institute (courtesy)}
+\cventry{2020}{Assistant Professor}{Carnegie Mellon University}{}{}{Language Technologies Institute \newline Robotics Institute (courtesy)}
 \cventry{...}{Visiting Researcher}{Microsoft Research\hfill w/ Jianfeng Gao}{}{}{}
 \cventry{2019}{Postdoctoral Scholar}{}{}{}{University of Washington \& Allen Institute for Artificial Intelligence \hfill w/ Yejin Choi\newline
 Information Sciences Institute, University of Southern California \hfill w/ Daniel Marcu}
@@ -41,13 +43,27 @@ Information Sciences Institute, University of Southern California \hfill w/ Dani
 \cventry{2015}{PhD in Computer Science}{The University of Illinois at Urbana-Champaign}{}{\newline Thesis: \href{http://yonatanbisk.com/Thesis.pdf}{\textbf{Unsupervised Grammar Induction with Combinatory Categorial Grammars}}}{Advisor: Julia Hockenmaier\newline Committee:  Jason Eisner, Dan Roth, ChengXiang Zhai}  
 \cventry{2009}{BS in Computer Science}{The University of Texas at Austin}{Turing Scholar}{\newline Thesis: The Necessity of Separating Control and Logic When Grounding Language using Neuroevolution}{Advisor: Risto Miikkulainen\ \ \ \ \ \ \ \ Second Reader: Raymond Mooney}
 
+
+
 \section{Students}
-\cventry{PhD}{\href{http://www.zhuhao.me}{Hao Zhu}}{Unsupervised structure induction and Theory of Mind}{\hfill \makebox[\widthof{MLD}][l]{LTI} 2019 --}{}{}
-\cventry{PhD}{\href{https://www.jaredfern.com/}{Jared Fernandez}}{Efficient Multimodal Models}{\hfill \makebox[\widthof{MLD}][l]{LTI} 2020 --}{}{}
-\cventry{MLT}{\href{http://jzhanson.com/}{Josh Zhanson}}{Visual Representations for Embodied Agents}{\hfill \makebox[\widthof{MLD}][l]{LTI} 2020 --}{}{}
-\cventry{MLT}{\href{https://zdxdsw.github.io/}{Yingshan Chang}}{Multimodal Visual Reasoning}{\hfill \makebox[\widthof{MLD}][l]{LTI} 2020 --}{}{}
-\cventry{PhD}{\href{http://vidhijain.github.io/}{Vidhi Jain}}{Language to Control}{\hfill \makebox[\widthof{MLD}][l]{RI} 2021 --}{}{}
-\cventry{PhD}{\href{http://soyeonm.github.io/}{Tiffany Min}}{Knowledge for Embodied agents}{\hfill MLD 2021 --}{}{}
+\cventry{PhD}{\NW{\href{http://www.zhuhao.me}{Hao Zhu}}}{Unsupervised structure induction and Theory of Mind}{\DW{LTI} 2019 --}{}{}
+\cventry{PhD}{\NW{\href{https://www.jaredfern.com/}{Jared Fernandez}}}{Efficient Multimodal Models          }{\DW{LTI} 2020 --}{}{}
+\cventry{MLT}{\NW{\href{http://jzhanson.com/}{Josh Zhanson}}}{Visual Representations for Embodied Agents    }{\DW{LTI} 2020 --}{}{}
+\cventry{MLT}{\NW{\href{https://zdxdsw.github.io/}{Yingshan Chang}}}{Multimodal Visual Reasoning            }{\DW{LTI} 2020 --}{}{}
+\cventry{PhD}{\NW{\href{http://vidhijain.github.io/}{Vidhi Jain}}}{Language to Control                      }{\DW{RI}  2021 --}{}{}
+\cventry{PhD}{\NW{\href{http://soyeonm.github.io/}{Tiffany Min}}}{Knowledge for Embodied agents             }{\DW{MLD} 2021 --}{}{}
+\cventry{ MS}{\NW{\href{https://erinzhang1998.github.io/about/}{Xiaoyu Zhang}}}{Robot Art                   }{\DW{5th} 2021 --}{}{}
+
+\section{Professional Students}
+\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/jashdiyora/}{Jashkumar Diyora}}}{Modular Teleoperation with Autonomy            }{\DW{RI} 2021 --}{}{}
+\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}}}{Modular Teleoperation with Autonomy}{\DW{RI} 2021 --}{}{}
+\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/jigarkumar-patel/}{Jigar Patel}}}{Modular Teleoperation with Autonomy           }{\DW{RI} 2021 --}{}{}
+\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/prakharpradeep/}{Prakhar Pradeep}}}{Modular Teleoperation with Autonomy         }{\DW{RI} 2021 --}{}{}
+\cventry{MRSD}{\NW{\href{https://www.allaboutrobotix.com/}{Shivani Sivakumar}}}{Modular Teleoperation with Autonomy                  }{\DW{RI} 2021 --}{}{}
+
+\section{Alumni and Interns}
+\cventry{Intern}{\NW{\href{https://msclar.github.io/}{Melanie Sclar}}}{Symmetric Theory-of-Mind}{\DW{} 2021}{}{}
+\cventry{Intern}{\NW{\href{https://blessingitorobassey.github.io/}{Blessing Bassey}}}{TextVQA}{\DW{} 2021}{}{}
 
 \section{Conference and Journal Publications}
 ##PUBLICATIONS##
@@ -56,14 +72,15 @@ Information Sciences Institute, University of Southern California \hfill w/ Dani
 ##TECHREPORTS##
 
 \section{Thesis Committees}
+\cventry{--}{PhD}{\href{http://shikib.com/}{Shikib Mehri}}{\hfill Maxine Eskenazi }{CMU}{}
 \cventry{--}{PhD}{\href{https://www.cs.cmu.edu/~vcirik}{Volkan Cirik}}{\hfill Louis-Philippe Morency and Taylor Berg-Kirkpatrick}{CMU}{}
 \cventry{--}{PhD}{\href{https://shrutijpalaskar.github.io/}{Shruti Palaskar}}{\hfill Alan Black and Florian Metze}{CMU}{}
-\cventry{--}{PhD}{\href{http://pcyin.me/}{Pengcheng Yin}}{\hfill Graham Neubig}{CMU}{}
 \cventry{--}{PhD}{\href{https://dheerajrajagopal.github.io/}{Dheeraj Rajagopal}}{\hfill Ed Hovy}{CMU}{}
 \cventry{--}{PhD}{\href{https://sites.google.com/site/homepageevangeliaspiliopoulou/}{Evangelia Spiliopoulou}}{\hfill Ed Hovy}{CMU}{}
+\cventry{2021}{PhD}{\href{http://pcyin.me/}{Pengcheng Yin}}{\hfill Graham Neubig}{CMU}{}
 \cventry{2020}{PhD}{\href{https://zihangdai.github.io/}{Zihang Dai}}{\hfill Yiming Yang}{CMU}{}
 \cventry{2021}{MLT}{\href{https://wenj.github.io/}{Jing Wen}}{\hfill Katerina Fragkiadaki}{CMU}{}
-\cventry{--}{Qual}{\href{https://mohitsharma0690.github.io/}{Mohit Sharma}}{\hfill Oliver Kroemer}{CMU}{}
+\cventry{2021}{Qual}{\href{https://mohitsharma0690.github.io/}{Mohit Sharma}}{\hfill Oliver Kroemer}{CMU}{}
 
 \section{Teaching}
 \cventry{2021}{11-767 On-Device Machine Learning}{\hfill Co-Emma Strubell}{\# Students: 31}{Fall}{}
@@ -116,7 +133,7 @@ Information Sciences Institute, University of Southern California \hfill w/ Dani
 \cventry{2016}{Conference on Lexical and Computational Semantics (*SEM)}{Sem. Parsing and Role Labeling}{}{}{}
 
 \section{Reviewer}
-\cventry{NLP}{\acro{ACL Rolling}\normalfont Association for Computational Linguistics Rolling Review}{\hfill 2021}{}{}{}
+\cventry{NLP}{\acro{ARR}\normalfont Association for Computational Linguistics Rolling Review}{\hfill 2021}{}{}{}
 \cventry{}{\acro{ACL}\normalfont Association for Computational Linguistics}{\hfill 2017, 2018}{}{}{}
 \cventry{}{\acro{CL}\normalfont Computational Linguistics Journal}{\hfill 2017, standing}{}{}{}
 \cventry{}{\acro{CoLing}\normalfont International Conference on Computational Linguistics}{\hfill 2016}{}{}{}
@@ -144,7 +161,8 @@ Information Sciences Institute, University of Southern California \hfill w/ Dani
 
 \section{Invitations and Talks}
 \cventry{2021}{}{UIUC}{}{}{}
-\cventry{    }{}{Mega-AI Seminar @ PNNL}{}{}{}
+\cventry{    }{}{PNNL Mega-AI Seminar}{}{}{}
+\cventry{    }{WebQA: Multihop and Multimodal}{Microsoft Research Summit}{}{}{}
 \cventry{    }{\href{https://alvr-workshop.github.io/}{2nd Workshop on Advances in Language and Vision Research (ALVR)}}{NAACL}{}{}{}
 \cventry{    }{Instructions, Abstraction, and Theory-of-Mind}{Ko\c University AI center}{}{}{}
 \cventry{    }{Understanding the Potential of Scaling Artificial Intelligence for Science Applications Panel}{PNNL}{}{}{}
