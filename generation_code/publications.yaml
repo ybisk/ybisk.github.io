@@ -1,5 +1,21 @@
 ---
 - FIELD:
+  - V
+  - L
+  - R
+  TYPE: preprint
+  TITLE: 'FILM: Following Instructions in Language with Modular Methods'
+  YEAR: '2021'
+  URL: 'https://arxiv.org/abs/2110.07342'
+  AUTHORS:
+  - So Yeon Min
+  - Devendra Singh Chaplot
+  - Pradeep Ravikumar
+  - Yonatan Bisk
+  - Ruslan Salakhutdinov
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
   - L
   - V
   TYPE: preprint
