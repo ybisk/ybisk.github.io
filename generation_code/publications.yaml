@@ -1,5 +1,17 @@
 ---
 - FIELD:
+  - O
+  TYPE: preprint
+  TITLE: 'Learning When and What to Ask: a Hierarchical Reinforcement Learning Framework'
+  YEAR: '2021'
+  URL: 'http://arxiv.org/abs/2110.08258'
+  AUTHORS:
+  - Khanh Nguyen
+  - Yonatan Bisk
+  - Hal Daume III
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
   - V
   - L
   - R
