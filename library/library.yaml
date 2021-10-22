@@ -48380,3 +48380,18 @@
   file: https://github.com/ybisk/papers/blob/master/2020/FuchsWorrallFischerWelling_SE3Transformers_3D_RotoTranslation_Equivariant_Attention_Networks.pdf
   idx: 3254
   month: '06'
+- AUTHORS:
+  - Kenneth Marino
+  - Xinlei Chen
+  - Devi Parikh
+  - Abhinav Gupta
+  - Marcus Rohrbach
+  TITLE: "KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain\n  Knowledge-Based\
+    \ VQA"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2012.11014
+  VENUE: arXiv:2012.11014
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/MarinoChenParikhGuptaRohrbach_KRISP_Integrating_Implicit_and_Symbolic_Knowledge_for_OpenDomain_KnowledgeBased_VQA.pdf
+  idx: 3255
+  month: '12'
