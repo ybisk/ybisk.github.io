@@ -48436,3 +48436,29 @@
   file: https://github.com/ybisk/papers/blob/master/2020/ArabshahiLeeGawareckiMazaitisAzaria_Conversational_NeuroSymbolic_Commonsense_Reasoning.pdf
   idx: 3258
   month: '06'
+- AUTHORS:
+  - Murray Shanahan
+  - Matthew Crosby
+  - Benjamin Beyret
+  - Lucy Cheke
+  TITLE: Artificial Intelligence and the Common Sense of Animals
+  URL: https://www.sciencedirect.com/science/article/pii/S1364661320302163
+  YEAR: '2020'
+  abstract: The problem of common sense remains a major obstacle to progress in artificial
+    intelligence. Here, we argue that common sense in humans is founded on a set of
+    basic capacities that are possessed by many other animals, capacities pertaining
+    to the understanding of objects, space, and causality. The field of animal cognition
+    has developed numerous experimental protocols for studying these capacities and,
+    thanks to progress in deep reinforcement learning (RL), it is now possible to
+    apply these methods directly to evaluate RL agents in 3D environments. Besides
+    evaluation, the animal cognition literature offers a rich source of behavioural
+    data, which can serve as inspiration for RL tasks and curricula.}
+  doi: https://doi.org/10.1016/j.tics.2020.09.002
+  file: https://github.com/ybisk/papers/blob/master/2020/ShanahanCrosbyBeyretCheke_Artificial_Intelligence_and_the_Common_Sense_of_Animals.pdf
+  idx: 3259
+  issn: 1364-6613
+  VENUE: Trends in Cognitive Sciences
+  TYPE: journal
+  number: '11'
+  pages: 862-872
+  volume: '24'
