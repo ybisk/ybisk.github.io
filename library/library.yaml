@@ -48404,3 +48404,35 @@
   file: https://github.com/ybisk/papers/blob/master/2012/Smolensky_Symbolic_functions_from_neural_computation.pdf
   idx: 3256
   url: https://royalsocietypublishing.org/doi/full/10.1098/rsta.2011.0334
+- AUTHORS:
+  - Forough Arabshahi
+  - Jennifer Lee
+  - Antoine Bosselut
+  - Yejin Choi
+  - Tom Mitchell
+  TITLE: "Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and\n\
+    \  Symbolic Logic Rules"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2109.08544
+  VENUE: "Appearing in the 2021 Conference on Empirical Methods in Natural\n  Language\
+    \ Processing (EMNLP)"
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/ArabshahiLeeBosselutChoiMitchell_Conversational_MultiHop_Reasoning_with_Neural_Commonsense_Knowledge_and_Symbolic_Logic_Rules.pdf
+  idx: 3257
+  month: 09
+- AUTHORS:
+  - Forough Arabshahi
+  - Jennifer Lee
+  - Mikayla Gawarecki
+  - Kathryn Mazaitis
+  - Amos Azaria
+  - Tom Mitchell
+  TITLE: Conversational Neuro-Symbolic Commonsense Reasoning
+  TYPE: conference
+  URL: https://arxiv.org/abs/2006.10022
+  VENUE: "Appearing in the 35th AAAI international Conference on Artificial\n  Intelligence,\
+    \ 2021"
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/ArabshahiLeeGawareckiMazaitisAzaria_Conversational_NeuroSymbolic_Commonsense_Reasoning.pdf
+  idx: 3258
+  month: '06'
