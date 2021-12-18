@@ -48442,7 +48442,9 @@
   - Benjamin Beyret
   - Lucy Cheke
   TITLE: Artificial Intelligence and the Common Sense of Animals
+  TYPE: journal
   URL: https://www.sciencedirect.com/science/article/pii/S1364661320302163
+  VENUE: Trends in Cognitive Sciences
   YEAR: '2020'
   abstract: The problem of common sense remains a major obstacle to progress in artificial
     intelligence. Here, we argue that common sense in humans is founded on a set of
@@ -48457,8 +48459,81 @@
   file: https://github.com/ybisk/papers/blob/master/2020/ShanahanCrosbyBeyretCheke_Artificial_Intelligence_and_the_Common_Sense_of_Animals.pdf
   idx: 3259
   issn: 1364-6613
-  VENUE: Trends in Cognitive Sciences
-  TYPE: journal
   number: '11'
   pages: 862-872
   volume: '24'
+- AUTHORS:
+  - Tom B. Brown
+  - Benjamin Mann
+  - Nick Ryder
+  - Melanie Subbiah
+  - Jared Kaplan
+  - Prafulla Dhariwal
+  - Arvind Neelakantan
+  - Pranav Shyam
+  - Girish Sastry
+  - Amanda Askell
+  - Sandhini Agarwal
+  - Ariel Herbert-Voss
+  - Gretchen Krueger
+  - Tom Henighan
+  - Rewon Child
+  - Aditya Ramesh
+  - Daniel M. Ziegler
+  - Jeffrey Wu
+  - Clemens Winter
+  - Christopher Hesse
+  - Mark Chen
+  - Eric Sigler
+  - Mateusz Litwin
+  - Scott Gray
+  - Benjamin Chess
+  - Jack Clark
+  - Christopher Berner
+  - Sam McCandlish
+  - Alec Radford
+  - Ilya Sutskever
+  - Dario Amodei
+  TITLE: Language Models are Few-Shot Learners
+  TYPE: conference
+  URL: https://arxiv.org/abs/2005.14165
+  VENUE: 40+32 pages
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/BrownMannRyderSubbiahKaplan_Language_Models_are_FewShot_Learners.pdf
+  idx: 3260
+  month: '05'
+- AUTHORS:
+  - Alec Radford
+  - Jong Wook Kim
+  - Chris Hallacy
+  - Aditya Ramesh
+  - Gabriel Goh
+  - Sandhini Agarwal
+  - Girish Sastry
+  - Amanda Askell
+  - Pamela Mishkin
+  - Jack Clark
+  - Gretchen Krueger
+  - Ilya Sutskever
+  TITLE: Learning Transferable Visual Models From Natural Language Supervision
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2103.00020
+  VENUE: arXiv:2103.00020
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/RadfordKimHallacyRameshGoh_Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf
+  idx: 3261
+  month: '02'
+- AUTHORS:
+  - Oier Mees
+  - Lukas Hermann
+  - Erick Rosete-Beas
+  - Wolfram Burgard
+  TITLE: "CALVIN: A Benchmark for Language-conditioned Policy Learning for\n  Long-horizon\
+    \ Robot Manipulation Tasks"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2112.03227
+  VENUE: http://calvin.cs.uni-freiburg.de
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/MeesHermannRoseteBeasBurgard_CALVIN_A_Benchmark_for_Languageconditioned_Policy_Learning_for_Longhorizon_Robot_Manipulation_Tasks.pdf
+  idx: 3262
+  month: '12'

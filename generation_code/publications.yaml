@@ -1,5 +1,21 @@
 ---
 - FIELD:
+  - V
+  - L
+  TYPE: preprint
+  TITLE: 'KAT: A Knowledge Augmented Transformer for Vision-and-Language'
+  YEAR: '2021'
+  URL: 'https://arxiv.org/abs/2112.08614'
+  AUTHORS:
+  - Liangke Gui
+  - Borui Wang
+  - Qiuyuan Huang
+  - Alex Hauptmann
+  - Yonatan Bisk
+  - Jianfeng Gao
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+- FIELD:
   - O
   TYPE: preprint
   TITLE: 'Learning When and What to Ask: a Hierarchical Reinforcement Learning Framework'
