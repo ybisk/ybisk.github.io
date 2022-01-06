@@ -83,9 +83,8 @@ def create_html_entry(entry, idx):
 
   return html
 
-
 def create_latex_entry(entry):
-  tex = "\pub{#YEAR#}\n\t{\href{#URL#}{#TITLE#}}\n\t{#AUTHORS#}\n\t{#VENUE#}{#PRESENTATION#}{}\n"
+  tex = "{\href{#URL#}{#TITLE#}\hfill \\textnormal{#YEAR#}}\n\t{#AUTHORS#}\n\t{#VENUE#}{#PRESENTATION#}{}\n"
   tex = tex.replace("#YEAR#", entry["YEAR"])
   tex = tex.replace("#URL#", entry["URL"])
   tex = tex.replace("#TITLE#", entry["TITLE"].replace("&","\\&"))
@@ -113,19 +112,35 @@ out.close()
 
 ## Generate CV ##
 latex = "".join([line for line in open("CV_template.tex")])
-latex_publications = ""
-latex_techreports = ""
+latex_papers = {"journal": [],
+                "conference": [],
+                "workshop": [],
+                "preprint": [],
+                "phdthesis": [],
+                }
 previous = 10000
 for entry in pubs:
-  if entry["TYPE"] in ["conference", "journal"]:
-    latex_publications += create_latex_entry(entry)
-  elif entry["TYPE"] in ["preprint", "workshop"]:
-    latex_techreports += create_latex_entry(entry)
-latex = latex.replace("##PUBLICATIONS##", latex_publications)
-latex = latex.replace("##TECHREPORTS##", latex_techreports)
+  latex_papers[entry["TYPE"]].append(create_latex_entry(entry))
+
+# Hi dear reader, why is Yonatan doing this ugly thing? 
+# This categorization and numbering is a required format for submitting 
+# promotion materials
+pub_count = 1
+def number_pub(vals):     
+  global pub_count
+  comb = ""
+  for v in vals:
+    comb += "\pub{" + str(pub_count) + ".}\n\t" + v
+    pub_count += 1
+  return comb
+
+latex = latex.replace("##JOUR##", number_pub(latex_papers["journal"]))
+latex = latex.replace("##CONF##", number_pub(latex_papers["conference"]))
+latex = latex.replace("##WORK##", number_pub(latex_papers["workshop"]))
+latex = latex.replace("##TECH##", number_pub(latex_papers["preprint"] + latex_papers["phdthesis"]))
 out = open("CV.tex",'wt')
 out.write(latex)
 out.close()
 os.system("pdflatex CV.tex")
-os.system("rm CV.tex CV.log CV.aux CV.out")
+#os.system("rm CV.tex CV.log CV.aux CV.out")
 os.system("mv CV.pdf ../")

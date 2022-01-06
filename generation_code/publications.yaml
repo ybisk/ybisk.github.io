@@ -88,7 +88,7 @@
   - Yonatan Bisk
   - Chris Paxton
   - Luke Zettlemoyer
-  VENUE: Conference on Robot Learning (CoRL)
+  VENUE: Conference on Robot Learning 
   VENUE-ACR: CoRL
 - FIELD:
   - V
@@ -108,7 +108,7 @@
   TYPE: workshop
   TITLE: "KB-VLP: Knowledge Based Vision and Language Pretraining"
   YEAR: '2021'
-  URL: ''
+  URL: 'https://www.microsoft.com/en-us/research/publication/kb-vlp-knowledge-based-vision-and-language-pretraining-2/'
   AUTHORS:
   - Kezhen Chen
   - Qiuyuan Huang
