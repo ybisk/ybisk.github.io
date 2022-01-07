@@ -17,8 +17,11 @@
 
 % These are to create pretty spacing of pseudocolumns
 \newcommand{\NW}[1]{\makebox[\widthof{Shruti Gangopadhyay }][l]{#1}}
-\newcommand{\NA}[1]{\makebox[\widthof{Embodied Visual Representations }][l]{#1}}
+\newcommand{\NA}[1]{\makebox[\widthof{Collabortive Robot Art plus }][l]{#1}}
 \newcommand{\DW}[1]{\hfill \makebox[\widthof{MLD}][l]{#1}}
+\newcommand{\pron}[1]{\makebox[\widthof{\footnotesize she/her  }][l]{\textcolor{black}{\scriptsize \normalfont{#1}}}}
+% type, url, name, pronouns, area, extra, dept, year
+\newcommand{\stud}[8]{\cventry{#1}{\NW{\href{https://#2}{#3}} \pron{#4}}{\NA{#5} #6}{\DW{#7} #8}{}{}}
 
 % personal data
 \firstname{Yonatan}
@@ -49,25 +52,24 @@
 \cventry{2009}{BS in Computer Science}{The University of Texas at Austin}{Turing Scholar}{\newline Thesis: The Necessity of Separating Control and Logic When Grounding Language using Neuroevolution}{Advisor: Risto Miikkulainen\ \ \ \ \ \ \ \ Second Reader: Raymond Mooney}
 
 
-
 \section{PhD Students}
-\cventry{PhD}{\NW{\href{http://www.zhuhao.me           }{Hao Zhu        }}}{\NA{Theory of Mind                 } (co-\href{http://www.phontron.com/                               }{Graham Neubig       })}{\DW{LTI} 2019 --}{}{}
-\cventry{PhD}{\NW{\href{https://www.jaredfern.com/     }{Jared Fernandez}}}{\NA{Efficient Multimodal Models    } (co-\href{http://strubell.github.io/                             }{Emma Strubell       })}{\DW{LTI} 2020 --}{}{}
-\cventry{PhD}{\NW{\href{http://vidhijain.github.io/    }{Vidhi Jain     }}}{\NA{Language to Control            }                                                                                          }{\DW{RI}  2021 --}{}{}
-\cventry{PhD}{\NW{\href{http://soyeonm.github.io/      }{Tiffany Min    }}}{\NA{Knowledge for Embodied agents  } (co-\href{https://www.cs.cmu.edu/~rsalakhu/                      }{Ruslan Salakhutdinov})}{\DW{MLD} 2021 --}{}{}
+\stud{PhD}{www.zhuhao.me       }{Hao Zhu        }{he/him }{Theory of Mind          }{(co-\href{http://www.phontron.com/}{G Neubig})}{LTI}{2019 --}
+\stud{PhD}{jaredfern.com/      }{Jared Fernandez}{he/him }{Efficiency              }{(co-\href{http://strubell.github.io/}{E Strubell})}{LTI}{2020 --}
+\stud{PhD}{vidhijain.github.io/}{Vidhi Jain     }{she/her}{Language to Control     }{}{RI}{2021 --}
+\stud{PhD}{soyeonm.github.io/  }{Tiffany Min    }{she/her}{Embodiment              }{(co-\href{https://www.cs.cmu.edu/~rsalakhu/}{R Salakhutdinov})}{MLD}{2021 --}
 
 \section{Research Masters Students}
-\cventry{MLT}{\NW{\href{http://jzhanson.com/           }{Josh Zhanson   }}}{\NA{Embodied Visual Representations}                                                                                          }{\DW{LTI} 2020 --}{}{}
-\cventry{MLT}{\NW{\href{https://zdxdsw.github.io/      }{Yingshan Chang }}}{\NA{Multimodal Visual Reasoning    }                                                                                          }{\DW{LTI} 2020 --}{}{}
-\cventry{ MS}{\NW{\href{https://erinzhang1998.github.io}{Xiaoyu Zhang   }}}{\NA{Robot Art                      } (co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/      }{Oliver Kroemer      })}{\DW{5th} 2021 --}{}{}
+\stud{MLT}{jzhanson.com/          }{Josh Zhanson  }{he/him }{Embodied Visual Reps}{}{LTI}{2020 --}
+\stud{MLT}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2020 --}
+\stud{ MS}{erinzhang1998.github.io}{Xiaoyu Zhang  }{she/her}{Collaborative Robot Art           }{(co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/}{O Kroemer})}{5th}{2021 --}
 
 \section{Professional Masters Students}
-\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/jashdiyora/}{Jashkumar Diyora}}}{Modular Teleoperation with Autonomy            }{\DW{RI} 2021 --}{}{}
-\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}}}{Modular Teleoperation with Autonomy}{\DW{RI} 2021 --}{}{}
-\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/jigarkumar-patel/}{Jigar Patel}}}{Modular Teleoperation with Autonomy           }{\DW{RI} 2021 --}{}{}
-\cventry{MRSD}{\NW{\href{https://www.linkedin.com/in/prakharpradeep/}{Prakhar Pradeep}}}{Modular Teleoperation with Autonomy         }{\DW{RI} 2021 --}{}{}
-\cventry{MRSD}{\NW{\href{https://www.allaboutrobotix.com/}{Shivani Sivakumar}}}{Modular Teleoperation with Autonomy                  }{\DW{RI} 2021 --}{}{}
-\cventry{--}{}{co-\href{https://zackory.com/}{Zackory Erickson}}{}{}{}
+\stud{MRSD}{linkedin.com/in/jashdiyora/         }{Jashkumar Diyora   }{he/him }{Modular Teleoperation with Autonomy}{}{RI}{2021 --}
+\stud{MRSD}{linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}{she/her}{Modular Teleoperation with Autonomy}{}{RI}{2021 --}
+\stud{MRSD}{linkedin.com/in/jigarkumar-patel/   }{Jigar Patel        }{he/him }{Modular Teleoperation with Autonomy}{}{RI}{2021 --}
+\stud{MRSD}{linkedin.com/in/prakharpradeep/     }{Prakhar Pradeep    }{he/him }{Modular Teleoperation with Autonomy}{}{RI}{2021 --}
+\stud{MRSD}{allaboutrobotix.com/                }{Shivani Sivakumar  }{she/her}{Modular Teleoperation with Autonomy}{}{RI}{2021 --}
+\cventry{*}{}{co-\href{https://zackory.com/}{Z Erickson}}{}{}{}
 
 \section{Alumni and Interns}
 \cventry{Intern}{\NW{\href{https://msclar.github.io/}{Melanie Sclar}}}{Symmetric Theory-of-Mind}{\DW{} 2021}{}{}
