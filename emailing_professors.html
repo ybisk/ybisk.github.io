@@ -39,327 +39,332 @@
       <br>
 
 
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
 
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse1">Why you <b>should</b> email professors
+      I've attempted to organize this into a two informational sections (more to come):
+      
+      <div class="container">
+        <div class="accordion" id="accordion">
+          <div class="card">
+            <div class="card-header" id="emailing">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOuterOne">
+                Information about Emailing Professors
               </button>
-            </h5>
-          </div>
-          <div id="collapse1" class="collapse show" aria-labelledby="headingOne" >
+            </div>
+          <div id="collapseOuterOne" class="collapse" data-parent="#accordion" aria-labelledby="headingOuterOne" >
             <div class="card-body">
-              Success in academia, like many aspects of society, is often a function of who you know and networking.  Students of famous professors don’t need to email because they know their applications will get read carefully. Further, they may have had the opportunity to meet potential advisors at conferences and so they are already well connected when applying.  If you don’t fit this description, as many of us don’t,
-              <br>
-              <br>
-              <ul>
-                <li>How are you supposed to break into the “in-group”? </li>
-                <li>How is someone from a smaller lab, a different discipline, or an underrepresented group supposed to change the field?</li>
-              </ul>
 
-              They have to email.  They have to take the chance of getting no reply to at least put themselves out there.  If this is you, please email me and everyone else.
+              Information about emailing professions (including some discussion on when and how)
+              <div class="container">
+              <div class="accordion" id="accordionEmail">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Why you <b>should</b> email professors
+                      </button>
+                  </div>
+                  <div id="collapseOne" class="show" data-parent="#accordionEmail" aria-labelledby="headingOne" >
+                    <div class="card-body">
+                      Success in academia, like many aspects of society, is often a function of who you know and networking.  Students of famous professors don’t need to email because they know their applications will get read carefully. Further, they may have had the opportunity to meet potential advisors at conferences and so they are already well connected when applying.  If you don’t fit this description, as many of us don’t,
+                      <br>
+                      <br>
+                      <ul>
+                        <li>How are you supposed to break into the “in-group”? </li>
+                        <li>How is someone from a smaller lab, a different discipline, or an underrepresented group supposed to change the field?</li>
+                      </ul>
+
+                      They have to email.  They have to take the chance of getting no reply to at least put themselves out there.  If this is you, please email me and everyone else.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo" >Why is your email being ignored?
+                      </button>
+                  </div>
+                  <div id="collapseTwo" data-parent="#accordionEmail" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+                      Professors get lots of emails, that’s why you’re reading this.  Many of them are generic and have nothing to do with their specific research.  Let’s say a professor works 40hrs a week and works with 10 students/collaborators.  
+                      <ul>
+                        <li>40 - 10hrs of collaboration meetings = 30hrs.</li>
+                        <li>3hrs teaching, 6hrs preparing, & one office hour = 20hrs left.</li>
+                        <li>Thesis committees, graduate admissions, hiring, rec letters, … = 10hrs.  </li>
+                        <li>Grant writing and staying current on the literature… = 0hrs.  </li>
+                      </ul>
+
+                      All of these things actually take much longer than what I’ve listed and are worse around paper and grant deadlines, but we still haven’t budgeted any time to reply to emails from our collaborators or anybody else.  This means, a professor likely is reading your email while eating lunch, on the bus on the way home, or at night when they are trying to figure out what they forgot to do today.  So, a useful exercise might be to ask yourself: 
+                      <ol>
+                        <li>How much time does it take to reply to the email I’m sending?</li>
+                        <li>Is this email actually a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DOS attack</a>?  [i.e. did it take me much less time to write than it will for them to reply?]</li>
+                      </ol>
+
+                      <br>
+                      <b>The following are a few broad classes of common emails we receive:</b><br>
+                      <center>
+                        <table class="table table-responsive-sm table-sm">
+                          <tbody>
+                            <tr><td>
+                                ❌Generic “please accept me into your program” email -- DOS attack 
+                                <ul>
+                                  <li>We will read your application eventually anyway, I promise, I will.</li>
+                                  <li>We have to look through our budgets, look at existing obligations, etc </li>
+                                  <li>We have to read through your previous research papers to find a fit</li>
+                                </ul>
+                                This email is unlikely to get a reply<br><br>
+                              </td></tr>
+                              <tr><td>
+                                  👍Tailored “please accept me - we do similar work” email -- Potentially balanced 
+                                  <ul>
+                                    <li>We still can’t promise anything, we still have to investigate funding, you still need to apply and we still will go through your application and recommendation letters in detail.</li>
+                                    <li>You brought up a specific intersection in our research and yours.  This requires substantially less homework for us to say something helpful and even if we don’t end up working together now, hopefully, we’ll cross paths and learn from each other in the future.</li>
+                                  </ul> 
+                                If there is a <i>specific</i> question, a reply is more likely<br><br>
+                                </td></tr>
+                                <tr><td>
+                                    ✋Very specific technical question
+                                    <ul>
+                                      <li>Love that you’re in deep in the same area as me, but these often are better answered by one of the other authors.  Use your best judgment here.</li>
+                                    </ul>
+                                  </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree">Will emailing help me get into grad school?
+                      </button>
+                  </div>
+                  <div id="collapseThree" data-parent="#accordionEmail" aria-labelledby="headingThree" class="collapse">
+                    <div class="card-body">
+                      No, maybe, it's complicated.  I think we need to talk a little about how admissions works (YMMV at other institutions).<br><br>
+                      Every school has an admissions committees that does the initial ranking and sorting of candidates.  At LTI/RI this is done by faculty, at UIUC and UWashington, this is done ( at least in part ) by current graduate students.
+                      I will look at every application that mentions my name in the statement of purpose (in round 3 -- see below).  For some faculty that might just be a few dozen, for others, it may be a large chunk of the applicant pool. 
+                      I will also try and read every application that mentions keywords that are relevant to my research -- further increasing my load.  
+                      This process involves reading your statements, your transcript/resume/CV, your letters of recommendation, and possibly skimming a paper you've written.
+                      This takes <i><b>a long</b></i> time and honestly, this means that we might not get to spend as much time on your application as you were hoping we would.  Here's where your email helps or hurts:<br><br>
+                      
+                      <center><i>
+                      If I get an email that <b>meets</b> the above criteria -- I give the application a closer look. That's it.
+                      </i></center>
+
+                      <br>
+                      It's not nothing, but it might not be what you were hoping for.
+                      I do not have the ability to unilaterally admit you to the PhD/MLT program.  
+                      If we are a really good match I can try and put my thumb on the scale, but once admitted, you're under no obligation to work with me (this is a good thing!). 
+                      But that means that I can't be the only person who is willing to work with you either.  
+                      This creates a preference for applications that are "broadly" strong and that several faculty agree would be successful if admitted.
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive">When is the most effective time to email? And who should I email?
+                      </button>
+                  </div>
+                  <div id="collapseFive" data-parent="#accordionEmail" aria-labelledby="headingFive" class="collapse">
+                    <div class="card-body">
+                      <b>When?</b> After applications have been submitted.  Because, again, the <i>main</i> thing you're accomplishing is getting a second look at your application. For more information, please read <a href="#admissions">Admissions FAQ</a><br><br>
+                      <b>Who?</b> People you have an existing relationship with.  
+                      <ul>
+                        <li>Did we meet at a conferece/workshop/summer-program/etc?  Remind me/us</li>
+                        <li>If there's a specific PI you are looking to impress -- your letter writer can also email them/us</li>
+                        <li>No existing relationship? See next question about being an outsider</li>
+                      </ul>
+                    If you're feeling discouraged, see initial list of people who should email me regardless :)
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix">Should I ask for a meeting? What about at a conference?
+                      </button>
+                  </div>
+                  <div id="collapseSix" data-parent="#accordionEmail" aria-labelledby="headingSix" class="collapse">
+                    <div class="card-body">
+                      <b>Ask for a meeting?</b> It doesn't hurt to ask, but meetings take even longer than emails so -- see time issues above<br><br>
+                      <b>Meeting at a conference?</b> Great idea! At a conference our schedule is already cleared for talks and social events so it's /much/ easier to find time to meet with prospective students. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven">I’m an outsider, I’m not sure I even know how to write a “tailored” email
+                      </button>
+                  </div>
+                  <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionEmail" class="collapse">
+                    <div class="card-body">
+                      That’s 100% fine, and you should say that.  You can indicate where you have tried looking to learn more, and details about your interests.  I take no offense to receiving an email, it’s when there’s a request attached to it that things get tricky.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEight">
+
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight">How do I know if a professor is taking students? Postdocs?
+                      </button>
+                  </div>
+                  <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionEmail" class="collapse">
+                    <div class="card-body">
+                      You don’t and that sucks, I’m sorry.  Normally you can assume they will try and take one or two per year but funding changes as do other commitments.  A professor deciding to have a child, work with a start-up, create a new conference, or any number of other things might eat into their time and so they may not take anybody that year.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingNine">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNine">
+                        This is the <b>one and only</b> best advisor for me
+                      </button>
+                  </div>
+                  <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionEmail" class="collapse">
+                    <div class="card-body">
+                      While flattering, that’s probably not true.  Related to my own multimodal research area I can quickly name a bunch of really awesome other people.  Here are a few in no particular order that I wish I had more time to work with:<br>
+                      <center>
+                        <table>
+                          <tr><td width=200><a href="http://www.hennyadmoni.com/">Henny Admoni     </a></td><td>(CMU)</td></tr>
+                          <tr><td><a href="http://www.cse.msu.edu/~jchai/">Joyce Chai       </a></td><td>(U Michigan)</td></tr>
+                          <tr><td><a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi       </a></td><td>(U Washington)</td></tr>
+                          <tr><td><a href="http://homepages.inf.ed.ac.uk/mlap/">Mirella Lapata   </a></td><td>(U Edinburgh)</td></tr>
+                          <tr><td><a href="https://www.cc.gatech.edu/~parikh/">Devi Parikh      </a></td><td>(Georgia Tech)</td></tr>
+                          <tr><td><a href="https://www.csee.umbc.edu/~cmat/">Cynthia Matuszek </a></td><td>(U Maryland Baltimore County)</td></tr>
+                          <tr><td><a href="http://cs.brown.edu/people/epavlick/">Ellie Pavlick  </a></td><td>(Brown)</td></tr>
+                          <tr><td><a href="http://web.mit.edu/jda/www/">Jacob Andreas       </a></td><td>(MIT)</td></tr>
+                          <tr><td><a href="https://yoavartzi.com/">Yoav Artzi       </a></td><td>(Cornell Tech)</td></tr>
+                          <tr><td><a href="https://elliottd.github.io/">Desmond Elliott  </a></td><td>(U Copenhagen)</td></tr>
+                          <tr><td><a href="https://dpfried.github.io/">Daniel Fried       </a></td><td>(CMU)</td></tr>
+                          <tr><td><a href="https://jessethomason.com/">Jesse Thomason  </a></td><td>(U Southern California)</td></tr>
+                        </table>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTen">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTen">
+                        I have a geographic constraint (e.g. two-body problem)
+                      </button>
+                  </div>
+                  <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionEmail" class="collapse">
+                    <div class="card-body">
+                      That’s legit, and please let me know.  It doesn’t mean I can solve it, but with more information, I can at least try and be helpful.
+                    </div>
+                  </div>
+                </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThirteen">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne3">
+                      My question/issue isn’t on this list
+                    </button>
+                </div>
+                <div id="collapseOne3" aria-labelledby="headingThirteen" data-parent="#accordionEmail" class="collapse">
+                  <div class="card-body">
+                    Email me, let’s see what’s up. :)
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
+        </div> <!-- container -->
         <div class="card">
-          <div class="card-header" id="heading2">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse2" aria-controls="collapse2">Why is your email being ignored?
-              </button>
-            </h5>
+          <div class="card-header" id="admissions">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOuterTwo">
+             Understanding Graduate Admissions 
+            </button>
           </div>
-          <div id="collapse2" class="collapse show">
-            <div class="card-body">
-              Professors get lots of emails, that’s why you’re reading this.  Many of them are generic and have nothing to do with their specific research.  Let’s say a professor works 40hrs a week and works with 10 students/collaborators.  
-              <ul>
-                <li>40 - 10hrs of collaboration meetings = 30hrs.</li>
-                <li>3hrs teaching, 6hrs preparing, & one office hour = 20hrs left.</li>
-                <li>Thesis committees, graduate admissions, hiring, rec letters, … = 10hrs.  </li>
-                <li>Grant writing and staying current on the literature… = 0hrs.  </li>
-              </ul>
-
-              All of these things actually take much longer than what I’ve listed and are worse around paper and grant deadlines, but we still haven’t budgeted any time to reply to emails from our collaborators or anybody else.  This means, a professor likely is reading your email while eating lunch, on the bus on the way home, or at night when they are trying to figure out what they forgot to do today.  So, a useful exercise might be to ask yourself: 
-              <ol>
-                <li>How much time does it take to reply to the email I’m sending?</li>
-                <li>Is this email actually a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DOS attack</a>?  [i.e. did it take me much less time to write than it will for them to reply?]</li>
-              </ol>
-
-              <br>
-              <b>The following are a few broad classes of common emails we receive:</b><br>
-              <center>
-                <table class="table table-responsive-sm table-sm">
+        <div id="collapseOuterTwo" class="collapse" data-parent="#accordion" aria-labelledby="headingOuterTwo" >
+          <div class="card-body">
+            I've just started writing this section, so I'll try to expand it soon.  If you have additional questions, feel free to email me. Thanks!
+            <div class="container">
+            <div class="accordion" id="accordion_admissions">
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour">When do you actually read applications? 
+                    </button>
+                </div>
+                <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordion_admissions" class="collapse">
+                  <div class="card-body">
+                    We probably need to discuss how "rounds" work at LTI/RI.  There is an admissions committee that is your first hurdle. They will go through a couple rounds of filtering <b><i>before </i></b> the rest of the faculty ever gets a chance to see your application.  For sake of simplicity, here is a <b>simplified caricature</b> of the process in LTI and sort of RI (can't speak for others):
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Stage</th>
+                      <th scope="col">Actions</th>
+                      <th scope="col">Participants</th>
+                    </tr>
+                  </thead>
                   <tbody>
-                    <tr><td>
-                        ❌Generic “please accept me into your program” email -- DOS attack 
-                        <ul>
-                          <li>We will read your application eventually anyway, I promise, I will.</li>
-                          <li>We have to look through our budgets, look at existing obligations, etc </li>
-                          <li>We have to read through your previous research papers to find a fit</li>
-                        </ul>
-                        This email is unlikely to get a reply<br><br>
-                      </td></tr>
-                      <tr><td>
-                          👍Tailored “please accept me - we do similar work” email -- Potentially balanced 
-                          <ul>
-                            <li>We still can’t promise anything, we still have to investigate funding, you still need to apply and we still will go through your application and recommendation letters in detail.</li>
-                            <li>You brought up a specific intersection in our research and yours.  This requires substantially less homework for us to say something helpful and even if we don’t end up working together now, hopefully, we’ll cross paths and learn from each other in the future.</li>
-                          </ul> 
-                        If there is a <i>specific</i> question, a reply is more likely<br><br>
-                        </td></tr>
-                        <tr><td>
-                            ✋Very specific technical question
-                            <ul>
-                              <li>Love that you’re in deep in the same area as me, but these often are better answered by one of the other authors.  Use your best judgment here.</li>
-                            </ul>
-                          </td>
-                        </tr>
+                    <tr>
+                      <th scope="row">Round 1</th>
+                      <td >50% of applicants are retained</td>
+                      <td >(admissions committee)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Round 2</th>
+                      <td >50% of smaller pool are retained after closer inspection</td>
+                      <td >(admissions committee)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Round 3</th>
+                      <td >General faculty is given access to applications.  This is the <b>first</b> time most of the faculty will see applications and it's only ~a quarter of what was originally submitted.  Importantly, it's also still way too many people.</td>
+                      <td >(full faculty)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Shortlist</th>
+                      <td >Through interviews, reading your apps carefully, contacting your letter writers, etc.  we have to find a set of good matches for our labs and indicate who we want to advocate for. Most professors do not do interviews, BUT if a professor emails you about an interview -- respond! you have made it to this stage.</td>
+                      <td >(potential advisor)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Decisions</th>
+                      <td >Some small set of people (often those with more than one good potential match) are actually admitted.  Not all of you are going to come, so there are some expected value calculations here to admit more than one good candidate. In LTI the whole faculty votes, in RI only the admissions committee.</td>
+                      <td >(Vote)</td>
+                    </tr>
                   </tbody>
                 </table>
+                  <br>
+                  TL;DR -- Most faculty won't see the full pool of applications, only those in Round 3.  This set becomes available to us in ~mid to to late January.  Participating in Round 3/Shortlist are optional. Some advisors may simply wait to see who shows up in the Fall.  I look and try to indicate preferences well in advance.
+                  <br><br>
+                  If you're feeling discouraged, see initial list of people who should email me regardless :)
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-header" id="headingTwelve">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwelve">
+                      Feedback on my application?
+                    </button>
+                </div>
+              <div id="collapseTwelve" aria-labelledby="headingTwelve" data-parent="#accordion_admissions" class="collapse">
+                <div class="card-body">
+                  Hopefully this helps: <a href="https://www.cs.cmu.edu/gasp">Graduate Application Support Program</a> for personalized feedback. I will try and expand on this section more later, but do not underestimate the importance of your letters.  An ideal letter is from a professor who people respect and who states in detail why they would want to keep you in their labs.  Not everyone can get such a letter, so we try and find things that are as similar as possible.  A professor we did a project with, a research manager, etc.  A famous professor who doesn't know you is worse than a less famous one who can speak about you in detail.  An engineering manager might say nice things about you, but they rarely are discussing aspects of you that are relevant to the "job" you're applying for -- grad school.  In this, and every job, you're looking to give the impression that you already know how to do the job you're applying for and your letters (and SoP) are how you do that.  
+                  <br><br>
+                  Also, ask for examples from other people: e.g. <a href="https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/">Nelson Liu (UW)</a>, <a href="https://drive.google.com/file/d/1t1yLgC0QMQ-8KyntZvZ7n8dgrF0U9T_v/view">Rishi Bommasani (Stanford)</a>, or <a href="https://nschneid.medium.com/inside-ph-d-admissions-what-readers-look-for-in-a-statement-of-purpose-3db4e6081f80">Nathan Schneider's Advice</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingEleven">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEleven">
+                      People say I should just apply, but I don’t have the money for that
+                    </button>
+                </div>
+              <div id="collapseEleven" aria-labelledby="headingEleven" data-parent="#accordion_admissions" class="collapse">
+                <div class="card-body">
+                  Hopefully this helps: <a href="https://www.cs.cmu.edu/academics/fee-waiver">https://www.cs.cmu.edu/academics/fee-waiver</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header" id="heading3">
+      </div> <!-- container -->
 
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">Will emailing help me get into grad school?
-              </button>
-            </h5>
-          </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
-              No, maybe, it's complicated.  I think we need to talk a little about how admissions works (YMMV at other institutions).<br><br>
-              Every school has an admissions committees that does the initial ranking and sorting of candidates.  At LTI/RI this is done by faculty, at UIUC and UWashington, this is done ( at least in part ) by current graduate students.
-              I will look at every application that mentions my name in the statement of purpose (in round 3 -- see below).  For some faculty that might just be a few dozen, for others, it may be a large chunk of the applicant pool. 
-              I will also try and read every application that mentions keywords that are relevant to my research -- further increasing my load.  
-              This process involves reading your statements, your transcript/resume/CV, your letters of recommendation, and possibly skimming a paper you've written.
-              This takes <i><b>a long</b></i> time and honestly, this means that we might not get to spend as much time on your application as you were hoping we would.  Here's where your email helps or hurts:<br><br>
-              
-              <center><i>
-              If I get an email that <b>meets</b> the above criteria -- I give the application a closer look. That's it.
-              </i></center>
-
-              <br>
-              It's not nothing, but it might not be what you were hoping for.
-              I do not have the ability to unilaterally admit you to the PhD/MLT program.  
-              If we are a really good match I can try and put my thumb on the scale, but once admitted, you're under no obligation to work with me (this is a good thing!). 
-              But that means that I can't be the only person who is willing to work with you either.  
-              This creates a preference for applications that are "broadly" strong and that several faculty agree would be successful if admitted.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="heading3">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">When do you actually read applications? 
-              </button>
-            </h5>
-          </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
-              We probably need to discuss how "rounds" work at LTI/RI.  There is an admissions committee that is your first hurdle. They will go through a couple rounds of filtering <b><i>before </i></b> the rest of the faculty ever gets a chance to see your application.  For sake of simplicity, here is a <b>simplified caricature</b> of the process in LTI and sort of RI (can't speak for others):
-
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Stage</th>
-                <th scope="col">Actions</th>
-                <th scope="col">Participants</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Round 1</th>
-                <td >50% of applicants are retained</td>
-                <td >(admissions committee)</td>
-              </tr>
-              <tr>
-                <th scope="row">Round 2</th>
-                <td >50% of smaller pool are retained after closer inspection</td>
-                <td >(admissions committee)</td>
-              </tr>
-              <tr>
-                <th scope="row">Round 3</th>
-                <td >General faculty is given access to applications.  This is the <b>first</b> time most of the faculty will see applications and it's only ~a quarter of what was originally submitted.  Importantly, it's also still way too many people.</td>
-                <td >(full faculty)</td>
-              </tr>
-              <tr>
-                <th scope="row">Shortlist</th>
-                <td >Through interviews, reading your apps carefully, contacting your letter writers, etc.  we have to find a set of good matches for our labs and indicate who we want to advocate for. Most professors do not do interviews, BUT if a professor emails you about an interview -- respond! you have made it to this stage.</td>
-                <td >(potential advisor)</td>
-              </tr>
-              <tr>
-                <th scope="row">Decisions</th>
-                <td >Some small set of people (often those with more than one good potential match) are actually admitted.  Not all of you are going to come, so there are some expected value calculations here to admit more than one good candidate. In LTI the whole faculty votes, in RI only the admissions committee.</td>
-                <td >(Vote)</td>
-              </tr>
-            </tbody>
-          </table>
-            <br>
-            TL;DR -- Most faculty won't see the full pool of applications, only those in Round 3.  This set becomes available to us in ~mid to to late January.  Participating in Round 3/Shortlist are optional. Some advisors may simply wait to see who shows up in the Fall.  I look and try to indicate preferences well in advance.
-            <br><br>
-            If you're feeling discouraged, see initial list of people who should email me regardless :)
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="heading3">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">When is the most effective time to email? And who should I email?
-              </button>
-            </h5>
-          </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
-              <b>When?</b> After applications have been submitted.  Because, again, the <i>main</i> thing you're accomplishing is getting a second look at your application.<br><br>
-              <b>Who?</b> People you have an existing relationship with.  
-              <ul>
-                <li>Did we meet at a conferece/workshop/summer-program/etc?  Remind me/us</li>
-                <li>If there's a specific PI you are looking to impress -- your letter writer can also email them/us</li>
-                <li>No existing relationship? See next question about being an outsider</li>
-              </ul>
-            If you're feeling discouraged, see initial list of people who should email me regardless :)
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="heading3">
-
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">Should I ask for a meeting? What about at a conference?
-              </button>
-            </h5>
-          </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
-              <b>Ask for a meeting?</b> It doesn't hurt to ask, but meetings take even longer than emails so -- see time issues above<br><br>
-              <b>Meeting at a conference?</b> Great idea! At a conference our schedule is already cleared for talks and social events so it's /much/ easier to find time to meet with prospective students. 
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="heading3">
-
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">I’m an outsider, I’m not sure I even know how to write a “tailored” email
-              </button>
-            </h5>
-          </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
-              That’s 100% fine, and you should say that.  You can indicate where you have tried looking to learn more, and details about your interests.  I take no offense to receiving an email, it’s when there’s a request attached to it that things get tricky.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse4">How do I know if a professor is taking students? Postdocs?
-              </button>
-            </h5>
-          </div>
-          <div id="collapse4" class="collapse show">
-            <div class="card-body">
-              You don’t and that sucks, I’m sorry.  Normally you can assume they will try and take one or two per year but funding changes as do other commitments.  A professor deciding to have a child, work with a start-up, create a new conference, or any number of other things might eat into their time and so they may not take anybody that year.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse5">
-                This is the <b>one and only</b> best advisor for me
-              </button>
-            </h5>
-          </div>
-          <div id="collapse5" class="collapse show">
-            <div class="card-body">
-              While flattering, that’s probably not true.  Related to my own multimodal research area I can quickly name a bunch of really awesome other people.  Here are a few in no particular order that I wish I had more time to work with:<br>
-              <center>
-                <table>
-                  <tr><td width=200><a href="http://www.hennyadmoni.com/">Henny Admoni     </a></td><td>(CMU)</td></tr>
-                  <tr><td><a href="http://www.cse.msu.edu/~jchai/">Joyce Chai       </a></td><td>(U Michigan)</td></tr>
-                  <tr><td><a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi       </a></td><td>(U Washington)</td></tr>
-                  <tr><td><a href="http://homepages.inf.ed.ac.uk/mlap/">Mirella Lapata   </a></td><td>(U Edinburgh)</td></tr>
-                  <tr><td><a href="https://www.cc.gatech.edu/~parikh/">Devi Parikh      </a></td><td>(Georgia Tech)</td></tr>
-                  <tr><td><a href="https://www.csee.umbc.edu/~cmat/">Cynthia Matuszek </a></td><td>(U Maryland Baltimore County)</td></tr>
-                  <tr><td><a href="http://cs.brown.edu/people/epavlick/">Ellie Pavlick  </a></td><td>(Brown)</td></tr>
-                  <tr><td><a href="http://web.mit.edu/jda/www/">Jacob Andreas       </a></td><td>(MIT)</td></tr>
-                  <tr><td><a href="https://yoavartzi.com/">Yoav Artzi       </a></td><td>(Cornell Tech)</td></tr>
-                  <tr><td><a href="https://elliottd.github.io/">Desmond Elliott  </a></td><td>(U Copenhagen)</td></tr>
-                  <tr><td><a href="https://dpfried.github.io/">Daniel Fried       </a></td><td>(CMU)</td></tr>
-                  <tr><td><a href="https://jessethomason.com/">Jesse Thomason  </a></td><td>(U Southern California)</td></tr>
-                </table>
-              </center>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse6">
-                I have a geographic constraint (e.g. two-body problem)
-              </button>
-            </h5>
-          </div>
-          <div id="collapse6" class="collapse show">
-            <div class="card-body">
-              That’s legit, and please let me know.  It doesn’t mean I can solve it, but with more information, I can at least try and be helpful.
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse7">
-                People say I should just apply, but I don’t have the money for that
-              </button>
-            </h5>
-          </div>
-        <div id="collapse7" class="collapse show">
-          <div class="card-body">
-            Hopefully this helps: <a href="https://www.cs.cmu.edu/academics/fee-waiver">https://www.cs.cmu.edu/academics/fee-waiver</a>
-          </div>
-        </div>
-      </div>
-        <div class="card">
-          <div class="card-header">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse7">
-                Feedback on my application?
-              </button>
-            </h5>
-          </div>
-        <div id="collapse7" class="collapse show">
-          <div class="card-body">
-            Hopefully this helps: <a href="https://www.cs.cmu.edu/gasp">Graduate Application Support Program</a> for personalized feedback. I will try and expand on this section more later, but do not underestimate the importance of your letters.  An ideal letter is from a professor who people respect and who states in detail why they would want to keep you in their labs.  Not everyone can get such a letter, so we try and find things that are as similar as possible.  A professor we did a project with, a research manager, etc.  A famous professor who doesn't know you is worse than a less famous one who can speak about you in detail.  An engineering manager might say nice things about you, but they rarely are discussing aspects of you that are relevant to the "job" you're applying for -- grad school.  In this, and every job, you're looking to give the impression that you already know how to do the job you're applying for and your letters (and SoP) are how you do that.  
-            <br><br>
-            Also, ask for examples from other people: e.g. <a href="https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/">Nelson Liu (UW)</a>, <a href="https://drive.google.com/file/d/1t1yLgC0QMQ-8KyntZvZ7n8dgrF0U9T_v/view">Rishi Bommasani (Stanford)</a>, or <a href="https://nschneid.medium.com/inside-ph-d-admissions-what-readers-look-for-in-a-statement-of-purpose-3db4e6081f80">Nathan Schneider's Advice</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapse8">
-              My question/issue isn’t on this list
-            </button>
-          </h5>
-        </div>
-        <div id="collapse8" class="collapse show">
-          <div class="card-body">
-            Email me, let’s see what’s up. :)
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </body>
+</body>
 </html>
