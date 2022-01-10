@@ -48537,3 +48537,58 @@
   file: https://github.com/ybisk/papers/blob/master/2021/MeesHermannRoseteBeasBurgard_CALVIN_A_Benchmark_for_Languageconditioned_Policy_Learning_for_Longhorizon_Robot_Manipulation_Tasks.pdf
   idx: 3262
   month: '12'
+- AUTHORS:
+  - Kaiming He
+  - Xinlei Chen
+  - Saining Xie
+  - Yanghao Li
+  - "Piotr Doll\xE1r"
+  - Ross Girshick
+  TITLE: Masked Autoencoders Are Scalable Vision Learners
+  TYPE: conference
+  URL: https://arxiv.org/abs/2111.06377
+  VENUE: "Tech report. arXiv v2: add more transfer learning results; v3: add\n  robustness\
+    \ evaluation"
+  YEAR: '2021'
+  file: "https://github.com/ybisk/papers/blob/master/2021/HeChenXieLiDoll\xE1r_Masked_Autoencoders_Are_Scalable_Vision_Learners.pdf"
+  idx: 3263
+  month: '11'
+- AUTHORS:
+  - Zhuofan Xia
+  - Xuran Pan
+  - Shiji Song
+  - Li Erran Li
+  - Gao Huang
+  TITLE: Vision Transformer with Deformable Attention
+  TYPE: conference
+  URL: https://arxiv.org/abs/2201.00520
+  VENUE: 12 pages, 5 figures
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/XiaPanSongLiHuang_Vision_Transformer_with_Deformable_Attention.pdf
+  idx: 3264
+  month: '01'
+- AUTHORS:
+  - David Ha
+  - Douglas Eck
+  TITLE: A Neural Representation of Sketch Drawings
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1704.03477
+  VENUE: arXiv:1704.03477
+  YEAR: '2017'
+  file: https://github.com/ybisk/papers/blob/master/2017/HaEck_A_Neural_Representation_of_Sketch_Drawings.pdf
+  idx: 3265
+  month: '04'
+- AUTHORS:
+  - Mathias Eitz
+  - James Hays
+  - Marc Alexa
+  TITLE: How Do Humans Sketch Objects?
+  TYPE: journal
+  VENUE: ACM Trans. Graph. (Proc. SIGGRAPH)
+  YEAR: '2012'
+  file: https://github.com/ybisk/papers/blob/master/2012/EitzHaysAlexa_How_Do_Humans_Sketch_Objects.pdf
+  idx: 3266
+  number: '4'
+  pages: 44:1--44:10
+  url: http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
+  volume: '31'
