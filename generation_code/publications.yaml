@@ -31,7 +31,7 @@
   - V
   - L
   - R
-  TYPE: preprint
+  TYPE: conference
   TITLE: 'FILM: Following Instructions in Language with Modular Methods'
   YEAR: '2021'
   URL: 'https://soyeonm.github.io/FILM_webpage/'
@@ -41,8 +41,8 @@
   - Pradeep Ravikumar
   - Yonatan Bisk
   - Ruslan Salakhutdinov
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: The Tenth International Conference on Learning Representations
+  VENUE-ACR: ICLR
 - FIELD:
   - L
   - V
