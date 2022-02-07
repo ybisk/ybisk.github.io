@@ -6,11 +6,10 @@ html {
 }
 
 .navbar {
-    position: fixed;
     z-index: 99;
     padding-top: 0px;
-    padding-bottom: 0px;
-    top: -10px;
+    padding-bottom: -0px;
+    top: -0px;
     right: 0px;
     left: 0px;
 }
@@ -18,12 +17,6 @@ html {
 .navbar-nav {
     float: none;
     margin: 0 auto;
-}
-
-.jumbotron {
-    padding-top: 110px;
-    padding-bottom: 10px;
-    align: center;
 }
 
 .column {
@@ -71,7 +64,13 @@ body {
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5  {
+    line-height: 1em;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+h4, h6  {
     line-height: 1em;
     font-style: normal;
     font-weight: normal;
@@ -164,6 +163,10 @@ img {
     padding: .5em .5em;
     font-size:1em;
     border-radius: .5em;
+}
+
+.card{
+  margin: 10px;
 }
 
 .card-body{
