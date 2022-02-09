@@ -18,7 +18,7 @@
 - FIELD:
   - O
   TYPE: preprint
-  TITLE: 'Learning When and What to Ask: a Hierarchical Reinforcement Learning Framework'
+  TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
   YEAR: '2021'
   URL: 'http://arxiv.org/abs/2110.08258'
   AUTHORS:
