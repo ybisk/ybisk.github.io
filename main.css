@@ -189,3 +189,13 @@ img {
   margin-top: auto; 
   margin-bottom: auto;
 }
+
+.pronoun {
+  margin-bottom:0px;
+  margin-top:0px;
+  height:12px;
+  border:0px;
+  display:inline;
+  float:right;
+  color: black;
+}
