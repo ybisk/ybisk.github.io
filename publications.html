@@ -29,6 +29,44 @@
             }
         </script>
 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+          google.charts.load('current', {packages: ['corechart', 'bar']});
+          google.charts.setOnLoadCallback(drawBasic);
+
+          function drawBasic() {
+
+          var data = google.visualization.arrayToDataTable([
+              ['Community', 'Count', { role: 'style' }],
+              
+              ['WS1/WS2',0.35185185185185186,'#007EF6'],
+['WS3',    0.2037037037037037,'#53A351'],
+['WS4',    0.2222222222222222,'#CB444A'],
+['WS5',    0.05555555555555555,'#f6c144'],
+['Other',  0.16666666666666666,'#49A0B5']
+
+          ]);
+
+          var options = {
+              title: '',
+              chartArea: {width: '50%'},
+              legend: { position: "none" },
+              hAxis: {
+                title: 'World Scope Paper Percentages (made up by Yonatan)',
+                minValue: 0,
+                format: 'percent'
+              },
+              vAxis: {
+                title: ''
+              }
+            };
+
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+            chart.draw(data, options);
+          }
+        </script>
+
         <script>
         <!-- https://www.w3schools.com/howto/howto_js_filter_table.asp -->
         function mySearch() {
@@ -68,8 +106,8 @@
 
         <script>
           function area(ON, OFF){
-              var ON = ON.split('')
-              var OFF = OFF.split('')
+              var ON = ON.split(',')
+              var OFF = OFF.split(',')
               var turn_on = [];
               var turn_off = [];
               for (var idx = 0; idx < ON.length; idx++) {
@@ -133,29 +171,56 @@
       </nav>
 
       <br>
-      <center>Just a big 'ol list.  You can use the buttons to filter or text box to search.</center>
+      <center>Just a big 'ol list.  You can use the buttons to filter or text box to search.
+       <div id="chart_div"></div>
+      </center>
       <br>
 
       <div class="row">
         <div class="col-md-12">
         <center>
-                    <button type="button" id="bAll"   class="btn btn-outline-secondary" onclick="area('LRVO','');"><b>All</b></button>
-                    <button type="button" id="bNLP"   class="btn btn-outline-primary"   onclick="area('L','RVO');"><b>NLP</b></button>
-                    <button type="button" id="bRobo"  class="btn btn-outline-success"   onclick="area('R','LVO');"><b>Robotics</b></button>
-                    <button type="button" id="bCV"    class="btn btn-outline-danger"    onclick="area('V','LRO');"><b>Vision</b></button>
-                    <button type="button" id="bOther" class="btn btn-outline-info"   onclick="area('O','LRV');"><b>Other</b></button>
-                or <label for="myInput" class="sr-only">Filter publications</label> <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search ..." title="Filter publications" alt="search box for filtering publications">
+                    <button type="button" id="bAll"   
+                            class="btn btn-outline-secondary" 
+                            onclick="area('WS1,WS2,WS3,WS4,WS5,Other','');">
+                      <b>All</b></button>
+                    <button type="button" id="bWS12"  
+                            class="btn btn-outline-primary"   
+                            onclick="area('WS1,WS2','WS3,WS4,WS5,Other');">
+                      <b>WS1/2</b></button>
+                    <button type="button" id="bWS3"   
+                            class="btn btn-outline-success"   
+                            onclick="area('WS3','WS1,WS2,WS4,WS5,O');">
+                      <b>WS3</b></button>
+                    <button type="button" id="bWS4"   
+                            class="btn btn-outline-danger"    
+                            onclick="area('WS4','WS1,WS2,WS3,WS5,O');">
+                      <b>WS4</b></button>
+                    <button type="button" id="bWS5"   
+                            class="btn btn-outline-warning"   
+                            onclick="area('WS5','WS1,WS2,WS3,WS4,O');">
+                      <b>WS5</b></button>
+                    <button type="button" id="bOther" 
+                            class="btn btn-outline-info"      
+                            onclick="area('O','WS1,WS2,WS3,WS4,WS5');">
+                      <b>Other</b></button>
+                or <label for="myInput" class="sr-only">
+                    Filter publications
+                </label> 
+                <input type="text" id="myInput" onkeyup="mySearch()" 
+                       placeholder="Search ..." 
+                       title="Filter publications" 
+                       alt="search box for filtering publications">
         </center>
       </div>
     </div>
     <br>
 
 
-        <div class="card V L">
+        <div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">Pre.</button>
+          <button type="button" disabled class="btn ybtn btn-success">Pre.</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2112.08614><b>KAT: A Knowledge Augmented Transformer for Vision-and-Language</b></a><br>
@@ -183,11 +248,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card O">
+<div class="card WS5">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-warning">Pre.</button>
+          <button type="button" disabled class="btn ybtn btn-warning">Pre.</button>
         </div>
         <div class="col-md-11">
           <a href=http://arxiv.org/abs/2110.08258><b>A Framework for Learning to Request Rich and Contextually Useful Information from Humans</b></a><br>
@@ -215,11 +280,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2022</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2022</button>
         </div>
         <div class="col-md-11">
           <a href=https://soyeonm.github.io/FILM_webpage/><b>FILM: Following Instructions in Language with Modular Methods</b></a><br>
@@ -247,16 +312,16 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">Pre.</button>
+          <button type="button" disabled class="btn ybtn btn-success">2022</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2109.00590><b>WebQA: Multihop and Multimodal QA</b></a><br>
           <div class="card-text">
-            <i>ArXiv</i><br>
+            <i>Conference on Computer Vision and Pattern Recognition</i><br>
             <a href=https://zdxdsw.github.io/>Yingshan Chang</a>, <a href=https://www.linkedin.com/in/mridunarang/>Mridu Narang</a>, <a href=https://www.linkedin.com/in/hisami-suzuki-23547376/>Hisami Suzuki</a>, <a href=https://www.linkedin.com/in/guihong-cao-2828855/>Guihong Cao</a>, <a href=https://www.microsoft.com/en-us/research/people/jfgao/>Jianfeng Gao</a>, <div class="name">Yonatan Bisk</div><br>
             <button type="button" class="sbtn btn btn-light" title
                 data-original-title="Copy BibTex" id="buttonidx51"
@@ -266,11 +331,11 @@
               
               <div id="idx51"  class="dynamic_link">
                  <br>
-                 @article{Chang2021,<br>
+                 @inproceedings{Chang2022,<br>
                  &nbsp;&nbsp;&nbsp;&nbsp;author    = {Yingshan Chang and Mridu Narang and Hisami Suzuki and Guihong Cao and Jianfeng Gao and Yonatan Bisk},<br>
                  &nbsp;&nbsp;&nbsp;&nbsp;title     = {{WebQA: Multihop and Multimodal QA}}, <br>
-                 &nbsp;&nbsp;&nbsp;&nbsp;journal = {ArXiv},<br>
-                 &nbsp;&nbsp;&nbsp;&nbsp;year      = {2021},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;booktitle = {Conference on Computer Vision and Pattern Recognition},<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;year      = {2022},<br>
                  &nbsp;&nbsp;&nbsp;&nbsp;url      = {https://arxiv.org/abs/2109.00590},<br>
                  }
               </div>
@@ -279,11 +344,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2021</button>
+          <button type="button" disabled class="btn ybtn btn-success">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2109.09790><b>Dependency Induction Through the Lens of Visual Perception</b></a><br>
@@ -311,11 +376,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card R L">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-success">2021</button>
+          <button type="button" disabled class="btn ybtn btn-success">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2107.12514><b>Language Grounding with 3D Objects</b></a><br>
@@ -343,11 +408,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2021</button>
+          <button type="button" disabled class="btn ybtn btn-success">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2108.09980><b>TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment</b></a><br>
@@ -375,11 +440,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V L">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2021</button>
+          <button type="button" disabled class="btn ybtn btn-success">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.microsoft.com/en-us/research/publication/kb-vlp-knowledge-based-vision-and-language-pretraining-2/><b>KB-VLP: Knowledge Based Vision and Language Pretraining</b></a><br>
@@ -407,11 +472,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card O L">
+<div class="card WS5">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-warning">2021</button>
+          <button type="button" disabled class="btn ybtn btn-warning">2021</button>
         </div>
         <div class="col-md-11">
           <a href=http://proceedings.mlr.press/v139/zhu21d.html><b>Few-shot Language Coordination by Modeling Theory of Mind</b></a><br>
@@ -439,11 +504,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2021</button>
+          <button type="button" disabled class="btn ybtn btn-info">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2106.02192><b>Grounding `Grounding' in NLP</b></a><br>
@@ -471,11 +536,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">Pre.</button>
+          <button type="button" disabled class="btn ybtn btn-success">Pre.</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2104.08666><b>Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models</b></a><br>
@@ -503,11 +568,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2021</button>
+          <button type="button" disabled class="btn ybtn btn-success">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2102.00424><b>An Empirical Study on the Generalization Power of Neural Representations Learned via Visual Guessing Games</b></a><br>
@@ -535,11 +600,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2021</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2011.03863><b>Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering</b></a><br>
@@ -567,11 +632,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2021</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2021</button>
         </div>
         <div class="col-md-11">
           <a href=https://alfworld.github.io/><b>ALFWorld: Aligning Text and Embodied Environments for Interactive Learning</b></a><br>
@@ -599,11 +664,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-success">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2011.02917><b>Imagining Grounded Conceptual Representations from Perceptual Information in Situated Guessing Games</b></a><br>
@@ -631,11 +696,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2020</button>
         </div>
         <div class="col-md-11">
           <a href=http://arxiv.org/abs/2007.15135><b>The Return of Lexical Dependencies: Neural Lexicalized PCFGs</b></a><br>
@@ -663,11 +728,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-info">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2004.10151><b>Experience Grounds Language</b></a><br>
@@ -695,11 +760,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS5">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-warning">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2005.00728><b>RMM: A Recursive Mental Model for Dialog Navigation</b></a><br>
@@ -727,11 +792,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-success">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2005.00706><b>A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos</b></a><br>
@@ -759,11 +824,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">Pre.</button>
+          <button type="button" disabled class="btn ybtn btn-danger">Pre.</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/2003.00857><b>Multi-View Learning for Vision-and-Language Navigation</b></a><br>
@@ -791,11 +856,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2020</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://askforalfred.com/><b>ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks</b></a><br>
@@ -823,11 +888,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L R">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2020</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2020</button>
         </div>
         <div class="col-md-11">
           <a href=https://yonatanbisk.com/piqa><b>PIQA: Reasoning about Physical Commonsense in Natural Language</b></a><br>
@@ -855,11 +920,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2019</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1909.02244><b>Robust Navigation with Language Pretraining and Stochastic Sampling</b></a><br>
@@ -887,11 +952,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L O">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2019</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1905.12616><b>Defending Against Neural Fake News</b></a><br>
@@ -923,7 +988,7 @@
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-warning">2019</button>
+          <button type="button" disabled class="btn ybtn btn-info">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.biorxiv.org/content/10.1101/592808v1><b>FIND: Identifying Functionally and Structurally Important Features in Protein Sequences with Deep Neural Networks</b></a><br>
@@ -951,11 +1016,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-success">2019</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1904.01650><b>Improving Robot Success Detection using Static Object Data</b></a><br>
@@ -983,11 +1048,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card R V">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-success">2019</button>
+          <button type="button" disabled class="btn ybtn btn-info">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1811.08824><b>Early Fusion for Goal Directed Robotic Vision</b></a><br>
@@ -1015,11 +1080,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2019</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1905.07830><b>HellaSwag: Can a Machine Really Finish Your Sentence? </b></a><br>
@@ -1047,11 +1112,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V">
+<div class="card WS3">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2019</button>
+          <button type="button" disabled class="btn ybtn btn-success">2019</button>
         </div>
         <div class="col-md-11">
           <a href=http://visualcommonsense.com/><b>From Recognition to Cognition: Visual Commonsense Reasoning</b></a><br>
@@ -1079,11 +1144,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2019</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1903.02547><b>Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation</b></a><br>
@@ -1111,11 +1176,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-success">2019</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1903.08309><b>Prospection: Interpretable Plans From Language By Predicting the Future</b></a><br>
@@ -1143,11 +1208,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L V">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2019</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1811.00613><b>Shifting the Baseline: Single Modality Performance on Visual Navigation & QA</b></a><br>
@@ -1175,11 +1240,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2019</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/N19-1412><b>Benchmarking Hierarchical Script Knowledge</b></a><br>
@@ -1211,7 +1276,7 @@
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-warning">2019</button>
+          <button type="button" disabled class="btn ybtn btn-info">2019</button>
         </div>
         <div class="col-md-11">
           <a href=https://psyarxiv.com/zcwgn/><b>Character-based Surprisal as a Model of Reading Difficulty in the Presence of Errors</b></a><br>
@@ -1239,11 +1304,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2018</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2018</button>
         </div>
         <div class="col-md-11">
           <a href=http://rowanzellers.com/swag/><b>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</b></a><br>
@@ -1271,11 +1336,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2018</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2018</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1805.10850><b>Inducing Grammars with and for Neural Machine Translation</b></a><br>
@@ -1303,11 +1368,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L O">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2018</button>
+          <button type="button" disabled class="btn ybtn btn-info">2018</button>
         </div>
         <div class="col-md-11">
           <a href=https://openreview.net/pdf?id=rJxEso0osm><b>Bridging HMMs and RNNs through Architectural Transformations</b></a><br>
@@ -1335,11 +1400,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2018</button>
+          <button type="button" disabled class="btn ybtn btn-info">2018</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1711.02173><b>Synthetic and Natural Noise Both Break Neural Machine Translation </b></a><br>
@@ -1367,11 +1432,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card V">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-danger">2018</button>
+          <button type="button" disabled class="btn ybtn btn-info">2018</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1801.07357><b>CHALET: Cornell House Agent Learning Environment </b></a><br>
@@ -1399,11 +1464,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2018</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2018</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1712.03463><b>Learning Interpretable Spatial Operations in a Rich 3D Blocks World </b></a><br>
@@ -1431,11 +1496,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS2">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2017</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2017</button>
         </div>
         <div class="col-md-11">
           <a href=https://arxiv.org/abs/1710.02925><b>Natural Language Inference from Multiple Premises</b></a><br>
@@ -1463,11 +1528,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2016</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2016</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/N16-1089/><b>Natural Language Communication with Robots </b></a><br>
@@ -1495,11 +1560,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2016</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2016</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/N16-1027/><b>Supertagging with LSTMs</b></a><br>
@@ -1527,11 +1592,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L R">
+<div class="card WS4">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2016</button>
+          <button type="button" disabled class="btn ybtn btn-danger">2016</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/2016-AAAI-Wksp.pdf><b>Towards a Dataset for Human Computer Communication via Grounded Language Acquisition</b></a><br>
@@ -1559,11 +1624,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2016</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2016</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/W16-5907/><b>Unsupervised Neural Hidden Markov Models  </b></a><br>
@@ -1591,11 +1656,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2016</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2016</button>
         </div>
         <div class="col-md-11">
           <a href=http://sivareddy.in/papers/bisk2016evaluating.pdf><b>Evaluating Induced CCG Parsers on Grounded Semantic Parsing </b></a><br>
@@ -1623,11 +1688,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2015</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2015</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/Thesis.pdf><b>Unsupervised Grammar Induction with Combinatory Categorial Grammars</b></a><br>
@@ -1655,11 +1720,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2015</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2015</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/P15-1135/><b>Probing the Linguistic Strengths and Limitations of Unsupervised Grammar Induction</b></a><br>
@@ -1687,11 +1752,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2015</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2015</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/2015-ACLShort-Fixed.pdf><b>Labeled Grammar Induction with Minimal Supervision  </b></a><br>
@@ -1719,11 +1784,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2013</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2013</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/Q13-1007/><b>An HDP Model for Inducing Combinatory Categorial Grammars</b></a><br>
@@ -1751,11 +1816,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2012</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2012</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/2012-AAAI.pdf><b>Simple Robust Grammar Induction with Combinatory Categorial Grammar </b></a><br>
@@ -1783,11 +1848,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card O">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-warning">2012</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2012</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/2012-CIKM.pdf><b>Document-Topic Hierarchies from Document Graphs </b></a><br>
@@ -1815,11 +1880,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card WS1">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2012</button>
+          <button type="button" disabled class="btn ybtn btn-primary">2012</button>
         </div>
         <div class="col-md-11">
           <a href=http://yonatanbisk.com/papers/2012-NAACL-WILS.pdf><b>Induction of Linguistic Structure with Combinatory Categorial Grammars </b></a><br>
@@ -1847,11 +1912,11 @@
       </div>
   </div> <!-- body -->
 </div> <!-- card -->
-<div class="card L">
+<div class="card O">
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn text-dark btn-outline-primary">2010</button>
+          <button type="button" disabled class="btn ybtn btn-info">2010</button>
         </div>
         <div class="col-md-11">
           <a href=https://www.aclweb.org/anthology/C10-1053/><b>Normal-form parsing for CCGs with generalized composition and type-raising</b></a><br>

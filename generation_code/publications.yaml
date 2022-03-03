@@ -1,7 +1,5 @@
 ---
-- FIELD:
-  - V
-  - L
+- FIELD: WS3
   TYPE: preprint
   TITLE: 'KAT: A Knowledge Augmented Transformer for Vision-and-Language'
   YEAR: '2021'
@@ -15,8 +13,7 @@
   - Jianfeng Gao
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- FIELD:
-  - O
+- FIELD: WS5
   TYPE: preprint
   TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
   YEAR: '2021'
@@ -27,10 +24,7 @@
   - Hal Daume III
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- FIELD:
-  - V
-  - L
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: 'FILM: Following Instructions in Language with Modular Methods'
   YEAR: '2022'
@@ -43,12 +37,10 @@
   - Ruslan Salakhutdinov
   VENUE: The Tenth International Conference on Learning Representations
   VENUE-ACR: ICLR
-- FIELD:
-  - L
-  - V
-  TYPE: preprint
+- FIELD: WS3
+  TYPE: conference
   TITLE: 'WebQA: Multihop and Multimodal QA'
-  YEAR: '2021'
+  YEAR: '2022'
   URL: 'https://arxiv.org/abs/2109.00590'
   AUTHORS:
   - Yingshan Chang
@@ -57,10 +49,9 @@
   - Guihong Cao
   - Jianfeng Gao
   - Yonatan Bisk
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
-- FIELD:
-  - L
+  VENUE: Conference on Computer Vision and Pattern Recognition
+  VENUE-ACR: CVPR
+- FIELD: WS3
   TYPE: conference
   TITLE: 'Dependency Induction Through the Lens of Visual Perception'
   YEAR: '2021'
@@ -75,9 +66,7 @@
   - Graham Neubig
   VENUE: The SIGNLL Conference on Computational Natural Language Learning
   VENUE-ACR: CoNLL
-- FIELD:
-  - R
-  - L
+- FIELD: WS3
   TYPE: conference
   TITLE: 'Language Grounding with 3D Objects'
   YEAR: '2021'
@@ -90,8 +79,7 @@
   - Luke Zettlemoyer
   VENUE: Conference on Robot Learning 
   VENUE-ACR: CoRL
-- FIELD:
-  - V
+- FIELD: WS3
   TYPE: conference
   TITLE: "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment"
   YEAR: '2021'
@@ -102,9 +90,7 @@
   - Jianfeng Gao
   VENUE: "International Conference on Computer Vision"
   VENUE-ACR: ICCV
-- FIELD:
-  - V
-  - L
+- FIELD: WS3
   TYPE: workshop
   TITLE: "KB-VLP: Knowledge Based Vision and Language Pretraining"
   YEAR: '2021'
@@ -117,9 +103,7 @@
   - Jianfeng Gao
   VENUE: "ICML21 Workshop on Self-Supervised Learning"
   VENUE-ACR: "ICML-SSL"
-- FIELD:
-  - O
-  - L
+- FIELD: WS5
   TYPE: conference
   TITLE: "Few-shot Language Coordination by Modeling Theory of Mind"
   YEAR: '2021'
@@ -130,8 +114,7 @@
   - Yonatan Bisk
   VENUE: 'The Thirty-eighth International Conference on Machine Learning'
   VENUE-ACR: ICML
-- FIELD:
-  - L
+- FIELD: O
   TYPE: conference
   TITLE: "Grounding `Grounding' in NLP"
   YEAR: '2021'
@@ -142,9 +125,7 @@
   - Alan W Black
   VENUE: 'Findings of The 2021 Conference of the Association for Computational Linguistics'
   VENUE-ACR: Findings of ACL 
-- FIELD:
-  - L
-  - V
+- FIELD: WS3
   TYPE: preprint
   TITLE: 'Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models'
   YEAR: '2021'
@@ -154,8 +135,7 @@
   - Yonatan Bisk
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- FIELD:
-  - L
+- FIELD: WS3
   TYPE: conference
   TITLE: 'An Empirical Study on the Generalization Power of Neural Representations Learned via Visual Guessing Games'
   YEAR: '2021'
@@ -170,8 +150,7 @@
   - Oliver Lemon
   VENUE: 'The 2021 Conference of the European Chapter of the Association for Computational Linguistics'
   VENUE-ACR: EACL (Oral)
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: conference
   TITLE: 'Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering'
   YEAR: '2021'
@@ -187,9 +166,7 @@
   VENUE-ACR: AAAI
   EXTRAS:
     Code: https://github.com/Mayer123/HyKAS-CSKG
-- FIELD:
-  - L
-  - V
+- FIELD: WS4
   TYPE: conference
   TITLE: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
   YEAR: '2021'
@@ -203,9 +180,7 @@
   - Matthew Hausknecht
   VENUE: Proceedings of the International Conference on Learning Representations
   VENUE-ACR: ICLR
-- FIELD:
-  - L
-  - V
+- FIELD: WS3
   TYPE: conference
   TITLE: Imagining Grounded Conceptual Representations from Perceptual Information
     in Situated Guessing Games
@@ -221,8 +196,7 @@
   - Oliver Lemon
   VENUE: The 28th International Conference on Computational Linguistics
   VENUE-ACR: Coling (Oral)
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: journal
   TITLE: 'The Return of Lexical Dependencies: Neural Lexicalized PCFGs'
   YEAR: '2020'
@@ -235,8 +209,7 @@
   VENUE-ACR: TACL
   EXTRAS:
     Code: https://github.com/neulab/neural-lpcfg
-- FIELD:
-  - L
+- FIELD: O
   TYPE: conference
   TITLE: Experience Grounds Language
   YEAR: '2020'
@@ -260,9 +233,7 @@
   EXTRAS:
     Video: https://youtu.be/cQasYLUC_00
     Slides: https://yonatanbisk.com/papers/2020-EMNLP.pdf
-- FIELD:
-  - L
-  - V
+- FIELD: WS5
   TYPE: conference
   TITLE: 'RMM: A Recursive Mental Model for Dialog Navigation'
   YEAR: '2020'
@@ -278,9 +249,7 @@
   VENUE-ACR: EMNLP-Findings
   EXTRAS:
     Code: https://github.com/HomeroRR/rmm
-- FIELD:
-  - L
-  - V
+- FIELD: WS3
   TYPE: workshop
   TITLE: A Benchmark for Structured Procedural Knowledge Extraction from Cooking Videos
   YEAR: '2020'
@@ -297,10 +266,7 @@
   VENUE-ACR: NLPBT
   EXTRAS:
     Code: https://github.com/frankxu2004/cooking-procedural-extraction
-- FIELD:
-  - V
-  - L
-  - R
+- FIELD: WS4
   TYPE: preprint
   TITLE: Multi-View Learning for Vision-and-Language Navigation
   YEAR: '2020'
@@ -316,10 +282,7 @@
   - Noah A. Smith
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-- FIELD:
-  - V
-  - L
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: 'ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday
     Tasks'
@@ -336,9 +299,7 @@
   - Dieter Fox
   VENUE: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   VENUE-ACR: CVPR
-- FIELD:
-  - L
-  - R
+- FIELD: WS2
   TYPE: conference
   TITLE: 'PIQA: Reasoning about Physical Commonsense in Natural Language'
   YEAR: '2020'
@@ -353,10 +314,7 @@
   VENUE-ACR: AAAI (Oral)
   EXTRAS:
     Slides: papers/2020-AAAI-PIQA-Slides.pdf
-- FIELD:
-  - L
-  - V
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: Robust Navigation with Language Pretraining and Stochastic Sampling
   YEAR: '2019'
@@ -373,9 +331,7 @@
   VENUE: Conference on Empirical Methods in Natural Language Processing and 9th International
     Joint Conference on Natural Language Processing
   VENUE-ACR: EMNLP-IJCNLP
-- FIELD:
-  - L
-  - O
+- FIELD: WS2
   TYPE: conference
   TITLE: Defending Against Neural Fake News
   YEAR: '2019'
@@ -393,8 +349,7 @@
   EXTRAS:
     Demo: http://rowanzellers.com/grover/
     Models: https://docs.google.com/forms/d/e/1FAIpQLSfPMUXH1fdUxI3TchRS9RaEJ_W-W-adZhQ-_MymHnGkGOlBkA/viewform
-- FIELD:
-  - O
+- FIELD: O
   TYPE: preprint
   TITLE: 'FIND: Identifying Functionally and Structurally Important Features in Protein
     Sequences with Deep Neural Networks'
@@ -407,8 +362,7 @@
   - Yonatan Bisk
   VENUE: bioRxiv
   VENUE-ACR: bioRxiv
-- FIELD:
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: Improving Robot Success Detection using Static Object Data
   YEAR: '2019'
@@ -423,9 +377,7 @@
   VENUE-ACR: IROS
   EXTRAS:
     Video: https://www.youtube.com/watch?v=0uk_1yP9hqM
-- FIELD:
-  - R
-  - V
+- FIELD: O
   TYPE: conference
   TITLE: Early Fusion for Goal Directed Robotic Vision
   YEAR: '2019'
@@ -441,8 +393,7 @@
   VENUE: Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent
     Robots and Systems
   VENUE-ACR: IROS
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: conference
   TITLE: 'HellaSwag: Can a Machine Really Finish Your Sentence? '
   YEAR: '2019'
@@ -455,8 +406,7 @@
   - Yejin Choi
   VENUE: Proceedings of the Association for Computational Linguistics
   VENUE-ACR: ACL
-- FIELD:
-  - V
+- FIELD: WS3
   TYPE: conference
   TITLE: 'From Recognition to Cognition: Visual Commonsense Reasoning'
   YEAR: '2019'
@@ -468,9 +418,7 @@
   - Yejin Choi
   VENUE: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   VENUE-ACR: CVPR (Oral)
-- FIELD:
-  - V
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: 'Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language
     Navigation'
@@ -490,8 +438,7 @@
   VENUE-ACR: CVPR (Oral)
   EXTRAS:
     Video: https://youtu.be/AD9TNohXoPA
-- FIELD:
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: 'Prospection: Interpretable Plans From Language By Predicting the Future'
   YEAR: '2019'
@@ -504,9 +451,7 @@
   - Dieter Fox
   VENUE: Proceedings of the International Conference on Robotics and Automation (ICRA)
   VENUE-ACR: ICRA
-- FIELD:
-  - L
-  - V
+- FIELD: WS4
   TYPE: conference
   TITLE: 'Shifting the Baseline: Single Modality Performance on Visual Navigation
     & QA'
@@ -519,8 +464,7 @@
   VENUE: Proceedings of the Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   VENUE-ACR: NAACL Short
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: conference
   TITLE: Benchmarking Hierarchical Script Knowledge
   YEAR: '2019'
@@ -535,8 +479,7 @@
   VENUE-ACR: NAACL Short (Oral)
   EXTRAS:
     Code: https://github.com/janmbuys/ScriptTransduction/
-- FIELD:
-  - O
+- FIELD: O
   TYPE: conference
   TITLE: Character-based Surprisal as a Model of Reading Difficulty in the Presence
     of Errors
@@ -549,8 +492,7 @@
   - Yonatan Belinkov
   VENUE: The 41st Annual Meeting of the Cognitive Science Society
   VENUE-ACR: CogSci (Oral)
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: conference
   TITLE: 'SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference'
   YEAR: '2018'
@@ -565,8 +507,7 @@
   VENUE-ACR: EMNLP (Oral)
   EXTRAS:
     Talk: https://vimeo.com/305195438
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: workshop
   TITLE: Inducing Grammars with and for Neural Machine Translation
   YEAR: '2018'
@@ -576,9 +517,7 @@
   - Yonatan Bisk
   VENUE: Proceedings of the 2nd Workshop on Neural Machine Translation
   VENUE-ACR: Wksp on NMT (best paper)
-- FIELD:
-  - L
-  - O
+- FIELD: O
   TYPE: workshop
   TITLE: Bridging HMMs and RNNs through Architectural Transformations
   YEAR: '2018'
@@ -590,8 +529,7 @@
   VENUE: 32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL
     workshop
   VENUE-ACR: IRASL wksp @ NeurIPS
-- FIELD:
-  - L
+- FIELD: O
   TYPE: conference
   TITLE: 'Synthetic and Natural Noise Both Break Neural Machine Translation '
   YEAR: '2018'
@@ -601,8 +539,7 @@
   - Yonatan Bisk
   VENUE: Proceedings of the 6th International Conference on Learning Representations
   VENUE-ACR: ICLR (Oral)
-- FIELD:
-  - V
+- FIELD: O
   TYPE: preprint
   TITLE: 'CHALET: Cornell House Agent Learning Environment '
   YEAR: '2018'
@@ -618,9 +555,7 @@
   VENUE-ACR: Tech Report
   EXTRAS:
     Simulator: https://github.com/lil-lab/chalet
-- FIELD:
-  - L
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: Learning Interpretable Spatial Operations in a Rich 3D Blocks World 
   YEAR: '2018'
@@ -635,8 +570,7 @@
   EXTRAS:
     Data: https://groundedlanguage.github.io/
     Poster: "http://yonatanbisk.com/papers/2018-AAAI-Poster.pdf"
-- FIELD:
-  - L
+- FIELD: WS2
   TYPE: conference
   TITLE: Natural Language Inference from Multiple Premises
   YEAR: '2017'
@@ -648,9 +582,7 @@
   VENUE: Proceedings of the Eighth International Joint Conference on Natural Language
     Processing
   VENUE-ACR: IJCNLP (Oral)
-- FIELD:
-  - L
-  - R
+- FIELD: WS4
   TYPE: conference
   TITLE: 'Natural Language Communication with Robots '
   YEAR: '2016'
@@ -665,8 +597,7 @@
   EXTRAS:
     Data: https://groundedlanguage.github.io/
     Slides: "http://yonatanbisk.com/papers/2016-NAACL-Slides.pdf"
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: conference
   TITLE: Supertagging with LSTMs
   YEAR: '2016'
@@ -679,9 +610,7 @@
   VENUE: Proceedings of the 15th Annual Conference of the North American Chapter of
     the Association for Computational Linguistics (Short Papers)
   VENUE-ACR: NAACL Short (Oral)
-- FIELD:
-  - L
-  - R
+- FIELD: WS4
   TYPE: workshop
   TITLE: 'Towards a Dataset for Human Computer Communication via Grounded Language
     Acquisition'
@@ -693,8 +622,7 @@
   - William Wong
   VENUE: Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems
   VENUE-ACR: Symbolic Cognitive Systems Wksp
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: workshop
   TITLE: 'Unsupervised Neural Hidden Markov Models  '
   YEAR: '2016'
@@ -709,8 +637,7 @@
   VENUE-ACR: Structure Pred Wksp (Oral)
   EXTRAS:
     Slides: "http://yonatanbisk.com/papers/2016-EMNLP-StrcPred-Slides.pdf"
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: conference
   TITLE: 'Evaluating Induced CCG Parsers on Grounded Semantic Parsing '
   YEAR: '2016'
@@ -724,8 +651,7 @@
   VENUE: Proceedings of the 2016 Conference on Empirical Methods in Natural Language
     Processing
   VENUE-ACR: EMNLP
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: phdthesis
   TITLE: Unsupervised Grammar Induction with Combinatory Categorial Grammars
   YEAR: '2015'
@@ -734,8 +660,7 @@
   - Yonatan Bisk
   VENUE: University of Illinois at Urbana-Champaign
   VENUE-ACR: PhD Thesis
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: conference
   TITLE: Probing the Linguistic Strengths and Limitations of Unsupervised Grammar
     Induction
@@ -748,8 +673,7 @@
     Linguistics and the 7th International Joint Conference on Natural Language Processing
     (Volume 1: Long Papers)'
   VENUE-ACR: ACL (Oral)
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: conference
   TITLE: 'Labeled Grammar Induction with Minimal Supervision  '
   YEAR: '2015'
@@ -764,8 +688,7 @@
   VENUE-ACR: ACL Short
   EXTRAS:
     Poster: "http://yonatanbisk.com/papers/2015_ACLShort_Poster.pdf"
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: journal
   TITLE: An HDP Model for Inducing Combinatory Categorial Grammars
   YEAR: '2013'
@@ -777,8 +700,7 @@
   VENUE-ACR: TACL Vol 1.
   EXTRAS:
     Slides: "http://yonatanbisk.com/papers/2013-TACL-Slides.pdf"
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: conference
   TITLE: 'Simple Robust Grammar Induction with Combinatory Categorial Grammar '
   YEAR: '2012'
@@ -788,8 +710,7 @@
   - Julia Hockenmaier
   VENUE: Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)
   VENUE-ACR: AAAI
-- FIELD:
-  - O
+- FIELD: WS1
   TYPE: conference
   TITLE: 'Document-Topic Hierarchies from Document Graphs '
   YEAR: '2012'
@@ -801,8 +722,7 @@
   VENUE: Proceedings of the 21st ACM international conference on Information and knowledge
     management (CIKM 2012)
   VENUE-ACR: CIKM
-- FIELD:
-  - L
+- FIELD: WS1
   TYPE: workshop
   TITLE: 'Induction of Linguistic Structure with Combinatory Categorial Grammars '
   YEAR: '2012'
@@ -812,8 +732,7 @@
   - Julia Hockenmaier
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   VENUE-ACR: Inducing Ling Structure Wksp
-- FIELD:
-  - L
+- FIELD: O
   TYPE: conference
   TITLE: Normal-form parsing for CCGs with generalized composition and type-raising
   YEAR: '2010'
@@ -824,3 +743,4 @@
   VENUE: Proceedings of the 23rd International Conference on Computational Linguistics
     (Coling 2010)
   VENUE-ACR: Coling
+

@@ -29,6 +29,39 @@
             }
         </script>
 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+          google.charts.load('current', {packages: ['corechart', 'bar']});
+          google.charts.setOnLoadCallback(drawBasic);
+
+          function drawBasic() {
+
+          var data = google.visualization.arrayToDataTable([
+              ['Community', 'Count', { role: 'style' }],
+              
+              ###PLOT###
+          ]);
+
+          var options = {
+              title: '',
+              chartArea: {width: '50%'},
+              legend: { position: "none" },
+              hAxis: {
+                title: 'World Scope Paper Percentages (made up by Yonatan)',
+                minValue: 0,
+                format: 'percent'
+              },
+              vAxis: {
+                title: ''
+              }
+            };
+
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+            chart.draw(data, options);
+          }
+        </script>
+
         <script>
         <!-- https://www.w3schools.com/howto/howto_js_filter_table.asp -->
         function mySearch() {
@@ -68,8 +101,8 @@
 
         <script>
           function area(ON, OFF){
-              var ON = ON.split('')
-              var OFF = OFF.split('')
+              var ON = ON.split(',')
+              var OFF = OFF.split(',')
               var turn_on = [];
               var turn_off = [];
               for (var idx = 0; idx < ON.length; idx++) {
@@ -133,18 +166,45 @@
       </nav>
 
       <br>
-      <center>Just a big 'ol list.  You can use the buttons to filter or text box to search.</center>
+      <center>Just a big 'ol list.  You can use the buttons to filter or text box to search.
+       <div id="chart_div"></div>
+      </center>
       <br>
 
       <div class="row">
         <div class="col-md-12">
         <center>
-                    <button type="button" id="bAll"   class="btn btn-outline-secondary" onclick="area('LRVO','');"><b>All</b></button>
-                    <button type="button" id="bNLP"   class="btn btn-outline-primary"   onclick="area('L','RVO');"><b>NLP</b></button>
-                    <button type="button" id="bRobo"  class="btn btn-outline-success"   onclick="area('R','LVO');"><b>Robotics</b></button>
-                    <button type="button" id="bCV"    class="btn btn-outline-danger"    onclick="area('V','LRO');"><b>Vision</b></button>
-                    <button type="button" id="bOther" class="btn btn-outline-info"   onclick="area('O','LRV');"><b>Other</b></button>
-                or <label for="myInput" class="sr-only">Filter publications</label> <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search ..." title="Filter publications" alt="search box for filtering publications">
+                    <button type="button" id="bAll"   
+                            class="btn btn-outline-secondary" 
+                            onclick="area('WS1,WS2,WS3,WS4,WS5,Other','');">
+                      <b>All</b></button>
+                    <button type="button" id="bWS12"  
+                            class="btn btn-outline-primary"   
+                            onclick="area('WS1,WS2','WS3,WS4,WS5,Other');">
+                      <b>WS1/2</b></button>
+                    <button type="button" id="bWS3"   
+                            class="btn btn-outline-success"   
+                            onclick="area('WS3','WS1,WS2,WS4,WS5,O');">
+                      <b>WS3</b></button>
+                    <button type="button" id="bWS4"   
+                            class="btn btn-outline-danger"    
+                            onclick="area('WS4','WS1,WS2,WS3,WS5,O');">
+                      <b>WS4</b></button>
+                    <button type="button" id="bWS5"   
+                            class="btn btn-outline-warning"   
+                            onclick="area('WS5','WS1,WS2,WS3,WS4,O');">
+                      <b>WS5</b></button>
+                    <button type="button" id="bOther" 
+                            class="btn btn-outline-info"      
+                            onclick="area('O','WS1,WS2,WS3,WS4,WS5');">
+                      <b>Other</b></button>
+                or <label for="myInput" class="sr-only">
+                    Filter publications
+                </label> 
+                <input type="text" id="myInput" onkeyup="mySearch()" 
+                       placeholder="Search ..." 
+                       title="Filter publications" 
+                       alt="search box for filtering publications">
         </center>
       </div>
     </div>
