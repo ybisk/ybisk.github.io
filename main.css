@@ -149,6 +149,10 @@ img {
     border-radius: .5em;
 }
 
+.btn:disabled { 
+  opacity: 1;
+}
+
 .ybtn {
     top: .5em;
     right: .5em;
@@ -156,6 +160,7 @@ img {
     font-size:1.125em;
     font-weight: bold;
     border-radius: .5em;
+    opacity: 1;
 }
 
 .sbtn {
