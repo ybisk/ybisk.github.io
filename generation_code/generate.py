@@ -2,7 +2,7 @@ import os
 import yaml
 
 # Load Publications 
-pubs = yaml.load(open("publications_ws.yaml"), Loader=yaml.CLoader)
+pubs = yaml.load(open("publications.yaml"), Loader=yaml.CLoader)
 
 # Load Author urls
 webs = yaml.load(open("websites.yaml"), Loader=yaml.CLoader)
