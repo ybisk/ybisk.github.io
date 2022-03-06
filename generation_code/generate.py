@@ -113,10 +113,10 @@ for entry in pubs:
     #for f in entry["FIELD"]:
     data[entry["FIELD"]] += u
 
-table = f"['WS1/WS2',{data['WS1'] + data['WS2']},'#007EF6'],\n"\
-      + f"['WS3',    {data['WS3']},'#53A351'],\n"\
-      + f"['WS4',    {data['WS4']},'#CB444A'],\n"\
-      + f"['WS5',    {data['WS5']},'#f6c144'],\n"\
+table = f"['Text',{data['WS1'] + data['WS2']},'#007EF6'],\n"\
+      + f"['Vision',    {data['WS3']},'#53A351'],\n"\
+      + f"['Action',    {data['WS4']},'#CB444A'],\n"\
+      + f"['Social',    {data['WS5']},'#f6c144'],\n"\
       + f"['Other',  {data['O']},'#49A0B5']\n"
 
 
