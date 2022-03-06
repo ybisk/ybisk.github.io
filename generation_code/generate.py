@@ -76,7 +76,7 @@ def create_html_entry(entry, idx):
 
   # Include extra links
   additional = ""
-  btn = "<a class=\"sbtn btn btn-light\" "
+  btn = "<a class=\"sbtn\" "
   if "EXTRAS" in entry:
     for key in entry["EXTRAS"]:
       link = entry["EXTRAS"][key]

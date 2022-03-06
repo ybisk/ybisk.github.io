@@ -142,11 +142,11 @@ img {
 }
 
 .btn {
-    top: .5em;
-    right: .5em;
-    padding: .25em .25em;
+    top: .1em;
+    right: .1em;
+    padding: .1em .1em;
     font-size:1.2em;
-    border-radius: .5em;
+    border-radius: .2em;
 }
 
 .btn:disabled { 
@@ -154,21 +154,25 @@ img {
 }
 
 .ybtn {
-    top: .5em;
-    right: .5em;
-    padding: .15em .15em;
+    top: .1em;
+    right: .1em;
+    padding: .1em .1em;
     font-size:1.125em;
     font-weight: bold;
-    border-radius: .5em;
+    border-radius: .2em;
     opacity: 1;
 }
 
 .sbtn {
     top: .5em;
     right: .5em;
-    padding: .5em .5em;
+    padding: .1em .1em;
     font-size:1em;
-    border-radius: .5em;
+    border-radius: .2em;
+    outline: 1px solid black; 
+    font-size: 12px; 
+    #padding: 2pt; 
+    color: black
 }
 
 .card{

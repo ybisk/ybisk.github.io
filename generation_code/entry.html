@@ -2,18 +2,18 @@
     <div class="card-body">
       <div class="row">
         <div class="col-md-1">
-          <button type="button" disabled class="btn ybtn btn-#FIELD#">#YEAR-btn#</button>
+          <button type="button" disabled class="btn ybtn btn-outline-#FIELD#">#YEAR-btn#</button>
         </div>
         <div class="col-md-11">
           <a href=#URL#><b>#TITLE#</b></a><br>
           <div class="card-text">
             <i>#VENUE#</i><br>
             #AUTHORS#<br>
-            <button type="button" class="sbtn btn btn-light" title
+            <a class="sbtn" title
                 data-original-title="Copy BibTex" id="buttonidx#IDX#"
                 href="javascript:void(0)" onclick="show('idx#IDX#')">
-                <i>BibTeX</i>
-              </button>
+                BibTeX
+              </a>
               #EXTRA#
               <div id="idx#IDX#"  class="dynamic_link">
                  <br>

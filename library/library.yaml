@@ -48592,3 +48592,66 @@
   pages: 44:1--44:10
   url: http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
   volume: '31'
+- AUTHORS:
+  - Zi-Yi Dou
+  - Yichong Xu
+  - Zhe Gan
+  - Jianfeng Wang
+  - Shuohang Wang
+  - Lijuan Wang
+  - Chenguang Zhu
+  - Pengchuan Zhang
+  - Lu Yuan
+  - Nanyun Peng
+  - Zicheng Liu
+  - Michael Zeng
+  TITLE: "An Empirical Study of Training End-to-End Vision-and-Language\n  Transformers"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2111.02387
+  VENUE: arXiv:2111.02387
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/DouXuGanWangWang_An_Empirical_Study_of_Training_EndtoEnd_VisionandLanguage_Transformers.pdf
+  idx: 3267
+  month: '11'
+- AUTHORS:
+  - Wenhui Wang
+  - Hangbo Bao
+  - Li Dong
+  - Furu Wei
+  TITLE: "VLMo: Unified Vision-Language Pre-Training with\n  Mixture-of-Modality-Experts"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2111.02358
+  VENUE: arXiv:2111.02358
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/WangBaoDongWei_VLMo_Unified_VisionLanguage_PreTraining_with_MixtureofModalityExperts.pdf
+  idx: 3268
+  month: '11'
+- AUTHORS:
+  - Zhenda Xie
+  - Zheng Zhang
+  - Yue Cao
+  - Yutong Lin
+  - Jianmin Bao
+  - Zhuliang Yao
+  - Qi Dai
+  - Han Hu
+  TITLE: 'SimMIM: A Simple Framework for Masked Image Modeling'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2111.09886
+  VENUE: arXiv:2111.09886
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/XieZhangCaoLinBao_SimMIM_A_Simple_Framework_for_Masked_Image_Modeling.pdf
+  idx: 3269
+  month: '11'
+- AUTHORS:
+  - Ivan Kapelyukh
+  - Edward Johns
+  TITLE: "My House, My Rules: Learning Tidying Preferences with Graph Neural\n  Networks"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2111.03112
+  VENUE: "CoRL"
+  project: https://www.robot-learning.uk/my-house-my-rules
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/KapelyukhJohns_My_House_My_Rules_Learning_Tidying_Preferences_with_Graph_Neural_Networks.pdf
+  idx: 3270
+  month: '11'
