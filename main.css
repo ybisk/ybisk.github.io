@@ -161,6 +161,7 @@ img {
     font-weight: bold;
     border-radius: .2em;
     opacity: 1;
+    border: none;
 }
 
 .sbtn {
