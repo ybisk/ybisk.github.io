@@ -114,7 +114,7 @@ for entry in pubs:
     data[entry["FIELD"]] += u
 
 table = f"['Text',{data['WS1'] + data['WS2']},'#007EF6'],\n"\
-      + f"['Vision',    {data['WS3']},'#53A351'],\n"\
+      + f"['Perception',    {data['WS3']},'#53A351'],\n"\
       + f"['Action',    {data['WS4']},'#CB444A'],\n"\
       + f"['Social',    {data['WS5']},'#f6c144'],\n"\
       + f"['Other',  {data['O']},'#49A0B5']\n"

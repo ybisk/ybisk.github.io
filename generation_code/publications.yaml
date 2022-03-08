@@ -1,5 +1,36 @@
 ---
 - FIELD: WS3
+  TYPE: conference
+  TITLE: 'HEAR 2021: Holistic Evaluation of Audio Representations'
+  YEAR: '2022'
+  URL: 'http://arxiv.org/abs/2203.03022'
+  AUTHORS:
+  - Joseph Turian
+  - Jordie Shier
+  - Humair Raj Khan
+  - Bhiksha Raj
+  - Björn W. Schuller
+  - Christian J. Steinmetz
+  - Colin Malloy
+  - George Tzanetakis
+  - Gissel Velarde
+  - Kirk McNally
+  - Max Henry
+  - Nicolas Pinto
+  - Camille Noufi
+  - Christian Clough
+  - Dorien Herremans
+  - Eduardo Fonseca
+  - Jesse Engel
+  - Justin Salamon
+  - Philippe Esling
+  - Pranay Manocha
+  - Shinji Watanabe
+  - Zeyu Jin
+  - Yonatan Bisk
+  VENUE: 'Proceedings of Machine Learning Research (PMLR): NeurIPS 2021 Competition Track'
+  VENUE-ACR: 'PMLR'
+- FIELD: WS3
   TYPE: preprint
   TITLE: 'KAT: A Knowledge Augmented Transformer for Vision-and-Language'
   YEAR: '2021'
