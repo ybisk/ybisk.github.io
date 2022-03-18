@@ -16,13 +16,15 @@
 \recomputelengths                             % required when changes are made to page layout lengths
 
 % These are to create pretty spacing of pseudocolumns
-\newcommand{\NW}[1]{\makebox[\widthof{Shruti Gangopadhyay }][l]{#1}}
+\newcommand{\NW}[1]{\makebox[\widthof{Xiaoyu (Erin) Zhang}][l]{#1}}
 \newcommand{\NA}[1]{\makebox[\widthof{Collabortive Robot Art plus }][l]{#1}}
 \newcommand{\DW}[1]{\hfill \makebox[\widthof{MLD}][l]{#1}}
 \newcommand{\pron}[1]{\makebox[\widthof{\footnotesize she/her  }][l]{\textcolor{black}{\scriptsize \normalfont{#1}}}}
 % type, url, name, pronouns, area, extra, dept, year
 \newcommand{\stud}[8]{\cventry{#1}{\NW{\href{https://#2}{#3}} \pron{#4}}{\NA{#5} #6}{\DW{#7} #8}{}{}}
 \newcommand{\studnoL}[8]{\cventry{#1}{\NW{#3} \pron{#4}}{\NA{#5} #6}{\DW{#7} #8}{}{}}
+\newcommand{\SNW}[1]{\makebox[\widthof{Bharani Ujjaini Kempaiah \pron{she/her}}][l]{#1}}
+\newcommand{\Sname}[3]{\SNW{\href{https://#1}{#2} \pron{#3}}}
 
 % personal data
 \firstname{Yonatan}
@@ -60,22 +62,41 @@
 \stud{PhD}{soyeonm.github.io/  }{Tiffany Min    }{she/her}{Embodiment              }{(co-\href{https://www.cs.cmu.edu/~rsalakhu/}{R Salakhutdinov})}{MLD}{2021 --}
 
 \section{Research Masters Students}
-\stud{MLT}{jzhanson.com/          }{Josh Zhanson  }{he/him }{Embodied Visual Reps}{}{LTI}{2020 --}
-\stud{MLT}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2020 --}
-\stud{ MS}{erinzhang1998.github.io}{Xiaoyu Zhang  }{she/her}{Collaborative Robot Art           }{(co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/}{O Kroemer})}{5th}{2021 --}
+\stud{MLT}{jzhanson.com/          }{Josh Zhanson  }{he/him }{Embodied Visual Reps}{}{LTI}{2020 -- 2022}
+\stud{MLT}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2020 -- 2022}
+\stud{ MS}{erinzhang1998.github.io}{Xiaoyu (Erin) Zhang  }{she/her}{Collaborative Robot Art           }{(co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/}{O Kroemer})}{5th}{2021 -- 2022}
 
 \section{Professional Masters Students}
-\stud{MRSD}{linkedin.com/in/jashdiyora/         }{Jashkumar Diyora   }{he/him }{Modular Teleop with Autonomy (*co-\href{https://zackory.com/}{Z Erickson})}{}{RI}{2021 --}
-\stud{MRSD}{linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}{she/her}{Modular Teleop with Autonomy *}{}{RI}{2021 --}
-\stud{MRSD}{linkedin.com/in/jigarkumar-patel/   }{Jigar Patel        }{he/him }{Modular Teleop with Autonomy *}{}{RI}{2021 --}
-\stud{MRSD}{linkedin.com/in/prakharpradeep/     }{Prakhar Pradeep    }{he/him }{Modular Teleop with Autonomy *}{}{RI}{2021 --}
-\stud{MRSD}{allaboutrobotix.com/                }{Shivani Sivakumar  }{she/her}{Modular Teleop with Autonomy *}{}{RI}{2021 --}
-\studnoL{MSAII}{                                }{Suchong Dong       }{       }{Visual Patent Search          }{}{}{2022}
-\studnoL{MSAII}{                                }{Zhiyuan Guo        }{       }{Visual Patent Search          }{}{}{2022}
-\studnoL{MSAII}{                                }{Mansi Goyal        }{       }{Visual Patent Search          }{}{}{2022}
-\studnoL{MSAII}{                                }{Marta Mendez Simon }{       }{Visual Patent Search          }{}{}{2022}
-\studnoL{MSAII}{                                }{Sreenidhi Sundaram }{       }{Visual Patent Search          }{}{}{2022}
-\studnoL{MSAII}{                                }{Leon Van Den Berghe}{       }{Visual Patent Search          }{}{}{2022}
+\cventry{MRSD}{Modular Teleop with Autonomy 
+               (*co-\href{https://zackory.com/}{Z Erickson}) \hfill \textnormal{\hintfont{2022}}}{\newline
+                \Sname{linkedin.com/in/jashdiyora/         }{Jashkumar Diyora   }{he/him }
+                \Sname{linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}{she/her} 
+                \Sname{linkedin.com/in/jigarkumar-patel/   }{Jigar Patel        }{he/him } \newline
+                \Sname{linkedin.com/in/prakharpradeep/     }{Prakhar Pradeep    }{he/him } 
+                \Sname{allaboutrobotix.com/                }{Shivani Sivakumar  }{she/her}}{}{}{}{\newline}
+\cventry{MSAII}{Visual Patent Search \hfill \textnormal{\hintfont{2022}}}{\newline
+                \SNW{Suchong Dong         \pron{she/her}} 
+                \SNW{Zhiyuan Guo          \pron{he/him }} 
+                \Sname{linkedin.com/in/goyal-mansi/}{Mansi Goyal}{she/her} \newline
+                \Sname{linkedin.com/in/martamendezsimon/   }{Marta Mendez Simon }{she/her}
+                \SNW{Sreenidhi Sundaram   \pron{she/her}}
+                \SNW{Leon Van Den Berghe  \pron{he/him }}}{}{}{}{}
+\cventry{MCDS}{Embodied Navigation and Interaction \hfill \textnormal{\hintfont{2022}}}{\newline
+                \Sname{linkedin.com/in/adhokshaja-madhwaraj/}{Adhokshaja Madhwaraj}{he/him }
+                \Sname{kushagramahajan.me/}{Kushagra Mahajan}{he/him }
+                \Sname{linkedin.com/in/saivishwasp}{Sai Vishwas Padigi}{he/him }\newline
+                \SNW{Vineeth Reddy         \pron{he/him }}
+                \SNW{Malaika Vijay         \pron{she/her}}
+                \Sname{https://www.linkedin.com/in/jessicazz/}{Zheng (Jessica) Zhong}{she/her}}{}{}{}{}
+\cventry{MCDS}{Embodied Dialogue and ToM \hfill \textnormal{\hintfont{2022}}}{\newline
+                \SNW{Xinyue Chen          \pron{she/her}}
+                \Sname{linkedin.com/in/nikhilgupta23/}{Nikhil Gupta}{he/him }
+                \Sname{https://bennyoooo.github.io}{Benny Jiang}{he/him }\newline
+                \SNW{Shubham Phal         \pron{he/him }}
+                \SNW{Prasoon Varshney     \pron{he/him }}}{}{}{}{}
+\cventry{MCDS}{Novel Concept Learning \hfill \textnormal{\hintfont{2022}}}{\newline
+                \SNW{Bharani Ujjaini Kempaiah \pron{she/her}}
+                \SNW{Linyi Li                 \pron{she/her}}}{}{}{}{}
 
 
 \section{Alumni, Interns, and Undergraduates}

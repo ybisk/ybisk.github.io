@@ -48649,9 +48649,37 @@
   TITLE: "My House, My Rules: Learning Tidying Preferences with Graph Neural\n  Networks"
   TYPE: conference
   URL: https://arxiv.org/abs/2111.03112
-  VENUE: "CoRL"
-  project: https://www.robot-learning.uk/my-house-my-rules
+  VENUE: CoRL
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/KapelyukhJohns_My_House_My_Rules_Learning_Tidying_Preferences_with_Graph_Neural_Networks.pdf
   idx: 3270
   month: '11'
+  project: https://www.robot-learning.uk/my-house-my-rules
+- AUTHORS:
+  - ' Cultural General Intelligence Team'
+  - Avishkar Bhoopchand
+  - Bethanie Brownfield
+  - Adrian Collister
+  - Agustin Dal Lago
+  - Ashley Edwards
+  - Richard Everett
+  - Alexandre Frechette
+  - Yanko Gitahy Oliveira
+  - Edward Hughes
+  - Kory W. Mathewson
+  - Piermaria Mendolicchio
+  - Julia Pawar
+  - Miruna Pislar
+  - Alex Platonov
+  - Evan Senter
+  - Sukhdeep Singh
+  - Alexander Zacherl
+  - Lei M. Zhang
+  TITLE: Learning Robust Real-Time Cultural Transmission without Human Data
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2203.00715
+  VENUE: arXiv:2203.00715
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/TeamBhoopchandBrownfieldCollisterLago_Learning_Robust_RealTime_Cultural_Transmission_without_Human_Data.pdf
+  idx: 3271
+  month: '03'
