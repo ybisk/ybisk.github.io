@@ -48683,3 +48683,97 @@
   file: https://github.com/ybisk/papers/blob/master/2022/TeamBhoopchandBrownfieldCollisterLago_Learning_Robust_RealTime_Cultural_Transmission_without_Human_Data.pdf
   idx: 3271
   month: '03'
+- AUTHORS:
+  - Nicholas J. Belkin
+  - Stephen E. Robertson
+  TITLE: Some ethical and political implications of theoretical research in information
+    science
+  TYPE: conference
+  VENUE: Proceedings of the ASIS Annual Meeting
+  YEAR: '1976'
+  file: https://github.com/ybisk/papers/blob/master/1976/BelkinRobertson_Some_ethical_and_political_implications_of_theoretical_research_in_information_science.pdf
+  idx: 3272
+  volume: '13'
+- AUTHORS:
+  - B.J. Kostrewski
+  - Charles Oppenheim
+  TITLE: Ethics in information science
+  URL: " \n        https://doi.org/10.1177/016555157900100505"
+  YEAR: '1979'
+  abstract: ' Ethical questions in information science research, teach ing and practice
+    are considered. It is recommended that supervisors of research make clear their
+    publication policies before a piece of research is undertaken and if they don''t
+    wish to publish, then the junior author should have the right to write up the
+    work. In any case, papers should be in alphabetical order of authors. Certain
+    areas of research should possibly not be attempted because of their possible implications.
+    Bias in teaching is considered. The following problems in information work are
+    considered: the unauthor ised use of work facilities, the confidentiality of inquiries,
+    bias in results presented and many aspects of the social responsibility of an
+    information scientist. It is concluded that inquiries should always remain confidential,
+    but that infor mation scientists should be willing to divulge non-confiden tial
+    matter to bona fide third parties and should be prepared to reveal confidential
+    matter if the public interest warrants it. No information scientist should be
+    asked to present biased or misleading results. There is a need for a code of ethics
+    for information scientists, and information scientists need to be far more aware
+    of ethical questions. }'
+  doi: 10.1177/016555157900100505
+  eprint: " \n        https://doi.org/10.1177/016555157900100505"
+  file: https://github.com/ybisk/papers/blob/master/1979/KostrewskiOppenheim_Ethics_in_information_science.pdf
+  idx: 3273
+  journal: Journal of Information Science
+  number: '5'
+  pages: 277-283
+  volume: '1'
+- AUTHORS:
+  - Virginia de Sa
+  TITLE: Learning Classification with Unlabeled Data
+  TYPE: conference
+  URL: https://proceedings.neurips.cc/paper/1993/file/e0ec453e28e061cc58ac43f91dc2f3f0-Paper.pdf
+  VENUE: Advances in Neural Information Processing Systems
+  YEAR: '1993'
+  editor: J. Cowan and G. Tesauro and J. Alspector
+  file: https://github.com/ybisk/papers/blob/master/1993/Sa_Learning_Classification_with_Unlabeled_Data.pdf
+  idx: 3274
+  pages: ''
+  publisher: Morgan-Kaufmann
+  volume: '6'
+- AUTHORS:
+  - Puyuan Peng
+  - David Harwath
+  TITLE: Fast-Slow Transformer for Visually Grounding Speech
+  TYPE: conference
+  URL: https://arxiv.org/abs/2109.08186
+  VENUE: "ICASSP 2022, code and model weights are available at\n  https://github.com/jasonppy/FaST-VGS-Family"
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/PengHarwath_FastSlow_Transformer_for_Visually_Grounding_Speech.pdf
+  idx: 3275
+  month: 09
+- AUTHORS:
+  - Shu-wen Yang
+  - Po-Han Chi
+  - Yung-Sung Chuang
+  - Cheng-I Jeff Lai
+  - Kushal Lakhotia
+  - Yist Y. Lin
+  - Andy T. Liu
+  - Jiatong Shi
+  - Xuankai Chang
+  - Guan-Ting Lin
+  - Tzu-Hsien Huang
+  - Wei-Cheng Tseng
+  - Ko-tik Lee
+  - Da-Rong Liu
+  - Zili Huang
+  - Shuyan Dong
+  - Shang-Wen Li
+  - Shinji Watanabe
+  - Abdelrahman Mohamed
+  - Hung-yi Lee
+  TITLE: 'SUPERB: Speech processing Universal PERformance Benchmark'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2105.01051
+  VENUE: To appear in Interspeech 2021
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/YangChiChuangLaiLakhotia_SUPERB_Speech_processing_Universal_PERformance_Benchmark.pdf
+  idx: 3276
+  month: '05'

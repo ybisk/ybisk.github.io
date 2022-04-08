@@ -31,9 +31,9 @@
   VENUE: 'Proceedings of Machine Learning Research (PMLR): NeurIPS 2021 Competition Track'
   VENUE-ACR: 'PMLR'
 - FIELD: WS3
-  TYPE: preprint
+  TYPE: conference
   TITLE: 'KAT: A Knowledge Augmented Transformer for Vision-and-Language'
-  YEAR: '2021'
+  YEAR: '2022'
   URL: 'https://arxiv.org/abs/2112.08614'
   AUTHORS:
   - Liangke Gui
@@ -42,8 +42,8 @@
   - Alex Hauptmann
   - Yonatan Bisk
   - Jianfeng Gao
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: 'Annual Conference of the North American Chapter of the Association for Computational Linguistics'
+  VENUE-ACR: NAACL
 - FIELD: WS5
   TYPE: preprint
   TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
@@ -81,7 +81,7 @@
   - Jianfeng Gao
   - Yonatan Bisk
   VENUE: Conference on Computer Vision and Pattern Recognition
-  VENUE-ACR: CVPR
+  VENUE-ACR: CVPR (Oral)
 - FIELD: WS3
   TYPE: conference
   TITLE: 'Dependency Induction Through the Lens of Visual Perception'
