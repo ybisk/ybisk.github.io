@@ -209,3 +209,12 @@ img {
   float:right;
   color: black;
 }
+
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: 0px solid #000000;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
