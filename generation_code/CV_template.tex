@@ -11,7 +11,7 @@
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 % adjust the page margins
-\usepackage[left=0.9in,top=0.9in,bottom=0.9in,right=0.9in]{geometry}
+\usepackage[left=1.0in,top=1.0in,bottom=1.0in,right=1.0in]{geometry}
 \usepackage{calc}
 \recomputelengths                             % required when changes are made to page layout lengths
 
@@ -19,12 +19,11 @@
 \newcommand{\NW}[1]{\makebox[\widthof{Xiaoyu (Erin) Zhang}][l]{#1}}
 \newcommand{\NA}[1]{\makebox[\widthof{Collabortive Robot Art plus }][l]{#1}}
 \newcommand{\DW}[1]{\hfill \makebox[\widthof{MLD}][l]{#1}}
-\newcommand{\pron}[1]{\makebox[\widthof{\footnotesize she/her  }][l]{\textcolor{black}{\scriptsize \normalfont{#1}}}}
+\newcommand{\pron}[1]{\makebox[\widthof{\footnotesize she/her}][l]{\textcolor{black}{\scriptsize \normalfont{#1}}}}
 % type, url, name, pronouns, area, extra, dept, year
 \newcommand{\stud}[8]{\cventry{#1}{\NW{\href{https://#2}{#3}} \pron{#4}}{\NA{#5} #6}{\DW{#7} #8}{}{}}
 \newcommand{\studnoL}[8]{\cventry{#1}{\NW{#3} \pron{#4}}{\NA{#5} #6}{\DW{#7} #8}{}{}}
 \newcommand{\SNW}[1]{\makebox[\widthof{Bharani Ujjaini Kempaiah \pron{she/her}}][l]{#1}}
-\newcommand{\Sname}[3]{\SNW{\href{https://#1}{#2} \pron{#3}}}
 
 % personal data
 \firstname{Yonatan}
@@ -60,46 +59,57 @@
 \stud{PhD}{jaredfern.com/      }{Jared Fernandez}{he/him }{Efficiency              }{(co-\href{http://strubell.github.io/}{E Strubell})}{LTI}{2020 --}
 \stud{PhD}{vidhijain.github.io/}{Vidhi Jain     }{she/her}{Language to Control     }{}{RI}{2021 --}
 \stud{PhD}{soyeonm.github.io/  }{Tiffany Min    }{she/her}{Embodiment              }{(co-\href{https://www.cs.cmu.edu/~rsalakhu/}{R Salakhutdinov})}{MLD}{2021 --}
-
-\section{Research Masters Students}
-\stud{MLT}{jzhanson.com/          }{Josh Zhanson  }{he/him }{Embodied Visual Reps}{}{LTI}{2020 -- 2022}
-\stud{MLT}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2020 -- 2022}
-\stud{ MS}{erinzhang1998.github.io}{Xiaoyu (Erin) Zhang  }{she/her}{Collaborative Robot Art           }{(co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/}{O Kroemer})}{5th}{2021 -- 2022}
+\stud{PhD}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2022 --}
 
 \section{Professional Masters Students}
 \cventry{MRSD}{Modular Teleop with Autonomy 
-               (*co-\href{https://zackory.com/}{Z Erickson}) \hfill \textnormal{\hintfont{2022}}}{\newline
-                \Sname{linkedin.com/in/jashdiyora/         }{Jashkumar Diyora   }{he/him }
-                \Sname{linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay}{she/her} 
-                \Sname{linkedin.com/in/jigarkumar-patel/   }{Jigar Patel        }{he/him } \newline
-                \Sname{linkedin.com/in/prakharpradeep/     }{Prakhar Pradeep    }{he/him } 
-                \Sname{allaboutrobotix.com/                }{Shivani Sivakumar  }{she/her}}{}{}{}{\newline}
-\cventry{MSAII}{Visual Patent Search \hfill \textnormal{\hintfont{2022}}}{\newline
-                \SNW{Suchong Dong         \pron{she/her}} 
-                \SNW{Zhiyuan Guo          \pron{he/him }} 
-                \Sname{linkedin.com/in/goyal-mansi/}{Mansi Goyal}{she/her} \newline
-                \Sname{linkedin.com/in/martamendezsimon/   }{Marta Mendez Simon }{she/her}
-                \SNW{Sreenidhi Sundaram   \pron{she/her}}
-                \SNW{Leon Van Den Berghe  \pron{he/him }}}{}{}{}{}
-\cventry{MCDS}{Embodied Navigation and Interaction \hfill \textnormal{\hintfont{2022}}}{\newline
-                \Sname{linkedin.com/in/adhokshaja-madhwaraj/}{Adhokshaja Madhwaraj}{he/him }
-                \Sname{kushagramahajan.me/}{Kushagra Mahajan}{he/him }
-                \Sname{linkedin.com/in/saivishwasp}{Sai Vishwas Padigi}{he/him }\newline
-                \SNW{Vineeth Reddy         \pron{he/him }}
-                \SNW{Malaika Vijay         \pron{she/her}}
-                \Sname{https://www.linkedin.com/in/jessicazz/}{Zheng (Jessica) Zhong}{she/her}}{}{}{}{}
-\cventry{MCDS}{Embodied Dialogue and ToM \hfill \textnormal{\hintfont{2022}}}{\newline
-                \SNW{Xinyue Chen          \pron{she/her}}
-                \Sname{linkedin.com/in/nikhilgupta23/}{Nikhil Gupta}{he/him }
-                \Sname{https://bennyoooo.github.io}{Benny Jiang}{he/him }\newline
-                \SNW{Shubham Phal         \pron{he/him }}
-                \SNW{Prasoon Varshney     \pron{he/him }}}{}{}{}{}
-\cventry{MCDS}{Novel Concept Learning \hfill \textnormal{\hintfont{2022}}}{\newline
-                \SNW{Bharani Ujjaini Kempaiah \pron{she/her}}
-                \SNW{Linyi Li                 \pron{she/her}}}{}{}{}{}
+        (*co-\href{https://zackory.com/}{Z Erickson}) \hfill \textnormal{\hintfont{2022}}}{}{}{}{}{}
+        \begin{tabular}{p{5cm} l @{\hspace{4em}} p{5cm} l}
+          \href{https://linkedin.com/in/jashdiyora/         }{Jashkumar Diyora   } & \pron{he/him}  & 
+          \href{https://linkedin.com/in/shruti-gangopadhyay/}{Shruti Gangopadhyay} & \pron{she/her} \\
+          \href{https://linkedin.com/in/jigarkumar-patel/   }{Jigar Patel        } & \pron{he/him}  & 
+          \href{https://linkedin.com/in/prakharpradeep/     }{Prakhar Pradeep    } & \pron{he/him}  \\
+          \href{https://allaboutrobotix.com/                }{Shivani Sivakumar  } & \pron{she/her} & 
+          \href{}{} & \pron{} \\
+        \end{tabular}
+\cventry{MCDS}{Embodied Navigation and Interaction \hfill \textnormal{\hintfont{2022}}}{}{}{}{}{}
+        \begin{tabular}{p{5cm} l @{\hspace{4em}} p{5cm} l}
+          \href{https://linkedin.com/in/adhokshaja-madhwaraj/}{Adhokshaja Madhwaraj}  & \pron{he/him}  &
+          \href{https://kushagramahajan.me/                  }{Kushagra Mahajan}      & \pron{he/him } \\
+          \href{https://linkedin.com/in/saivishwasp          }{Sai Vishwas Padigi}    & \pron{he/him } &
+           Vineeth Reddy                                                              & \pron{he/him } \\
+           Malaika Vijay                                                              & \pron{she/her} &
+          \href{https://www.linkedin.com/in/jessicazz/       }{Zheng (Jessica) Zhong} & \pron {she/her}\\
+        \end{tabular}
+\cventry{MCDS}{Embodied Dialogue and ToM \hfill \textnormal{\hintfont{2022}}}{}{}{}{}{}
+        \begin{tabular}{p{5cm} l @{\hspace{4em}} p{5cm} l}
+          Xinyue Chen                                                & \pron{she/her} &
+          \href{https://linkedin.com/in/nikhilgupta23/}{Nikhil Gupta}& \pron{he/him } \\
+          \href{https://bennyoooo.github.io}{Benny Jiang}            & \pron{he/him } &
+          Shubham Phal                                               & \pron{he/him }  \\
+          Prasoon Varshney                                           & \pron{he/him } &
+          \href{}{} & \pron{} \\
+        \end{tabular}
+\cventry{MCDS}{Novel Concept Learning \hfill \textnormal{\hintfont{2022}}}{}{}{}{}{}
+        \begin{tabular}{p{5cm} l @{\hspace{4em}} p{5cm} l}
+          Bharani Ujjaini Kempaiah & \pron{she/her} & 
+          Linyi Li                 & \pron{she/her}\\
+        \end{tabular}
 
 
 \section{Alumni, Interns, and Undergraduates}
+\cventry{MSAII}{Visual Patent Search \hfill \textnormal{\hintfont{2022}}}{}{}{}{}{}
+        \begin{tabular}{p{5cm} l @{\hspace{4em}} p{5cm} l}
+          Suchong Dong                                                         & \pron{she/her} &
+          Zhiyuan Guo                                                          & \pron{he/him } \\
+          \href{https://linkedin.com/in/goyal-mansi/}{Mansi Goyal}             & \pron{she/her} &
+          \href{https://linkedin.com/in/martamendezsimon/}{Marta Mendez Simon} & \pron{she/her} \\
+          Sreenidhi Sundaram                                                   & \pron{she/her} & 
+          Leon Van Den Berghe                                                  & \pron{he/him}  \\
+        \end{tabular}
+\stud{MLT}{zdxdsw.github.io/      }{Yingshan Chang}{she/her}{Multimodal Reasoning}{}{LTI}{2020 -- 2022}
+\stud{MLT}{jzhanson.com/          }{Josh Zhanson  }{he/him }{Embodied Visual Reps}{}{LTI}{2020 -- 2022}
+\stud{ MS}{erinzhang1998.github.io}{Xiaoyu (Erin) Zhang  }{she/her}{Collaborative Robots}{(co-\href{https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/}{O Kroemer})}{5th}{2021 -- 2022}
 \stud{Ugrad }{                              }{Feiyu (Gavin) Zhu}{}{Video Summarization     }{(co-\href{https://cpaxton.github.io/}{C Paxton})}{}{2021}
 \stud{Intern}{msclar.github.io/             }{Melanie Sclar    }{}{Symmetric Theory-of-Mind}{(co-\href{http://www.phontron.com/}{G Neubig})  }{}{2021}
 \stud{Intern}{blessingitorobassey.github.io/}{Blessing Bassey  }{}{TextVQA                 }{}{}{2021}
@@ -117,13 +127,14 @@
 ##TECH##
 
 \section{Thesis Committees}
+\cventry{--}{PhD}{\href{https://scholar.google.com/citations?user=5rS0yCoAAAAJ}{Nicholas Botzer}}{\hfill Tim Weninger}{Notre Dame}{}
 \cventry{--}{PhD}{\href{https://scholar.google.com/citations?user=gDIMQp4AAAAJ&hl=en}{Kaixin Ma}}{\hfill Eric Nyberg}{CMU}{}
 \cventry{--}{PhD}{\href{https://dylanebert.com/}{Dylan Ebert}}{\hfill Ellie Pavlick}{Brown}{}
-\cventry{--}{PhD}{\href{http://shikib.com/}{Shikib Mehri}}{\hfill Maxine Eskenazi }{CMU}{}
-\cventry{--}{PhD}{\href{https://shrutijpalaskar.github.io/}{Shruti Palaskar}}{\hfill Alan Black and Florian Metze}{CMU}{}
-\cventry{--}{PhD}{\href{https://dheerajrajagopal.github.io/}{Dheeraj Rajagopal}}{\hfill Ed Hovy}{CMU}{}
-\cventry{--}{PhD}{\href{https://sites.google.com/site/homepageevangeliaspiliopoulou/}{Evangelia Spiliopoulou}}{\hfill Ed Hovy}{CMU}{}
-\cventry{22}{PhD}{\href{https://www.cs.cmu.edu/~vcirik}{Volkan Cirik}}{\hfill Louis-Philippe Morency and Taylor Berg-Kirkpatrick}{CMU}{}
+\cventry{2022}{PhD}{\href{http://shikib.com/}{Shikib Mehri}}{\hfill Maxine Eskenazi }{CMU}{}
+\cventry{2022}{PhD}{\href{https://shrutijpalaskar.github.io/}{Shruti Palaskar}}{\hfill Alan Black and Florian Metze}{CMU}{}
+\cventry{2022}{PhD}{\href{https://sites.google.com/site/homepageevangeliaspiliopoulou/}{Evangelia Spiliopoulou}}{\hfill Ed Hovy}{CMU}{}
+\cventry{2022}{PhD}{\href{https://dheerajrajagopal.github.io/}{Dheeraj Rajagopal}}{\hfill Ed Hovy}{CMU}{}
+\cventry{2022}{PhD}{\href{https://www.cs.cmu.edu/~vcirik}{Volkan Cirik}}{\hfill Louis-Philippe Morency and Taylor Berg-Kirkpatrick}{CMU}{}
 \cventry{2022}{MLT}{Aishwarya Jadhav}{\hfill Katia Sycara}{CMU}{}
 \cventry{2021}{PhD}{\href{http://pcyin.me/}{Pengcheng Yin}}{\hfill Graham Neubig}{CMU}{}
 \cventry{2020}{PhD}{\href{https://zihangdai.github.io/}{Zihang Dai}}{\hfill Yiming Yang}{CMU}{}
@@ -133,7 +144,7 @@
 \section{Teaching}
 \cventry{2021}{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 42}{SP}{}
 \cventry{2021}{11-767 On-Device Machine Learning}{\hfill Co-Emma Strubell}{\# Students: 31}{FA}{}
-\cventry{2022}{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 96}{SP}{}
+\cventry{2022}{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 94}{SP}{}
 
 \section{Diversity and Inclusion}
 \cventry{2022}{NAACL 2022 DEI Co-Chair}{}{}{\hfill ongoing}{}
@@ -172,7 +183,7 @@
 \cventry{--}{Association for the Advancement of Artificial Intelligence}{Senior Meta-Reviewer}{}{}{}
 \cventry{--}{Empirical Methods in Natural Language Proc}{Senior AC: Speech, Vision, Robotics, Multimodal Grounding}{}{}{}
 \cventry{--}{\href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research}}{Action Editor}{}{}{}
-\cventry{--}{ACL Rolling Review}{}{}{}{}
+\cventry{--}{Senior AE: ACL Rolling Review}{}{}{}{}
 \cventry{--}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
 \cventry{2021}{International Conference on Learning Representations}{}{}{}{}
 \cventry{--}{Association for Computational Linguistics}{Machine Learning}{}{}{}
@@ -217,6 +228,7 @@
 \section{Invitations and Talks}
 \cventry{2022}{Following Instructions and Asking Questions}{UCSB NLP}{}{}{}
 \cventry{    }{Following Instructions and Asking Questions}{GTech NLP}{}{}{}
+\cventry{    }{Following Instructions and Asking Questions}{MSR NYC}{}{}{}
 \cventry{2021}{Following Instructions and Asking Questions}{UIUC NLP}{}{}{}
 \cventry{    }{WebQA: Multihop and Multimodal QA}{PNNL Mega-AI Seminar}{}{}{}
 \cventry{    }{Following Instructions and Asking Questions}{\href{https://human-interaction4robotic-navigation.github.io/}{Human Interaction for Robotic Navigation Workshop} @ ICCV}{}{}{}

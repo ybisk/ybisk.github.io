@@ -1,4 +1,37 @@
 ---
+- FIELD: WS5
+  TYPE: conference
+  TITLE: 'Symmetric Machine Theory of Mind'
+  YEAR: '2022'
+  URL: ''
+  AUTHORS:
+  - Melanie Sclar
+  - Graham Neubig
+  - Yonatan Bisk
+  VENUE: The Thirty-ninth International Conference on Machine Learning 
+  VENUE-ACR: ICML
+- FIELD: WS5
+  TYPE: conference
+  TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
+  YEAR: '2022'
+  URL: 'http://arxiv.org/abs/2110.08258'
+  AUTHORS:
+  - Khanh Nguyen
+  - Yonatan Bisk
+  - Hal Daume III
+  VENUE: The Thirty-ninth International Conference on Machine Learning 
+  VENUE-ACR: ICML
+- FIELD: WS5
+  TYPE: conference
+  TITLE: 'Simulated Language Learning from Communicative Goals and Linguistic Input'
+  YEAR: '2022'
+  URL: ''
+  AUTHORS:
+  - Hao Zhu
+  - Yonatan Bisk
+  - Graham Neubig
+  VENUE: 'Proceedings of the Annual Meeting of the Cognitive Science Society'
+  VENUE-ACR: 'CogSci (Oral)'
 - FIELD: WS3
   TYPE: conference
   TITLE: 'HEAR 2021: Holistic Evaluation of Audio Representations'
@@ -43,18 +76,7 @@
   - Yonatan Bisk
   - Jianfeng Gao
   VENUE: 'Annual Conference of the North American Chapter of the Association for Computational Linguistics'
-  VENUE-ACR: NAACL
-- FIELD: WS5
-  TYPE: preprint
-  TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
-  YEAR: '2021'
-  URL: 'http://arxiv.org/abs/2110.08258'
-  AUTHORS:
-  - Khanh Nguyen
-  - Yonatan Bisk
-  - Hal Daume III
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE-ACR: NAACL (Oral)
 - FIELD: WS4
   TYPE: conference
   TITLE: 'FILM: Following Instructions in Language with Modular Methods'
@@ -123,6 +145,16 @@
   VENUE-ACR: ICCV
 - FIELD: WS3
   TYPE: workshop
+  TITLE: 'Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models'
+  YEAR: '2022'
+  URL: https://arxiv.org/abs/2104.08666
+  AUTHORS:
+  - Tejas Srinivasan
+  - Yonatan Bisk
+  VENUE: '4th Workshop on Gender Bias in Natural Language Processing'
+  VENUE-ACR: GeBNLP
+- FIELD: WS3
+  TYPE: workshop
   TITLE: "KB-VLP: Knowledge Based Vision and Language Pretraining"
   YEAR: '2021'
   URL: 'https://www.microsoft.com/en-us/research/publication/kb-vlp-knowledge-based-vision-and-language-pretraining-2/'
@@ -156,16 +188,6 @@
   - Alan W Black
   VENUE: 'Findings of The 2021 Conference of the Association for Computational Linguistics'
   VENUE-ACR: Findings of ACL 
-- FIELD: WS3
-  TYPE: preprint
-  TITLE: 'Worst of Both Worlds: Biases Compound in Pre-trained Vision-and-Language Models'
-  YEAR: '2021'
-  URL: https://arxiv.org/abs/2104.08666
-  AUTHORS:
-  - Tejas Srinivasan
-  - Yonatan Bisk
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
 - FIELD: WS3
   TYPE: conference
   TITLE: 'An Empirical Study on the Generalization Power of Neural Representations Learned via Visual Guessing Games'
