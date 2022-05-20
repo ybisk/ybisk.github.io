@@ -1,4 +1,17 @@
 ---
+- FIELD: WS3
+  TYPE: preprint
+  TITLE: 'Training Vision-Language Transformers from Captions Alone'
+  YEAR: '2022'
+  URL: 'https://arxiv.org/abs/2205.09256'
+  AUTHORS:
+    - Liangke Gui
+    - Qiuyuan Huang
+    - Alex Hauptmann
+    - Yonatan Bisk
+    - Jianfeng Gao
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
 - FIELD: WS5
   TYPE: conference
   TITLE: 'Symmetric Machine Theory of Mind'
