@@ -10,6 +10,46 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBC1D21RJT"></script>
+    <!-- https://codemyui.com/text-flip-on-hover/ -->
+    <script>
+      (function($){
+        $.fn.flip = function(options){
+        var options = $.extend({
+          targetClass: '.m-flip_item'
+        }, options);
+    
+            return this.each(function(){
+              console.log(this);
+          var $this = $(this),
+            $target = $this.find(options.targetClass);
+    
+          $this
+            .on({
+              'init.flip': function(){
+                var targetFirst_height = $target.eq(0).height();
+    
+                $this
+                  .data('height', targetFirst_height)
+                  .css({ height: targetFirst_height });
+              },
+              'mouseenter.flip': function(){
+                $target.css({ top: -$this.data('height') + 'px' });
+              },
+              'mouseleave.flip': function(){
+                $target.css({ top: 0 + 'px' });
+              }
+            })
+            .trigger('init.flip');
+        });
+        };
+    }(jQuery));
+    
+    $(function(){
+      $('.js-flip').flip();
+    });
+
+    </script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -95,10 +135,16 @@
       
         <!-- Yingshan -->
         <div class="card student" style="max-width: 400px;">
-          <img src=images/students/yingshanchang.jpg class="card-img-top" alt="Yingshan Chang">
-          <img src="images/LTI.png" width=40px class="logo">
+          <a href="https://zdxdsw.github.io/">
+            <img src=images/students/yingshanchang.jpg class="card-img-top" alt="Yingshan Chang">
+          </a>
+          <img src="images/LTI.png" width=40px class="logo" alt="LTI logo">
           <div class="card-body">
-            <h5 class="card-title"><a href="https://zdxdsw.github.io/"><b>Yingshan Chang</b></a>
+            <h5 class="card-title">
+                <p class="m-flip js-flip" style="font-weight:200; font-size: 20px;">
+                <span class="m-flip_item"><a href="https://zdxdsw.github.io/"><b>Yingshan Chang</b></a></span>
+                <span class="m-flip_item"><a href="https://zdxdsw.github.io/"><b>常影杉</b></a></span>
+                </p>
               <h6><a href="https://twitter.com/_Yingshan">@_Yingshan</a><font class="pronoun">she/her</font></h6>
               <img width=50 src="images/WSs/WS3_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"  alt="small robot watching TV">
             </h5>
@@ -115,8 +161,10 @@
 
         <!-- Jared -->
         <div class="card student" style="max-width: 400px;">
-          <img src=images/students/jaredfernandez.jpg class="card-img-top" alt="Jared Fernandez">
-          <img src="images/LTI.png" width=40px class="logo">
+          <a href="https://www.jaredfern.com/">
+            <img src=images/students/jaredfernandez.jpg class="card-img-top" alt="Jared Fernandez">
+          </a>
+          <img src="images/LTI.png" width=40px class="logo" alt="LTI logo">
           <div class="card-body" >
             <h5 class="card-title"><a href="https://www.jaredfern.com/"><b>Jared Fernandez</b></a>
               <h6><a href="https://twitter.com/FernJared">@FernJared</a><font class="pronoun">he/him</font></h6>
@@ -134,10 +182,16 @@
 
         <!-- Vidhi -->
         <div class="card student" style="max-width: 400px;">
-          <img src=images/students/vidhijain.jpg class="card-img-top" alt="Vidhi Jain">
-          <img src="images/RI.png" height=40px class="logo">
+          <a href="http://vidhijain.github.io/">
+            <img src=images/students/vidhijain.jpg class="card-img-top" alt="Vidhi Jain">
+          </a>
+          <img src="images/RI.png" height=40px class="logo" alt="RI logo">
           <div class="card-body">
-            <h5 class="card-title"><a href="http://vidhijain.github.io/"><b>Vidhi Jain</b></a>
+            <h5 class="card-title">
+                <p class="m-flip js-flip" style="font-weight:200; font-size: 20px;">
+                <span class="m-flip_item"><a href="http://vidhijain.github.io/"><b>Vidhi Jain</b></a></span>
+                <span class="m-flip_item"><a href="http://vidhijain.github.io/"><b>विधि जैन</b></a></span>
+                </p>
               <h6><a href="https://twitter.com/viddivj">@viddivj</a><font class="pronoun">she/her</font></h6>
               <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"  alt="small robot building a rocket">
             </h5>
@@ -154,10 +208,16 @@
 
         <!-- Tiffany -->
         <div class="card student" style="max-width: 400px;">
-          <img src=images/students/tiffanymin.jpg class="card-img-top" alt="So Yeon (Tiffany) Min">
-          <img src="images/mld.gif" height=40px class="logo">
+          <a href="http://soyeonm.github.io/">
+            <img src=images/students/tiffanymin.jpg class="card-img-top" alt="So Yeon (Tiffany) Min">
+          </a>
+          <img src="images/mld.gif" height=40px class="logo" alt="MLD logo">
           <div class="card-body">
-            <h5 class="card-title"><a href="http://soyeonm.github.io/"><b>Tiffany Min</b></a>
+            <h5 class="card-title">
+                <p class="m-flip js-flip" style="font-weight:200; font-size: 20px;">
+                  <span class="m-flip_item"><a href="http://soyeonm.github.io/"><b>Tiffany Min</b></a></span>
+                  <span class="m-flip_item"><a href="http://soyeonm.github.io/"><b>민소연</b></a></span>
+                </p>
               <h6><a href="https://twitter.com/SoYeonTiffMin">@SoYeonTiffMin</a><font class="pronoun">she/her</font></h6>
               <img width=50 src="images/WSs/WS4_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;" alt="small robot building a rocket">
             </h5>
@@ -174,10 +234,16 @@
 
         <!-- Hao -->
         <div class="card student" style="max-width: 400px;">
-          <img src=images/students/haozhu.jpg class="card-img-top" alt="Hao Zhu">
-          <img src="images/LTI.png" width=40px class="logo">
+          <a href="http://www.zhuhao.me/">
+            <img src=images/students/haozhu.jpg class="card-img-top" alt="Hao Zhu">
+          </a>
+          <img src="images/LTI.png" width=40px class="logo" alt="LTI logo">
           <div class="card-body">
-            <h5 class="card-title"><a href="http://www.zhuhao.me/"><b>Hao Zhu</b></a>
+            <h5 class="card-title">
+                <p class="m-flip js-flip" style="font-weight:200; font-size: 20px;">
+                  <span class="m-flip_item"><a href="http://www.zhuhao.me/"><b>Hao Zhu</b></a></span>
+                  <span class="m-flip_item"><a href="http://www.zhuhao.me/"><b>朱昊</b></a></span>
+                </p> 
               <h6><a href="https://twitter.com/_Hao_Zhu">@_Hao_Zhu</a><font class="pronoun">he/him/他</font></h6>
               <img width=50 src="images/WSs/WS5_small.png" style="margin-bottom:0px;margin-top:0px;width:50;border:0px;display:inline;float:right;"  alt="small robot giving a gift to another robot"></h5>
             <p class="card-text">
@@ -221,7 +287,7 @@
         <!-- Josh -->
         <div class="card student" style="max-width: 400px;">
           <img src=images/students/joshzhanson.jpg class="card-img-top" alt="Josh Zhanson">
-          <img src="images/LTI.png" width=40px class="logo">
+          <img src="images/LTI.png" width=40px class="logo" alt="LTI logo">
           <div class="card-body">
             <h5 class="card-title"><a href="http://jzhanson.com/"><b>Josh Zhanson</b></a>
               <h6><a href="https://twitter.com/jzhanson">@jzhanson</a><font class="pronoun">he/him</font></h6>

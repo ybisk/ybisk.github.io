@@ -12,6 +12,8 @@
     - Jianfeng Gao
   VENUE: ArXiv
   VENUE-ACR: ArXiv
+  EXTRAS:
+    Code: https://github.com/guilk/VLC
 - FIELD: WS5
   TYPE: conference
   TITLE: 'Symmetric Machine Theory of Mind'
@@ -90,6 +92,8 @@
   - Jianfeng Gao
   VENUE: 'Annual Conference of the North American Chapter of the Association for Computational Linguistics'
   VENUE-ACR: NAACL (Oral)
+  EXTRAS:
+    Code: https://github.com/guilk/KAT
 - FIELD: WS4
   TYPE: conference
   TITLE: 'FILM: Following Instructions in Language with Modular Methods'
@@ -103,6 +107,8 @@
   - Ruslan Salakhutdinov
   VENUE: The Tenth International Conference on Learning Representations
   VENUE-ACR: ICLR
+  EXTRAS:
+    Code: https://github.com/soyeonm/FILM
 - FIELD: WS3
   TYPE: conference
   TITLE: 'WebQA: Multihop and Multimodal QA'
@@ -117,6 +123,9 @@
   - Yonatan Bisk
   VENUE: Conference on Computer Vision and Pattern Recognition
   VENUE-ACR: CVPR (Oral)
+  EXTRAS:
+    Project: https://webqna.github.io/
+    Leaderboard: https://eval.ai/challenge/1255/overview
 - FIELD: WS3
   TYPE: conference
   TITLE: 'Dependency Induction Through the Lens of Visual Perception'
@@ -145,6 +154,8 @@
   - Luke Zettlemoyer
   VENUE: Conference on Robot Learning 
   VENUE-ACR: CoRL
+  EXTRAS:
+    Data: https://github.com/snaredataset/snare
 - FIELD: WS3
   TYPE: conference
   TITLE: "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment"
@@ -190,6 +201,8 @@
   - Yonatan Bisk
   VENUE: 'The Thirty-eighth International Conference on Machine Learning'
   VENUE-ACR: ICML
+  EXTRAS:
+    Code: https://github.com/CLAW-Lab/ToM
 - FIELD: O
   TYPE: conference
   TITLE: "Grounding `Grounding' in NLP"
@@ -246,6 +259,8 @@
   - Matthew Hausknecht
   VENUE: Proceedings of the International Conference on Learning Representations
   VENUE-ACR: ICLR
+  EXTRAS:
+    Code: https://github.com/alfworld/alfworld
 - FIELD: WS3
   TYPE: conference
   TITLE: Imagining Grounded Conceptual Representations from Perceptual Information

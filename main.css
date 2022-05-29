@@ -50,7 +50,7 @@ body {
     max-width: 900px;
     font-size: 1.125em;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    line-height: 1.5em;
+    line-height: 1.25;
     color: #000000;
     background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -65,7 +65,7 @@ body {
 
 
 h1, h2, h3, h5  {
-    line-height: 1em;
+    line-height: 1.2;
     font-style: normal;
     font-weight: lighter;
 }
@@ -217,4 +217,22 @@ img {
   border: 0px solid #000000;
   background-color: #FFFFFF;
   z-index: 1;
+}
+.m-flip{
+	overflow: hidden;
+	cursor: pointer;
+}
+.m-flip_item{
+	display: block;
+	position: relative;
+	top: 0;
+	transition: top .2s ease-out 0s;
+	&:nth-child(1){
+		color: #666;
+	}
+}
+#app{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 0 0;
 }

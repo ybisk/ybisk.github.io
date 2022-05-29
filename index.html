@@ -6,6 +6,44 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      (function($){
+        $.fn.flip = function(options){
+        var options = $.extend({
+          targetClass: '.m-flip_item'
+        }, options);
+    
+            return this.each(function(){
+              console.log(this);
+          var $this = $(this),
+            $target = $this.find(options.targetClass);
+    
+          $this
+            .on({
+              'init.flip': function(){
+                var targetFirst_height = $target.eq(0).height();
+    
+                $this
+                  .data('height', targetFirst_height)
+                  .css({ height: targetFirst_height });
+              },
+              'mouseenter.flip': function(){
+                $target.css({ top: -$this.data('height') + 'px' });
+              },
+              'mouseleave.flip': function(){
+                $target.css({ top: 0 + 'px' });
+              }
+            })
+            .trigger('init.flip');
+        });
+        };
+    }(jQuery));
+    
+    $(function(){
+      $('.js-flip').flip();
+    });
+
+    </script>
     <meta name=viewport content="width=device-width, initial-scale=1">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -65,13 +103,16 @@
           <div class="col-sm-8">
             <br>
             <br>
-            <span style="margin-bottom:0em"><font size=7 style="font-weight:200;">Yonatan Bisk <font size=3>(he/him)</font></font> </span>
+            <!--<span style="margin-bottom:0em">-->
+                <p class="m-flip js-flip" style="font-weight:200; font-size: 60px;">
+                <span class="m-flip_item">Yonatan Bisk <font size=3>(he/him)</font></span>
+                <span class="m-flip_item">יונתן ביסק <font size=3>(הוא)</font></span>
+                </p>
+                <!-- </span>-->
             <span style="margin-top: 0em;display: block;"><font size=4 style="font-weight:200;"><b>Assistant Professor @ CMU</b> &nbsp;&nbsp;&nbsp;&nbsp;<font size=3>GHC 6703</font></font></span>
             <br>
             <div style="font-weight:200;font-size:1.15em;">My research area is Natural Language Processing (NLP) with a focus on <b>grounding</b> and <b>embodiment</b>.  In particular, my interests are broadly: Modeling the semantics of the physical world, and Connecting language to perception and control.
               <a href="http://www.twitter.com/ybisk"><img src="images/twitter.png" alt="twitter logo" style="margin-bottom:0px;margin-top:0px;height:32px;border:0px;display:inline;float:right;"></a></div>
-            <br>
-            <br>
             <br>
           </div> <!-- col -->
           <div class="col-sm-4">
