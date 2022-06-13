@@ -48698,7 +48698,7 @@
   - B.J. Kostrewski
   - Charles Oppenheim
   TITLE: Ethics in information science
-  URL: " \n        https://doi.org/10.1177/016555157900100505"
+  URL: " https://doi.org/10.1177/016555157900100505"
   YEAR: '1979'
   abstract: ' Ethical questions in information science research, teach ing and practice
     are considered. It is recommended that supervisors of research make clear their
@@ -48716,11 +48716,10 @@
     asked to present biased or misleading results. There is a need for a code of ethics
     for information scientists, and information scientists need to be far more aware
     of ethical questions. }'
-  doi: 10.1177/016555157900100505
-  eprint: " \n        https://doi.org/10.1177/016555157900100505"
   file: https://github.com/ybisk/papers/blob/master/1979/KostrewskiOppenheim_Ethics_in_information_science.pdf
   idx: 3273
-  journal: Journal of Information Science
+  TYPE: journal
+  VENUE: Journal of Information Science
   number: '5'
   pages: 277-283
   volume: '1'
@@ -48743,7 +48742,7 @@
   TITLE: Fast-Slow Transformer for Visually Grounding Speech
   TYPE: conference
   URL: https://arxiv.org/abs/2109.08186
-  VENUE: "ICASSP 2022, code and model weights are available at\n  https://github.com/jasonppy/FaST-VGS-Family"
+  VENUE: "ICASSP"
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/PengHarwath_FastSlow_Transformer_for_Visually_Grounding_Speech.pdf
   idx: 3275
@@ -48772,8 +48771,193 @@
   TITLE: 'SUPERB: Speech processing Universal PERformance Benchmark'
   TYPE: conference
   URL: https://arxiv.org/abs/2105.01051
-  VENUE: To appear in Interspeech 2021
+  VENUE: Interspeech 
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/YangChiChuangLaiLakhotia_SUPERB_Speech_processing_Universal_PERformance_Benchmark.pdf
   idx: 3276
   month: '05'
+- AUTHORS:
+  - David Premack
+  - Guy Woodruff
+  DOI: 10.1017/S0140525X00076512
+  TITLE: Does the chimpanzee have a theory of mind?
+  YEAR: '1978'
+  file: https://github.com/ybisk/papers/blob/master/1978/PremackWoodruff_Does_the_chimpanzee_have_a_theory_of_mind.pdf
+  idx: 3277
+  VENUE: Behavioral and Brain Sciences
+  TYPE: journal
+  number: '4'
+  pages: "515\u2013526}"
+  publisher: Cambridge University Press
+  volume: '1'
+- AUTHORS:
+  - Yuxin Fang
+  - Bencheng Liao
+  - Xinggang Wang
+  - Jiemin Fang
+  - Jiyang Qi
+  - Rui Wu
+  - Jianwei Niu
+  - Wenyu Liu
+  TITLE: "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2106.00666
+  VENUE: NeurIPS 
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/FangLiaoWangFangQi_You_Only_Look_at_One_Sequence_Rethinking_Transformer_in_Vision_through_Object_Detection.pdf
+  idx: 3278
+  month: '06'
+- AUTHORS:
+  - Weiyu Liu
+  - Chris Paxton
+  - Tucker Hermans
+  - Dieter Fox
+  TITLE: "StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2110.10189
+  VENUE: arXiv:2110.10189
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/LiuPaxtonHermansFox_StructFormer_Learning_Spatial_Structure_for_LanguageGuided_Semantic_Rearrangement_of_Novel_Objects.pdf
+  idx: 3279
+  month: '10'
+- AUTHORS:
+  - Yubo Zhang
+  - Feiyang Niu
+  - Qing Ping
+  - Govind Thattai
+  TITLE: A Multi-level Alignment Training Scheme for Video-and-Language Grounding
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2204.10938
+  VENUE: arXiv:2204.10938
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/ZhangNiuPingThattai_A_Multilevel_Alignment_Training_Scheme_for_VideoandLanguage_Grounding.pdf
+  idx: 3280
+  month: '04'
+- AUTHORS:
+  - Wanrong Zhu
+  - Bo Pang
+  - Ashish Thapliyal
+  - William Yang Wang
+  - Radu Soricut
+  TITLE: End-to-end Dense Video Captioning as Sequence Generation
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2204.08121
+  VENUE: arXiv:2204.08121
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/ZhuPangThapliyalWangSoricut_Endtoend_Dense_Video_Captioning_as_Sequence_Generation.pdf
+  idx: 3281
+  month: '04'
+- AUTHORS:
+  - Tristan Thrush
+  - Ryan Jiang
+  - Max Bartolo
+  - Amanpreet Singh
+  - Adina Williams
+  - Douwe Kiela
+  - Candace Ross
+  TITLE: "Winoground: Probing Vision and Language Models for Visio-Linguistic\n  Compositionality"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2204.03162
+  VENUE: CVPR 
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/ThrushJiangBartoloSinghWilliams_Winoground_Probing_Vision_and_Language_Models_for_VisioLinguistic_Compositionality.pdf
+  idx: 3282
+  month: '04'
+- AUTHORS:
+  - Sheng Shen
+  - Chunyuan Li
+  - Xiaowei Hu
+  - Yujia Xie
+  - Jianwei Yang
+  - Pengchuan Zhang
+  - Anna Rohrbach
+  - Zhe Gan
+  - Lijuan Wang
+  - Lu Yuan
+  - Ce Liu
+  - Kurt Keutzer
+  - Trevor Darrell
+  - Jianfeng Gao
+  TITLE: 'K-LITE: Learning Transferable Visual Models with External Knowledge'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2204.09222
+  VENUE: arXiv:2204.09222
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/ShenLiHuXieYang_KLITE_Learning_Transferable_Visual_Models_with_External_Knowledge.pdf
+  idx: 3283
+  month: '04'
+- AUTHORS:
+  - Sanjay Subramanian
+  - William Merrill
+  - Trevor Darrell
+  - Matt Gardner
+  - Sameer Singh
+  - Anna Rohrbach
+  TITLE: "ReCLIP: A Strong Zero-Shot Baseline for Referring Expression\n  Comprehension"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2204.05991
+  VENUE: ACL 
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/SubramanianMerrillDarrellGardnerSingh_ReCLIP_A_Strong_ZeroShot_Baseline_for_Referring_Expression_Comprehension.pdf
+  idx: 3284
+  month: '04'
+- AUTHORS:
+  - Samyak Datta
+  - Sameer Dharur
+  - Vincent Cartillier
+  - Ruta Desai
+  - Mukul Khanna
+  - Dhruv Batra
+  - Devi Parikh
+  TITLE: Episodic Memory Question Answering
+  TYPE: conference
+  URL: https://arxiv.org/abs/2205.01652
+  VENUE: CVPR
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/DattaDharurCartillierDesaiKhanna_Episodic_Memory_Question_Answering.pdf
+  idx: 3285
+  month: '05'
+- AUTHORS:
+  - Jiahui Yu
+  - Zirui Wang
+  - Vijay Vasudevan
+  - Legg Yeung
+  - Mojtaba Seyedhosseini
+  - Yonghui Wu
+  TITLE: 'CoCa: Contrastive Captioners are Image-Text Foundation Models'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2205.01917
+  VENUE: Preprint
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/YuWangVasudevanYeungSeyedhosseini_CoCa_Contrastive_Captioners_are_ImageText_Foundation_Models.pdf
+  idx: 3286
+  month: '05'
+- AUTHORS:
+  - Xingyi Zhou
+  - Rohit Girdhar
+  - Armand Joulin
+  - "Phillip Kr\xE4henb\xFChl"
+  - Ishan Misra
+  TITLE: Detecting Twenty-thousand Classes using Image-level Supervision
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2201.02605
+  VENUE: arXiv:2201.02605
+  YEAR: '2022'
+  file: "https://github.com/ybisk/papers/blob/master/2022/ZhouGirdharJoulinKr\xE4\
+    henb\xFChlMisra_Detecting_Twentythousand_Classes_using_Imagelevel_Supervision.pdf"
+  idx: 3287
+  month: '01'
+- AUTHORS:
+  - Dustin Schwenk
+  - Apoorv Khandelwal
+  - Christopher Clark
+  - Kenneth Marino
+  - Roozbeh Mottaghi
+  TITLE: 'A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2206.01718
+  VENUE: arXiv:2206.01718
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/SchwenkKhandelwalClarkMarinoMottaghi_AOKVQA_A_Benchmark_for_Visual_Question_Answering_using_World_Knowledge.pdf
+  idx: 3288
+  month: '06'
