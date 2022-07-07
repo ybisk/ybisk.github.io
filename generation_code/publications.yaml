@@ -1,4 +1,17 @@
 ---
+- FIELD: WS4
+  TYPE: preprint
+  TITLE: 'Transformers are Adaptable Task Planners'
+  YEAR: '2022'
+  URL: 'https://arxiv.org/abs/2207.02442'
+  AUTHORS:
+    - Vidhi Jain
+    - Yixin Lin
+    - Eric Undersander
+    - Yonatan Bisk
+    - Akshara Rai
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
 - FIELD: WS3
   TYPE: preprint
   TITLE: 'Training Vision-Language Transformers from Captions Alone'

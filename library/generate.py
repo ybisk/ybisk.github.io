@@ -59,7 +59,7 @@ def generate_bibtex(entry):
   return tex
 
 def create_html_entry(entry, idx):
-  print(entry["TITLE"])
+  #print(entry["TITLE"])
   # Read entry template
   html = "".join([line for line in open("entry.html")])
   if "file" not in entry:

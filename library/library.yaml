@@ -48698,7 +48698,9 @@
   - B.J. Kostrewski
   - Charles Oppenheim
   TITLE: Ethics in information science
-  URL: " https://doi.org/10.1177/016555157900100505"
+  TYPE: journal
+  URL: ' https://doi.org/10.1177/016555157900100505'
+  VENUE: Journal of Information Science
   YEAR: '1979'
   abstract: ' Ethical questions in information science research, teach ing and practice
     are considered. It is recommended that supervisors of research make clear their
@@ -48718,8 +48720,6 @@
     of ethical questions. }'
   file: https://github.com/ybisk/papers/blob/master/1979/KostrewskiOppenheim_Ethics_in_information_science.pdf
   idx: 3273
-  TYPE: journal
-  VENUE: Journal of Information Science
   number: '5'
   pages: 277-283
   volume: '1'
@@ -48742,7 +48742,7 @@
   TITLE: Fast-Slow Transformer for Visually Grounding Speech
   TYPE: conference
   URL: https://arxiv.org/abs/2109.08186
-  VENUE: "ICASSP"
+  VENUE: ICASSP
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/PengHarwath_FastSlow_Transformer_for_Visually_Grounding_Speech.pdf
   idx: 3275
@@ -48771,7 +48771,7 @@
   TITLE: 'SUPERB: Speech processing Universal PERformance Benchmark'
   TYPE: conference
   URL: https://arxiv.org/abs/2105.01051
-  VENUE: Interspeech 
+  VENUE: Interspeech
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/YangChiChuangLaiLakhotia_SUPERB_Speech_processing_Universal_PERformance_Benchmark.pdf
   idx: 3276
@@ -48781,11 +48781,11 @@
   - Guy Woodruff
   DOI: 10.1017/S0140525X00076512
   TITLE: Does the chimpanzee have a theory of mind?
+  TYPE: journal
+  VENUE: Behavioral and Brain Sciences
   YEAR: '1978'
   file: https://github.com/ybisk/papers/blob/master/1978/PremackWoodruff_Does_the_chimpanzee_have_a_theory_of_mind.pdf
   idx: 3277
-  VENUE: Behavioral and Brain Sciences
-  TYPE: journal
   number: '4'
   pages: "515\u2013526}"
   publisher: Cambridge University Press
@@ -48799,10 +48799,11 @@
   - Rui Wu
   - Jianwei Niu
   - Wenyu Liu
-  TITLE: "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection"
+  TITLE: 'You Only Look at One Sequence: Rethinking Transformer in Vision through
+    Object Detection'
   TYPE: conference
   URL: https://arxiv.org/abs/2106.00666
-  VENUE: NeurIPS 
+  VENUE: NeurIPS
   YEAR: '2021'
   file: https://github.com/ybisk/papers/blob/master/2021/FangLiaoWangFangQi_You_Only_Look_at_One_Sequence_Rethinking_Transformer_in_Vision_through_Object_Detection.pdf
   idx: 3278
@@ -48812,7 +48813,8 @@
   - Chris Paxton
   - Tucker Hermans
   - Dieter Fox
-  TITLE: "StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects"
+  TITLE: 'StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement
+    of Novel Objects'
   TYPE: preprint
   URL: https://arxiv.org/abs/2110.10189
   VENUE: arXiv:2110.10189
@@ -48858,7 +48860,7 @@
   TITLE: "Winoground: Probing Vision and Language Models for Visio-Linguistic\n  Compositionality"
   TYPE: conference
   URL: https://arxiv.org/abs/2204.03162
-  VENUE: CVPR 
+  VENUE: CVPR
   YEAR: '2022'
   file: https://github.com/ybisk/papers/blob/master/2022/ThrushJiangBartoloSinghWilliams_Winoground_Probing_Vision_and_Language_Models_for_VisioLinguistic_Compositionality.pdf
   idx: 3282
@@ -48896,7 +48898,7 @@
   TITLE: "ReCLIP: A Strong Zero-Shot Baseline for Referring Expression\n  Comprehension"
   TYPE: conference
   URL: https://arxiv.org/abs/2204.05991
-  VENUE: ACL 
+  VENUE: ACL
   YEAR: '2022'
   file: https://github.com/ybisk/papers/blob/master/2022/SubramanianMerrillDarrellGardnerSingh_ReCLIP_A_Strong_ZeroShot_Baseline_for_Referring_Expression_Comprehension.pdf
   idx: 3284
@@ -48961,3 +48963,209 @@
   file: https://github.com/ybisk/papers/blob/master/2022/SchwenkKhandelwalClarkMarinoMottaghi_AOKVQA_A_Benchmark_for_Visual_Question_Answering_using_World_Knowledge.pdf
   idx: 3288
   month: '06'
+- AUTHORS:
+  - Paul Smolensky
+  - R. Thomas McCoy
+  - Roland Fernandez
+  - Matthew Goldrick
+  - Jianfeng Gao
+  TITLE: "Neurocompositional computing: From the Central Paradox of Cognition to a\n\
+    \  new generation of AI systems"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2205.01128
+  VENUE: "AI  Magazine"
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/SmolenskyMcCoyFernandezGoldrickGao_Neurocompositional_computing_From_the_Central_Paradox_of_Cognition_to_a_new_generation_of_AI_systems.pdf
+  idx: 3289
+  month: '05'
+- AUTHORS:
+  - Rohit Girdhar
+  - Alaaeldin El-Nouby
+  - Mannat Singh
+  - Kalyan Vasudev Alwala
+  - Armand Joulin
+  - Ishan Misra
+  TITLE: 'OmniMAE: Single Model Masked Pretraining on Images and Videos'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2206.08356
+  VENUE: arXiv:2206.08356
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/GirdharElNoubySinghAlwalaJoulin_OmniMAE_Single_Model_Masked_Pretraining_on_Images_and_Videos.pdf
+  idx: 3290
+  month: '06'
+- AUTHORS:
+  - Jean-Baptiste Alayrac
+  - Jeff Donahue
+  - Pauline Luc
+  - Antoine Miech
+  - Iain Barr
+  - Yana Hasson
+  - Karel Lenc
+  - Arthur Mensch
+  - Katie Millican
+  - Malcolm Reynolds
+  - Roman Ring
+  - Eliza Rutherford
+  - Serkan Cabi
+  - Tengda Han
+  - Zhitao Gong
+  - Sina Samangooei
+  - Marianne Monteiro
+  - Jacob Menick
+  - Sebastian Borgeaud
+  - Andrew Brock
+  - Aida Nematzadeh
+  - Sahand Sharifzadeh
+  - Mikolaj Binkowski
+  - Ricardo Barreira
+  - Oriol Vinyals
+  - Andrew Zisserman
+  - Karen Simonyan
+  TITLE: 'Flamingo: a Visual Language Model for Few-Shot Learning'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2204.14198
+  VENUE: arXiv:2204.14198
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/AlayracDonahueLucMiechBarr_Flamingo_a_Visual_Language_Model_for_FewShot_Learning.pdf
+  idx: 3291
+  month: '04'
+- AUTHORS:
+  - Matt Deitke
+  - Eli VanderBilt
+  - Alvaro Herrasti
+  - Luca Weihs
+  - Jordi Salvador
+  - Kiana Ehsani
+  - Winson Han
+  - Eric Kolve
+  - Ali Farhadi
+  - Aniruddha Kembhavi
+  - Roozbeh Mottaghi
+  TITLE: 'ProcTHOR: Large-Scale Embodied AI Using Procedural Generation'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2206.06994
+  VENUE: arXiv:2206.06994
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/DeitkeVanderBiltHerrastiWeihsSalvador_ProcTHOR_LargeScale_Embodied_AI_Using_Procedural_Generation.pdf
+  idx: 3292
+  month: '06'
+- AUTHORS:
+  - Harm de Vries
+  - Dzmitry Bahdanau
+  - Christopher Manning
+  TITLE: Towards Ecologically Valid Research on Language User Interfaces
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2007.14435
+  VENUE: arXiv:2007.14435
+  YEAR: '2020'
+  file: https://github.com/ybisk/papers/blob/master/2020/VriesBahdanauManning_Towards_Ecologically_Valid_Research_on_Language_User_Interfaces.pdf
+  idx: 3293
+  month: '07'
+- AUTHORS:
+  - Juil Koo
+  - Ian Huang
+  - Panos Achlioptas
+  - Leonidas Guibas
+  - Minhyuk Sung
+  TITLE: 'PartGlot: Learning Shape Part Segmentation from Language Reference Games'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2112.06390
+  VENUE: CVPR 2022 (Oral)
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/KooHuangAchlioptasGuibasSung_PartGlot_Learning_Shape_Part_Segmentation_from_Language_Reference_Games.pdf
+  idx: 3312
+  month: '12'
+- AUTHORS:
+  - Chongyan Chen
+  - Samreen Anjum
+  - Danna Gurari
+  TITLE: Grounding Answers for Visual Questions Asked by Visually Impaired People
+  TYPE: conference
+  URL: https://arxiv.org/abs/2202.01993
+  VENUE: Computer Vision and Pattern Recognition
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/ChenAnjumGurari_Grounding_Answers_for_Visual_Questions_Asked_by_Visually_Impaired_People.pdf
+  idx: 3313
+  month: '02'
+- AUTHORS:
+  - Santhosh Kumar Ramakrishnan
+  - Devendra Singh Chaplot
+  - Ziad Al-Halah
+  - Jitendra Malik
+  - Kristen Grauman
+  TITLE: "PONI: Potential Functions for ObjectGoal Navigation with\n  Interaction-free\
+    \ Learning"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2201.10029
+  VENUE: CVPR
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/RamakrishnanChaplotAlHalahMalikGrauman_PONI_Potential_Functions_for_ObjectGoal_Navigation_with_Interactionfree_Learning.pdf
+  idx: 3314
+  month: '01'
+- AUTHORS:
+  - Michael Ahn
+  - Anthony Brohan
+  - Noah Brown
+  - Yevgen Chebotar
+  - Omar Cortes
+  - Byron David
+  - Chelsea Finn
+  - Keerthana Gopalakrishnan
+  - Karol Hausman
+  - Alex Herzog
+  - Daniel Ho
+  - Jasmine Hsu
+  - Julian Ibarz
+  - Brian Ichter
+  - Alex Irpan
+  - Eric Jang
+  - Rosario Jauregui Ruano
+  - Kyle Jeffrey
+  - Sally Jesmonth
+  - Nikhil J Joshi
+  - Ryan Julian
+  - Dmitry Kalashnikov
+  - Yuheng Kuang
+  - Kuang-Huei Lee
+  - Sergey Levine
+  - Yao Lu
+  - Linda Luu
+  - Carolina Parada
+  - Peter Pastor
+  - Jornell Quiambao
+  - Kanishka Rao
+  - Jarek Rettinghouse
+  - Diego Reyes
+  - Pierre Sermanet
+  - Nicolas Sievers
+  - Clayton Tan
+  - Alexander Toshev
+  - Vincent Vanhoucke
+  - Fei Xia
+  - Ted Xiao
+  - Peng Xu
+  - Sichun Xu
+  - Mengyuan Yan
+  TITLE: 'Do As I Can, Not As I Say: Grounding Language in Robotic Affordances'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2204.01691
+  VENUE: "ArXiv"
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/AhnBrohanBrownChebotarCortes_Do_As_I_Can_Not_As_I_Say_Grounding_Language_in_Robotic_Affordances.pdf
+  idx: 3315
+  month: '04'
+- AUTHORS:
+  - Weixin Liang
+  - Yuhui Zhang
+  - Yongchan Kwon
+  - Serena Yeung
+  - James Zou
+  TITLE: "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive\n\
+    \  Representation Learning"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2203.02053
+  VENUE: "ArXiv"
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/LiangZhangKwonYeungZou_Mind_the_Gap_Understanding_the_Modality_Gap_in_Multimodal_Contrastive_Representation_Learning.pdf
+  idx: 3316
+  month: '03'
