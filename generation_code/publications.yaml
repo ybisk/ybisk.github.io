@@ -1,4 +1,17 @@
 ---
+- FIELD: WS3
+  TYPE: preprint
+  TITLE: 'Training Vision-Language Transformers from Captions Alone'
+  YEAR: '2022'
+  URL: 'https://arxiv.org/abs/2205.09256'
+  AUTHORS:
+    - Liangke Gui
+    - Qiuyuan Huang
+    - Alex Hauptmann
+    - Yonatan Bisk
+    - Jianfeng Gao
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
 - FIELD: WS4
   TYPE: preprint
   TITLE: 'Transformers are Adaptable Task Planners'
@@ -31,12 +44,12 @@
   TYPE: conference
   TITLE: 'Symmetric Machine Theory of Mind'
   YEAR: '2022'
-  URL: ''
+  URL: 'https://proceedings.mlr.press/v162/sclar22a.html'
   AUTHORS:
   - Melanie Sclar
   - Graham Neubig
   - Yonatan Bisk
-  VENUE: The Thirty-ninth International Conference on Machine Learning 
+  VENUE: 39th International Conference on Machine Learning
   VENUE-ACR: ICML
 - FIELD: WS5
   TYPE: conference
@@ -47,7 +60,7 @@
   - Khanh Nguyen
   - Yonatan Bisk
   - Hal Daume III
-  VENUE: The Thirty-ninth International Conference on Machine Learning 
+  VENUE: 39th International Conference on Machine Learning,
   VENUE-ACR: ICML
 - FIELD: WS5
   TYPE: conference
