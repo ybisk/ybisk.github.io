@@ -48973,7 +48973,7 @@
     \  new generation of AI systems"
   TYPE: conference
   URL: https://arxiv.org/abs/2205.01128
-  VENUE: "AI  Magazine"
+  VENUE: AI  Magazine
   YEAR: '2022'
   file: https://github.com/ybisk/papers/blob/master/2022/SmolenskyMcCoyFernandezGoldrickGao_Neurocompositional_computing_From_the_Central_Paradox_of_Cognition_to_a_new_generation_of_AI_systems.pdf
   idx: 3289
@@ -49149,7 +49149,7 @@
   TITLE: 'Do As I Can, Not As I Say: Grounding Language in Robotic Affordances'
   TYPE: preprint
   URL: https://arxiv.org/abs/2204.01691
-  VENUE: "ArXiv"
+  VENUE: ArXiv
   YEAR: '2022'
   file: https://github.com/ybisk/papers/blob/master/2022/AhnBrohanBrownChebotarCortes_Do_As_I_Can_Not_As_I_Say_Grounding_Language_in_Robotic_Affordances.pdf
   idx: 3315
@@ -49164,8 +49164,22 @@
     \  Representation Learning"
   TYPE: preprint
   URL: https://arxiv.org/abs/2203.02053
-  VENUE: "ArXiv"
+  VENUE: ArXiv
   YEAR: '2022'
   file: https://github.com/ybisk/papers/blob/master/2022/LiangZhangKwonYeungZou_Mind_the_Gap_Understanding_the_Modality_Gap_in_Multimodal_Contrastive_Representation_Learning.pdf
   idx: 3316
+  month: '03'
+- AUTHORS:
+  - Younggyo Seo
+  - Kimin Lee
+  - Stephen James
+  - Pieter Abbeel
+  TITLE: Reinforcement Learning with Action-Free Pre-Training from Videos
+  TYPE: conference
+  URL: https://arxiv.org/abs/2203.13880
+  VENUE: "International Conference on Machine Learning (ICML 2022). Project\n  page:\
+    \ https://sites.google.com/view/rl-apv"
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/SeoLeeJamesAbbeel_Reinforcement_Learning_with_ActionFree_PreTraining_from_Videos.pdf
+  idx: 3317
   month: '03'

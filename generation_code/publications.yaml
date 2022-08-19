@@ -1,17 +1,4 @@
 ---
-- FIELD: WS3
-  TYPE: preprint
-  TITLE: 'Training Vision-Language Transformers from Captions Alone'
-  YEAR: '2022'
-  URL: 'https://arxiv.org/abs/2205.09256'
-  AUTHORS:
-    - Liangke Gui
-    - Qiuyuan Huang
-    - Alex Hauptmann
-    - Yonatan Bisk
-    - Jianfeng Gao
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
 - FIELD: WS4
   TYPE: preprint
   TITLE: 'Transformers are Adaptable Task Planners'
@@ -152,6 +139,7 @@
   EXTRAS:
     Project: https://webqna.github.io/
     Leaderboard: https://eval.ai/challenge/1255/overview
+    "Challenge Summary": https://proceedings.mlr.press/v176/chang22a
 - FIELD: WS3
   TYPE: conference
   TITLE: 'Dependency Induction Through the Lens of Visual Perception'
