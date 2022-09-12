@@ -10,8 +10,8 @@
     - Eric Undersander
     - Yonatan Bisk
     - Akshara Rai
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: Conference on Robot Learning
+  VENUE-ACR: CoRL
 - FIELD: WS3
   TYPE: preprint
   TITLE: 'Training Vision-Language Transformers from Captions Alone'
@@ -38,6 +38,8 @@
   - Yonatan Bisk
   VENUE: 39th International Conference on Machine Learning
   VENUE-ACR: ICML
+  EXTRAS:
+    Talk: "https://slideslive.com/38983255"
 - FIELD: WS5
   TYPE: conference
   TITLE: 'A Framework for Learning to Request Rich and Contextually Useful Information from Humans'
@@ -49,6 +51,8 @@
   - Hal Daume III
   VENUE: 39th International Conference on Machine Learning,
   VENUE-ACR: ICML
+  EXTRAS:
+    Talk: "https://slideslive.com/38983532"
 - FIELD: WS5
   TYPE: conference
   TITLE: 'Simulated Language Learning from Communicative Goals and Linguistic Input'

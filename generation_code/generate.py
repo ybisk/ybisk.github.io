@@ -76,11 +76,11 @@ def create_html_entry(entry, idx):
 
   # Include extra links
   additional = ""
-  btn = "<a class=\"sbtn\" "
+  btn = "&nbsp; <a class=\"sbtn\" "
   if "EXTRAS" in entry:
     for key in entry["EXTRAS"]:
       link = entry["EXTRAS"][key]
-      additional += "&nbsp; {} href=\"{}\"><i>{}</i></a>".format(btn, link, key)
+      additional += " {} href=\"{}\">{}</a>".format(btn, link, key)
   html = html.replace("#EXTRA#", additional)
 
   return html
