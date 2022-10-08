@@ -1,4 +1,42 @@
 ---
+- FIELD: WS5
+  TYPE: conference
+  TITLE: "Why You Shouldn't Copy the Teacher: Investigating Data and Models in Embodied Dialogue"
+  YEAR: '2022'
+  URL: ''
+  AUTHORS:
+    - So Yeon Min
+    - Hao Zhu
+    - Ruslan Salakhutdinov 
+    - Yonatan Bisk
+  VENUE:  The 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE-ACR: EMNLP
+- FIELD: WS2
+  TYPE: conference
+  TITLE: "EvEntS ReaLM: Event Reasoning of Entity States via Language Models"
+  YEAR: '2022'
+  URL: ''
+  AUTHORS:
+    - Evangelia Spiliopoulou
+    - Artidoro Pagnoni
+    - Yonatan Bisk 
+    - Eduard Hovy
+  VENUE:  The 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE-ACR: EMNLP
+- FIELD: WS3
+  TYPE: conference
+  TITLE: "On Advances in Text Generation from Images Beyond Captioning: A Case Study in Self-Rationalization"
+  YEAR: '2022'
+  URL: 'https://arxiv.org/abs/2205.11686'
+  AUTHORS:
+    - Shruti Palaskar
+    - Akshita Bhagia 
+    - Yonatan Bisk 
+    - Florian Metze
+    - Alan W Black
+    - Ana Marasovic
+  VENUE:  Findings of the 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE-ACR: Findings of EMNLP
 - FIELD: WS4
   TYPE: conference
   TITLE: 'Transformers are Adaptable Task Planners'
@@ -221,7 +259,7 @@
   VENUE-ACR: ICML
   EXTRAS:
     Code: https://github.com/CLAW-Lab/ToM
-- FIELD: O
+- FIELD: WS5
   TYPE: conference
   TITLE: "Grounding `Grounding' in NLP"
   YEAR: '2021'
@@ -345,7 +383,7 @@
   - Jianfeng Gao
   VENUE: "Proceedings of the 2020 Conference on Empirical Methods in Natural Language 
     Processing: Findings"
-  VENUE-ACR: EMNLP-Findings
+  VENUE-ACR: Findings of EMNLP
   EXTRAS:
     Code: https://github.com/HomeroRR/rmm
 - FIELD: WS3
@@ -476,7 +514,7 @@
   VENUE-ACR: IROS
   EXTRAS:
     Video: https://www.youtube.com/watch?v=0uk_1yP9hqM
-- FIELD: O
+- FIELD: WS4
   TYPE: conference
   TITLE: Early Fusion for Goal Directed Robotic Vision
   YEAR: '2019'
@@ -628,7 +666,7 @@
   VENUE: 32nd Conference on Neural Information Processing Systems (NIPS 2018), IRASL
     workshop
   VENUE-ACR: IRASL wksp @ NeurIPS
-- FIELD: O
+- FIELD: WS2
   TYPE: conference
   TITLE: 'Synthetic and Natural Noise Both Break Neural Machine Translation '
   YEAR: '2018'
@@ -638,7 +676,7 @@
   - Yonatan Bisk
   VENUE: Proceedings of the 6th International Conference on Learning Representations
   VENUE-ACR: ICLR (Oral)
-- FIELD: O
+- FIELD: WS4
   TYPE: preprint
   TITLE: 'CHALET: Cornell House Agent Learning Environment '
   YEAR: '2018'
@@ -831,7 +869,7 @@
   - Julia Hockenmaier
   VENUE: NAACL HLT Workshop on Induction of Linguistic Structure
   VENUE-ACR: Inducing Ling Structure Wksp
-- FIELD: O
+- FIELD: WS1
   TYPE: conference
   TITLE: Normal-form parsing for CCGs with generalized composition and type-raising
   YEAR: '2010'

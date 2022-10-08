@@ -103,6 +103,7 @@ website = "".join([line for line in open("pub_template.html")])
 idx = len(pubs)
 generated_html = ""
 for entry in pubs:
+  #print(entry) -- debugging
   generated_html += create_html_entry(entry, idx)
   idx -= 1
 
