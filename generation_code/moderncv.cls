@@ -375,8 +375,8 @@
   \cvline{#1}{%
     {{\bfseries#2}}%
     \ifthenelse{\equal{#3}{}}{}{\newline{}\small #3}%
-    \ifthenelse{\equal{#4}{}}{}{,\newline{}\small\textit{#4}}%
-    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#4}{}}{}{\newline{}\small\textit{#4}}%
+    \ifthenelse{\equal{#5}{}}{}{ #5}%
     %.%
     \ifthenelse{\equal{#6}{}}{}{\newline{}\small#6}
     }}%

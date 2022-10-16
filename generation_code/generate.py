@@ -86,7 +86,12 @@ def create_html_entry(entry, idx):
   return html
 
 def create_latex_entry(entry):
-  tex = "{\href{#URL#}{#TITLE#}\hfill \\textnormal{#YEAR#}}\n\t{#AUTHORS#}\n\t{#VENUE#}{#PRESENTATION#}{}\n"
+  tex = "{\\begin{minipage}[t]{5.2in}\\href{#URL#}{#TITLE#}\end{minipage}\\hfill \\textnormal{#YEAR#}}\n" \
+        "   \t{\\begin{tabular}{@{}p{5.2in}}" \
+        "       #AUTHORS#" \
+        "     \\end{tabular}}\n" \
+        "   \t{\\begin{tabular}{@{}p{5in}}#VENUE# #PRESENTATION#\\end{tabular} }" \
+        "      { }{}\n"
   tex = tex.replace("#YEAR#", entry["YEAR"])
   tex = tex.replace("#URL#", entry["URL"])
   tex = tex.replace("#TITLE#", entry["TITLE"].replace("&","\\&"))

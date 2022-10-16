@@ -1,4 +1,51 @@
 ---
+- FIELD: WS4
+  TYPE: preprint
+  TITLE: "Retrospectives on the Embodied AI Workshop"
+  YEAR: '2022'
+  URL: 'https://arxiv.org/abs/2210.06849'
+  AUTHORS: 
+   - Matt Deitke
+   - Dhruv Batra
+   - Yonatan Bisk
+   - Tommaso Campari
+   - Angel X. Chang
+   - Devendra Singh Chaplot
+   - Changan Chen
+   - Claudia Pérez D'Arpino
+   - Kiana Ehsani
+   - Ali Farhadi
+   - Li Fei-Fei
+   - Anthony Francis
+   - Chuang Gan
+   - Kristen Grauman
+   - David Hall
+   - Winson Han
+   - Unnat Jain
+   - Aniruddha Kembhavi
+   - Jacob Krantz
+   - Stefan Lee
+   - Chengshu Li
+   - Sagnik Majumder
+   - Oleksandr Maksymets
+   - Roberto Martín-Martín
+   - Roozbeh Mottaghi
+   - Sonia Raychaudhuri
+   - Mike Roberts
+   - Silvio Savarese
+   - Manolis Savva
+   - Mohit Shridhar
+   - Niko Sünderhauf
+   - Andrew Szot
+   - Ben Talbot
+   - Joshua B. Tenenbaum
+   - Jesse Thomason
+   - Alexander Toshev
+   - Joanne Truong
+   - Luca Weihs
+   - Jiajun Wu
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
 - FIELD: WS5
   TYPE: conference
   TITLE: "Why You Shouldn't Copy the Teacher: Investigating Data and Models in Embodied Dialogue"
@@ -9,7 +56,7 @@
     - Hao Zhu
     - Ruslan Salakhutdinov 
     - Yonatan Bisk
-  VENUE:  The 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE:  Conference on Empirical Methods in Natural Language Processing
   VENUE-ACR: EMNLP
 - FIELD: WS2
   TYPE: conference
@@ -21,7 +68,7 @@
     - Artidoro Pagnoni
     - Yonatan Bisk 
     - Eduard Hovy
-  VENUE:  The 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE:  Conference on Empirical Methods in Natural Language Processing
   VENUE-ACR: EMNLP
 - FIELD: WS3
   TYPE: conference
@@ -35,7 +82,7 @@
     - Florian Metze
     - Alan W Black
     - Ana Marasovic
-  VENUE:  Findings of the 2022 Conference on Empirical Methods in Natural Language Processing
+  VENUE:  Findings of the Conference on Empirical Methods in Natural Language Processing
   VENUE-ACR: Findings of EMNLP
 - FIELD: WS4
   TYPE: conference
@@ -100,7 +147,7 @@
   - Hao Zhu
   - Yonatan Bisk
   - Graham Neubig
-  VENUE: 'Proceedings of the Annual Meeting of the Cognitive Science Society'
+  VENUE: 'Annual Meeting of the Cognitive Science Society'
   VENUE-ACR: 'CogSci (Oral)'
 - FIELD: WS3
   TYPE: conference
@@ -313,7 +360,7 @@
   - Yonatan Bisk
   - Adam Trischler
   - Matthew Hausknecht
-  VENUE: Proceedings of the International Conference on Learning Representations
+  VENUE: International Conference on Learning Representations
   VENUE-ACR: ICLR
   EXTRAS:
     Code: https://github.com/alfworld/alfworld
@@ -364,7 +411,7 @@
   - Aleksandr Nisnevich
   - Nicolas Pinto
   - Joseph Turian
-  VENUE: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+  VENUE: Conference on Empirical Methods in Natural Language
     Processing (EMNLP)
   VENUE-ACR: EMNLP (Oral)
   EXTRAS:
@@ -381,7 +428,7 @@
   - Jesse Thomason
   - Asli Celikyilmaz
   - Jianfeng Gao
-  VENUE: "Proceedings of the 2020 Conference on Empirical Methods in Natural Language 
+  VENUE: "Conference on Empirical Methods in Natural Language 
     Processing: Findings"
   VENUE-ACR: Findings of EMNLP
   EXTRAS:
@@ -509,7 +556,7 @@
   - Jesse Thomason
   - Yonatan Bisk
   - Siddhartha Srinivasa
-  VENUE: Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent
+  VENUE: IEEE/RSJ International Conference on Intelligent
     Robots and Systems
   VENUE-ACR: IROS
   EXTRAS:
@@ -527,7 +574,7 @@
   - Yoav Artzi
   - Yejin Choi
   - Dieter Fox
-  VENUE: Proceedings of the 2019 IEEE/RSJ International Conference on Intelligent
+  VENUE: 2019 IEEE/RSJ International Conference on Intelligent
     Robots and Systems
   VENUE-ACR: IROS
 - FIELD: WS2
@@ -541,7 +588,7 @@
   - Yonatan Bisk
   - Ali Farhadi
   - Yejin Choi
-  VENUE: Proceedings of the Association for Computational Linguistics
+  VENUE: Association for Computational Linguistics
   VENUE-ACR: ACL
 - FIELD: WS3
   TYPE: conference
@@ -586,7 +633,7 @@
   - Jesse Thomason
   - Arunkumar Byravan
   - Dieter Fox
-  VENUE: Proceedings of the International Conference on Robotics and Automation (ICRA)
+  VENUE: International Conference on Robotics and Automation (ICRA)
   VENUE-ACR: ICRA
 - FIELD: WS4
   TYPE: conference
@@ -598,7 +645,7 @@
   - Jesse Thomason
   - Daniel Gordon
   - Yonatan Bisk
-  VENUE: Proceedings of the Annual Conference of the North American Chapter of the
+  VENUE: Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   VENUE-ACR: NAACL Short
 - FIELD: WS2
@@ -611,7 +658,7 @@
   - Jan Buys
   - Karl Pichotta
   - Yejin Choi
-  VENUE: Proceedings of the Annual Conference of the North American Chapter of the
+  VENUE: Annual Conference of the North American Chapter of the
     Association for Computational Linguistics
   VENUE-ACR: NAACL Short (Oral)
   EXTRAS:
@@ -639,7 +686,7 @@
   - Yonatan Bisk
   - Roy Schwartz
   - Yejin Choi
-  VENUE: Proceedings of the 2018 Conference on Empirical Methods in Natural Language
+  VENUE: Conference on Empirical Methods in Natural Language
     Processing (EMNLP)
   VENUE-ACR: EMNLP (Oral)
   EXTRAS:
@@ -652,7 +699,7 @@
   AUTHORS:
   - Ke Tran
   - Yonatan Bisk
-  VENUE: Proceedings of the 2nd Workshop on Neural Machine Translation
+  VENUE: 2nd Workshop on Neural Machine Translation
   VENUE-ACR: Wksp on NMT (best paper)
 - FIELD: O
   TYPE: workshop
@@ -674,7 +721,7 @@
   AUTHORS:
   - Yonatan Belinkov
   - Yonatan Bisk
-  VENUE: Proceedings of the 6th International Conference on Learning Representations
+  VENUE: 6th International Conference on Learning Representations
   VENUE-ACR: ICLR (Oral)
 - FIELD: WS4
   TYPE: preprint
@@ -702,7 +749,7 @@
   - Kevin Shih
   - Yejin Choi
   - Daniel Marcu
-  VENUE: Proceedings of the Thirty-Second Conference on Artificial Intelligence (AAAI-18)
+  VENUE: Thirty-Second Conference on Artificial Intelligence (AAAI-18)
   VENUE-ACR: AAAI
   EXTRAS:
     Data: https://groundedlanguage.github.io/
@@ -716,7 +763,7 @@
   - Alice Lai
   - Yonatan Bisk
   - Julia Hockenmaier
-  VENUE: Proceedings of the Eighth International Joint Conference on Natural Language
+  VENUE: Eighth International Joint Conference on Natural Language
     Processing
   VENUE-ACR: IJCNLP (Oral)
 - FIELD: WS4
@@ -728,7 +775,7 @@
   - Yonatan Bisk
   - Deniz Yuret
   - Daniel Marcu
-  VENUE: Proceedings of the 15th Annual Conference of the North American Chapter of
+  VENUE: 15th Annual Conference of the North American Chapter of
     the Association for Computational Linguistics
   VENUE-ACR: NAACL (Oral)
   EXTRAS:
@@ -744,7 +791,7 @@
   - Yonatan Bisk
   - Kenji Sagae
   - Ryan Musa
-  VENUE: Proceedings of the 15th Annual Conference of the North American Chapter of
+  VENUE: 15th Annual Conference of the North American Chapter of
     the Association for Computational Linguistics (Short Papers)
   VENUE-ACR: NAACL Short (Oral)
 - FIELD: WS4
@@ -757,7 +804,7 @@
   - Yonatan Bisk
   - Daniel Marcu
   - William Wong
-  VENUE: Proceedings of the AAAI 2016 Workshop on Symbiotic Cognitive Systems
+  VENUE: AAAI 2016 Workshop on Symbiotic Cognitive Systems
   VENUE-ACR: Symbolic Cognitive Systems Wksp
 - FIELD: WS1
   TYPE: workshop
@@ -770,7 +817,7 @@
   - Ashish Vaswani
   - Daniel Marcu
   - Kevin Knight
-  VENUE: Proceedings of the Workshop on Structured Prediction for NLP
+  VENUE: Workshop on Structured Prediction for NLP
   VENUE-ACR: Structure Pred Wksp (Oral)
   EXTRAS:
     Slides: "http://yonatanbisk.com/papers/2016-EMNLP-StrcPred-Slides.pdf"
@@ -785,7 +832,7 @@
   - John Blitzer
   - Julia Hockenmaier
   - Mark Steedman
-  VENUE: Proceedings of the 2016 Conference on Empirical Methods in Natural Language
+  VENUE: 2016 Conference on Empirical Methods in Natural Language
     Processing
   VENUE-ACR: EMNLP
 - FIELD: WS1
@@ -806,7 +853,7 @@
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
-  VENUE: 'Proceedings of the 53rd Annual Meeting of the Association for Computational
+  VENUE: '53rd Annual Meeting of the Association for Computational
     Linguistics and the 7th International Joint Conference on Natural Language Processing
     (Volume 1: Long Papers)'
   VENUE-ACR: ACL (Oral)
@@ -819,7 +866,7 @@
   - Yonatan Bisk
   - Christos Christodoulopoulos
   - Julia Hockenmaier
-  VENUE: 'Proceedings of the 53rd Annual Meeting of the Association for Computational
+  VENUE: '53rd Annual Meeting of the Association for Computational
     Linguistics and the 7th International Joint Conference on Natural Language Processing
     (Volume 2: Short Papers)'
   VENUE-ACR: ACL Short
@@ -845,7 +892,7 @@
   AUTHORS:
   - Yonatan Bisk
   - Julia Hockenmaier
-  VENUE: Proceedings of the Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)
+  VENUE: Twenty-Sixth Conference on Artificial Intelligence (AAAI-12)
   VENUE-ACR: AAAI
 - FIELD: WS1
   TYPE: conference
@@ -856,7 +903,7 @@
   - Tim Weninger
   - Yonatan Bisk
   - Jiawei Han
-  VENUE: Proceedings of the 21st ACM international conference on Information and knowledge
+  VENUE: 21st ACM international conference on Information and knowledge
     management (CIKM 2012)
   VENUE-ACR: CIKM
 - FIELD: WS1
@@ -877,7 +924,7 @@
   AUTHORS:
   - Julia Hockenmaier
   - Yonatan Bisk
-  VENUE: Proceedings of the 23rd International Conference on Computational Linguistics
+  VENUE: 23rd International Conference on Computational Linguistics
     (Coling 2010)
   VENUE-ACR: Coling
 
