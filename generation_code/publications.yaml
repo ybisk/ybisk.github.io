@@ -1,5 +1,28 @@
 ---
 - FIELD: WS4
+  TYPE: workshop
+  TITLE: "MAFEA: Multimodal Attribution  Framework for Embodied AI"
+  YEAR: '2022'
+  AUTHORS:
+    - Vidhi Jain
+    - Jayant Sravan Tamarapalli
+    - Sahiti Yerramilli
+    - Yonatan Bisk
+  VENUE: "5th Robot Learning Workshop: Trustworthy Robotics at NeurIPS 2022"
+  VENUE-ACR: LaReL
+- FIELD: WS4
+  TYPE: workshop
+  TITLE: "Tackling AlfWorld with Action Attention and Common Sense from Language Models"
+  YEAR: '2022'
+  AUTHORS:
+    - Yue Wu
+    - So Yeon Min
+    - Yonatan Bisk
+    - Ruslan Salakhutdinov
+    - Shrimai Prabhumoye
+  VENUE: "Language and Reinforcement Learning Workshop at NeurIPS 2022"
+  VENUE-ACR: LaReL
+- FIELD: WS4
   TYPE: preprint
   TITLE: "Retrospectives on the Embodied AI Workshop"
   YEAR: '2022'

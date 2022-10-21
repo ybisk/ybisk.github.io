@@ -41,7 +41,7 @@ def pretty(s):
 
 def create_html_entry(entry, idx):
   # Read entry template
-  if len(entry["URL"].strip()) > 0:
+  if "URL" in entry and len(entry["URL"].strip()) > 0:
     html = "".join([line for line in open("entry.html")])
   else:
     html = "".join([line for line in open("entry_nourl.html")])
@@ -67,8 +67,8 @@ def create_html_entry(entry, idx):
             "#FIELDS#":    entry["FIELD"],
             "#CITEKEY#":   entry["AUTHORS"][0].split()[-1] + entry["YEAR"],
             "#AUTH-BIB#":  " and ".join(entry["AUTHORS"]),
-            "#AUTHORS#":    authors,
-            "#URL#":       entry["URL"]
+            "#AUTHORS#":   authors,
+            "#URL#":       entry["URL"] if "URL" in entry else ''
           }
 
   # Replace values
@@ -94,7 +94,7 @@ def create_latex_entry(entry):
         "   \t{\\begin{tabular}{@{}p{5in}}#VENUE# #PRESENTATION#\\end{tabular} }" \
         "      { }{}\n"
   tex = tex.replace("#YEAR#", entry["YEAR"])
-  tex = tex.replace("#URL#", entry["URL"])
+  tex = tex.replace("#URL#", entry["URL"] if "URL" in entry else "")
   tex = tex.replace("#TITLE#", entry["TITLE"].replace("&","\\&"))
   tex = tex.replace("#VENUE#", entry["VENUE"])
   tex = tex.replace("#PRESENTATION#", "(Oral)" if "Oral" in entry["VENUE-ACR"] else "")
