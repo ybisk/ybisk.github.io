@@ -72,7 +72,7 @@
   VENUE-ACR: ArXiv
 - FIELD: WS5
   TYPE: conference
-  TITLE: "Why You Shouldn't Copy the Teacher: Investigating Data and Models in Embodied Dialogue"
+  TITLE: "Don't Copy the Teacher: Data and Model Challenges in Embodied Dialogue"
   YEAR: '2022'
   URL: 'https://arxiv.org/abs/2210.04443'
   AUTHORS:
@@ -121,6 +121,8 @@
     - Akshara Rai
   VENUE: Conference on Robot Learning
   VENUE-ACR: CoRL
+  EXTRAS:
+    Video: https://www.youtube.com/watch?v=ivLdlMQekME
 - FIELD: WS3
   TYPE: preprint
   TITLE: 'Training Vision-Language Transformers from Captions Alone'
