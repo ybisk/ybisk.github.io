@@ -86,7 +86,7 @@
   TYPE: conference
   TITLE: "EvEntS ReaLM: Event Reasoning of Entity States via Language Models"
   YEAR: '2022'
-  URL: ''
+  URL: 'https://arxiv.org/abs/2211.05392'
   AUTHORS:
     - Evangelia Spiliopoulou
     - Artidoro Pagnoni
