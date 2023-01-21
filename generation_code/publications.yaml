@@ -1,4 +1,17 @@
 ---
+- FIELD: WS5
+  TYPE: conference
+  TITLE: "Computational Language Acquisition with Theory of Mind"
+  YEAR: '2023'
+  AUTHORS:
+    - Andy Liu
+    - Hao Zhu
+    - Emmy Liu 
+    - Yonatan Bisk
+    - Graham Neubig
+  VENUE: The Eleventh International Conference on Learning Representations
+  VENUE-ACR: ICLR
+  URL: 'https://openreview.net/forum?id=C2ulri4duIs'
 - FIELD: WS4
   TYPE: preprint
   TITLE: "Object Goal Navigation with End-to-End Self-Supervision"
@@ -16,15 +29,16 @@
   URL: 'https://soyeonm.github.io/OGN_SelfSup_webpage/'
 - FIELD: WS4
   TYPE: workshop
-  TITLE: "MAFEA: Multimodal Attribution  Framework for Embodied AI"
+  TITLE: "MAEA: Multimodal Attribution for Embodied AI"
   YEAR: '2022'
   AUTHORS:
     - Vidhi Jain
     - Jayant Sravan Tamarapalli
     - Sahiti Yerramilli
     - Yonatan Bisk
-  VENUE: "5th Robot Learning Workshop: Trustworthy Robotics at NeurIPS 2022"
-  VENUE-ACR: LaReL
+  VENUE: "Progress and Challenges in Building Trustworthy Embodied AI at NeurIPS 2022"
+  VENUE-ACR: TEA
+  URL: 'https://openreview.net/pdf?id=OUs2us5Xhx'
 - FIELD: WS4
   TYPE: workshop
   TITLE: "Tackling AlfWorld with Action Attention and Common Sense from Language Models"
