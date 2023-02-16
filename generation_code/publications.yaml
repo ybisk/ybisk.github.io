@@ -1,4 +1,17 @@
 ---
+- FIELD: O
+  TYPE: preprint
+  TITLE: "The Framework Tax: Disparities Between Inference Efficiency in Research and Deployment"
+  YEAR: '2023'
+  AUTHORS:
+    - Jared Fernandez
+    - Jacob Kahn
+    - Clara Na 
+    - Yonatan Bisk
+    - Emma Strubell
+  VENUE: ArXiv
+  VENUE-ACR: ArXiv
+  URL: 'https://arxiv.org/abs/2302.06117'
 - FIELD: WS5
   TYPE: conference
   TITLE: "Computational Language Acquisition with Theory of Mind"
