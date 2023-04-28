@@ -49183,3 +49183,36 @@
   file: https://github.com/ybisk/papers/blob/master/2022/SeoLeeJamesAbbeel_Reinforcement_Learning_with_ActionFree_PreTraining_from_Videos.pdf
   idx: 3317
   month: '03'
+- AUTHORS:
+  - Josef Perner
+  - Susan R. Leekam
+  - Heinz Wimmer
+  TITLE: 'Three-year-olds'' difficulty with false belief: The case for a conceptual
+    deficit'
+  TYPE: journal
+  VENUE: British Journal of Developmental Psychology
+  YEAR: '1987'
+  file: https://github.com/ybisk/papers/blob/master/1987/PernerLeekamWimmer_Threeyearolds_difficulty_with_false_belief_The_case_for_a_conceptual_deficit.pdf
+  idx: 3318
+  pages: 125--137
+  volume: '5'
+- AUTHORS:
+  - Heinz Wimmer
+  - Josef Perner
+  TITLE: 'Beliefs about beliefs: Representation and constraining function of wrong
+    beliefs in young children''s understanding of deception'
+  TYPE: journal
+  VENUE: Cognition
+  YEAR: '1983'
+  file: https://github.com/ybisk/papers/blob/master/1983/WimmerPerner_Beliefs_about_beliefs_Representation_and_constraining_function_of_wrong_beliefs_in_young_childrens_understanding_of_deception.pdf
+  idx: 3319
+  pages: 103--128
+  volume: '13'
+- AUTHORS:
+  - Robert E. Frederking
+  TITLE: 'Grice''s Maxims: ``Do the Right Thing'''''
+  TYPE: conference
+  VENUE: Computational Implicature workshop at the AAAI-96 Spring Symposium Series
+  YEAR: '1996'
+  file: https://github.com/ybisk/papers/blob/master/1996/Frederking_Grices_Maxims_Do_the_Right_Thing.pdf
+  idx: 3320

@@ -1,4 +1,21 @@
 ---
+- FIELD: WS4
+  TYPE: conference
+  TITLE: "EXCALIBUR: Encouraging and Evaluating Embodied Exploration"
+  YEAR: '2023'
+  AUTHORS: 
+    - Hao Zhu 
+    - Raghav Kapoor 
+    - So Yeon Min 
+    - Winson Han 
+    - Jiatai Li 
+    - Kaiwen Geng
+    - Graham Neubig 
+    - Yonatan Bisk 
+    - Aniruddha Kembhavi
+    - Luca Weihs
+  VENUE: Conference on Computer Vision and Pattern Recognition
+  VENUE-ACR: CVPR
 - FIELD: O
   TYPE: preprint
   TITLE: "The Framework Tax: Disparities Between Inference Efficiency in Research and Deployment"
@@ -24,10 +41,12 @@
     - Graham Neubig
   VENUE: The Eleventh International Conference on Learning Representations
   VENUE-ACR: ICLR
+  EXTRAS:
+    Code: https://github.com/neulab/ToM-Language-Acquisition
   URL: 'https://openreview.net/forum?id=C2ulri4duIs'
 - FIELD: WS4
   TYPE: preprint
-  TITLE: "Object Goal Navigation with End-to-End Self-Supervision"
+  TITLE: "Self-Supervised Object Goal Navigation with In-Situ Finetuning"
   YEAR: '2022'
   AUTHORS:
     - So Yeon Min
@@ -39,7 +58,7 @@
     - Jian Zhang
   VENUE: ArXiv
   VENUE-ACR: ArXiv
-  URL: 'https://soyeonm.github.io/OGN_SelfSup_webpage/'
+  URL: 'https://arxiv.org/abs/2212.05923'
 - FIELD: WS4
   TYPE: workshop
   TITLE: "MAEA: Multimodal Attribution for Embodied AI"
