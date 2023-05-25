@@ -49216,3 +49216,34 @@
   YEAR: '1996'
   file: https://github.com/ybisk/papers/blob/master/1996/Frederking_Grices_Maxims_Do_the_Right_Thing.pdf
   idx: 3320
+- AUTHORS:
+  - Antoni Rosinol
+  - Andrew Violette
+  - Marcus Abate
+  - Nathan Hughes
+  - Yun Chang
+  - Jingnan Shi
+  - Arjun Gupta
+  - Luca Carlone
+  TITLE: 'Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2101.06894
+  VENUE: "34 pages, 25 figures, 9 tables. arXiv admin note: text overlap with\n  arXiv:2002.06289"
+  YEAR: '2021'
+  file: https://github.com/ybisk/papers/blob/master/2021/RosinolVioletteAbateHughesChang_Kimera_from_SLAM_to_Spatial_Perception_with_3D_Dynamic_Scene_Graphs.pdf
+  idx: 3321
+  month: '01'
+- AUTHORS:
+  - Nathan Hughes
+  - Yun Chang
+  - Luca Carlone
+  TITLE: "Hydra: A Real-time Spatial Perception System for 3D Scene Graph\n  Construction\
+    \ and Optimization"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2201.13360
+  VENUE: "13 pages, 10 figures, published in Robotics Science and Systems (RSS)\n\
+    \  2022 proceedings"
+  YEAR: '2022'
+  file: https://github.com/ybisk/papers/blob/master/2022/HughesChangCarlone_Hydra_A_Realtime_Spatial_Perception_System_for_3D_Scene_Graph_Construction_and_Optimization.pdf
+  idx: 3322
+  month: '01'

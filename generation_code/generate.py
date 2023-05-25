@@ -84,6 +84,7 @@ def create_html_entry(entry, idx):
       photo = f"<img class=\"align-self-start mr-3\" \
                 src=\"CLAW/images/students/{name.lower()}.webp\" \
                 height=44pt width=44pt alt=\"{entry['AUTHORS'][0]}\">"
+      print(f'Photo for {entry["AUTHORS"][0]} on {entry["TITLE"]}')
   else:
       photo = ""
   html = html.replace("#STUDENTPHOTO#",photo)

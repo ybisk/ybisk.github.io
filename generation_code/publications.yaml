@@ -4,18 +4,19 @@
   TITLE: "EXCALIBUR: Encouraging and Evaluating Embodied Exploration"
   YEAR: '2023'
   AUTHORS: 
-    - Hao Zhu 
-    - Raghav Kapoor 
-    - So Yeon Min 
-    - Winson Han 
-    - Jiatai Li 
+    - Hao Zhu
+    - Raghav Kapoor
+    - So Yeon Min
+    - Winson Han
+    - Jiatai Li
     - Kaiwen Geng
     - Graham Neubig 
-    - Yonatan Bisk 
+    - Yonatan Bisk
     - Aniruddha Kembhavi
     - Luca Weihs
   VENUE: Conference on Computer Vision and Pattern Recognition
   VENUE-ACR: CVPR
+  URL: 'https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_EXCALIBUR_Encouraging_and_Evaluating_Embodied_Exploration_CVPR_2023_paper.html'
 - FIELD: O
   TYPE: preprint
   TITLE: "The Framework Tax: Disparities Between Inference Efficiency in Research and Deployment"
