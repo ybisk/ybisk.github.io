@@ -1,5 +1,66 @@
 ---
 - FIELD: WS4
+  TYPE: preprint
+  TITLE: "SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning"
+  AUTHORS: 
+    - Yue Wu
+    - Shrimai Prabhumoye
+    - So Yeon Min 
+    - Yonatan Bisk 
+    - Ruslan Salakhutdinov
+    - Amos Azaria
+    - Tom Mitchell
+    - Yuanzhi Li 
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2305.15486"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: preprint
+  TITLE: "Plan, Eliminate, and Track -- Language Models are Good Teachers for Embodied Agents"
+  AUTHORS: 
+    - Yue Wu
+    - So Yeon Min 
+    - Yonatan Bisk 
+    - Ruslan Salakhutdinov
+    - Amos Azaria
+    - Yuanzhi Li 
+    - Tom Mitchell
+    - Shrimai Prabhumoye
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2305.02412"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: conference
+  TITLE: "HomeRobot Open Vocab Mobile Manipulation Challenge"
+  AUTHORS: 
+    - Sriram Yenamandra
+    - Arun Ramachandran
+    - Mukul Khanna
+    - Karmesh Yadav
+    - Devendra Singh Chaplot
+    - Gunjan Chhablani
+    - Alexander Clegg
+    - Theophile Gervet
+    - Vidhi Jain
+    - Ruslan Partsey
+    - Ram Ramrakhya
+    - Andrew Szot
+    - Tsung-Yen Yang
+    - Aaron Edsinger
+    - Charlie Kemp
+    - Binit Shah
+    - Zsolt Kira
+    - Dhruv Batra
+    - Roozbeh Mottaghi
+    - Yonatan Bisk
+    - Chris Paxton
+  VENUE: "Thirty-seventh Conference on Neural Information Processing Systems: Competition Track"
+  VENUE-ACR: NeurIPS Challenge
+  URL: 'https://aihabitat.org/challenge/2023_homerobot_ovmm/'
+  YEAR: '2023'
+- FIELD: WS4
   TYPE: conference
   TITLE: "EXCALIBUR: Encouraging and Evaluating Embodied Exploration"
   YEAR: '2023'
