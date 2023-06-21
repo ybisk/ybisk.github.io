@@ -134,9 +134,9 @@
     Code: https://github.com/neulab/ToM-Language-Acquisition
   URL: 'https://openreview.net/forum?id=C2ulri4duIs'
 - FIELD: WS4
-  TYPE: preprint
+  TYPE: conference
   TITLE: "Self-Supervised Object Goal Navigation with In-Situ Finetuning"
-  YEAR: '2022'
+  YEAR: '2023'
   AUTHORS:
     - So Yeon Min
     - Yao-Hung Hubert Tsai
@@ -145,8 +145,8 @@
     - Ruslan Salakhutdinov
     - Yonatan Bisk
     - Jian Zhang
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  VENUE-ACR: IROS
   URL: 'https://arxiv.org/abs/2212.05923'
 - FIELD: WS4
   TYPE: workshop
