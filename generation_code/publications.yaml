@@ -1,6 +1,32 @@
 ---
 - FIELD: WS4
   TYPE: preprint
+  TITLE: "HomeRobot: Open-Vocabulary Mobile Manipulation"
+  AUTHORS:
+    - Sriram Yenamandra
+    - Arun Ramachandran
+    - Karmesh Yadav
+    - Austin Wang
+    - Mukul Khanna
+    - Theophile Gervet
+    - Tsung-Yen Yang
+    - Vidhi Jain
+    - Alexander William Clegg
+    - John Turner
+    - Zsolt Kira
+    - Manolis Savva
+    - Angel Chang
+    - Devendra Singh Chaplot
+    - Dhruv Batra
+    - Roozbeh Mottaghi
+    - Yonatan Bisk
+    - Chris Paxton
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2306.11565"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: preprint
   TITLE: "SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning"
   AUTHORS: 
     - Yue Wu
@@ -58,7 +84,8 @@
     - Chris Paxton
   VENUE: "Thirty-seventh Conference on Neural Information Processing Systems: Competition Track"
   VENUE-ACR: NeurIPS Challenge
-  URL: 'https://aihabitat.org/challenge/2023_homerobot_ovmm/'
+  EXTRAS:
+    Challenge: https://aihabitat.org/challenge/2023_homerobot_ovmm/
   YEAR: '2023'
 - FIELD: WS4
   TYPE: conference
