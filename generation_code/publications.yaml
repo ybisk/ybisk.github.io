@@ -25,6 +25,8 @@
   VENUE-ACR: "ArXiv"
   URL: "https://arxiv.org/abs/2306.11565"
   YEAR: "2023"
+  EXTRAS:
+    Video: https://www.youtube.com/watch?v=EA8HEzopkc0
 - FIELD: WS4
   TYPE: preprint
   TITLE: "SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning"
@@ -105,6 +107,9 @@
   VENUE: Conference on Computer Vision and Pattern Recognition
   VENUE-ACR: CVPR
   URL: 'https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_EXCALIBUR_Encouraging_and_Evaluating_Embodied_Exploration_CVPR_2023_paper.html'
+  EXTRAS:
+    Video: https://www.youtube.com/watch?v=SboNjVuIUJA
+    Tasks: https://www.youtube.com/watch?v=X6Bdz4p1io8
 - FIELD: O
   TYPE: preprint
   TITLE: "The Framework Tax: Disparities Between Inference Efficiency in Research and Deployment"
@@ -148,6 +153,8 @@
   VENUE: IEEE/RSJ International Conference on Intelligent Robots and Systems
   VENUE-ACR: IROS
   URL: 'https://arxiv.org/abs/2212.05923'
+  EXTRAS:
+    Video: https://www.youtube.com/watch?v=LXsZst5ZUpU
 - FIELD: WS4
   TYPE: workshop
   TITLE: "MAEA: Multimodal Attribution for Embodied AI"
@@ -232,6 +239,8 @@
     - Yonatan Bisk
   VENUE:  Conference on Empirical Methods in Natural Language Processing
   VENUE-ACR: EMNLP
+  EXTRAS:
+    Video: https://www.youtube.com/watch?v=qGPC65BDJw4
 - FIELD: WS2
   TYPE: conference
   TITLE: "EvEntS ReaLM: Event Reasoning of Entity States via Language Models"
@@ -387,6 +396,7 @@
   VENUE-ACR: ICLR
   EXTRAS:
     Code: https://github.com/soyeonm/FILM
+    Video: https://www.youtube.com/watch?v=Ufh1Os51FY4
 - FIELD: WS3
   TYPE: conference
   TITLE: 'WebQA: Multihop and Multimodal QA'
