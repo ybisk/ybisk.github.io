@@ -1,4 +1,25 @@
 ---
+- FIELD: WS3
+  TYPE: preprint
+  TITLE: "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs"
+  AUTHORS:
+    - Lijun Yu
+    - Yong Cheng
+    - Zhiruo Wang
+    - Vivek Kumar
+    - Wolfgang Macherey
+    - Yanping Huang
+    - David A. Ross
+    - Irfan Essa
+    - Yonatan Bisk
+    - Ming-Hsuan Yang
+    - Kevin Murphy
+    - Alexander G. Hauptmann
+    - Lu Jiang
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2306.17842"
+  YEAR: "2023"
 - FIELD: WS4
   TYPE: preprint
   TITLE: "HomeRobot: Open-Vocabulary Mobile Manipulation"
