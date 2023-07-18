@@ -1,4 +1,21 @@
 ---
+- FIELD: WS4
+  TYPE: preprint
+  TITLE: "Spatial-Language Attention Policies for Efficient Robot Learning"
+  AUTHORS:
+    - Priyam Parashar
+    - Vidhi Jain
+    - Xiaohan Zhang
+    - Jay Vakil
+    - Sam Powers
+    - Yonatan Bisk
+    - Chris Paxton
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2304.11235"
+  YEAR: "2023"
+  EXTRAS:
+    Website: "https://robotslap.github.io/"
 - FIELD: WS3
   TYPE: preprint
   TITLE: "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs"
@@ -107,8 +124,7 @@
     - Chris Paxton
   VENUE: "Thirty-seventh Conference on Neural Information Processing Systems: Competition Track"
   VENUE-ACR: NeurIPS Challenge
-  EXTRAS:
-    Challenge: https://aihabitat.org/challenge/2023_homerobot_ovmm/
+  URL: https://aihabitat.org/challenge/2023_homerobot_ovmm/
   YEAR: '2023'
 - FIELD: WS4
   TYPE: conference
@@ -305,7 +321,7 @@
     Video: https://www.youtube.com/watch?v=ivLdlMQekME
 - FIELD: WS3
   TYPE: preprint
-  TITLE: 'Training Vision-Language Transformers from Captions Alone'
+  TITLE: 'Training Vision-Language Transformers from Captions'
   YEAR: '2022'
   URL: 'https://arxiv.org/abs/2205.09256'
   AUTHORS:

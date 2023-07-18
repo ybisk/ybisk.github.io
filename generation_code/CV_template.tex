@@ -19,6 +19,7 @@
 \usepackage[none]{hyphenat}
 
 % These are to create pretty spacing of pseudocolumns
+\newcommand{\AC}[1]{\makebox[\widthof{AI/ML}][l]{\hfill #1}}
 \newcommand{\NW}[1]{\makebox[\widthof{Xiaoyu (Erin) Zhang}][l]{#1}}
 \newcommand{\NA}[1]{\makebox[\widthof{Collabortive Robot Art plus }][l]{#1}}
 \newcommand{\DW}[1]{\hfill \makebox[\widthof{MLD}][l]{#1}}
@@ -146,6 +147,7 @@
 ##TECH##
 
 \section{Thesis Committees}
+\cventry{--}{MSR}{\href{https://www.mateoguaman.com/}{Mateo Guaman Castro}}{\hfill Sebastian Scherer}{CMU}{}
 \cventry{--}{PhD}{\href{https://scholar.google.com/citations?user=gDIMQp4AAAAJ&hl=en}{Kaixin Ma}}{\hfill Eric Nyberg}{CMU}{}
 \cventry{2023}{PhD}{\href{https://scholar.google.com/citations?user=5rS0yCoAAAAJ}{Nicholas Botzer}}{\hfill Tim Weninger}{Notre Dame}{}
 \cventry{2023}{PhD}{\href{http://naoki.ninja/}{Naoki Otani}}{\hfill Ed Hovy}{CMU}{}
@@ -162,11 +164,13 @@
 \cventry{2021}{Qual}{\href{https://mohitsharma0690.github.io/}{Mohit Sharma}}{\hfill Oliver Kroemer}{CMU}{}
 
 \section{Teaching}
-\cventry{2023}{11-777 MultiModal Machine Learning}{\hfill Co-Daniel Fried}{\# Students: 107}{SP}{}
+\cventry{2023}{11-851 Talking to Robots}{\hfill}{\# Students: }{FA}{}
+\cventry{    }{11-767 On-Device Machine Learning}{\hfill Co-Emma Strubell}{\# Students: }{FA}{}
+\cventry{    }{11-777 MultiModal Machine Learning}{\hfill Co-Daniel Fried}{\# Students: 107}{SP}{}
 \cventry{2022}{11-767 On-Device Machine Learning}{\hfill Co-Emma Strubell}{\# Students: 42}{FA}{}
-\cventry{2022}{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 94}{SP}{}
+\cventry{    }{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 94}{SP}{}
 \cventry{2021}{11-767 On-Device Machine Learning}{\hfill Co-Emma Strubell}{\# Students: 31}{FA}{}
-\cventry{2021}{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 42}{SP}{}
+\cventry{    }{11-777 MultiModal Machine Learning}{}{\hfill \# Students: 42}{SP}{}
 
 \section{Diversity and Inclusion}
 \cventry{2022}{NAACL 2022 DEI Co-Chair}{}{}{}{}
@@ -189,43 +193,31 @@
 % \cventry{2020}{Facebook RFP}{Learning Dynamic Multimodal Inference for On-Device VQA}{\newline Co-PI Emma Strubell}{Sept 2020 -- May 2021, \$75K}{}
 % \cventry{2020}{Google exploreCSR}{Broad \& Inclusive Language Technology (BILT) @ CMU LTI}{\newline Co-PI Emma Strubell, Graham Neubig}{Summer 2021, \$15k}{}
 
-\section{Organization (Workshops and Conference)}
-\cventry{2022}{Workshop}{\href{https://embodied-ai.org/}{Embodied AI Workshop -- Challenge Organizer}}{\newline Computer Vision and Pattern Recognition}{}{}
-\cventry{2021}{Workshop}{\href{https://embodied-ai.org/}{Embodied AI Workshop -- Challenge Organizer}}{\newline Computer Vision and Pattern Recognition}{}{}
-\cventry{2020}{Workshop}{\href{http://askforalfred.com/EVAL}{Embodied Vision, Actions \& Language Workshop}}{\newline European Conference on Computer Vision}{}{}
-\cventry{--}{Workshop}{\href{http://securedata.lol/}{Workshop on Dataset Curation and Security}}{\newline NeurIPS}{}{}
-\cventry{2019}{Workshop}{\href{http://splu-robonlp.github.io}{Spatial Language Understanding and Grounded communication for Robotics}}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
-\cventry{2018}{Conference}{Social Media Chair}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
-\cventry{--}{Workshop}{\href{https://newgeneralization.github.io/}{Generalization in the Age of Deep Learning}}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
-\cventry{--}{Workshop}{\href{https://www.wordplay2018.com/}{Wordplay: Reinformcent and Language Learning in Text-Based Games}}{NeurIPS}{}{}
-\cventry{2017}{Conference}{Student Scholarship Chair and Student Volunteer Coordinator}{\newline Conference on Empirical Methods in Natural Language Processing}{}{}
-\cventry{--}{Workshop}{\href{https://robo-nlp.github.io/2017_index.html}{Language Grounding for Robotics}}{\newline Conference of the Association for Computational Linguistics}{}{}
-
-\section{Area Chair / Action Editor}
-\cventry{2024}{Conference on Computer Vision and Pattern Recognition (CVPR)}{}{}{}{}
-\cventry{2023}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
-\cventry{--}{International Conference on Machine Learning (ICML)}{}{}{}{}
-\cventry{--}{\href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research}}{Action Editor}{}{}{}
-\cventry{--}{Senior AE: ACL Rolling Review}{}{}{}{}
-\cventry{--}{Ethics Co-Chair: Association for Computational Linguistics}{}{}{}{}
-\cventry{--}{Empirical Methods in Natural Language Proc}{Senior AC: Language Grounding to Vision, Robotics and Beyond track}{}{}{}
-\cventry{2022}{International Conference on Learning Representations}{}{}{}{}
-\cventry{--}{Association for the Advancement of Artificial Intelligence}{Senior Meta-Reviewer}{}{}{}
-\cventry{--}{Empirical Methods in Natural Language Proc}{Senior AC: Speech, Vision, Robotics, Multimodal Grounding}{}{}{}
-\cventry{--}{\href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research}}{Action Editor}{}{}{}
-\cventry{--}{Senior AE: ACL Rolling Review}{}{}{}{}
-\cventry{--}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
-\cventry{2021}{International Conference on Learning Representations}{}{}{}{}
-\cventry{--}{Association for Computational Linguistics}{Machine Learning}{}{}{}
-\cventry{--}{Empirical Methods in Natural Language Proc}{Speech, Vision, Robotics, Multimodal Grounding}{}{}{}
-\cventry{--}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
-\cventry{--}{ACL Rolling Review}{}{}{}{}
-\cventry{2020}{Association for Computational Linguistics}{Language Grounding to Vision, Robotics and Beyond}{}{}{}
-\cventry{--}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
-\cventry{--}{Asia-Pacific chapter of the Association for Computational Linguistics}{}{}{}{}
-\cventry{2019}{Association for Computational Linguistics}{Vision, Robotics, Multimodal Grounding, and Speech}{}{}{}
-\cventry{2018}{International Conference on Computational Linguistics}{}{}{}{}
-\cventry{2016}{Conference on Lexical and Computational Semantics (*SEM)}{Sem. Parsing and Role Labeling}{}{}{}
+\section{(Senior) Area Chair / Action Editor}
+\cventry{2024}{Conference on Computer Vision and Pattern Recognition (CVPR)}{\hfill \AC{CV}}{}{}{}
+\cventry{2023}{Neural Information Processing Systems (NeurIPS)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{International Conference on Machine Learning (ICML)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{AE: \href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research} (TMLR)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{Senior AE: ACL Rolling Review (ARR)}{\hfill \AC{NLP}}{}{}{}
+\cventry{--}{Ethics Co-Chair: Association for Computational Linguistics (ACL)}{\hfill \AC{NLP}}{}{}{}
+\cventry{--}{Empirical Methods in Natural Language Proc (EMNLP)}{\hfill \AC{NLP}}{}{}{} %Senior AC: Language Grounding to Vision, Robotics and Beyond track}{}{}{}
+\cventry{2022}{International Conference on Learning Representations (ICLR)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{Senior MR: Association for the Advancement of Artificial Intelligence (AAAI)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{Senior AC: Empirical Methods in Natural Language Proc (EMNLP)}{\hfill \AC{NLP}}{}{}{} %{Senior AC: Speech, Vision, Robotics, Multimodal Grounding}{\hfill NLP}{}{}
+\cventry{--}{AE: \href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research} (TMLR)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{Senior AE: ACL Rolling Review (ARR)}{\hfill \AC{NLP}}{}{}{}
+\cventry{--}{Neural Information Processing Systems (NeurIPS)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{2021}{International Conference on Learning Representations (ICLR)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{Association for Computational Linguistics (ACL)}{\hfill \AC{NLP}}{}{}{} %{Machine Learning}{}{}
+\cventry{--}{Empirical Methods in Natural Language Proc (EMNLP)}{\hfill \AC{NLP}}{}{}{} %{Speech, Vision, Robotics, Multimodal Grounding}{\hfill NLP}{}{}
+\cventry{--}{Neural Information Processing Systems (NeurIPS)}{\hfill \AC{AI/ML}}{}{}{}
+\cventry{--}{ACL Rolling Review (ARR)}{\hfill \AC{NLP}}{}{}{}
+\cventry{2020}{Association for Computational Linguistics (ACL)}{\hfill \AC{NLP}}{}{}{} %{Language Grounding to Vision, Robotics and Beyond}{\hfill NLP}{}{}
+\cventry{--}{Neural Information Processing Systems (NeurIPS)}{\hfill AI/ML}{}{}{}
+\cventry{--}{Asia-Pacific chapter of the Association for Computational Linguistics (AACL)}{\hfill \AC{NLP}}{}{}{}
+\cventry{2019}{Association for Computational Linguistics (ACL)}{\hfill \AC{NLP}}{}{}{} %{Vision, Robotics, Multimodal Grounding, and Speech}{\hfill NLP}{}{}
+\cventry{2018}{International Conference on Computational Linguistics}{\hfill \AC{NLP}}{}{}{}
+\cventry{2016}{Conference on Lexical and Computational Semantics (*SEM)}{\hfill \AC{NLP}}{}{}{} %{Sem. Parsing and Role Labeling}{}{}{}
 
 \section{Reviewer}
 \cventry{NLP}{\acro{ARR}\normalfont Association for Computational Linguistics Rolling Review}{\hfill 2021}{}{}{}
@@ -255,10 +247,23 @@
 \cventry{}{\acro{NeurIPS}\normalfont Neural Information Processing Systems}{\hfill 2018 -- 2019}{}{}{}
 \cventry{CV}{\acro{CVPR}\normalfont Computer Vision and Pattern Recognition}{\hfill 2020, 2023}{}{}{}
 
+\section{Organization (Workshops and Conference)}
+\cventry{2022}{Workshop}{\href{https://embodied-ai.org/}{Embodied AI Workshop -- Challenge Organizer}}{\newline Computer Vision and Pattern Recognition}{}{}
+\cventry{2021}{Workshop}{\href{https://embodied-ai.org/}{Embodied AI Workshop -- Challenge Organizer}}{\newline Computer Vision and Pattern Recognition}{}{}
+\cventry{2020}{Workshop}{\href{http://askforalfred.com/EVAL}{Embodied Vision, Actions \& Language Workshop}}{\newline European Conference on Computer Vision}{}{}
+\cventry{--}{Workshop}{\href{http://securedata.lol/}{Workshop on Dataset Curation and Security}}{\newline NeurIPS}{}{}
+\cventry{2019}{Workshop}{\href{http://splu-robonlp.github.io}{Spatial Language Understanding and Grounded communication for Robotics}}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{2018}{Conference}{Social Media Chair}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop}{\href{https://newgeneralization.github.io/}{Generalization in the Age of Deep Learning}}{\newline North American Chapter of the Association for Computational Linguistics}{}{}
+\cventry{--}{Workshop}{\href{https://www.wordplay2018.com/}{Wordplay: Reinformcent and Language Learning in Text-Based Games}}{NeurIPS}{}{}
+\cventry{2017}{Conference}{Student Scholarship Chair and Student Volunteer Coordinator}{\newline Conference on Empirical Methods in Natural Language Processing}{}{}
+\cventry{--}{Workshop}{\href{https://robo-nlp.github.io/2017_index.html}{Language Grounding for Robotics}}{\newline Conference of the Association for Computational Linguistics}{}{}
+
+
 
 \section{Invitations and Talks}
 \cventry{2023}{Are We Really Talking to Robots?}{}{``Dialogue with Robots'' workshop}{UPitt NSF Workshop}{}{}
-%\cventry{2023}{}{}{RSS Workshop?}{}{}{}
+\cventry{}{Words $\neq$ language}{}{Articulate Robots: Utilizing Language for Robot Learning}{}{}{RSS Workshop}
 %\cventry{2023}{}{}{ROMAN Workshop?}{}{}{}
 \cventry{2022}{Can we \textit{really} connect language to robotics?}{\href{https://sites.google.com/view/langrob-corl22/}{CoRL Wksp on Language and Robot Learning}}{}{}{}
 \cventry{}{How machines learn language: Useful but wrong?}{\href{https://www.nozarilab.com/iwlp2022}{12th Inter. Wksp on Language Production}}{}{}{}
