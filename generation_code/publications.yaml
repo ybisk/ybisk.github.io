@@ -1,6 +1,25 @@
 ---
 - FIELD: WS4
   TYPE: preprint
+  TITLE: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+  AUTHORS:
+    - Shuyan Zhou
+    - Frank F. Xu
+    - Hao Zhu
+    - Xuhui Zhou
+    - Robert Lo
+    - Abishek Sridhar
+    - Xianyi Cheng
+    - Yonatan Bisk
+    - Daniel Fried
+    - Uri Alon
+    - Graham Neubig
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2307.13854"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: preprint
   TITLE: "Spatial-Language Attention Policies for Efficient Robot Learning"
   AUTHORS:
     - Priyam Parashar
