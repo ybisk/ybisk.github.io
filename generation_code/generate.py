@@ -71,7 +71,8 @@ def create_html_entry(entry, idx):
             "#CITEKEY#":   entry["AUTHORS"][0].split()[-1] + entry["YEAR"],
             "#AUTH-BIB#":  " and ".join(entry["AUTHORS"]),
             "#AUTHORS#":   authors,
-            "#URL#":       entry["URL"] if "URL" in entry else ''
+            "#URL#":       entry["URL"] if "URL" in entry else '',
+            "#COLOR#":     '' if entry["TYPE"] in ["journal", "conference"] else 'bg-light'
           }
 
   # Replace values
@@ -126,10 +127,10 @@ workshop_tech = ""
 for entry in pubs:
   #print(entry) -- debugging
   generated_html = create_html_entry(entry, idx)
-  if entry["TYPE"] in ["journal", "conference"]:
-    peer_reviewed += generated_html
-  else:
-    workshop_tech += generated_html
+  #if entry["TYPE"] in ["journal", "conference"]:
+  peer_reviewed += generated_html
+  # else:
+  #   workshop_tech += generated_html
   idx -= 1
 
 ## Generate Plot ##
