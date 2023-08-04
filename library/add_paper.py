@@ -29,19 +29,16 @@ def new_file(entry, download):
     2. Moves file to location
     3. executes git add and commit
   """
-  new_name = "".join([a.split()[-1].translate(str.maketrans('','',string.punctuation)) for a in entry["AUTHORS"][:5]])
+  new_name = "_".join(entry["TITLE"].translate(str.maketrans('','',string.punctuation)).split())
   new_name += "_"
-  new_name += "_".join(entry["TITLE"].translate(str.maketrans('','',string.punctuation)).split())
+  new_name += "".join([a.split()[-1].translate(str.maketrans('','',string.punctuation)) for a in entry["AUTHORS"][:5]])
   new_name = "{}/".format(entry["YEAR"]) + new_name + ".pdf"
   new_loc = "/Users/ybisk/Dropbox/Website/papers/" + new_name
-  entry["file"] = "https://github.com/ybisk/papers/blob/master/{}".format(new_name)
+  entry["file"] = "papers/blob/master/{}".format(new_name)
   if not os.path.isdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"])):
     os.mkdir("/Users/ybisk/Dropbox/Website/papers/{}".format(entry["YEAR"]))
   if not os.path.isfile(new_loc):
     os.rename(download, new_loc)
-    os.system('cd ~/Dropbox/website/papers;' + 
-              'git add {};'.format(new_loc) + 
-              'git commit -m {};'.format(new_loc.rsplit("/",1)[-1]))
     return True
   else:
     print("File already exists: {}".format(new_loc))
@@ -135,6 +132,7 @@ if args.auto is not None:
 
     elif not any(c.isalpha() for c in identifier): # ArXiv
       arxiv_entry(entry, identifier)
+      print("wget")
       subprocess.call("wget --user-agent=Lynx https://arxiv.org/pdf/" + identifier + ".pdf", shell=True)
     else: # ACL anthology
       base = "https://www.aclweb.org/anthology"

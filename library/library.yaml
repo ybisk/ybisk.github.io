@@ -49343,3 +49343,658 @@
   file: papers/2023/RT2_VisionLanguageAction_Models_Transfer_Web_Knowledge_to_Robotic_Control_BrohanBrownCarbajalChebotarChen.pdf
   idx: 3327
   journal: https://robotics-transformer2.github.io/assets/rt2.pdf
+- AUTHORS:
+  - Hugo Touvron
+  - Louis Martin
+  - Kevin Stone
+  - Peter Albert
+  - Amjad Almahairi
+  - Yasmine Babaei
+  - Nikolay Bashlykov
+  - Soumya Batra
+  - Prajjwal Bhargava
+  - Shruti Bhosale
+  - Dan Bikel
+  - Lukas Blecher
+  - Cristian Canton Ferrer
+  - Moya Chen
+  - Guillem Cucurull
+  - David Esiobu
+  - Jude Fernandes
+  - Jeremy Fu
+  - Wenyin Fu
+  - Brian Fuller
+  - Cynthia Gao
+  - Vedanuj Goswami
+  - Naman Goyal
+  - Anthony Hartshorn
+  - Saghar Hosseini
+  - Rui Hou
+  - Hakan Inan
+  - Marcin Kardas
+  - Viktor Kerkez
+  - Madian Khabsa
+  - Isabel Kloumann
+  - Artem Korenev
+  - Punit Singh Koura
+  - Marie-Anne Lachaux
+  - Thibaut Lavril
+  - Jenya Lee
+  - Diana Liskovich
+  - Yinghai Lu
+  - Yuning Mao
+  - Xavier Martinet
+  - Todor Mihaylov
+  - Pushkar Mishra
+  - Igor Molybog
+  - Yixin Nie
+  - Andrew Poulton
+  - Jeremy Reizenstein
+  - Rashi Rungta
+  - Kalyan Saladi
+  - Alan Schelten
+  - Ruan Silva
+  - Eric Michael Smith
+  - Ranjan Subramanian
+  - Xiaoqing Ellen Tan
+  - Binh Tang
+  - Ross Taylor
+  - Adina Williams
+  - Jian Xiang Kuan
+  - Puxin Xu
+  - Zheng Yan
+  - Iliyan Zarov
+  - Yuchen Zhang
+  - Angela Fan
+  - Melanie Kambadur
+  - Sharan Narang
+  - Aurelien Rodriguez
+  - Robert Stojnic
+  - Sergey Edunov
+  - Thomas Scialom
+  TITLE: 'Llama 2: Open Foundation and Fine-Tuned Chat Models'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2307.09288
+  VENUE: arXiv:2307.09288
+  YEAR: '2023'
+  file: papers/2023/Llama_2_Open_Foundation_and_FineTuned_Chat_Models_TouvronMartinStoneAlbertAlmahairi.pdf
+  idx: 3328
+  month: '07'
+- AUTHORS:
+  - Theophile Gervet
+  - Soumith Chintala
+  - Dhruv Batra
+  - Jitendra Malik
+  - Devendra Singh Chaplot
+  TITLE: Navigating to Objects in the Real World
+  TYPE: conference
+  URL: https://arxiv.org/abs/2212.00922
+  VENUE: 39 pages, 19 figures and tables, submitted to Science Robotics
+  YEAR: '2022'
+  file: papers/blob/master/2022/Navigating_to_Objects_in_the_Real_World_GervetChintalaBatraMalikChaplot.pdf
+  idx: 3329
+  month: '12'
+- AUTHORS:
+  - Benjamin Bolte
+  - Austin Wang
+  - Jimmy Yang
+  - Mustafa Mukadam
+  - Mrinal Kalakrishnan
+  - Chris Paxton
+  TITLE: "USA-Net: Unified Semantic and Affordance Representations for Robot\n  Memory"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2304.12164
+  VENUE: arXiv:2304.12164
+  YEAR: '2023'
+  file: papers/blob/master/2023/USANet_Unified_Semantic_and_Affordance_Representations_for_Robot_Memory_BolteWangYangMukadamKalakrishnan.pdf
+  idx: 3330
+  month: '04'
+- AUTHORS:
+  - Danny Driess
+  - Fei Xia
+  - Mehdi S. M. Sajjadi
+  - Corey Lynch
+  - Aakanksha Chowdhery
+  - Brian Ichter
+  - Ayzaan Wahid
+  - Jonathan Tompson
+  - Quan Vuong
+  - Tianhe Yu
+  - Wenlong Huang
+  - Yevgen Chebotar
+  - Pierre Sermanet
+  - Daniel Duckworth
+  - Sergey Levine
+  - Vincent Vanhoucke
+  - Karol Hausman
+  - Marc Toussaint
+  - Klaus Greff
+  - Andy Zeng
+  - Igor Mordatch
+  - Pete Florence
+  TITLE: 'PaLM-E: An Embodied Multimodal Language Model'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2303.03378
+  VENUE: arXiv:2303.03378
+  YEAR: '2023'
+  file: papers/blob/master/2023/PaLME_An_Embodied_Multimodal_Language_Model_DriessXiaSajjadiLynchChowdhery.pdf
+  idx: 3331
+  month: '03'
+- AUTHORS:
+  - Charles C. Kemp
+  - Aaron Edsinger
+  - Henry M. Clever
+  - Blaine Matulevich
+  TITLE: "The Design of Stretch: A Compact, Lightweight Mobile Manipulator for\n \
+    \ Indoor Human Environments"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2109.10892
+  VENUE: "6 pages + refs, 9 figures. Published in peer-reviewed conference\n  (ICRA\
+    \ 2022) with DOI 10.1109/ICRA46639.2022.9811922. Please cite like: [1]\n  Charles\
+    \ C. Kemp, Aaron Edsinger, Henry M. Clever and Blaine Matulevich, \"The\n  Design\
+    \ of Stretch: A Compact, Lightweight Mobile Manipulator for Indoor Human\n  Environments\"\
+    , IEEE International Conference on Robotics and Automation\n  (ICRA), 2022"
+  YEAR: '2021'
+  file: papers/blob/master/2021/The_Design_of_Stretch_A_Compact_Lightweight_Mobile_Manipulator_for_Indoor_Human_Environments_KempEdsingerCleverMatulevich.pdf
+  idx: 3332
+  month: 09
+- AUTHORS:
+  - Belinda Z. Li
+  - William Chen
+  - Pratyusha Sharma
+  - Jacob Andreas
+  TITLE: 'LaMPP: Language Models as Probabilistic Priors for Perception and Action'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2302.02801
+  VENUE: 12 pages, 4 tables, 4 figures
+  YEAR: '2023'
+  file: papers/blob/master/2023/LaMPP_Language_Models_as_Probabilistic_Priors_for_Perception_and_Action_LiChenSharmaAndreas.pdf
+  idx: 3333
+  month: '02'
+- AUTHORS:
+  - Bo Liu
+  - Yuqian Jiang
+  - Xiaohan Zhang
+  - Qiang Liu
+  - Shiqi Zhang
+  - Joydeep Biswas
+  - Peter Stone
+  TITLE: "LLM+P: Empowering Large Language Models with Optimal Planning\n  Proficiency"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2304.11477
+  VENUE: arXiv:2304.11477
+  YEAR: '2023'
+  file: papers/blob/master/2023/LLMP_Empowering_Large_Language_Models_with_Optimal_Planning_Proficiency_LiuJiangZhangLiuZhang.pdf
+  idx: 3334
+  month: '04'
+- AUTHORS:
+  - Kolby Nottingham
+  - Prithviraj Ammanabrolu
+  - Alane Suhr
+  - Yejin Choi
+  - Hannaneh Hajishirzi
+  - Sameer Singh
+  - Roy Fox
+  TITLE: "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making\n\
+    \  using Language Guided World Modelling"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2301.12050
+  VENUE: in proceedings of ICML 23
+  YEAR: '2023'
+  file: papers/blob/master/2023/Do_Embodied_Agents_Dream_of_Pixelated_Sheep_Embodied_Decision_Making_using_Language_Guided_World_Modelling_NottinghamAmmanabroluSuhrChoiHajishirzi.pdf
+  idx: 3335
+  month: '01'
+- AUTHORS:
+  - Xiaohan Zhang
+  - Yan Ding
+  - Saeid Amiri
+  - Hao Yang
+  - Andy Kaminski
+  - Chad Esselink
+  - Shiqi Zhang
+  TITLE: Grounding Classical Task Planners via Vision-Language Models
+  TYPE: conference
+  URL: https://arxiv.org/abs/2304.08587
+  VENUE: "ICRA Workshop on Robot Execution Failures and Failure Management\n  Strategies,\
+    \ 2023"
+  YEAR: '2023'
+  file: papers/blob/master/2023/Grounding_Classical_Task_Planners_via_VisionLanguage_Models_ZhangDingAmiriYangKaminski.pdf
+  idx: 3336
+  month: '04'
+- AUTHORS:
+  - Dhruv Shah
+  - Ajay Sridhar
+  - Nitish Dashora
+  - Kyle Stachowicz
+  - Kevin Black
+  - Noriaki Hirose
+  - Sergey Levine
+  TITLE: 'ViNT: A Foundation Model for Visual Navigation'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2306.14846
+  VENUE: arXiv:2306.14846
+  YEAR: '2023'
+  file: papers/blob/master/2023/ViNT_A_Foundation_Model_for_Visual_Navigation_ShahSridharDashoraStachowiczBlack.pdf
+  idx: 3337
+  month: '06'
+- AUTHORS:
+  - Noriaki Hirose
+  - Dhruv Shah
+  - Ajay Sridhar
+  - Sergey Levine
+  TITLE: 'SACSoN: Scalable Autonomous Data Collection for Social Navigation'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.01874
+  VENUE: 9 pages, 12 figures, 4 tables
+  YEAR: '2023'
+  file: papers/blob/master/2023/SACSoN_Scalable_Autonomous_Data_Collection_for_Social_Navigation_HiroseShahSridharLevine.pdf
+  idx: 3338
+  month: '06'
+- AUTHORS:
+  - Kaiyu Zheng
+  - Anirudha Paul
+  - Stefanie Tellex
+  TITLE: A System for Generalized 3D Multi-Object Search
+  TYPE: conference
+  URL: https://arxiv.org/abs/2303.03178
+  VENUE: "8 pages, 9 figures, 1 table. IEEE Conference on Robotics and\n  Automation\
+    \ (ICRA) 2023"
+  YEAR: '2023'
+  file: papers/blob/master/2023/A_System_for_Generalized_3D_MultiObject_Search_ZhengPaulTellex.pdf
+  idx: 3339
+  month: '03'
+- AUTHORS:
+  - Samir Yitzhak Gadre
+  - Mitchell Wortsman
+  - Gabriel Ilharco
+  - Ludwig Schmidt
+  - Shuran Song
+  TITLE: "CoWs on Pasture: Baselines and Benchmarks for Language-Driven Zero-Shot\n\
+    \  Object Navigation"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2203.10421
+  VENUE: arXiv:2203.10421
+  YEAR: '2022'
+  file: papers/blob/master/2022/CoWs_on_Pasture_Baselines_and_Benchmarks_for_LanguageDriven_ZeroShot_Object_Navigation_GadreWortsmanIlharcoSchmidtSong.pdf
+  idx: 3340
+  month: '03'
+- AUTHORS:
+  - Anthony Francis
+  - Logical Robotics
+  - Claudia Perez-D'Arpino
+  - NVIDIA
+  - Chengshu Li
+  - Stanford
+  - Fei Xia
+  - Google
+  - Alexandre Alahi
+  - EPFL
+  - Rachid Alami
+  - LAAS-CNRS, Universite de Toulouse
+  - Aniket Bera
+  - Purdue
+  - Abhijat Biswas
+  - CMU
+  - Joydeep Biswas
+  - UT Austin
+  - Rohan Chandra
+  - UT Austin
+  - Hao-Tien Lewis Chiang
+  - Google
+  - Michael Everett
+  - Northeastern
+  - Sehoon Ha
+  - Georgia Tech
+  - Justin Hart
+  - UT Austin
+  - Jonathan P. How
+  - MIT
+  - Haresh Karnan
+  - UT Austin
+  - Tsang-Wei Edward Lee
+  - Google
+  - Luis J. Manso
+  - Aston
+  - Reuth Mirksy
+  - Bar Ilan
+  - Soeren Pirk
+  - Adobe
+  - Phani Teja Singamaneni
+  - LAAS-CNRS, Universite de Toulouse
+  - Peter Stone
+  - UT Austin
+  - Sony AI
+  - Ada V. Taylor
+  - CMU
+  - Peter Trautman
+  - Honda
+  - Nathan Tsoi
+  - Yale
+  - Marynel Vazquez
+  - Yale
+  - Xuesu Xiao
+  - GMU
+  - Peng Xu
+  - Google
+  - Naoki Yokoyama
+  - Georgia Tech
+  - Alexander Toshev
+  - Apple
+  - Roberto Martin-Martin
+  - UT Austin
+  TITLE: "Principles and Guidelines for Evaluating Social Robot Navigation\n  Algorithms"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.16740
+  VENUE: 43 pages, 11 figures, 6 tables
+  YEAR: '2023'
+  file: papers/blob/master/2023/Principles_and_Guidelines_for_Evaluating_Social_Robot_Navigation_Algorithms_FrancisRoboticsPerezDArpinoNVIDIALi.pdf
+  idx: 3341
+  month: '06'
+- AUTHORS:
+  - Arthur Bucker
+  - Luis Figueredo
+  - Sami Haddadin
+  - Ashish Kapoor
+  - Shuang Ma
+  - Sai Vemprala
+  - Rogerio Bonatti
+  TITLE: 'LATTE: LAnguage Trajectory TransformEr'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2208.02918
+  VENUE: arXiv:2208.02918
+  YEAR: '2022'
+  file: papers/blob/master/2022/LATTE_LAnguage_Trajectory_TransformEr_BuckerFigueredoHaddadinKapoorMa.pdf
+  idx: 3342
+  month: 08
+- AUTHORS:
+  - Yecheng Jason Ma
+  - William Liang
+  - Vaidehi Som
+  - Vikash Kumar
+  - Amy Zhang
+  - Osbert Bastani
+  - Dinesh Jayaraman
+  TITLE: 'LIV: Language-Image Representations and Rewards for Robotic Control'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.00958
+  VENUE: "Extended version of ICML 2023 camera-ready; Project website:\n  https://penn-pal-lab.github.io/LIV/"
+  YEAR: '2023'
+  file: papers/blob/master/2023/LIV_LanguageImage_Representations_and_Rewards_for_Robotic_Control_MaLiangSomKumarZhang.pdf
+  idx: 3343
+  month: '06'
+- AUTHORS:
+  - Jesse Zhang
+  - Karl Pertsch
+  - Jiahui Zhang
+  - Joseph J. Lim
+  TITLE: 'SPRINT: Scalable Policy Pre-Training via Language Instruction Relabeling'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.11886
+  VENUE: 29 pages, 18 figures
+  YEAR: '2023'
+  file: papers/blob/master/2023/SPRINT_Scalable_Policy_PreTraining_via_Language_Instruction_Relabeling_ZhangPertschZhangLim.pdf
+  idx: 3345
+  month: '06'
+- AUTHORS:
+  - Siddharth Karamcheti
+  - Suraj Nair
+  - Annie S. Chen
+  - Thomas Kollar
+  - Chelsea Finn
+  - Dorsa Sadigh
+  - Percy Liang
+  TITLE: Language-Driven Representation Learning for Robotics
+  TYPE: conference
+  URL: https://arxiv.org/abs/2302.12766
+  VENUE: 30 Pages, 15 Figures
+  YEAR: '2023'
+  file: papers/blob/master/2023/LanguageDriven_Representation_Learning_for_Robotics_KaramchetiNairChenKollarFinn.pdf
+  idx: 3346
+  month: '02'
+- AUTHORS:
+  - Yao Mu
+  - Qinglong Zhang
+  - Mengkang Hu
+  - Wenhai Wang
+  - Mingyu Ding
+  - Jun Jin
+  - Bin Wang
+  - Jifeng Dai
+  - Yu Qiao
+  - Ping Luo
+  TITLE: 'EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2305.15021
+  VENUE: arXiv:2305.15021
+  YEAR: '2023'
+  file: papers/blob/master/2023/EmbodiedGPT_VisionLanguage_PreTraining_via_Embodied_Chain_of_Thought_MuZhangHuWangDing.pdf
+  idx: 3347
+  month: '05'
+- AUTHORS:
+  - Wenlong Huang
+  - Chen Wang
+  - Ruohan Zhang
+  - Yunzhu Li
+  - Jiajun Wu
+  - Li Fei-Fei
+  TITLE: "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with\n  Language\
+    \ Models"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2307.05973
+  VENUE: arXiv:2307.05973
+  YEAR: '2023'
+  file: papers/blob/master/2023/VoxPoser_Composable_3D_Value_Maps_for_Robotic_Manipulation_with_Language_Models_HuangWangZhangLiWu.pdf
+  idx: 3348
+  month: '07'
+- AUTHORS:
+  - Austin Stone
+  - Ted Xiao
+  - Yao Lu
+  - Keerthana Gopalakrishnan
+  - Kuang-Huei Lee
+  - Quan Vuong
+  - Paul Wohlhart
+  - Brianna Zitkovich
+  - Fei Xia
+  - Chelsea Finn
+  - Karol Hausman
+  TITLE: Open-World Object Manipulation using Pre-trained Vision-Language Models
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2303.00905
+  VENUE: arXiv:2303.00905
+  YEAR: '2023'
+  file: papers/blob/master/2023/OpenWorld_Object_Manipulation_using_Pretrained_VisionLanguage_Models_StoneXiaoLuGopalakrishnanLee.pdf
+  idx: 3349
+  month: '03'
+- AUTHORS:
+  - Sriram Yenamandra
+  - Arun Ramachandran
+  - Karmesh Yadav
+  - Austin Wang
+  - Mukul Khanna
+  - Theophile Gervet
+  - Tsung-Yen Yang
+  - Vidhi Jain
+  - Alexander William Clegg
+  - John Turner
+  - Zsolt Kira
+  - Manolis Savva
+  - Angel Chang
+  - Devendra Singh Chaplot
+  - Dhruv Batra
+  - Roozbeh Mottaghi
+  - Yonatan Bisk
+  - Chris Paxton
+  TITLE: 'HomeRobot: Open-Vocabulary Mobile Manipulation'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.11565
+  VENUE: 35 pages, 20 figures, 8 tables
+  YEAR: '2023'
+  file: papers/blob/master/2023/HomeRobot_OpenVocabulary_Mobile_Manipulation_YenamandraRamachandranYadavWangKhanna.pdf
+  idx: 3350
+  month: '06'
+- AUTHORS:
+  - Priyam Parashar
+  - Vidhi Jain
+  - Xiaohan Zhang
+  - Jay Vakil
+  - Sam Powers
+  - Yonatan Bisk
+  - Chris Paxton
+  TITLE: Spatial-Language Attention Policies for Efficient Robot Learning
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2304.11235
+  VENUE: arXiv:2304.11235
+  YEAR: '2023'
+  file: papers/blob/master/2023/SpatialLanguage_Attention_Policies_for_Efficient_Robot_Learning_ParasharJainZhangVakilPowers.pdf
+  idx: 3351
+  month: '04'
+- AUTHORS:
+  - Jimmy Wu
+  - Rika Antonova
+  - Adam Kan
+  - Marion Lepert
+  - Andy Zeng
+  - Shuran Song
+  - Jeannette Bohg
+  - Szymon Rusinkiewicz
+  - Thomas Funkhouser
+  TITLE: 'TidyBot: Personalized Robot Assistance with Large Language Models'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2305.05658
+  VENUE: 'Project page: https://tidybot.cs.princeton.edu'
+  YEAR: '2023'
+  file: papers/blob/master/2023/TidyBot_Personalized_Robot_Assistance_with_Large_Language_Models_WuAntonovaKanLepertZeng.pdf
+  idx: 3352
+  month: '05'
+- AUTHORS:
+  - Krishan Rana
+  - Jesse Haviland
+  - Sourav Garg
+  - Jad Abou-Chakra
+  - Ian Reid
+  - Niko Suenderhauf
+  TITLE: "SayPlan: Grounding Large Language Models using 3D Scene Graphs for\n  Scalable\
+    \ Task Planning"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2307.06135
+  VENUE: "Under review for CoRL 2023. Project page can be found here:\n  https://sayplan.github.io"
+  YEAR: '2023'
+  file: papers/blob/master/2023/SayPlan_Grounding_Large_Language_Models_using_3D_Scene_Graphs_for_Scalable_Task_Planning_RanaHavilandGargAbouChakraReid.pdf
+  idx: 3353
+  month: '07'
+- AUTHORS:
+  - Ankit Goyal
+  - Jie Xu
+  - Yijie Guo
+  - Valts Blukis
+  - Yu-Wei Chao
+  - Dieter Fox
+  TITLE: 'RVT: Robotic View Transformer for 3D Object Manipulation'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2306.14896
+  VENUE: arXiv:2306.14896
+  YEAR: '2023'
+  file: papers/blob/master/2023/RVT_Robotic_View_Transformer_for_3D_Object_Manipulation_GoyalXuGuoBlukisChao.pdf
+  idx: 3354
+  month: '06'
+- AUTHORS:
+  - Yujin Tang
+  - Wenhao Yu
+  - Jie Tan
+  - Heiga Zen
+  - Aleksandra Faust
+  - Tatsuya Harada
+  TITLE: 'SayTap: Language to Quadrupedal Locomotion'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2306.07580
+  VENUE: arXiv:2306.07580
+  YEAR: '2023'
+  file: papers/blob/master/2023/SayTap_Language_to_Quadrupedal_Locomotion_TangYuTanZenFaust.pdf
+  idx: 3355
+  month: '06'
+- AUTHORS:
+  - Kevin Lin
+  - Christopher Agia
+  - Toki Migimatsu
+  - Marco Pavone
+  - Jeannette Bohg
+  TITLE: 'Text2Motion: From Natural Language Instructions to Feasible Plans'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2303.12153
+  VENUE: https://sites.google.com/stanford.edu/text2motion
+  YEAR: '2023'
+  file: papers/blob/master/2023/Text2Motion_From_Natural_Language_Instructions_to_Feasible_Plans_LinAgiaMigimatsuPavoneBohg.pdf
+  idx: 3356
+  month: '03'
+- AUTHORS:
+  - Shaohan Huang
+  - Li Dong
+  - Wenhui Wang
+  - Yaru Hao
+  - Saksham Singhal
+  - Shuming Ma
+  - Tengchao Lv
+  - Lei Cui
+  - Owais Khan Mohammed
+  - Barun Patra
+  - Qiang Liu
+  - Kriti Aggarwal
+  - Zewen Chi
+  - Johan Bjorck
+  - Vishrav Chaudhary
+  - Subhojit Som
+  - Xia Song
+  - Furu Wei
+  TITLE: 'Language Is Not All You Need: Aligning Perception with Language Models'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2302.14045
+  VENUE: arXiv:2302.14045
+  YEAR: '2023'
+  file: papers/blob/master/2023/Language_Is_Not_All_You_Need_Aligning_Perception_with_Language_Models_HuangDongWangHaoSinghal.pdf
+  idx: 3357
+  month: '02'
+- AUTHORS:
+  - Zhiliang Peng
+  - Wenhui Wang
+  - Li Dong
+  - Yaru Hao
+  - Shaohan Huang
+  - Shuming Ma
+  - Furu Wei
+  TITLE: 'Kosmos-2: Grounding Multimodal Large Language Models to the World'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2306.14824
+  VENUE: 20 pages
+  YEAR: '2023'
+  file: papers/blob/master/2023/Kosmos2_Grounding_Multimodal_Large_Language_Models_to_the_World_PengWangDongHaoHuang.pdf
+  idx: 3358
+  month: '06'
+- AUTHORS:
+  - Xiaojian Ma
+  - Silong Yong
+  - Zilong Zheng
+  - Qing Li
+  - Yitao Liang
+  - Song-Chun Zhu
+  - Siyuan Huang
+  TITLE: 'SQA3D: Situated Question Answering in 3D Scenes'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2210.07474
+  VENUE: "ICLR 2023. First two authors contributed equally. Project website:\n  https://sqa3d.github.io"
+  YEAR: '2022'
+  file: papers/blob/master/2022/SQA3D_Situated_Question_Answering_in_3D_Scenes_MaYongZhengLiLiang.pdf
+  idx: 3359
+  month: '10'
+- AUTHORS:
+  - Sarah Schwettmann
+  - Neil Chowdhury
+  - Antonio Torralba
+  TITLE: Multimodal Neurons in Pretrained Text-Only Transformers
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2308.01544
+  VENUE: arXiv:2308.01544
+  YEAR: '2023'
+  file: papers/blob/master/2023/Multimodal_Neurons_in_Pretrained_TextOnly_Transformers_SchwettmannChowdhuryTorralba.pdf
+  idx: 3360
+  month: 08
