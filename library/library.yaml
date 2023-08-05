@@ -49998,3 +49998,19 @@
   file: papers/blob/master/2023/Multimodal_Neurons_in_Pretrained_TextOnly_Transformers_SchwettmannChowdhuryTorralba.pdf
   idx: 3360
   month: 08
+- AUTHORS:
+  - "Ekin Aky\xFCrek"
+  - Dale Schuurmans
+  - Jacob Andreas
+  - Tengyu Ma
+  - Denny Zhou
+  TITLE: "What learning algorithm is in-context learning? Investigations with\n  linear\
+    \ models"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2211.15661
+  VENUE: ICLR2023 Camera Ready
+  YEAR: '2022'
+  file: "papers/blob/master/2022/What_learning_algorithm_is_incontext_learning_Investigations_with_linear_models_Aky\xFC\
+    rekSchuurmansAndreasMaZhou.pdf"
+  idx: 3361
+  month: '11'
