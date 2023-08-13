@@ -49338,11 +49338,11 @@
   - Tianhe Yu
   - Brianna Zitkovich
   TITLE: 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control'
-  URL: ttps://robotics-transformer2.github.io
+  TYPE: preprint
+  URL: https://robotics-transformer2.github.io/assets/rt2.pdf
   YEAR: '2023'
   file: papers/2023/RT2_VisionLanguageAction_Models_Transfer_Web_Knowledge_to_Robotic_Control_BrohanBrownCarbajalChebotarChen.pdf
   idx: 3327
-  journal: https://robotics-transformer2.github.io/assets/rt2.pdf
 - AUTHORS:
   - Hugo Touvron
   - Louis Martin
@@ -50014,3 +50014,83 @@
     rekSchuurmansAndreasMaZhou.pdf"
   idx: 3361
   month: '11'
+- AUTHORS:
+  - Niklas Muennighoff
+  - Alexander M. Rush
+  - Boaz Barak
+  - Teven Le Scao
+  - Aleksandra Piktus
+  - Nouamane Tazi
+  - Sampo Pyysalo
+  - Thomas Wolf
+  - Colin Raffel
+  TITLE: Scaling Data-Constrained Language Models
+  TYPE: conference
+  URL: https://arxiv.org/abs/2305.16264
+  VENUE: 49 pages (9 main), 39 figures, 14 tables
+  YEAR: '2023'
+  file: papers/blob/master/2023/Scaling_DataConstrained_Language_Models_MuennighoffRushBarakScaoPiktus.pdf
+  idx: 3362
+  month: '05'
+- AUTHORS:
+  - Pablo Villalobos
+  - Jaime Sevilla
+  - Lennart Heim
+  - Tamay Besiroglu
+  - Marius Hobbhahn
+  - Anson Ho
+  TITLE: "Will we run out of data? An analysis of the limits of scaling datasets\n\
+    \  in Machine Learning"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2211.04325
+  VENUE: arXiv:2211.04325
+  YEAR: '2022'
+  file: papers/blob/master/2022/Will_we_run_out_of_data_An_analysis_of_the_limits_of_scaling_datasets_in_Machine_Learning_VillalobosSevillaHeimBesirogluHobbhahn.pdf
+  idx: 3363
+  month: '10'
+- AUTHORS:
+  - Jordan Hoffmann
+  - Sebastian Borgeaud
+  - Arthur Mensch
+  - Elena Buchatskaya
+  - Trevor Cai
+  - Eliza Rutherford
+  - Diego de Las Casas
+  - Lisa Anne Hendricks
+  - Johannes Welbl
+  - Aidan Clark
+  - Tom Hennigan
+  - Eric Noland
+  - Katie Millican
+  - George van den Driessche
+  - Bogdan Damoc
+  - Aurelia Guy
+  - Simon Osindero
+  - Karen Simonyan
+  - Erich Elsen
+  - Jack W. Rae
+  - Oriol Vinyals
+  - Laurent Sifre
+  TITLE: Training Compute-Optimal Large Language Models
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2203.15556
+  VENUE: arXiv:2203.15556
+  YEAR: '2022'
+  file: papers/blob/master/2022/Training_ComputeOptimal_Large_Language_Models_HoffmannBorgeaudMenschBuchatskayaCai.pdf
+  idx: 3364
+  month: '03'
+- AUTHORS:
+  - Mohammad Reza Taesiri
+  - Giang Nguyen
+  - Sarra Habchi
+  - Cor-Paul Bezemer
+  - Anh Nguyen
+  TITLE: "ImageNet-Hard: The Hardest Images Remaining from a Study of the Power of\n\
+    \  Zoom and Spatial Biases in Image Classification"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2304.05538
+  VENUE: arXiv:2304.05538
+  YEAR: '2023'
+  file: papers/blob/master/2023/ImageNetHard_The_Hardest_Images_Remaining_from_a_Study_of_the_Power_of_Zoom_and_Spatial_Biases_in_Image_Classification_TaesiriNguyenHabchiBezemerNguyen.pdf
+  idx: 3365
+  month: '04'

@@ -80,6 +80,7 @@ def create_html_entry(entry, idx):
     else:
       authors.append(a[-1])
   authors = ", ".join(authors)
+  #print(entry)
   values = {
             "#TITLE#":     pretty(entry["TITLE"]),
             "#YEAR#":      entry["YEAR"],
@@ -88,7 +89,7 @@ def create_html_entry(entry, idx):
             "#BOOK#":      types[entry["TYPE"]][1] if len(types[entry["TYPE"]]) == 2 else "",
             "#AUTHORS#":    authors,
             "#URL#":       "<a class=\"btn border-success\" href={} target=\"_blank\">URL</a>".format(entry["URL"]) if "URL" in entry else "",
-            "#PDF#":       "<a class=\"btn border-primary\" href={} target=\"_blank\">PDF</a>".format(entry["file"]) if "file" in entry else "",
+            "#PDF#":       "<a class=\"btn border-primary\" href=file:////Users/ybisk/Dropbox/Website/{} target=\"_blank\">PDF</a>".format(entry["file"]) if "file" in entry else "",
             "#GROUPS#":    " ".join("<button type=\"button\" class=\"btn btn-light\" disabled>#{}</button>".format(g,g) for g in entry["groups"]) if "groups" in entry else ""
           }
 
