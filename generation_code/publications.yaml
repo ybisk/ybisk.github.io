@@ -19,7 +19,7 @@
   URL: "https://arxiv.org/abs/2307.13854"
   YEAR: "2023"
 - FIELD: WS4
-  TYPE: preprint
+  TYPE: conference
   TITLE: "Spatial-Language Attention Policies for Efficient Robot Learning"
   AUTHORS:
     - Priyam Parashar
@@ -29,8 +29,8 @@
     - Sam Powers
     - Yonatan Bisk
     - Chris Paxton
-  VENUE: "ArXiv"
-  VENUE-ACR: "ArXiv"
+  VENUE: "Conference on Robot Learning"
+  VENUE-ACR: "CoRL"
   URL: "https://arxiv.org/abs/2304.11235"
   YEAR: "2023"
   EXTRAS:
@@ -57,7 +57,7 @@
   URL: "https://arxiv.org/abs/2306.17842"
   YEAR: "2023"
 - FIELD: WS4
-  TYPE: preprint
+  TYPE: conference
   TITLE: "HomeRobot: Open-Vocabulary Mobile Manipulation"
   AUTHORS:
     - Sriram Yenamandra
@@ -78,8 +78,8 @@
     - Roozbeh Mottaghi
     - Yonatan Bisk
     - Chris Paxton
-  VENUE: "ArXiv"
-  VENUE-ACR: "ArXiv"
+  VENUE: "Conference on Robot Learning"
+  VENUE-ACR: "CoRL"
   URL: "https://arxiv.org/abs/2306.11565"
   YEAR: "2023"
   EXTRAS:

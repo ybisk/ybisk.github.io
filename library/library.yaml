@@ -50094,3 +50094,105 @@
   file: papers/blob/master/2023/ImageNetHard_The_Hardest_Images_Remaining_from_a_Study_of_the_Power_of_Zoom_and_Spatial_Biases_in_Image_Classification_TaesiriNguyenHabchiBezemerNguyen.pdf
   idx: 3365
   month: '04'
+- AUTHORS:
+  - Shubo Liu
+  - Hongsheng Zhang
+  - Yuankai Qi
+  - Peng Wang
+  - Yaning Zhang
+  - Qi Wu
+  TITLE: 'AerialVLN: Vision-and-Language Navigation for UAVs'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2308.06735
+  VENUE: Accepted by ICCV 2023
+  YEAR: '2023'
+  file: papers/blob/master/2023/AerialVLN_VisionandLanguage_Navigation_for_UAVs_LiuZhangQiWangZhang.pdf
+  idx: 3366
+  month: 08
+- AUTHORS:
+  - Erik Wijmans
+  - Abhishek Kadian
+  - Ari Morcos
+  - Stefan Lee
+  - Irfan Essa
+  - Devi Parikh
+  - Manolis Savva
+  - Dhruv Batra
+  TITLE: "DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion\n  Frames"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/1911.00357
+  VENUE: arXiv:1911.00357
+  YEAR: '2019'
+  file: papers/blob/master/2019/DDPPO_Learning_NearPerfect_PointGoal_Navigators_from_25_Billion_Frames_WijmansKadianMorcosLeeEssa.pdf
+  idx: 3367
+  month: '11'
+- AUTHORS:
+  - Kunal Pratap Singh
+  - Luca Weihs
+  - Alvaro Herrasti
+  - Jonghyun Choi
+  - Aniruddha Kemhavi
+  - Roozbeh Mottaghi
+  TITLE: 'Ask4Help: Learning to Leverage an Expert for Embodied Tasks'
+  TYPE: conference
+  URL: https://arxiv.org/abs/2211.09960
+  VENUE: Accepted at NeurIPS, 2022
+  YEAR: '2022'
+  file: papers/blob/master/2022/Ask4Help_Learning_to_Leverage_an_Expert_for_Embodied_Tasks_SinghWeihsHerrastiChoiKemhavi.pdf
+  idx: 3368
+  month: '11'
+- AUTHORS:
+  - Wenlong Huang
+  - Fei Xia
+  - Ted Xiao
+  - Harris Chan
+  - Jacky Liang
+  - Pete Florence
+  - Andy Zeng
+  - Jonathan Tompson
+  - Igor Mordatch
+  - Yevgen Chebotar
+  - Pierre Sermanet
+  - Noah Brown
+  - Tomas Jackson
+  - Linda Luu
+  - Sergey Levine
+  - Karol Hausman
+  - Brian Ichter
+  TITLE: "Inner Monologue: Embodied Reasoning through Planning with Language\n  Models"
+  TYPE: conference
+  URL: https://arxiv.org/abs/2207.05608
+  VENUE: 'Project website: https://innermonologue.github.io'
+  YEAR: '2022'
+  file: papers/blob/master/2022/Inner_Monologue_Embodied_Reasoning_through_Planning_with_Language_Models_HuangXiaXiaoChanLiang.pdf
+  idx: 3369
+  month: '07'
+- AUTHORS:
+  - Patrick Butlin
+  - Robert Long
+  - Eric Elmoznino
+  - Yoshua Bengio
+  - Jonathan Birch
+  - Axel Constant
+  - George Deane
+  - Stephen M. Fleming
+  - Chris Frith
+  - Xu Ji
+  - Ryota Kanai
+  - Colin Klein
+  - Grace Lindsay
+  - Matthias Michel
+  - Liad Mudrik
+  - Megan A. K. Peters
+  - Eric Schwitzgebel
+  - Jonathan Simon
+  - Rufin VanRullen
+  TITLE: "Consciousness in Artificial Intelligence: Insights from the Science of\n\
+    \  Consciousness"
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2308.08708
+  VENUE: arXiv:2308.08708
+  YEAR: '2023'
+  file: papers/blob/master/2023/Consciousness_in_Artificial_Intelligence_Insights_from_the_Science_of_Consciousness_ButlinLongElmozninoBengioBirch.pdf
+  idx: 3370
+  month: 08
