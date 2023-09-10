@@ -50196,3 +50196,23 @@
   file: papers/blob/master/2023/Consciousness_in_Artificial_Intelligence_Insights_from_the_Science_of_Consciousness_ButlinLongElmozninoBengioBirch.pdf
   idx: 3370
   month: 08
+- AUTHORS:
+  - Jonathan H. Connell
+  - Sridhar Mahadevan
+  TITLE: Robot Learning
+  TYPE: book
+  VENUE: ''
+  YEAR: '1993'
+  file: papers/blob/master/1993/Robot_Learning_ConnellMahadevan.pdf
+  idx: 3371
+- AUTHORS:
+  - Rodney A. Brooks
+  - Maja J. Mataric
+  TITLE: Real Robots, Real Learning Problems
+  TYPE: inbook
+  VENUE: Robot Learning
+  YEAR: '1993'
+  file: papers/blob/master/1993/Real_Robots_Real_Learning_Problems_BrooksMataric.pdf
+  idx: 3372
+  pages: 193--213
+  url: https://doi.org/10.1007/978-1-4615-3184-5_8
