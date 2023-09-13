@@ -339,9 +339,9 @@
   EXTRAS:
     Video: https://www.youtube.com/watch?v=ivLdlMQekME
 - FIELD: WS3
-  TYPE: preprint
+  TYPE: journal
   TITLE: 'Training Vision-Language Transformers from Captions'
-  YEAR: '2022'
+  YEAR: '2023'
   URL: 'https://arxiv.org/abs/2205.09256'
   AUTHORS:
     - Liangke Gui
@@ -349,8 +349,8 @@
     - Alex Hauptmann
     - Yonatan Bisk
     - Jianfeng Gao
-  VENUE: ArXiv
-  VENUE-ACR: ArXiv
+  VENUE: Transactions on Machine Learning Research
+  VENUE-ACR: TMNLR
   EXTRAS:
     Code: https://github.com/guilk/VLC
 - FIELD: WS5
