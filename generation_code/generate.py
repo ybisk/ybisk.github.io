@@ -111,6 +111,8 @@ def create_latex_entry(entry):
   tex = tex.replace("#YEAR#", entry["YEAR"])
   tex = tex.replace("#URL#", entry["URL"] if "URL" in entry else "")
   tex = tex.replace("#TITLE#", entry["TITLE"].replace("&","\\&"))
+  if "NOTE" in entry:
+    entry["VENUE"] += "\\\\ -- \\textbf{" + entry["NOTE"] + "}"
   tex = tex.replace("#VENUE#", entry["VENUE"])
   tex = tex.replace("#PRESENTATION#", "(Oral)" if "Oral" in entry["VENUE-ACR"] else "")
   authors = ", ".join(entry["AUTHORS"])
