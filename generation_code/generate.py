@@ -8,7 +8,7 @@ pubs = yaml.load(open("publications.yaml"), Loader=yaml.CLoader)
 webs = yaml.load(open("websites.yaml"), Loader=yaml.CLoader)
 
 # Students
-students = ["Hao Zhu", "So Yeon Min", "Yingshan Chang", "Vidhi Jain", "Jared Fernandez"]
+students = set(["Hao Zhu", "So Yeon Min", "Yingshan Chang", "Vidhi Jain", "Jared Fernandez"])
 
 # Load template
 types = {
@@ -55,8 +55,9 @@ def create_html_entry(entry, idx):
   # Add links to all co-authors
   for v in webs:
     authors = authors.replace(v, "<a href={}>{}</a>".format(webs[v], v))
-  for p in ["Yonatan Bisk"] + students:
+  for p in students:
     authors = authors.replace(p, f"<div class=\"name\">{p}</div>")
+  authors = authors.replace("Yonatan Bisk", f"<div class=\"name\">Yonatan Bisk</div>")
 
   values = {
             "#TITLE#":     entry["TITLE"],
@@ -80,14 +81,16 @@ def create_html_entry(entry, idx):
     html = html.replace(key, values[key])
 
   # if current student, add photo
-  if entry["AUTHORS"][0] in students:
-      name = entry["AUTHORS"][0].replace(" ","")
+  for author in entry["AUTHORS"]:
+    if author in students:
+      name = author.replace(" ","")
       photo = f"<img class=\"align-self-start mr-3\" \
                 src=\"CLAW/images/students/{name.lower()}.webp\" \
                 height=44pt width=44pt alt=\"{entry['AUTHORS'][0]}\">"
       print(f'Photo for {entry["AUTHORS"][0]} on {entry["TITLE"]}')
-  else:
-      photo = ""
+      break
+    else:
+        photo = ""
   html = html.replace("#STUDENTPHOTO#",photo)
 
   # Include extra links

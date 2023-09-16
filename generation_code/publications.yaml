@@ -345,12 +345,14 @@
   URL: 'https://arxiv.org/abs/2205.09256'
   AUTHORS:
     - Liangke Gui
+    - Yingshan Chang
     - Qiuyuan Huang
+    - Subhojit Som
     - Alex Hauptmann
-    - Yonatan Bisk
     - Jianfeng Gao
+    - Yonatan Bisk
   VENUE: Transactions on Machine Learning Research
-  VENUE-ACR: TMNLR
+  VENUE-ACR: TMLR
   EXTRAS:
     Code: https://github.com/guilk/VLC
 - FIELD: WS5
