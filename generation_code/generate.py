@@ -73,7 +73,7 @@ def create_html_entry(entry, idx):
             "#AUTH-BIB#":  " and ".join(entry["AUTHORS"]),
             "#AUTHORS#":   authors,
             "#URL#":       entry["URL"] if "URL" in entry else '',
-            "#COLOR#":     '' if entry["TYPE"] in ["journal", "conference"] else 'bg-light'
+            "#COLOR#":     '#FFFFFF;' if entry["TYPE"] in ["journal", "conference"] else '#EBEBEB;'
           }
 
   # Replace values

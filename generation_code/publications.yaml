@@ -1,6 +1,32 @@
 ---
 - FIELD: WS4
   TYPE: preprint
+  TITLE: "Reasoning about the Unseen for Efficient Outdoor Object Navigation"
+  AUTHORS:
+    - Quanting Xie
+    - Tianyi Zhang
+    - Kedi Xu
+    - Matthew Johnson-Roberson
+    - Yonatan Bisk
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2309.10103"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: preprint
+  TITLE: "MOSAIC: Learning Unified Multi-Sensory Object Property Representations for Robot Perception"
+  AUTHORS:
+    - Gyan Tatiya
+    - Jonathan Francis
+    - Ho-Hsiang Wu
+    - Yonatan Bisk
+    - Jivko Sinapov
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "https://arxiv.org/abs/2309.08508"
+  YEAR: "2023"
+- FIELD: WS4
+  TYPE: preprint
   TITLE: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
   AUTHORS:
     - Shuyan Zhou
@@ -36,7 +62,7 @@
   EXTRAS:
     Website: "https://robotslap.github.io/"
 - FIELD: WS3
-  TYPE: preprint
+  TYPE: conference
   TITLE: "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs"
   AUTHORS:
     - Lijun Yu
@@ -52,8 +78,8 @@
     - Kevin Murphy
     - Alexander G. Hauptmann
     - Lu Jiang
-  VENUE: "ArXiv"
-  VENUE-ACR: "ArXiv"
+  VENUE: "Thirty-seventh Conference on Neural Information Processing Systems "
+  VENUE-ACR: "NeurIPS"
   URL: "https://arxiv.org/abs/2306.17842"
   YEAR: "2023"
 - FIELD: WS4
@@ -85,7 +111,7 @@
   EXTRAS:
     Video: https://www.youtube.com/watch?v=EA8HEzopkc0
 - FIELD: WS4
-  TYPE: preprint
+  TYPE: conference
   TITLE: "SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning"
   AUTHORS: 
     - Yue Wu
@@ -96,8 +122,8 @@
     - Amos Azaria
     - Tom Mitchell
     - Yuanzhi Li 
-  VENUE: "ArXiv"
-  VENUE-ACR: "ArXiv"
+  VENUE: "Thirty-seventh Conference on Neural Information Processing Systems "
+  VENUE-ACR: "NeurIPS"
   URL: "https://arxiv.org/abs/2305.15486"
   YEAR: "2023"
 - FIELD: WS4
