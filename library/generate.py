@@ -28,6 +28,8 @@ accents = {"{\\'e}": "é", "{\\`e}": "è", "{\\'a}": "á", "{\\'o}": "ó", "{\\'
            "\\c{c}": "ç", "\\u{g}": "ğ", "{\\~a}": "ã", "{\\ss}":"ß",
            "{\\AA}": "Å", "{\\\"e}": "ë", "{\\'n}":"ń", "{\\\"i}": "ï"}
 def pretty(s):
+  if len(s) == 0:
+    return s
   for k in accents:
     s = s.replace(k, accents[k])
     s = s.replace(k.upper(), accents[k].upper())

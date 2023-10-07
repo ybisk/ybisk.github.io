@@ -62,7 +62,7 @@ def create_html_entry(entry, idx):
   values = {
             "#TITLE#":     entry["TITLE"],
             "#YEAR#":      entry["YEAR"],
-            "#YEAR-btn#":  entry["YEAR"] if entry["VENUE"] != "ArXiv" else "Pre.",
+            "#YEAR-btn#":  entry["YEAR"],
             "#VENUE#":     entry["VENUE"],
             "#VENUE-ACR#": entry["VENUE-ACR"],
             "#BIBREC#":    types[entry["TYPE"]][0],

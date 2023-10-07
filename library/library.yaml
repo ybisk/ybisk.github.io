@@ -50216,3 +50216,28 @@
   idx: 3372
   pages: 193--213
   url: https://doi.org/10.1007/978-1-4615-3184-5_8
+- AUTHORS:
+  - Eric Jang
+  - Alex Irpan
+  - Mohi Khansari
+  - Daniel Kappler
+  - Frederik Ebert
+  - Corey Lynch
+  - Sergey Levine
+  - Chelsea Finn
+  TITLE: '{BC}-Z: Zero-Shot Task Generalization with Robotic Imitation Learning'
+  TYPE: conference
+  VENUE: 5th Annual Conference on Robot Learning
+  YEAR: '2021'
+  file: papers/blob/master/2021/BCZ_ZeroShot_Task_Generalization_with_Robotic_Imitation_Learning_JangIrpanKhansariKapplerEbert.pdf
+  idx: 3373
+- AUTHORS:
+  - Rutav Shah
+  - Roberto Mart{\'\i}n-Mart{\'\i}n
+  - Yuke Zhu
+  TITLE: '{MUTEX}: Learning Unified Policies from Multimodal Task Specifications'
+  TYPE: conference
+  VENUE: 7th Annual Conference on Robot Learning
+  YEAR: '2023'
+  file: papers/blob/master/2023/MUTEX_Learning_Unified_Policies_from_Multimodal_Task_Specifications_ShahMartinMartinZhu.pdf
+  idx: 3374
