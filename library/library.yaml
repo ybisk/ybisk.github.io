@@ -50241,3 +50241,17 @@
   YEAR: '2023'
   file: papers/blob/master/2023/MUTEX_Learning_Unified_Policies_from_Multimodal_Task_Specifications_ShahMartinMartinZhu.pdf
   idx: 3374
+- AUTHORS:
+  - Sai Vemprala
+  - Shuhang Chen
+  - Abhinav Shukla
+  - Dinesh Narayanan
+  - Ashish Kapoor
+  TITLE: 'GRID: A Platform for General Robot Intelligence Development'
+  TYPE: preprint
+  URL: https://arxiv.org/abs/2310.00887
+  VENUE: arXiv:2310.00887
+  YEAR: '2023'
+  file: papers/blob/master/2023/GRID_A_Platform_for_General_Robot_Intelligence_Development_VempralaChenShuklaNarayananKapoor.pdf
+  idx: 3375
+  month: '10'

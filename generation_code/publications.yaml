@@ -1,4 +1,23 @@
 ---
+- FIELD: WS5
+  TYPE: preprint
+  TITLE: "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents"
+  AUTHORS:
+    - Xuhui Zhou 
+    - Hao Zhu 
+    - Leena Mathur 
+    - Ruohong Zhang 
+    - Haofei Yu 
+    - Zhengyang Qi 
+    - Louis-Philippe Morency 
+    - Yonatan Bisk 
+    - Daniel Fried 
+    - Graham Neubig 
+    - Maarten Sap
+  VENUE: "ArXiv"
+  VENUE-ACR: "ArXiv"
+  URL: "http://arxiv.org/abs/2310.11667"
+  YEAR: "2023"
 - FIELD: WS4
   TYPE: preprint
   TITLE: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
