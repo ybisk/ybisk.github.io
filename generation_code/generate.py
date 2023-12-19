@@ -8,7 +8,8 @@ pubs = yaml.load(open("publications.yaml"), Loader=yaml.CLoader)
 webs = yaml.load(open("websites.yaml"), Loader=yaml.CLoader)
 
 # Students
-students = set(["Hao Zhu", "So Yeon Min", "Yingshan Chang", "Vidhi Jain", "Jared Fernandez"])
+students = set(["Hao Zhu", "So Yeon Min", "Yingshan Chang", \
+                "Vidhi Jain", "Jared Fernandez", "Quanting Xie"])
 
 # Load template
 types = {
